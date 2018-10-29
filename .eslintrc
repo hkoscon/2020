@@ -20,6 +20,7 @@
   "rules": {
     "no-console": "warn",
     "import/no-extraneous-dependencies": "off",
-    "no-param-reassign": ["error", { "props": false }]
+    "no-param-reassign": ["error", { "props": false }],
+    "max-len": "warn"
   }
 }

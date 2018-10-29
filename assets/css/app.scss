@@ -5,6 +5,7 @@
 @import "~bulma/sass/components/navbar";
 @import "~bulma/sass/grid/tiles";
 @import "~bulma/sass/layout/hero";
+@import "~bulma/sass/layout/footer";
 @import "~bulma/sass/elements/title";
 @import "~bulma/sass/elements/button";
 @import "~bulma/sass/elements/container";
@@ -50,4 +51,8 @@
 body {
   margin: 0;
   font-family: Roboto, sans-serif;
+}
+
+.button.is-primary {
+  color: $theme-blue;
 }
