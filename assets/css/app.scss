@@ -3,8 +3,15 @@
 @import "~bulma/sass/base/_all";
 
 @import "~bulma/sass/components/navbar";
-@import "~bulma/sass/elements/button";
 @import "~bulma/sass/grid/tiles";
+@import "~bulma/sass/layout/hero";
+@import "~bulma/sass/elements/title";
+@import "~bulma/sass/elements/button";
+@import "~bulma/sass/elements/container";
+
+.has-text-theme-blue {
+  color: $theme-blue !important;;
+}
 
 @font-face {
   font-family: 'FontAwesome';
