@@ -1,3 +1,7 @@
+@import "~bulma/sass/utilities/initial-variables";
+@import "~bulma/sass/utilities/functions";
+@import "~include-media/dist/include-media";
+
 $theme-blue: #294454;
 $theme-yellow: #F3CB02;
 
@@ -7,3 +11,8 @@ $button-color: $theme-blue;
 $navbar-background-color: $theme-blue;
 $navbar-item-color: $theme-yellow;
 $navbar-item-hover-color: $theme-yellow;
+$navbar-dropdown-background-color: $theme-blue;
+
+@import "~bulma/sass/utilities/derived-variables";
+@import "~bulma/sass/utilities/mixins";
+@import "~bulma/sass/utilities/controls";
