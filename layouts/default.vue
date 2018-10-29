@@ -9,6 +9,26 @@
   .navbar-link:not(.is-arrowless)::after {
     border-color: $primary;
   }
+
+  footer {
+    background-color: $theme-blue;
+    color: white;
+    a {
+      color: white;
+      &:hover, &:visited, &:active {
+        color: white;
+      }
+      &:hover > .icon {
+        color: $theme-yellow;
+      }
+      > .icon {
+        display: inline-block;
+        margin: .5em;
+        transition: color .5s;
+        padding: .5em;
+      }
+    }
+  }
 </style>
 
 <template>
@@ -96,14 +116,53 @@
           </div>
         </div>
         <div class="navbar-end">
-          <a
-            href="https://www.eventbrite.com/e/hong-kong-open-source-conference-2018-tickets-44667134602?_ga=2.116414022.1599379448.1540831395-739958573.1540831395"
-            class="navbar-item"
-          >Register</a>
+          <div class="navbar-item">
+            <p class="control">
+              <a
+                href="https://www.eventbrite.com/e/hong-kong-open-source-conference-2018-tickets-44667134602?_ga=2.116414022.1599379448.1540831395-739958573.1540831395"
+                class="button is-primary"
+              >Register</a>
+            </p>
+          </div>
         </div>
       </div>
     </nav>
     <nuxt/>
+    <footer class="footer">
+      <div class="content has-text-centered">
+        <p>
+          <a href="https://facebook.com/hkoscon/">
+            <span class="icon">
+              <i class="fa fa-facebook" />
+            </span>
+          </a>
+
+          <a href="https://facebook.com/hkoscon/">
+            <span class="icon">
+              <i class="fa fa-twitter" />
+            </span>
+          </a>
+
+          <a href="mailto:conference@opensource.hk">
+            <span class="icon">
+              <i class="fa fa-envelope" />
+            </span>
+          </a>
+        </p>
+        <p>
+          <a
+            href="http://creativecommons.org/licenses/by-sa/3.0/hk/"
+            target="_blank">
+            <img src="https://licensebuttons.net/l/by-sa/3.0/hk/88x31.png">
+          </a>
+        </p>
+        <p>This work is licensed under a
+          <a
+            href="http://creativecommons.org/licenses/by-sa/3.0/hk/"
+            target="_blank">Creative Commons Attribution-ShareAlike 3.0 Hong Kong License</a>.</p>
+        <p>Logos and trademarks belong to their respective owners.</p>
+      </div>
+    </footer>
   </div>
 </template>
 
