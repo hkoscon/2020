@@ -18,6 +18,6 @@ deploy:
   provider: pages
   skip_cleanup: true
   github_token: $GITHUB_TOKEN
-  local_dir: public
+  local_dir: dist/2019
   on:
     branch: master
