@@ -39,6 +39,7 @@ module.exports = {
       scss: {
         // eslint-disable-next-line
         implementation: require('sass'),
+        data: '@import "~/assets/css/_variable.scss";',
       },
     },
     /*
