@@ -35,9 +35,6 @@ module.exports = {
   build: {
     cssSourceMap: true,
     extractCSS: true,
-    filenames: {
-      app: '[name].[chunkhash].js',
-    },
     publicPath: '/2019/',
     loaders: {
       scss: {
