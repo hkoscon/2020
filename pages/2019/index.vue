@@ -16,10 +16,14 @@
       background-color: rgba(0,0,0,.7);
       height: 100%;
       text-align: center;
+
+      p {
+        margin-top: 1rem;
+        > .icon {
+          vertical-align: middle;
+        }
+      }
     }
-  }
-  .title {
-    text-align: center;
   }
 
   figure {
@@ -27,14 +31,17 @@
     padding-top: 10vh;
 
     > img {
-      width: 40vh;
+      width: 35vh;
     }
   }
 
   a.button {
-    max-width: 40vh;
+    max-width: 30vh;
+    @include media("<=tablet") {
+      max-width: 40vh;
+    }
     display: inline-flex;
-    margin-top: 1rem;
+    margin: 1rem .5rem 0;
   }
 
   .social {
@@ -59,11 +66,27 @@
 
   .container {
     padding-top: 1rem;
-    padding-bottom: 2rem;
-  }
+    padding-bottom: 1rem;
 
-  .hero {
-    align-items: center;
+    .dates {
+      flex-direction: row;
+      justify-content: space-around;
+      margin-top: 3rem;
+      flex-wrap: wrap;
+
+      @include media("<=tablet") {
+        flex-basis: 100%;
+        flex-shrink: 1;
+      }
+
+      > .card {
+        width: 40%;
+        @include media("<=tablet") {
+          width: 100%;
+        }
+        margin: 1rem;
+      }
+    }
   }
 </style>
 
@@ -74,9 +97,19 @@
         <figure class="image is-square">
           <img src="https://hkoscon.org/logo.png">
         </figure>
+        <p class="has-text-primary">
+          <span class="icon"><i class="material-icons">calendar_today</i></span> 16 - 17 Jun, 2018 (Sat - Sun)
+        </p>
+        <p class="has-text-primary">
+          <span class="icon"><i class="material-icons">add_location</i></span> Cyberport 3, Hong Kong
+        </p>
+        <a
+          href="https://hkoscon.org/2018/timetabel.html"
+          class="button is-primary is-fullwidth is-uppercase"
+        >Timetable</a>
         <a
           href="https://www.eventbrite.com/e/hong-kong-open-source-conference-2018-tickets-44667134602?_ga=2.82549334.1599379448.1540831395-739958573.1540831395"
-          class="button is-primary is-fullwidth"
+          class="button is-primary is-fullwidth is-uppercase"
         >Register Now</a>
         <div class="social">
           <a href="https://facebook.com/hkoscon/">
@@ -99,22 +132,37 @@
         </div>
       </div>
     </div>
+
     <div class="container has-text-centered has-background-white">
       <h2 class="title">Mark your Calendar</h2>
       <p class="subtitle">Be prepared for Open Source awesomeness</p>
 
-      <section class="hero">
-        <div class="hero-body">
-          <div class="container">
-            <h3 class="title is-4 has-text-theme-blue">16th Jun, 2018 (Sat)</h3>
-            <a
-              href="https://hkoscon.org/2018/timetable.html"
-              class="button is-primary"
-            >See Timetable</a>
+      <div class="is-flex dates">
+        <div class="card has-text-left">
+          <div class="card-content">
+            <div class="media">
+              <div class="media-content">
+                <p class="title is-4">Day 1</p>
+                <p class="subtitle is-6">16th Jun, 2018 (Sat)</p>
+              </div>
+            </div>
           </div>
         </div>
-      </section>
+
+        <div class="card has-text-left">
+          <div class="card-content">
+            <div class="media">
+              <div class="media-content">
+                <p class="title is-4">Day 2</p>
+                <p class="subtitle is-6">17th Jun, 2018 (Sun)</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
     </div>
+
   </div>
 </template>
 
