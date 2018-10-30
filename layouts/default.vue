@@ -1,8 +1,10 @@
 <style scoped lang="scss">
   .navbar {
     .navbar-start {
-      > a.navbar-item, .navbar-link {
-        font-weight: bold;
+      @include media("<=tablet") {
+        > a.navbar-item, .navbar-link {
+          font-weight: bold;
+        }
       }
       .navbar-link:not(.is-arrowless)::after {
         border-color: $primary;
@@ -49,7 +51,10 @@
         <nuxt-link
           class="navbar-item"
           to="/2019/"
-        >HKOSCon 2019</nuxt-link>
+        >
+          <img src="~assets/images/brand.png">
+          <span>HKOSCon 2019</span>
+        </nuxt-link>
 
 
         <a
