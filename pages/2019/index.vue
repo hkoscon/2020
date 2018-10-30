@@ -65,26 +65,39 @@
   }
 
   .container {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 
-    .dates {
+    .tickets {
       flex-direction: row;
       justify-content: space-around;
       margin-top: 3rem;
-      flex-wrap: wrap;
 
       @include media("<=tablet") {
         flex-basis: 100%;
         flex-shrink: 1;
+        flex-wrap: wrap;
       }
 
       > .card {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
         width: 40%;
         @include media("<=tablet") {
           width: 100%;
         }
         margin: 1rem;
+
+        ul {
+          margin-bottom: 1rem;
+          > li:before {
+            content: "done";
+            font-family: 'Material Icons';
+            margin-right: .5em;
+            color: #0a0;
+          }
+        }
       }
     }
   }
@@ -134,29 +147,79 @@
     </div>
 
     <div class="container has-text-centered has-background-white">
-      <h2 class="title">Mark your Calendar</h2>
-      <p class="subtitle">Be prepared for Open Source awesomeness</p>
+      <h2 class="title">Tickets</h2>
+      <p class="subtitle">Act today to secure your seat</p>
 
-      <div class="is-flex dates">
-        <div class="card has-text-left">
+      <div class="is-flex tickets">
+        <div class="card">
           <div class="card-content">
             <div class="media">
               <div class="media-content">
-                <p class="title is-4">Day 1</p>
-                <p class="subtitle is-6">16th Jun, 2018 (Sat)</p>
+                <p class="title is-4">Full Ticket</p>
+                <p class="subtitle is-5">HKD $300</p>
               </div>
             </div>
+
+            <div class="content">
+              <ul class="has-text-left">
+                <li>Admission on Day 1 and Day 2</li>
+                <li>Chance to Register Workshop</li>
+                <li>T-Shirt</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="card-footer">
+            <a class="card-footer-item">Buy Now</a>
           </div>
         </div>
 
-        <div class="card has-text-left">
+        <div class="card">
           <div class="card-content">
             <div class="media">
               <div class="media-content">
-                <p class="title is-4">Day 2</p>
-                <p class="subtitle is-6">17th Jun, 2018 (Sun)</p>
+                <p class="title is-4">Weekend Ticket</p>
+                <p class="subtitle is-5">HKD $200</p>
               </div>
             </div>
+
+            <div class="content">
+              <ul class="has-text-left">
+                <li>Admission on Day 2</li>
+                <li>Chance to Register Workshop</li>
+                <li>T-Shirt</li>
+              </ul>
+            </div>
+          </div>
+
+
+          <div class="card-footer">
+            <a class="card-footer-item">Buy Now</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-content">
+            <div class="media">
+              <div class="media-content">
+                <p class="title is-4">Student Ticket</p>
+                <p class="subtitle is-5">HKD $100</p>
+              </div>
+            </div>
+
+            <div class="content">
+              <ul class="has-text-left">
+                <li>Admission on Day 1 and Day 2</li>
+                <li>Chance to Register Workshop</li>
+                <li>T-Shirt</li>
+              </ul>
+              <p>For full time students only.</p>
+              <p>Requires student ID and proofs during admission.</p>
+            </div>
+          </div>
+
+          <div class="card-footer">
+            <a class="card-footer-item">Buy Now</a>
           </div>
         </div>
 
