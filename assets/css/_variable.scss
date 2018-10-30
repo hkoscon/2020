@@ -12,6 +12,7 @@ $navbar-background-color: $theme-blue;
 $navbar-item-color: $theme-yellow;
 $navbar-item-hover-color: $theme-yellow;
 $navbar-dropdown-background-color: $theme-blue;
+$navbar-item-hover-background-color: darken($theme-blue, 10%);
 
 @import "~bulma/sass/utilities/derived-variables";
 @import "~bulma/sass/utilities/mixins";
