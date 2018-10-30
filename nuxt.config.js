@@ -34,6 +34,7 @@ module.exports = {
   */
   build: {
     cssSourceMap: true,
+    extractCSS: true,
     publicPath: '/2019/',
     loaders: {
       scss: {

@@ -53,6 +53,6 @@ body {
   font-family: Roboto, sans-serif;
 }
 
-.button.is-primary {
+.button.is-primary, .button.is-primary:hover {
   color: $theme-blue;
 }

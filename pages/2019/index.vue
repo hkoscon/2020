@@ -32,13 +32,9 @@
   }
 
   a.button {
-    color: $theme-blue;
     max-width: 40vh;
     display: inline-flex;
     margin-top: 1rem;
-    &:hover {
-      color: $theme-blue;
-    }
   }
 
   .social {
@@ -62,10 +58,8 @@
   }
 
   .container {
-    background-color: white;
     padding-top: 1rem;
     padding-bottom: 2rem;
-    text-align: center;
   }
 </style>
 
@@ -101,7 +95,7 @@
         </div>
       </div>
     </div>
-    <div class="container">
+    <div class="container has-text-centered has-background-white">
       <h2 class="title">Mark your Calendar</h2>
       <p class="subtitle">Be prepared for Open Source awesomeness</p>
 
