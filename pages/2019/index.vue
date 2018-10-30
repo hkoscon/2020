@@ -8,7 +8,7 @@
       min-height: 750px;
       background-size: cover;
       background-attachment: fixed;
-      background-position: center 50px;
+      background-position: center 0;
       padding: 0;
     }
     &.is-child {
@@ -60,6 +60,10 @@
   .container {
     padding-top: 1rem;
     padding-bottom: 2rem;
+  }
+
+  .hero {
+    align-items: center;
   }
 </style>
 
