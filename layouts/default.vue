@@ -1,16 +1,23 @@
 <style scoped lang="scss">
-  .navbar-burger {
-    color: white;
-    &:hover {
+  .navbar {
+    .navbar-start {
+      > a.navbar-item, .navbar-link {
+        font-weight: bold;
+      }
+      .navbar-link:not(.is-arrowless)::after {
+        border-color: $primary;
+      }
+    }
+
+    .navbar-burger {
       color: white;
+      &:hover {
+        color: white;
+      }
     }
   }
 
-  .navbar-link:not(.is-arrowless)::after {
-    border-color: $primary;
-  }
-
-  footer {
+  .footer {
     background-color: $theme-blue;
     color: white;
     a {
@@ -46,6 +53,7 @@
 
 
         <a
+          :class="{ 'is-active': showNavbar }"
           role="button"
           class="navbar-burger"
           aria-label="menu"
