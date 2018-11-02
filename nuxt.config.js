@@ -1,5 +1,3 @@
-const pkg = require('./package');
-
 module.exports = {
   /*
   ** Headers of the page

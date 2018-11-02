@@ -103,14 +103,5 @@ export default {
       required: true,
     },
   },
-  computed: {
-    link() {
-      if (!this.event.internal || !this.event.topic) {
-        return '#';
-      }
-      const url = new URL(this.event.internal);
-      return url.pathname.replace('/event/', '/2019/topic/');
-    },
-  },
 };
 </script>
