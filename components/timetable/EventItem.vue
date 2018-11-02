@@ -8,6 +8,7 @@
 
     display: flex;
     flex-direction: column;
+    margin: 0 .5rem;
     flex: 1;
     justify-content: space-between;
     > .card-footer {
@@ -36,7 +37,6 @@
   a {
     display: block;
     flex: 1;
-    margin: 0 .5rem;
   }
 </style>
 
