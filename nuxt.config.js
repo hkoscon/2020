@@ -8,8 +8,13 @@ module.exports = {
     title: 'HKOSCon 2019',
     meta: [
       { charset: 'utf-8' },
-      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: pkg.description },
+      { 'http-equiv': 'X-UA-Compatible', content: 'IE=edge' },
+      { name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no' },
+      { hid: 'description', name: 'description', content: 'Hong Kong Open Source Conference is the biggest annual open source event in Hong Kong' },
+      { hid: 'theme-color', name: 'theme-color', content: '#294454' },
+
+      // og tag
+      { name: 'author', content: 'Hong Kong Open Source Conference 2019' },
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: 'https://hkoscon.org/favicon.ico' },

@@ -12,8 +12,10 @@
     "lint": "eslint --ext .js,.vue ."
   },
   "dependencies": {
+    "axios": "^0.18.0",
     "bulma": "^0.7.2",
     "include-media": "^1.4.9",
+    "lodash.get": "^4.4.2",
     "nuxt": "^2.0.0"
   },
   "devDependencies": {

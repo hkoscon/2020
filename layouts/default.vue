@@ -1,5 +1,7 @@
 <style scoped lang="scss">
   .navbar {
+    position: fixed;
+    width: 100%;
     .navbar-start {
       @include media("<=tablet") {
         > a.navbar-item, .navbar-link {
@@ -77,7 +79,7 @@
         <div class="navbar-start">
           <a
             class="navbar-item"
-            href="https://hkoscon.org/2018/timetable/"
+            href="/2019/timetable/"
           >Timetable</a>
           <a
             class="navbar-item"

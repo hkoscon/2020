@@ -26,12 +26,15 @@
     }
   }
 
-  figure {
+  figure.image.is-square {
     text-align: center;
     padding-top: 10vh;
 
     > img {
+      display: initial;
+      position: relative;
       width: 35vh;
+      height: auto;
     }
   }
 
