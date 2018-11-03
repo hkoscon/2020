@@ -1,18 +1,24 @@
 <style scoped lang="scss">
-  .hour {
-    font-size: 1.3rem;
-
-    @include media(">tablet") {
-      font-size: 2rem;
-    }
-  }
-
   .startTime {
     margin-top: 16px;
     padding: 8px 16px;
     letter-spacing: -0.04em;
-    color: #737373;
+    color: $theme-blue;
+    @include media("<=tablet") {
+      > span {
+        border-bottom: 3px solid $theme-yellow;
+        padding: .2rem .5rem 0;
+      }
+    }
+    .hour {
+      font-size: 1.3rem;
+
+      @include media(">tablet") {
+        font-size: 2rem;
+      }
+    }
   }
+
   .events,.timeslot {
     display: flex;
     flex-direction: row;
@@ -34,10 +40,12 @@
 
 <template>
   <div class="timeslot is-flex">
-    <div class="startTime">
-      <span class="hour">{{ hour }}</span>
-      <span class="minute">{{ minute }}</span>
-    </div>
+    <span class="startTime">
+      <span>
+        <span class="hour">{{ hour }}</span>
+        <span class="minute">{{ minute }}</span>
+      </span>
+    </span>
     <div class="events is-flex">
       <event-item
         v-for="event in timeslot.events"

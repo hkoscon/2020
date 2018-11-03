@@ -6,6 +6,8 @@
     }
     height: 100%;
 
+    background-color: #fefefe;
+
     display: flex;
     flex-direction: column;
     margin: 0 .5rem;
@@ -14,8 +16,19 @@
     > .card-footer {
       padding: 1rem;
       flex-wrap: wrap;
+
+      background-color: lighten($theme-blue, 5%);
       > .speaker {
         margin-bottom: .2rem;
+        .title, .subtitle {
+          color: $theme-yellow;
+        }
+        .title {
+          font-size: 1rem;
+        }
+        .subtitle {
+          font-size: .8rem;
+        }
       }
     }
   }
@@ -26,14 +39,6 @@
     }
   }
 
-  .speaker {
-    .title {
-      font-size: 1rem;
-    }
-    .subtitle {
-      font-size: .8rem;
-    }
-  }
   a {
     display: block;
     flex: 1;

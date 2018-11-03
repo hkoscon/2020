@@ -12,7 +12,7 @@
     width: 50%;
 
     &.active {
-      border-bottom: 3px solid $theme-blue;
+      border-bottom: 3px solid $theme-yellow;
       padding-bottom: calc(1rem - 3px);
     }
 
