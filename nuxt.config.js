@@ -16,7 +16,8 @@ module.exports = {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: 'https://hkoscon.org/favicon.ico' },
-      { rel: 'stylesheet', type: 'text/css', href: 'https://fonts.googleapis.com/css?family=Roboto|Material+Icons' },
+      { rel: 'stylesheet', type: 'text/css', href: 'https://fonts.googleapis.com/css?family=Lato|Material+Icons' },
+      { rel: 'stylesheet', type: 'text/css', href: 'https:///fonts.googleapis.com/earlyaccess/notosanstc.css' },
     ],
   },
 
