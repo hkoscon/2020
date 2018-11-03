@@ -1,5 +1,5 @@
 <style scoped lang="scss">
-  @include media(">=tablet") {
+  @include media("<=tablet") {
     .hero {
       padding-top: 52px;
     }
