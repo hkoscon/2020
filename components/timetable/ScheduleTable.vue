@@ -17,7 +17,6 @@
   }
 
   .tabs {
-    width: 100%;
     height: 64px;
     display: flex;
     align-items: center;
@@ -30,6 +29,17 @@
       background-color: white;
       z-index: 1;
       box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 1px 5px 0 rgba(0,0,0,.12), 0 3px 1px -2px rgba(0,0,0,.2);
+      width: 100%;
+
+      @media screen and (min-width: 1088px) {
+        max-width: 960px;
+        width: 960px;
+      }
+
+      @media screen and (min-width: 1280px) {
+        max-width: 1152px;
+        width: 1152px;
+      }
     }
 
     > .tab-container {
