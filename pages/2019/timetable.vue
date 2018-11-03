@@ -1,6 +1,15 @@
 <style scoped lang="scss">
-  @include media("<=tablet") {
-    .hero {
+  .hero {
+    background-image: url(https://hkoscon.org/2018/images/banner.jpg);
+    background-size: cover;
+    background-position: center 30%;
+    .hero-body {
+      background-color: rgba(0,0,0,.5);
+    }
+    .title {
+      color: white;
+    }
+    @include media("<=tablet") {
       padding-top: 52px;
     }
   }

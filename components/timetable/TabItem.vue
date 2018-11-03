@@ -5,7 +5,7 @@
     justify-content: center;
     flex: 1 1 auto;
     position: relative;
-    padding: 0 12px 1rem;
+    padding: 1rem 12px;
     overflow: hidden;
     cursor: pointer;
     vertical-align: middle;
