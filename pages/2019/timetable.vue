@@ -1,4 +1,8 @@
-<style scoped lang="scss"></style>
+<style scoped lang="scss">
+  .hero {
+    padding-top: 52px;
+  }
+</style>
 
 <template>
   <main>

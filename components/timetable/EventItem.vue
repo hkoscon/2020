@@ -38,6 +38,10 @@
     display: block;
     flex: 1;
   }
+
+  .media-content {
+    overflow-y: hidden;
+  }
 </style>
 
 <template>
@@ -48,6 +52,7 @@
           <div class="media-content">
             <p class="title is-6">{{ event.display }}</p>
             <p
+              v-if="event.language || event.level || event.venue.name"
               class="subtitle is-6">
               <span
                 v-if="event.language"
@@ -55,7 +60,9 @@
               <span
                 v-if="event.level"
                 class="info">{{ event.level }}</span>
-              <span>{{ event.venue.name }}</span>
+              <span
+                v-if="event.venue.name"
+                class="info">{{ event.venue.name }}</span>
             </p>
           </div>
         </div>
