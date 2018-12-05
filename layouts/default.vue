@@ -47,16 +47,16 @@
     <nav
       class="navbar"
       role="navigation"
-      aria-label="main navigation">
+      aria-label="main navigation"
+    >
       <div class="navbar-brand">
-
-        <nuxt-link
+        <NuxtLink
           class="navbar-item"
           to="/2019/"
         >
           <img src="~assets/images/brand.png">
           <span>HKOSCon 2019</span>
-        </nuxt-link>
+        </NuxtLink>
 
 
         <a
@@ -67,9 +67,9 @@
           aria-expanded="false"
           @click="toggleNavbar"
         >
-          <span aria-hidden="true"/>
-          <span aria-hidden="true"/>
-          <span aria-hidden="true"/>
+          <span aria-hidden="true" />
+          <span aria-hidden="true" />
+          <span aria-hidden="true" />
         </a>
       </div>
       <div
@@ -80,53 +80,77 @@
           <a
             class="navbar-item"
             href="/2019/timetable/"
-          >Timetable</a>
+          >
+            Timetable
+          </a>
           <a
             class="navbar-item"
             href="https://hkoscon.org/2018/sponsors/"
-          >Sponsors</a>
+          >
+            Sponsors
+          </a>
 
           <div class="navbar-item has-dropdown is-hoverable">
-            <span class="navbar-link">Organizer</span>
+            <span class="navbar-link">
+              Organizer
+            </span>
             <div class="navbar-dropdown">
               <a
                 href="https://hkoscon.org/2018/about-committee.html"
                 class="navbar-item"
-              >Organizing Committee</a>
+              >
+                Organizing Committee
+              </a>
               <a
                 href="https://hkoscon.org/2018/about-coc.html"
                 class="navbar-item"
-              >Code of Conduct</a>
+              >
+                Code of Conduct
+              </a>
             </div>
           </div>
 
           <div class="navbar-item has-dropdown is-hoverable">
-            <span class="navbar-link">Archive</span>
+            <span class="navbar-link">
+              Archive
+            </span>
             <div class="navbar-dropdown">
               <a
                 href="https://hkoscon.org/2018/"
                 class="navbar-item"
-              >HKOSCon 2018</a>
+              >
+                HKOSCon 2018
+              </a>
               <a
                 href="https://hkoscon.org/2017/"
                 class="navbar-item"
-              >HKOSCon 2017</a>
+              >
+                HKOSCon 2017
+              </a>
               <a
                 href="https://2016.opensource.hk/"
                 class="navbar-item"
-              >HKOSCon 2016</a>
+              >
+                HKOSCon 2016
+              </a>
               <a
                 href="https://2015.opensource.hk/"
                 class="navbar-item"
-              >HKOSCon 2015</a>
+              >
+                HKOSCon 2015
+              </a>
               <a
                 href="https://2014.opensource.hk/"
                 class="navbar-item"
-              >HKOSCon 2014</a>
+              >
+                HKOSCon 2014
+              </a>
               <a
                 href="https://2013.opensource.hk/"
                 class="navbar-item"
-              >HKOSCon 2013</a>
+              >
+                HKOSCon 2013
+              </a>
             </div>
           </div>
         </div>
@@ -136,13 +160,15 @@
               <a
                 href="https://www.eventbrite.com/e/hong-kong-open-source-conference-2018-tickets-44667134602?_ga=2.116414022.1599379448.1540831395-739958573.1540831395"
                 class="button is-primary"
-              >Register</a>
+              >
+                Register
+              </a>
             </p>
           </div>
         </div>
       </div>
     </nav>
-    <nuxt/>
+    <Nuxt />
     <footer class="footer">
       <div class="content has-text-centered">
         <p>
@@ -167,14 +193,20 @@
         <p>
           <a
             href="http://creativecommons.org/licenses/by-sa/3.0/hk/"
-            target="_blank">
+            target="_blank"
+          >
             <img src="https://licensebuttons.net/l/by-sa/3.0/hk/88x31.png">
           </a>
         </p>
-        <p>This work is licensed under a
+        <p>
+          This work is licensed under a
           <a
             href="http://creativecommons.org/licenses/by-sa/3.0/hk/"
-            target="_blank">Creative Commons Attribution-ShareAlike 3.0 Hong Kong License</a>.</p>
+            target="_blank"
+          >
+            Creative Commons Attribution-ShareAlike 3.0 Hong Kong License
+          </a>.
+        </p>
         <p>Logos and trademarks belong to their respective owners.</p>
       </div>
     </footer>

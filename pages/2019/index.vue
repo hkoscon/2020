@@ -1,7 +1,7 @@
 <style scoped lang="scss">
   .tile{
     &.is-parent {
-      background-image: url("https://hkoscon.org/2018/images/cover.jpg");
+      background-image: url('/2019/images/bg.jpg');
       height: 100vh;
       background-repeat: no-repeat;
       background-color: #fff;
@@ -114,19 +114,31 @@
           <img src="https://hkoscon.org/logo.png">
         </figure>
         <p class="has-text-primary">
-          <span class="icon"><i class="material-icons">calendar_today</i></span> 16 - 17 Jun, 2018 (Sat - Sun)
+          <span class="icon">
+            <i class="material-icons">
+              calendar_today
+            </i>
+          </span> 16 - 17 Jun, 2018 (Sat - Sun)
         </p>
         <p class="has-text-primary">
-          <span class="icon"><i class="material-icons">add_location</i></span> Cyberport 3, Hong Kong
+          <span class="icon">
+            <i class="material-icons">
+              add_location
+            </i>
+          </span> Cyberport 3, Hong Kong
         </p>
         <a
           href="https://hkoscon.org/2018/timetabel.html"
           class="button is-primary is-fullwidth is-uppercase"
-        >Timetable</a>
+        >
+          Timetable
+        </a>
         <a
           href="https://www.eventbrite.com/e/hong-kong-open-source-conference-2018-tickets-44667134602?_ga=2.82549334.1599379448.1540831395-739958573.1540831395"
           class="button is-primary is-fullwidth is-uppercase"
-        >Register Now</a>
+        >
+          Register Now
+        </a>
         <div class="social">
           <a href="https://facebook.com/hkoscon/">
             <span class="icon">
@@ -150,16 +162,24 @@
     </div>
 
     <div class="container has-text-centered has-background-white">
-      <h2 class="title">Tickets</h2>
-      <p class="subtitle">Act today to secure your seat</p>
+      <h2 class="title">
+        Tickets
+      </h2>
+      <p class="subtitle">
+        Act today to secure your seat
+      </p>
 
       <div class="is-flex tickets">
         <div class="card">
           <div class="card-content">
             <div class="media">
               <div class="media-content">
-                <p class="title is-4">Full Ticket</p>
-                <p class="subtitle is-5">HKD $300</p>
+                <p class="title is-4">
+                  Full Ticket
+                </p>
+                <p class="subtitle is-5">
+                  HKD $300
+                </p>
               </div>
             </div>
 
@@ -173,7 +193,9 @@
           </div>
 
           <div class="card-footer">
-            <a class="card-footer-item">Buy Now</a>
+            <a class="card-footer-item">
+              Buy Now
+            </a>
           </div>
         </div>
 
@@ -181,8 +203,12 @@
           <div class="card-content">
             <div class="media">
               <div class="media-content">
-                <p class="title is-4">Weekend Ticket</p>
-                <p class="subtitle is-5">HKD $200</p>
+                <p class="title is-4">
+                  Weekend Ticket
+                </p>
+                <p class="subtitle is-5">
+                  HKD $200
+                </p>
               </div>
             </div>
 
@@ -197,7 +223,9 @@
 
 
           <div class="card-footer">
-            <a class="card-footer-item">Buy Now</a>
+            <a class="card-footer-item">
+              Buy Now
+            </a>
           </div>
         </div>
 
@@ -205,8 +233,12 @@
           <div class="card-content">
             <div class="media">
               <div class="media-content">
-                <p class="title is-4">Student Ticket</p>
-                <p class="subtitle is-5">HKD $100</p>
+                <p class="title is-4">
+                  Student Ticket
+                </p>
+                <p class="subtitle is-5">
+                  HKD $100
+                </p>
               </div>
             </div>
 
@@ -222,13 +254,13 @@
           </div>
 
           <div class="card-footer">
-            <a class="card-footer-item">Buy Now</a>
+            <a class="card-footer-item">
+              Buy Now
+            </a>
           </div>
         </div>
-
       </div>
     </div>
-
   </div>
 </template>
 

@@ -20,18 +20,20 @@
     <section class="hero is-medium">
       <div class="hero-body">
         <div class="container">
-          <h1 class="title">Schedule</h1>
+          <h1 class="title">
+            Schedule
+          </h1>
         </div>
       </div>
     </section>
-    <loading-indicator :loading="loading">
+    <LoadingIndicator :loading="loading">
       <div class="container">
-        <schedule-table
+        <ScheduleTable
           v-if="days.length > 0"
           :days="days"
         />
       </div>
-    </loading-indicator>
+    </LoadingIndicator>
   </main>
 </template>
 

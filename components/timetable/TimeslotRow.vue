@@ -42,12 +42,16 @@
   <div class="timeslot is-flex">
     <span class="startTime">
       <span>
-        <span class="hour">{{ hour }}</span>
-        <span class="minute">{{ minute }}</span>
+        <span class="hour">
+          {{ hour }}
+        </span>
+        <span class="minute">
+          {{ minute }}
+        </span>
       </span>
     </span>
     <div class="events is-flex">
-      <event-item
+      <EventItem
         v-for="event in timeslot.events"
         :key="event.internal"
         :event="event"

@@ -78,7 +78,8 @@
           r="20"
           fill="none"
           stroke-width="5"
-          stroke-miterlimit="10" />
+          stroke-miterlimit="10"
+        />
       </svg>
     </div>
     <slot />

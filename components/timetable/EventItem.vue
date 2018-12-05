@@ -51,35 +51,49 @@
 </style>
 
 <template>
-  <topic-wrapper :event="event">
+  <TopicWrapper :event="event">
     <div class="card is-flex">
       <div class="card-content">
         <div class="media">
           <div class="media-content">
-            <p class="title is-6">{{ event.display }}</p>
+            <p class="title is-6">
+              {{ event.display }}
+            </p>
             <p
               v-if="event.language || event.level || event.venue.name"
-              class="subtitle is-6">
+              class="subtitle is-6"
+            >
               <span
                 v-if="event.language"
-                class="info">{{ event.language }}</span>
+                class="info"
+              >
+                {{ event.language }}
+              </span>
               <span
                 v-if="event.level"
-                class="info">{{ event.level }}</span>
+                class="info"
+              >
+                {{ event.level }}
+              </span>
               <span
                 v-if="event.venue.name"
-                class="info">{{ event.venue.name }}</span>
+                class="info"
+              >
+                {{ event.venue.name }}
+              </span>
             </p>
           </div>
         </div>
       </div>
       <div
         v-if="event.speakers && event.speakers.length > 0"
-        class="card-footer speakers">
+        class="card-footer speakers"
+      >
         <div
           v-for="speaker in event.speakers"
           :key="speaker.name"
-          class="speaker">
+          class="speaker"
+        >
           <div class="media">
             <div class="media-left">
               <figure class="image is-48x48">
@@ -87,21 +101,29 @@
               </figure>
             </div>
             <div class="media-content">
-              <p class="title">{{ speaker.name }}</p>
+              <p class="title">
+                {{ speaker.name }}
+              </p>
               <p class="subtitle">
                 <span
                   v-if="speaker.community"
-                  class="info">{{ speaker.community }}</span>
+                  class="info"
+                >
+                  {{ speaker.community }}
+                </span>
                 <span
                   v-if="speaker.country"
-                  class="info">{{ speaker.country }}</span>
+                  class="info"
+                >
+                  {{ speaker.country }}
+                </span>
               </p>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </topic-wrapper>
+  </TopicWrapper>
 </template>
 
 <script>

@@ -68,7 +68,7 @@
     >
       <div class="tab-container">
         <div class="content">
-          <tab-item
+          <TabItem
             v-for="day in days"
             :key="day.date"
             :day="day"
@@ -79,16 +79,16 @@
       </div>
     </div>
     <template v-for="day in days">
-      <transition
+      <Transition
         :key="day.date"
         name="fade-transition"
         mode="out-in"
       >
-        <day-table
+        <DayTable
           v-show="activeDay === day.day"
           :day="day"
         />
-      </transition>
+      </Transition>
     </template>
   </div>
 </template>

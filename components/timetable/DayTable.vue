@@ -1,6 +1,6 @@
 <template>
   <div class="day">
-    <timeslot-row
+    <TimeslotRow
       v-for="timeslot in day.timeslots"
       :key="timeslot.startTime"
       :timeslot="timeslot"
