@@ -1,22 +1,3 @@
-<style lang="scss">
-  .timetablePage {
-    &__banner {
-      background-image: url(/2019/images/banner.jpg);
-      background-size: cover;
-      background-position: center 30%;
-      @include media("<=tablet") {
-        padding-top: 52px;
-      }
-      &__overlay {
-        background-color: rgba(0,0,0,.5);
-      }
-    }
-    &__title {
-      color: white;
-    }
-  }
-</style>
-
 <template>
   <main class="timetablePage">
     <page-banner title="Schedule" />
