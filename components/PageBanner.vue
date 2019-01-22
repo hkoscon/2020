@@ -41,7 +41,7 @@ export default {
   },
   data() {
     return {
-      backgroundImage: `url(${process.env.PUBLIC_PATH || '/2019'}/images/banner.jpg})`,
+      backgroundImage: `url(${process.env.PUBLIC_PATH || '/2019'}/images/banner.jpg)`,
     };
   },
 };

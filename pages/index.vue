@@ -171,7 +171,7 @@ export default {
   name: 'HomePage',
   data() {
     return {
-      backgroundImage: `url(${process.env.PUBLIC_PATH || '/2019'}/images/bg.jpg})`,
+      backgroundImage: `url(${process.env.PUBLIC_PATH || '/2019'}/images/bg.jpg)`,
     };
   },
 };
