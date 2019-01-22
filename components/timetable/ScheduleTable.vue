@@ -65,7 +65,7 @@
   <div class="scheduleTable">
     <div
       ref="tabs"
-      :class="{ sticky }"
+      :class="{ 'scheduleTable__tabs--sticky': sticky }"
       class="tabs scheduleTable__tabs"
     >
       <div class="tab-container scheduleTable__container">
