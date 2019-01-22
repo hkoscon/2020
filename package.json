@@ -15,7 +15,7 @@
     "axios": "^0.18.0",
     "bulma": "^0.7.2",
     "include-media": "^1.4.9",
-    "nuxt": "~2.2.0"
+    "nuxt": "^2.2.0"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.0",
