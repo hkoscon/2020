@@ -1,3 +1,5 @@
+const publicPath = process.env.PUBLIC_PATH || '/2019';
+
 module.exports = {
   /*
   ** Headers of the page
@@ -63,12 +65,28 @@ module.exports = {
     },
   },
   router: {
-    base: process.env.PUBLIC_PATH || '/2019/',
+    base: publicPath,
   },
   generate: {
     dir: 'public',
   },
   env: {
-    PUBLIC_PATH: process.env.PUBLIC_PATH || '/2019/',
+    PUBLIC_PATH: publicPath,
+  },
+
+  modules: [
+    // eslint-disable-next-line global-require
+    '@nuxtjs/manifest',
+    '@nuxtjs/workbox',
+  ],
+
+  /**
+   * PWA related config
+   */
+  // eslint-disable-next-line global-require
+  manifest: require('./manifest.json'),
+  workbox: {
+    dev: process.env.NODE_ENV !== 'production',
+    offlineAssets: [`${publicPath}/images/banner.jpg`, `${publicPath}/images/bg.jpg`],
   },
 };

@@ -18,6 +18,8 @@
     "nuxt": "^2.2.0"
   },
   "devDependencies": {
+    "@nuxtjs/manifest": "^2.6.0",
+    "@nuxtjs/workbox": "^2.6.0",
     "babel-eslint": "^10.0.0",
     "eslint": "^5.9.0",
     "eslint-config-airbnb-base": "^13.1.0",
