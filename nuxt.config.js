@@ -38,7 +38,7 @@ module.exports = {
   build: {
     cssSourceMap: true,
     extractCSS: true,
-    publicPath: '/2019/',
+    publicPath: '/',
     loaders: {
       scss: {
         // eslint-disable-next-line
@@ -64,5 +64,8 @@ module.exports = {
   },
   router: {
     base: '/2019/',
+  },
+  generate: {
+    dir: 'public',
   },
 };
