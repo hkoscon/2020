@@ -81,7 +81,6 @@
         class="navbar-menu"
       >
         <div class="navbar-start">
-
           <div class="navbar-item has-dropdown is-hoverable">
             <span class="navbar-link">
               Organizer

@@ -53,7 +53,10 @@
 </style>
 
 <template>
-  <topic-wrapper :event="event" class="eventItem__link">
+  <topic-wrapper
+    :event="event"
+    class="eventItem__link"
+  >
     <div class="card is-flex eventItem__card">
       <div class="card-content">
         <div class="media">

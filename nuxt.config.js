@@ -38,7 +38,7 @@ module.exports = {
   build: {
     cssSourceMap: true,
     extractCSS: true,
-    publicPath: '/',
+    publicPath: process.env.NODE_ENV === 'production' ? '/' : '/assets/',
     loaders: {
       scss: {
         // eslint-disable-next-line
