@@ -63,7 +63,7 @@ module.exports = {
     },
   },
   router: {
-    base: '/2019/',
+    base: process.env.PUBLIC_PATH || '/2019/',
   },
   generate: {
     dir: 'public',
