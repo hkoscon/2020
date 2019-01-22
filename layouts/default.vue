@@ -105,12 +105,12 @@
               >
                 Organizing Committee
               </a>
-              <a
-                href="https://hkoscon.org/2018/about-coc.html"
+              <nuxt-link
+                to="/about/coc"
                 class="navbar-item"
               >
                 Code of Conduct
-              </a>
+              </nuxt-link>
             </div>
           </div>
 
