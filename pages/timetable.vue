@@ -1,39 +1,41 @@
-<style scoped lang="scss">
-  .hero {
-    background-image: url(https://hkoscon.org/2018/images/banner.jpg);
-    background-size: cover;
-    background-position: center 30%;
-    .hero-body {
-      background-color: rgba(0,0,0,.5);
+<style lang="scss">
+  .timetablePage {
+    &__banner {
+      background-image: url(https://hkoscon.org/2018/images/banner.jpg);
+      background-size: cover;
+      background-position: center 30%;
+      @include media("<=tablet") {
+        padding-top: 52px;
+      }
+      &__overlay {
+        background-color: rgba(0,0,0,.5);
+      }
     }
-    .title {
+    &__title {
       color: white;
-    }
-    @include media("<=tablet") {
-      padding-top: 52px;
     }
   }
 </style>
 
 <template>
-  <main>
-    <section class="hero is-medium">
-      <div class="hero-body">
+  <main class="timetablePage">
+    <section class="hero is-medium timetablePage__banner">
+      <div class="hero-body timetablePage__banner__overlay">
         <div class="container">
-          <h1 class="title">
+          <h1 class="title timetablePage__title">
             Schedule
           </h1>
         </div>
       </div>
     </section>
-    <LoadingIndicator :loading="loading">
+    <loading-indicator :loading="loading">
       <div class="container">
-        <ScheduleTable
+        <schedule-table
           v-if="days.length > 0"
           :days="days"
         />
       </div>
-    </LoadingIndicator>
+    </loading-indicator>
   </main>
 </template>
 
@@ -60,6 +62,11 @@ export default {
       loading: false,
       days: [],
     };
+  },
+  mounted() {
+    if (process.env.NODE_ENV === 'production') {
+      this.fetchData();
+    }
   },
   methods: {
     fetchData() {

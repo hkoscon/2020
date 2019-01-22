@@ -1,4 +1,48 @@
-<style scoped lang="scss">
+<style lang="scss">
+  .scheduleTable {
+    &__tabs {
+      height: 64px;
+      display: flex;
+      align-items: center;
+      overflow: hidden;
+      user-select: none;
+      &--sticky {
+        position: fixed;
+        top: 52px;
+        background-color: white;
+        z-index: 1;
+        box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 1px 5px 0 rgba(0,0,0,.12), 0 3px 1px -2px rgba(0,0,0,.2);
+        width: 100%;
+
+        @media screen and (min-width: 1088px) {
+          max-width: 960px;
+          width: 960px;
+        }
+
+        @media screen and (min-width: 1280px) {
+          max-width: 1152px;
+          width: 1152px;
+        }
+      }
+    }
+
+    &__container {
+      touch-action: pan-y;
+      position: relative;
+      height: 100%;
+      white-space: nowrap;
+      overflow: hidden;
+      flex: 1 1 auto;
+    }
+
+    &__content {
+      position: absolute;
+      white-space: nowrap;
+      height: 100%;
+      flex-basis: auto;
+    }
+  }
+
   @keyframes fading-transition {
     from {
       opacity: 0;
@@ -15,60 +59,18 @@
   .fade-transition-leave-active {
     animation: fading-transition .1s;
   }
-
-  .tabs {
-    height: 64px;
-    display: flex;
-    align-items: center;
-    overflow: hidden;
-    user-select: none;
-
-    &.sticky {
-      position: fixed;
-      top: 52px;
-      background-color: white;
-      z-index: 1;
-      box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 1px 5px 0 rgba(0,0,0,.12), 0 3px 1px -2px rgba(0,0,0,.2);
-      width: 100%;
-
-      @media screen and (min-width: 1088px) {
-        max-width: 960px;
-        width: 960px;
-      }
-
-      @media screen and (min-width: 1280px) {
-        max-width: 1152px;
-        width: 1152px;
-      }
-    }
-
-    > .tab-container {
-      touch-action: pan-y;
-      position: relative;
-      height: 100%;
-      white-space: nowrap;
-      overflow: hidden;
-      flex: 1 1 auto;
-      > .content {
-        position: absolute;
-        white-space: nowrap;
-        height: 100%;
-        flex-basis: auto;
-      }
-    }
-  }
 </style>
 
 <template>
-  <div>
+  <div class="scheduleTable">
     <div
       ref="tabs"
       :class="{ sticky }"
-      class="tabs"
+      class="tabs scheduleTable__tabs"
     >
-      <div class="tab-container">
-        <div class="content">
-          <TabItem
+      <div class="tab-container scheduleTable__container">
+        <div class="content scheduleTable__content">
+          <tab-item
             v-for="day in days"
             :key="day.date"
             :day="day"
@@ -79,16 +81,16 @@
       </div>
     </div>
     <template v-for="day in days">
-      <Transition
+      <transition
         :key="day.date"
         name="fade-transition"
         mode="out-in"
       >
-        <DayTable
+        <day-table
           v-show="activeDay === day.day"
           :day="day"
         />
-      </Transition>
+      </transition>
     </template>
   </div>
 </template>

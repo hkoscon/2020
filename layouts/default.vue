@@ -1,51 +1,55 @@
-<style scoped lang="scss">
-  .navbar {
-    position: fixed;
-    width: 100%;
-    .navbar-start {
-      @include media("<=tablet") {
-        > a.navbar-item, .navbar-link {
-          font-weight: bold;
+<style lang="scss">
+  .defaultLayout {
+    &__navbar {
+      position: fixed;
+      width: 100%;
+
+      .navbar-start {
+        @include media("<=tablet") {
+          > a.navbar-item, .navbar-link {
+            font-weight: bold;
+          }
+        }
+        .navbar-link:not(.is-arrowless)::after {
+          border-color: $primary;
         }
       }
-      .navbar-link:not(.is-arrowless)::after {
-        border-color: $primary;
+
+      &__footer {
+        background-color: $theme-blue;
+        color: white;
+        a {
+          color: white;
+          &:hover, &:visited, &:active {
+            color: white;
+          }
+          &:hover > .icon {
+            color: $theme-yellow;
+          }
+          > .icon {
+            display: inline-block;
+            margin: .5em;
+            transition: color .5s;
+            padding: .5em;
+          }
+        }
       }
     }
 
-    .navbar-burger {
+    &__burger {
       color: white;
+
       &:hover {
         color: white;
-      }
-    }
-  }
-
-  .footer {
-    background-color: $theme-blue;
-    color: white;
-    a {
-      color: white;
-      &:hover, &:visited, &:active {
-        color: white;
-      }
-      &:hover > .icon {
-        color: $theme-yellow;
-      }
-      > .icon {
-        display: inline-block;
-        margin: .5em;
-        transition: color .5s;
-        padding: .5em;
       }
     }
   }
 </style>
 
 <template>
-  <div>
+  <div class="defaultLayout">
     <nav
-      class="navbar"
+      class="navbar defaultLayout__navbar"
       role="navigation"
       aria-label="main navigation"
     >
@@ -62,7 +66,7 @@
         <a
           :class="{ 'is-active': showNavbar }"
           role="button"
-          class="navbar-burger"
+          class="navbar-burger defaultLayout__burger"
           aria-label="menu"
           aria-expanded="false"
           @click="toggleNavbar"
@@ -169,7 +173,7 @@
       </div>
     </nav>
     <nuxt />
-    <footer class="footer">
+    <footer class="footer defaultLayout__footer">
       <div class="content has-text-centered">
         <p>
           <a href="https://facebook.com/hkoscon/">

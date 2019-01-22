@@ -1,27 +1,30 @@
-<style scoped lang="scss">
-  .loader {
-    width: 50px;
-    height: 50px;
-    position: relative;
-    margin: 1rem auto;
-  }
-  svg {
-    overflow: hidden;
-    animation: rotate 2s linear infinite;
-    height: 100%;
-    transform-origin: center center;
-    width: 100%;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
-    > circle {
-      stroke-dasharray: 1,200;
-      stroke-dashoffset: 0;
-      stroke-linecap: round;
-      animation: dash 1.5s ease-in-out infinite,color 6s ease-in-out infinite;
+<style lang="scss">
+  .loadingIndicator {
+    &__loader {
+      width: 50px;
+      height: 50px;
+      position: relative;
+      margin: 1rem auto;
+
+      svg {
+        overflow: hidden;
+        animation: rotate 2s linear infinite;
+        height: 100%;
+        transform-origin: center center;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        > circle {
+          stroke-dasharray: 1,200;
+          stroke-dashoffset: 0;
+          stroke-linecap: round;
+          animation: dash 1.5s ease-in-out infinite,color 6s ease-in-out infinite;
+        }
+      }
     }
   }
 
@@ -66,10 +69,10 @@
 </style>
 
 <template>
-  <div>
+  <div class="loadingIndicator">
     <div
       v-if="loading"
-      class="loader"
+      class="loader loadingIndicator__loader"
     >
       <svg viewBox="25 25 50 50">
         <circle

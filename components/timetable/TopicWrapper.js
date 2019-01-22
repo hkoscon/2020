@@ -11,7 +11,7 @@ export default {
       return slots().default[0];
     }
     const url = new URL(props.event.internal);
-    const to = url.pathname.replace('/event/', '/2019/topic/');
-    return h('a', { attrs: { href: to } }, children);
+    const to = url.pathname.replace('/event/', '/topic/');
+    return h('nuxt-link', { props: { to }, staticClass: 'topicWrapper' }, children);
   },
 };

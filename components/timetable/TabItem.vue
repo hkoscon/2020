@@ -1,5 +1,5 @@
-<style scoped lang="scss">
-  .tab-item {
+<style lang="scss">
+  .tabItem {
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -11,12 +11,12 @@
     vertical-align: middle;
     width: 50%;
 
-    &.active {
+    &--active {
       border-bottom: 3px solid $theme-yellow;
       padding-bottom: calc(1rem - 3px);
     }
 
-    > .tab-content {
+    &__content {
       height: 100%;
       transform: translateZ(0);
       transition: opacity 0.1s cubic-bezier(0.4, 0.0, 1, 1);
@@ -40,11 +40,11 @@
 
 <template>
   <div
-    :class="{ active }"
-    class="tab-item"
+    :class="{ 'tabItem--active': active }"
+    class="tabItem"
     @click="$emit('click')"
   >
-    <div class="tab-content">
+    <div class="tabItem__content">
       <span>Day {{ day.day }} ({{ day.date }})</span>
     </div>
   </div>
