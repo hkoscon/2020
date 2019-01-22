@@ -9,7 +9,8 @@ cache:
 
 pages:
   script:
-    - yarn run generate
+    - yarn lint
+    - yarn generate
   artifacts:
     paths:
       - public
