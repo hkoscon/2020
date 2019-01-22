@@ -1,7 +1,6 @@
 <style lang="scss">
   .homePage {
     &__cover {
-      background-image: url('/2019/images/bg.jpg');
       height: 100vh;
       background-repeat: no-repeat;
       background-color: #fff;
@@ -107,7 +106,10 @@
 
 <template>
   <main class="homePage">
-    <div class="tile is-parent is-transparent homePage__cover">
+    <div
+      class="tile is-parent is-transparent homePage__cover"
+      :style="{backgroundImage}"
+    >
       <div class="tile is-child homePage__cover__inner">
         <figure class="image is-square homePage__logo">
           <img
@@ -150,7 +152,10 @@
             </span>
           </a>
 
-          <a href="mailto:conference@opensource.hk" class="homePage__social__link">
+          <a
+            href="mailto:conference@opensource.hk"
+            class="homePage__social__link"
+          >
             <span class="icon">
               <i class="fa fa-envelope" />
             </span>
@@ -164,5 +169,10 @@
 <script>
 export default {
   name: 'HomePage',
+  data() {
+    return {
+      backgroundImage: `url(${process.env.PUBLIC_PATH || '/2019'}/images/bg.jpg})`,
+    };
+  },
 };
 </script>

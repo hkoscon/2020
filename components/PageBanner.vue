@@ -1,6 +1,5 @@
 <style lang="scss">
   .pageBanner {
-    background-image: url(/2019/images/banner.jpg);
     background-size: cover;
     background-position: center 30%;
     @include media("<=tablet") {
@@ -16,7 +15,10 @@
 </style>
 
 <template>
-  <section class="hero is-medium pageBanner">
+  <section
+    class="hero is-medium pageBanner"
+    :style="{backgroundImage}"
+  >
     <div class="hero-body pageBanner__overlay">
       <div class="container">
         <h1 class="title pageBanner__title">
@@ -36,6 +38,11 @@ export default {
       required: true,
       default: '',
     },
+  },
+  data() {
+    return {
+      backgroundImage: `url(${process.env.PUBLIC_PATH || '/2019'}/images/banner.jpg})`,
+    };
   },
 };
 </script>

@@ -68,4 +68,7 @@ module.exports = {
   generate: {
     dir: 'public',
   },
+  env: {
+    PUBLIC_PATH: process.env.PUBLIC_PATH || '/2019/',
+  },
 };
