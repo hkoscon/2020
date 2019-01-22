@@ -28,14 +28,12 @@
         </div>
       </div>
     </section>
-    <loading-indicator :loading="loading">
-      <div class="container">
-        <schedule-table
-          v-if="days.length > 0"
-          :days="days"
-        />
-      </div>
-    </loading-indicator>
+    <div class="container">
+      <schedule-table
+        v-if="days.length > 0"
+        :days="days"
+      />
+    </div>
   </main>
 </template>
 
@@ -50,7 +48,6 @@ export default {
     title: 'Schedule | Hong Kong Open Source Confernce 2019',
   },
   components: {
-    LoadingIndicator: () => import('~/components/LoadingIndicator.vue'),
     ScheduleTable: () => import('~/components/timetable/ScheduleTable.vue'),
   },
   asyncData() {
@@ -59,7 +56,6 @@ export default {
   },
   data() {
     return {
-      loading: false,
       days: [],
     };
   },
@@ -70,10 +66,8 @@ export default {
   },
   methods: {
     fetchData() {
-      this.loading = true;
       return axios.get(uri)
         .then(({ data: { days } }) => {
-          this.loading = false;
           this.days = days;
         });
     },
