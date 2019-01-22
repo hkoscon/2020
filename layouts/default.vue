@@ -81,18 +81,6 @@
         class="navbar-menu"
       >
         <div class="navbar-start">
-          <nuxt-link
-            class="navbar-item"
-            to="/timetable/"
-          >
-            Timetable
-          </nuxt-link>
-          <a
-            class="navbar-item"
-            href="https://hkoscon.org/2018/sponsors/"
-          >
-            Sponsors
-          </a>
 
           <div class="navbar-item has-dropdown is-hoverable">
             <span class="navbar-link">
@@ -156,18 +144,6 @@
                 HKOSCon 2013
               </a>
             </div>
-          </div>
-        </div>
-        <div class="navbar-end">
-          <div class="navbar-item">
-            <p class="control">
-              <a
-                href="https://www.eventbrite.com/e/hong-kong-open-source-conference-2018-tickets-44667134602?_ga=2.116414022.1599379448.1540831395-739958573.1540831395"
-                class="button is-primary"
-              >
-                Register
-              </a>
-            </p>
           </div>
         </div>
       </div>
