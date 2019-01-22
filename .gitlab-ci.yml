@@ -1,0 +1,18 @@
+image: node:10
+
+before_script:
+  - yarn install --frozen-lockfile
+
+cache:
+  paths:
+    - node_modules/
+
+pages:
+  script:
+    - yarn run generate
+  artifacts:
+    paths:
+      - public
+  only:
+    - master
+
