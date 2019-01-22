@@ -14,24 +14,24 @@
           border-color: $primary;
         }
       }
+    }
 
-      &__footer {
-        background-color: $theme-blue;
+    &__footer {
+      background-color: $theme-blue;
+      color: white;
+      a {
         color: white;
-        a {
+        &:hover, &:visited, &:active {
           color: white;
-          &:hover, &:visited, &:active {
-            color: white;
-          }
-          &:hover > .icon {
-            color: $theme-yellow;
-          }
-          > .icon {
-            display: inline-block;
-            margin: .5em;
-            transition: color .5s;
-            padding: .5em;
-          }
+        }
+        &:hover > .icon {
+          color: $theme-yellow;
+        }
+        > .icon {
+          display: inline-block;
+          margin: .5em;
+          transition: color .5s;
+          padding: .5em;
         }
       }
     }
