@@ -11,8 +11,8 @@ node_js:
 - '10'
 
 script:
-- yarn generate
 - yarn lint
+- yarn generate
 
 deploy:
   provider: pages
