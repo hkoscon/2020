@@ -12,6 +12,6 @@ export default {
     }
     const url = new URL(props.event.internal);
     const to = url.pathname.replace('/event/', '/2019/topic/');
-    return h('nuxt-link', { props: { to } }, children);
+    return h('a', { attrs: { href: to } }, children);
   },
 };

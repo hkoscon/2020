@@ -50,13 +50,13 @@
       aria-label="main navigation"
     >
       <div class="navbar-brand">
-        <NuxtLink
+        <nuxt-link
           class="navbar-item"
-          to="/2019/"
+          to="/"
         >
           <img src="~assets/images/brand.png">
           <span>HKOSCon 2019</span>
-        </NuxtLink>
+        </nuxt-link>
 
 
         <a
@@ -77,12 +77,12 @@
         class="navbar-menu"
       >
         <div class="navbar-start">
-          <a
+          <nuxt-link
             class="navbar-item"
-            href="/2019/timetable/"
+            to="/timetable/"
           >
             Timetable
-          </a>
+          </nuxt-link>
           <a
             class="navbar-item"
             href="https://hkoscon.org/2018/sponsors/"
@@ -168,7 +168,7 @@
         </div>
       </div>
     </nav>
-    <Nuxt />
+    <nuxt />
     <footer class="footer">
       <div class="content has-text-centered">
         <p>
