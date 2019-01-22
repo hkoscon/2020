@@ -99,12 +99,12 @@
               Organizer
             </span>
             <div class="navbar-dropdown">
-              <a
-                href="https://hkoscon.org/2018/about-committee.html"
+              <nuxt-link
+                to="/about/committee"
                 class="navbar-item"
               >
                 Organizing Committee
-              </a>
+              </nuxt-link>
               <nuxt-link
                 to="/about/coc"
                 class="navbar-item"
