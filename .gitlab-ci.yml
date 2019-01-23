@@ -1,19 +1,33 @@
 image: node:10
 
-before_script:
-  - yarn install --frozen-lockfile
-
 cache:
   paths:
     - node_modules/
 
-pages:
+install:
+  stage: build
+  script:
+    - yarn install --frozen-lockfile
+
+lint:
+  stage: test
   script:
     - yarn lint
+
+pages:
+  stage: deploy
+  script:
     - yarn generate
   artifacts:
     paths:
       - public
+  only:
+    - master
+
+gh-pages:
+  stage: deploy
+  script:
+    - bash script/deploy.sh
   only:
     - master
 
