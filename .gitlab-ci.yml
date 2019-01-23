@@ -27,6 +27,7 @@ pages:
 gh-pages:
   stage: deploy
   script:
+    - yarn generate
     - bash script/deploy.sh
   only:
     - master
