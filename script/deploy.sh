@@ -1,5 +1,10 @@
 #!/usr/bin/env bash
 
+if [ -z $PAGES_REPOSITORY_URL ]; then
+  echo "No PAGE_REPOSITORY_URL specified. Skip."
+  exit 0
+fi
+
 cd public
 
 git init
