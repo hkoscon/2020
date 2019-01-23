@@ -146,6 +146,18 @@
           </div>
         </div>
       </div>
+      <div class="navbar-end">
+        <div class="navbar-item">
+          <p class="control">
+            <nuxt-link
+              to="/cfp"
+              class="button is-primary"
+            >
+              Apply CFP
+            </nuxt-link>
+          </p>
+        </div>
+      </div>
     </nav>
     <nuxt />
     <footer class="footer defaultLayout__footer">
