@@ -1,7 +1,5 @@
 #!/usr/bin/env bash
 
-set -ex
-
 cd public
 
 git init
