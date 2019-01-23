@@ -14,3 +14,5 @@ touch .
 git add -A .
 git commit -m "Build of ${CI_COMMIT_SHA}"
 git push -q origin HEAD:gh-pages
+
+rm -rf .git

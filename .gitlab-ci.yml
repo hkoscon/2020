@@ -18,17 +18,9 @@ pages:
   stage: deploy
   script:
     - yarn generate
+    - bash script/deploy.sh
   artifacts:
     paths:
       - public
   only:
     - master
-
-gh-pages:
-  stage: deploy
-  script:
-    - yarn generate
-    - bash script/deploy.sh
-  only:
-    - master
-
