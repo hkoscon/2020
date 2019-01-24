@@ -14,6 +14,15 @@
           border-color: $primary;
         }
       }
+
+      @media screen and (max-width: 1087px) {
+        .navbar-dropdown {
+          display: none;
+        }
+        .navbar-item.is-active .navbar-dropdown {
+          display: block;
+        }
+      }
     }
 
     &__footer {
@@ -81,8 +90,11 @@
         class="navbar-menu"
       >
         <div class="navbar-start">
-          <div class="navbar-item has-dropdown is-hoverable">
-            <span class="navbar-link">
+          <div
+            class="navbar-item has-dropdown"
+            :class="{ 'is-active': showAbout }"
+          >
+            <span class="navbar-link" @click="showAbout = !showAbout">
               Organizer
             </span>
             <div class="navbar-dropdown">
@@ -101,8 +113,11 @@
             </div>
           </div>
 
-          <div class="navbar-item has-dropdown is-hoverable">
-            <span class="navbar-link">
+          <div
+            class="navbar-item has-dropdown"
+            :class="{ 'is-active': showArchive }"
+          >
+            <span class="navbar-link" @click="showArchive = !showArchive">
               Archive
             </span>
             <div class="navbar-dropdown">
@@ -145,17 +160,18 @@
             </div>
           </div>
         </div>
-      </div>
-      <div class="navbar-end">
-        <div class="navbar-item">
-          <p class="control">
-            <nuxt-link
-              to="/cfp"
-              class="button is-primary"
-            >
-              Apply CFP
-            </nuxt-link>
-          </p>
+
+        <div class="navbar-end">
+          <div class="navbar-item">
+            <p class="control">
+              <nuxt-link
+                to="/cfp"
+                class="button is-primary"
+              >
+                Apply CFP
+              </nuxt-link>
+            </p>
+          </div>
         </div>
       </div>
     </nav>
@@ -210,6 +226,8 @@ export default {
   data() {
     return {
       showNavbar: false,
+      showArchive: false,
+      showAbout: false,
     };
   },
   methods: {
