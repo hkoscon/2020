@@ -1,77 +1,21 @@
 const path = require('path');
 const swBuild = require('workbox-build');
-const { readFileSync, writeFileSync, existsSync } = require('fs');
+const { readFileSync, writeFileSync } = require('fs');
 const hashSum = require('hash-sum');
 const debug = require('debug')('nuxt:pwa');
 const defaultsDeep = require('lodash.defaultsdeep');
 const pick = require('lodash.pick');
 
 const fixUrl = url => url.replace(/\/\//g, '/').replace(':/', '://');
-const isUrl = url => url.indexOf('http') === 0 || url.indexOf('//') === 0;
-
-// =============================================
-// workboxModule
-// =============================================
-
-module.exports = function nuxtWorkbox(moduleOptions) {
-  if (this.options.dev) {
-    return;
-  }
-
-  let options;
-
-  const hook = (builder) => {
-    debug('Adding workbox');
-    options = getOptions.call(this, moduleOptions);
-    workboxInject.call(this, options);
-    setHeaders.call(this, options);
-    emitAssets.call(this, options);
-    addTemplates.call(this, options);
-  };
-
-  // Get client output path (#83)
-  this.extendBuild((config, { isClient }) => {
-    if (!isClient) {
-      return;
-    }
-
-    if (!options.clientBuildDir) {
-      options.clientBuildDir = config.output.path;
-    }
-
-    if (!options.globDirectory) {
-      options.globDirectory = options.clientBuildDir;
-    }
-  });
-
-  this.nuxt.hook('build:before', hook);
-};
 
 // =============================================
 // getRouterBase
 // =============================================
 
-function loadScriptExtension(scriptExtension) {
-  if (scriptExtension) {
-    const extPath = this.nuxt.resolveAlias(scriptExtension);
-    if (existsSync(extPath)) {
-      return readFileSync(extPath, 'utf8');
-    }
-    return null;
-  }
-}
-
 function getOptions(moduleOptions) {
   // Router Base
   const routerBase = this.options.router.base;
-  let publicPath = fixUrl(`${routerBase}/${this.options.build.publicPath}`);
-  if (isUrl(this.options.build.publicPath)) { // CDN
-    publicPath = this.options.build.publicPath;
-    if (publicPath.indexOf('//') === 0) {
-      publicPath = `/${publicPath}`; // Escape fixUrl
-    }
-  }
-
+  const publicPath = fixUrl(`${routerBase}/${this.options.build.publicPath}`);
   const defaults = {
     autoRegister: true,
     routerBase,
@@ -97,14 +41,6 @@ function getOptions(moduleOptions) {
   };
 
   const options = defaultsDeep({}, this.options.workbox, moduleOptions, defaults);
-
-  if (options.cachingExtensions) {
-    options.cachingExtensions = loadScriptExtension.call(this, options.cachingExtensions);
-  }
-
-  if (options.routingExtensions) {
-    options.routingExtensions = loadScriptExtension.call(this, options.routingExtensions);
-  }
 
   return options;
 }
@@ -179,7 +115,7 @@ function emitAssets(options) {
   };
 
   // Write assets after build
-  const hook = (builder) => {
+  const hook = () => {
     assets.forEach(({ source, dst }) => {
       writeFileSync(path.resolve(options.clientBuildDir, dst), source, 'utf-8');
     });
@@ -222,12 +158,51 @@ function setHeaders(options) {
 
   const originalSetHeadersMethod = this.options.render.static.setHeaders;
 
-  this.options.render.static.setHeaders = (res, path) => {
-    if (path.match(/sw\.js$/)) {
+  this.options.render.static.setHeaders = (res, p) => {
+    if (p.match(/sw\.js$/)) {
       // Prevent caching service worker
       res.setHeader('Cache-Control', 'no-cache');
     } else if (typeof originalSetHeadersMethod !== 'undefined') {
-      originalSetHeadersMethod(res, path);
+      originalSetHeadersMethod(res, p);
     }
   };
 }
+
+
+// =============================================
+// workboxModule
+// =============================================
+
+module.exports = function nuxtWorkbox(moduleOptions) {
+  if (this.options.dev) {
+    return;
+  }
+
+  let options;
+
+  const hook = () => {
+    debug('Adding workbox');
+    options = getOptions.call(this, moduleOptions);
+    workboxInject.call(this, options);
+    setHeaders.call(this, options);
+    emitAssets.call(this, options);
+    addTemplates.call(this, options);
+  };
+
+  // Get client output path (#83)
+  this.extendBuild((config, { isClient }) => {
+    if (!isClient) {
+      return;
+    }
+
+    if (!options.clientBuildDir) {
+      options.clientBuildDir = config.output.path;
+    }
+
+    if (!options.globDirectory) {
+      options.globDirectory = options.clientBuildDir;
+    }
+  });
+
+  this.nuxt.hook('build:before', hook);
+};

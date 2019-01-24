@@ -94,7 +94,10 @@
             class="navbar-item has-dropdown"
             :class="{ 'is-active': showAbout }"
           >
-            <span class="navbar-link" @click="showAbout = !showAbout">
+            <span
+              class="navbar-link"
+              @click="showAbout = !showAbout"
+            >
               Organizer
             </span>
             <div class="navbar-dropdown">
@@ -117,7 +120,10 @@
             class="navbar-item has-dropdown"
             :class="{ 'is-active': showArchive }"
           >
-            <span class="navbar-link" @click="showArchive = !showArchive">
+            <span
+              class="navbar-link"
+              @click="showArchive = !showArchive"
+            >
               Archive
             </span>
             <div class="navbar-dropdown">
