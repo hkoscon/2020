@@ -14,11 +14,11 @@ script:
 - yarn lint
 - yarn generate
 
-deploy:
-  provider: pages
-  skip_cleanup: true
-  github_token: $GITHUB_TOKEN
-  local_dir: public
-  keep-history: true
-  on:
-    branch: master
+#deploy:
+#  provider: pages
+#  skip_cleanup: true
+#  github_token: $GITHUB_TOKEN
+#  local_dir: public
+#  keep-history: true
+#  on:
+#    branch: master
