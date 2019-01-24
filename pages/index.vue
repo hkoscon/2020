@@ -68,6 +68,39 @@
       padding-top: 2rem;
       padding-bottom: 2rem;
     }
+
+    &__tickets {
+      flex-direction: row;
+      justify-content: space-around;
+      margin-top: 3rem;
+
+      @include media("<=tablet") {
+        flex-basis: 100%;
+        flex-shrink: 1;
+        flex-wrap: wrap;
+      }
+    }
+
+    &__ticket {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      flex-basis: 40%;
+      @include media("<=tablet") {
+        flex-basis: 100%;
+      }
+      margin: 1rem;
+
+      ul {
+        margin-bottom: 1rem;
+        > li:before {
+          content: "done";
+          font-family: 'Material Icons';
+          margin-right: .5em;
+          color: #0a0;
+        }
+      }
+    }
   }
 </style>
 
@@ -89,23 +122,15 @@
             <i class="material-icons">
               calendar_today
             </i>
-          </span> Jun 2019
+          </span> Jun, 2019
         </p>
         <p class="has-text-primary homePage__cover__text">
           <span class="icon">
             <i class="material-icons">
               add_location
             </i>
-          </span> TBD
+          </span> TBC
         </p>
-        <div>
-          <nuxt-link
-            to="/cfp"
-            class="button is-primary is-fullwidth is-uppercase homePage__link"
-          >
-            Apply CFP
-          </nuxt-link>
-        </div>
         <div class="homePage__social">
           <a
             href="https://facebook.com/hkoscon/"
