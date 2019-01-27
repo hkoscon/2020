@@ -14,9 +14,9 @@ if [ -z $GIT_USER_EMAIL ]; then
   GIT_USER_EMAIL="tony@tonyhhyip.me"
 fi
 if [ -z $GIT_COMMIT_MESSAGE ]; then
-  GIT_COMMIT_MESSAGE="Build of ${CI_COMMIT_SHA}"
+  GIT_COMMIT_MESSAGE="CI: Build of ${CI_COMMIT_SHA}"
 else
-  GIT_COMMIT_MESSAGE="$(echo -e "${GIT_COMMIT_MESSAGE}\n\n* Rebuild (${CI_COMMIT_SHA})")"
+  GIT_COMMIT_MESSAGE="$(echo -e "CI: ${GIT_COMMIT_MESSAGE}\n\n* Rebuild (${CI_COMMIT_SHA})")"
 fi
 
 # Commit the artifacts in public folder to gh-pages
