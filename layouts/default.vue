@@ -104,12 +104,14 @@
               <nuxt-link
                 to="/about/committee"
                 class="navbar-item"
+                @click.native="showAbout = false"
               >
                 Organizing Committee
               </nuxt-link>
               <nuxt-link
                 to="/about/coc"
                 class="navbar-item"
+                @click.native="showAbout = false"
               >
                 Code of Conduct
               </nuxt-link>
