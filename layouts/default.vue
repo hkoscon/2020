@@ -56,11 +56,12 @@
 </style>
 
 <template>
-  <div class="defaultLayout">
+  <div class="defaultLayout" @click="handleClick">
     <nav
       class="navbar defaultLayout__navbar"
       role="navigation"
       aria-label="main navigation"
+      @click.stop=""
     >
       <div class="navbar-brand">
         <nuxt-link
@@ -241,6 +242,10 @@ export default {
   methods: {
     toggleNavbar() {
       this.showNavbar = !this.showNavbar;
+    },
+    handleClick() {
+      this.showArchive = false;
+      this.showArchive = false;
     },
   },
 };
