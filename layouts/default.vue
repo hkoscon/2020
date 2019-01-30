@@ -56,11 +56,12 @@
 </style>
 
 <template>
-  <div class="defaultLayout">
+  <div class="defaultLayout" @click="handleClick">
     <nav
       class="navbar defaultLayout__navbar"
       role="navigation"
       aria-label="main navigation"
+      @click.stop=""
     >
       <div class="navbar-brand">
         <nuxt-link
@@ -106,12 +107,14 @@
               <nuxt-link
                 to="/about/committee"
                 class="navbar-item"
+                @click.native="showAbout = false"
               >
                 Organizing Committee
               </nuxt-link>
               <nuxt-link
                 to="/about/coc"
                 class="navbar-item"
+                @click.native="showAbout = false"
               >
                 Code of Conduct
               </nuxt-link>
@@ -242,6 +245,10 @@ export default {
   methods: {
     toggleNavbar() {
       this.showNavbar = !this.showNavbar;
+    },
+    handleClick() {
+      this.showArchive = false;
+      this.showArchive = false;
     },
   },
 };
