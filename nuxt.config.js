@@ -1,4 +1,11 @@
-const publicPath = process.env.PUBLIC_PATH || '/2019';
+const publicPath = (process.env.PUBLIC_PATH || '/2019').replace(/\/$/, '');
+
+// Declare process.env.publicPath to
+// unify build and dev environment.
+process.env.publicPath = publicPath;
+
+// A little hint for debug
+console.log(`publicPath: "${publicPath}"`);
 
 module.exports = {
   /*
@@ -72,12 +79,12 @@ module.exports = {
   },
   env: {
     PUBLIC_PATH: publicPath,
+    publicPath,
   },
-
   modules: [
     // eslint-disable-next-line global-require
     '@nuxtjs/manifest',
-    '@nuxtjs/workbox',
+    '~/modules/workbox/module.js',
   ],
 
   /**

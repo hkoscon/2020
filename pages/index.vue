@@ -122,14 +122,14 @@
             <i class="material-icons">
               calendar_today
             </i>
-          </span> 15 - 16 Jun, 2019 (Sat - Sun)
+          </span> Jun, 2019
         </p>
         <p class="has-text-primary homePage__cover__text">
           <span class="icon">
             <i class="material-icons">
               add_location
             </i>
-          </span> Hong Kong Science Park
+          </span> TBC
         </p>
         <div class="homePage__social">
           <a
@@ -171,7 +171,7 @@ export default {
   name: 'HomePage',
   data() {
     return {
-      backgroundImage: `url(${process.env.PUBLIC_PATH || '/2019'}/images/bg.jpg)`,
+      backgroundImage: `url(${process.env.publicPath}/images/bg.jpg)`,
     };
   },
 };
