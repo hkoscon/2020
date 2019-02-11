@@ -91,6 +91,7 @@ module.exports = {
     // eslint-disable-next-line global-require
     '@nuxtjs/manifest',
     '~/modules/workbox/module.js',
+    '@nuxtjs/sitemap',
   ],
 
   /**
@@ -101,5 +102,10 @@ module.exports = {
   workbox: {
     dev: process.env.NODE_ENV !== 'production',
     offlineAssets: [`${publicPath}/images/banner.jpg`, `${publicPath}/images/bg.jpg`],
+  },
+
+  sitemap: {
+    hostname: 'https://hkoscon.org/2019/',
+    generate: true,
   },
 };

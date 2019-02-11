@@ -13,6 +13,7 @@
     "lint": "eslint --ext .js,.vue ."
   },
   "dependencies": {
+    "@nuxtjs/sitemap": "^0.2.0",
     "axios": "^0.18.0",
     "bulma": "^0.7.2",
     "core-js": "^2.6.4",
