@@ -2,6 +2,7 @@
   .pageFooter {
     &__copyright {
       padding: 2rem 1.5rem !important;
+      font-size: .8rem;
     }
     &__social {
       background-color: #eee !important;
