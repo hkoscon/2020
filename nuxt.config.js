@@ -9,6 +9,11 @@ process.env.publicPath = publicPath;
 // A little hint for debug
 console.log(`publicPath: "${publicPath}"`);
 
+function fetchTopicUrl() {
+  return fetchTopics()
+    .then(topics => topics.map(topic => `/topic/${topicSlug(topic)}`));
+}
+
 module.exports = {
   /*
   ** Headers of the page
@@ -79,8 +84,7 @@ module.exports = {
   generate: {
     dir: 'public',
     routes() {
-      return fetchTopics()
-        .then(topics => topics.map(topic => `/topic/${topicSlug(topic)}`));
+      return fetchTopicUrl();
     },
   },
   env: {
@@ -107,5 +111,8 @@ module.exports = {
   sitemap: {
     hostname: 'https://hkoscon.org/2019/',
     generate: true,
+    routes() {
+      return fetchTopicUrl();
+    },
   },
 };
