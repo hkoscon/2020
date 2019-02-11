@@ -2,6 +2,7 @@
   .topicPage {
     &__header {
       padding-bottom: 0 !important;
+      padding-top: 100px !important;
     }
 
     &__title {
@@ -29,6 +30,11 @@
 
     &__section {
       padding: 2.5rem 1.5rem;
+      &--meta {
+        margin-left: 3rem !important;
+        padding-top: .8rem !important;
+        padding-bottom: .8rem !important;
+      }
     }
   }
 </style>
@@ -44,7 +50,7 @@
         </div>
       </div>
     </section>
-    <section class="section topicPage__section">
+    <section class="section topicPage__section topicPage__section--meta">
       <div class="container">
         <div class="topicPage__meta">
           <i class="material-icons topicPage__icon">
