@@ -30,8 +30,7 @@
 </template>
 
 <script>
-import 'core-js/fn/array/flat-map';
-import fetchTopic from '../utils/fetchTopic';
+import { fetchTopics } from '../utils/fetchTopic';
 
 export default {
   name: 'TopicsPage',
@@ -40,23 +39,7 @@ export default {
     TopicWrapper: () => import('~/components/timetable/TopicWrapper'),
   },
   asyncData() {
-    return fetchTopic();
-  },
-  computed: {
-    topics() {
-      const keys = new Map();
-      return (this.days || []).flatMap(day => day.timeslots)
-        .flatMap(({ events }) => events)
-        .filter(({ topic }) => !!topic)
-        .sort((left, right) => left.display.localeCompare(right.display))
-        .filter((topic) => {
-          if (keys.has(topic.internal)) {
-            return false;
-          }
-          keys.set(topic.internal, true);
-          return true;
-        });
-    },
+    return fetchTopics().then(topics => ({ topics }));
   },
 };
 </script>
