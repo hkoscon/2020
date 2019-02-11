@@ -33,18 +33,5 @@ export default {
       days: [],
     };
   },
-  mounted() {
-    if (process.env.NODE_ENV === 'production') {
-      this.fetchData();
-    }
-  },
-  methods: {
-    fetchData() {
-      return axios.get(uri)
-        .then(({ data: { days } }) => {
-          this.days = days;
-        });
-    },
-  },
 };
 </script>
