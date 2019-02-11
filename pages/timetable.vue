@@ -11,9 +11,7 @@
 </template>
 
 <script>
-import axios from 'axios';
-
-const uri = 'https://hkoscon.org/2018/data/timetable.json';
+import fetchTopic from '../utils/fetchTopic';
 
 export default {
   name: 'TimetablePage',
@@ -25,8 +23,7 @@ export default {
     PageBanner: () => import('~/components/PageBanner.vue'),
   },
   asyncData() {
-    return axios.get(uri)
-      .then(({ data: { days } }) => ({ days }));
+    return fetchTopic();
   },
   data() {
     return {
