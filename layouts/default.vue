@@ -56,12 +56,15 @@
 </style>
 
 <template>
-  <div class="defaultLayout" @click="handleClick">
+  <div
+    @click="handleClick"
+    class="defaultLayout"
+  >
     <nav
+      @click.stop=""
       class="navbar defaultLayout__navbar"
       role="navigation"
       aria-label="main navigation"
-      @click.stop=""
     >
       <div class="navbar-brand">
         <nuxt-link
@@ -75,11 +78,11 @@
 
         <a
           :class="{ 'is-active': showNavbar }"
+          @click="toggleNavbar"
           role="button"
           class="navbar-burger defaultLayout__burger"
           aria-label="menu"
           aria-expanded="false"
-          @click="toggleNavbar"
         >
           <span aria-hidden="true" />
           <span aria-hidden="true" />
@@ -92,27 +95,27 @@
       >
         <div class="navbar-start">
           <div
-            class="navbar-item has-dropdown"
             :class="{ 'is-active': showAbout }"
+            class="navbar-item has-dropdown"
           >
             <span
-              class="navbar-link"
               @click="showAbout = !showAbout"
+              class="navbar-link"
             >
               Organizer
             </span>
             <div class="navbar-dropdown">
               <nuxt-link
+                @click.native="showAbout = false"
                 to="/about/committee"
                 class="navbar-item"
-                @click.native="showAbout = false"
               >
                 Organizing Committee
               </nuxt-link>
               <nuxt-link
+                @click.native="showAbout = false"
                 to="/about/coc"
                 class="navbar-item"
-                @click.native="showAbout = false"
               >
                 Code of Conduct
               </nuxt-link>
@@ -120,12 +123,12 @@
           </div>
 
           <div
-            class="navbar-item has-dropdown"
             :class="{ 'is-active': showArchive }"
+            class="navbar-item has-dropdown"
           >
             <span
-              class="navbar-link"
               @click="showArchive = !showArchive"
+              class="navbar-link"
             >
               Archive
             </span>
