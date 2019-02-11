@@ -26,7 +26,15 @@
 }
 
 .fa-facebook:before {
-  content: "\F09A";
+  content: "\f09a";
+}
+
+.fa-youtube-play:before {
+  content: "\f16a";
+}
+
+.fa-facebook-square:before {
+  content: "\F082";
 }
 
 .fa-twitter:before {
@@ -36,4 +44,22 @@
 .material-icons {
   text-rendering: optimizeLegibility;
   font-feature-settings: 'liga';
+}
+
+.fa-lg {
+  font-size: 1.33333333em;
+  line-height: 0.75em;
+  vertical-align: -15%;
+}
+.fa-2x {
+  font-size: 2em;
+}
+.fa-3x {
+  font-size: 3em;
+}
+.fa-4x {
+  font-size: 4em;
+}
+.fa-5x {
+  font-size: 5em;
 }

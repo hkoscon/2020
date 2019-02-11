@@ -191,53 +191,16 @@
       </div>
     </nav>
     <nuxt />
-    <footer class="footer defaultLayout__footer">
-      <div class="content has-text-centered">
-        <p>
-          <a href="https://facebook.com/hkoscon/">
-            <span class="icon">
-              <i class="fa fa-facebook" />
-            </span>
-          </a>
-
-          <a href="https://facebook.com/hkoscon/">
-            <span class="icon">
-              <i class="fa fa-twitter" />
-            </span>
-          </a>
-
-          <a href="mailto:conference@opensource.hk">
-            <span class="icon">
-              <i class="fa fa-envelope" />
-            </span>
-          </a>
-        </p>
-        <p>
-          <a
-            href="http://creativecommons.org/licenses/by-sa/3.0/hk/"
-            target="_blank"
-          >
-            <img src="https://licensebuttons.net/l/by-sa/3.0/hk/88x31.png">
-          </a>
-        </p>
-        <p>
-          This work is licensed under a
-          <a
-            href="http://creativecommons.org/licenses/by-sa/3.0/hk/"
-            target="_blank"
-          >
-            Creative Commons Attribution-ShareAlike 3.0 Hong Kong License
-          </a>.
-        </p>
-        <p>Logos and trademarks belong to their respective owners.</p>
-      </div>
-    </footer>
+    <page-footer />
   </div>
 </template>
 
 <script>
 export default {
   name: 'DefaultLayout',
+  components: {
+    PageFooter: () => import('~/components/PageFooter.vue'),
+  },
   data() {
     return {
       showNavbar: false,
