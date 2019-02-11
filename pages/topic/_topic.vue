@@ -26,6 +26,10 @@
     &__description {
       padding: 0 1.5rem;
     }
+
+    &__section {
+      padding: 2.5rem 1.5rem;
+    }
   }
 </style>
 
@@ -40,7 +44,7 @@
         </div>
       </div>
     </section>
-    <section class="section">
+    <section class="section topicPage__section">
       <div class="container">
         <div class="topicPage__meta">
           <i class="material-icons topicPage__icon">
@@ -80,7 +84,7 @@
         <div v-html="topic.description" />
       </div>
     </section>
-    <div class="section">
+    <div class="section topicPage__section">
       <div class="container">
         <author-card
           v-for="speaker in topic.speakers"

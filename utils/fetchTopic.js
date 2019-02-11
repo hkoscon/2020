@@ -10,7 +10,7 @@ export default function fetchDays() {
     .then(({ data: { days } }) => ({ days }));
 }
 
-function topicSlug(topic) {
+export function topicSlug(topic) {
   if (typeof topic !== 'object') return '';
   if (typeof topic.internal !== 'string') return topic.replace(/[^_\W]+/g, '', '').replace(' ', '-').toLowerCase();
   const u = url.parse(topic.internal);

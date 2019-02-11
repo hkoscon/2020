@@ -1,3 +1,5 @@
+import { fetchTopics, topicSlug } from './utils/fetchTopic';
+
 const publicPath = (process.env.PUBLIC_PATH || '/2019').replace(/\/$/, '');
 
 // Declare process.env.publicPath to
@@ -76,6 +78,10 @@ module.exports = {
   },
   generate: {
     dir: 'public',
+    routes() {
+      return fetchTopics()
+        .then(topics => topics.map(topic => `/topic/${topicSlug(topic)}`));
+    },
   },
   env: {
     PUBLIC_PATH: publicPath,
