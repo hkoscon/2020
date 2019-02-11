@@ -1,7 +1,7 @@
 import axios from 'axios';
 import path from 'path';
 import url from 'url';
-import 'core-js/fn/array/flat-map';
+import flatMap from 'lodash.flatmap';
 
 const uri = 'https://hkoscon.org/2018/data/timetable.json';
 
@@ -21,17 +21,22 @@ export function fetchTopics() {
   return fetchDays()
     .then(({ days }) => {
       const keys = new Map();
-      return days.flatMap(day => day.timeslots)
-        .flatMap(({ events }) => events)
-        .filter(({ topic }) => !!topic)
-        .sort((left, right) => left.display.localeCompare(right.display))
+      return flatMap(
+        days,
+        day => flatMap(day.timeslots, ({ events }) => events),
+      )
         .filter((topic) => {
+          if (!topic || !topic.topic) {
+            return false;
+          }
+
           if (keys.has(topic.internal)) {
             return false;
           }
           keys.set(topic.internal, true);
           return true;
-        });
+        })
+        .sort((left, right) => left.display.localeCompare(right.display));
     });
 }
 
