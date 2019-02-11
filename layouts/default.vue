@@ -94,6 +94,8 @@
         class="navbar-menu"
       >
         <div class="navbar-start">
+
+          <!--
           <div
             :class="{ 'is-active': showAbout }"
             class="navbar-item has-dropdown"
@@ -121,6 +123,7 @@
               </nuxt-link>
             </div>
           </div>
+          -->
 
           <div
             :class="{ 'is-active': showArchive }"
