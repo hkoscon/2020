@@ -7,6 +7,10 @@
     &__social {
       background-color: #eee !important;
       padding: .8rem 1.5rem !important;
+      @include media("<=tablet") {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+      }
 
       &__section {
         display: flex;
