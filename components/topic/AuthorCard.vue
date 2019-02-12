@@ -25,7 +25,9 @@
           <p class="title is-4">
             {{ speaker.name }}
           </p>
-          <p class="subtitle is-5">{{ meta }}</p>
+          <p class="subtitle is-5">
+            {{ meta }}
+          </p>
         </div>
       </div>
       <div class="content">

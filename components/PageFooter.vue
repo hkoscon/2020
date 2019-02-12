@@ -1,12 +1,12 @@
 <style lang="scss">
   .pageFooter {
     &__copyright {
-      padding: 2rem 1.5rem !important;
+      padding: .8rem 1.5rem !important;
       font-size: .8rem;
     }
     &__social {
       background-color: #eee !important;
-      padding: 2rem 1.5rem !important;
+      padding: .8rem 1.5rem !important;
 
       &__section {
         display: flex;
@@ -47,7 +47,6 @@
 
       &__media {
         display: inline-block;
-        margin: 20px;
         vertical-align: top;
         max-width: 192px;
       }
@@ -64,50 +63,34 @@
             href="https://facebook.com/hkoscon/"
             class="pageFooter__social__link"
           >
-            <span class="icon is-large pageFooter__social__logo">
-              <i class="fa fa-facebook-square fa-3x pageFooter__social__fb" />
-            </span>
-            <span class="pageFooter__social__name">
-              Facebook
+            <span class="icon is-medium pageFooter__social__logo">
+              <i class="fa fa-facebook-square fa-2x pageFooter__social__fb" />
             </span>
           </a>
-          <p>Follow for latest update on Facebook</p>
         </div>
 
         <div class="pageFooter__social__media">
           <a href="https://twitter.com/hkoscon/" class="pageFooter__social__link">
-            <span class="icon is-large pageFooter__social__logo">
-              <i class="fa fa-twitter fa-3x pageFooter__social__twitter" />
-            </span>
-            <span class="pageFooter__social__name">
-              Twitter
+            <span class="icon is-medium pageFooter__social__logo">
+              <i class="fa fa-twitter fa-2x pageFooter__social__twitter" />
             </span>
           </a>
-          <p>Connect with @hkoscon on Twitter</p>
         </div>
 
         <div class="pageFooter__social__media">
           <a href="https://youtube.com/hkoscon" class="pageFooter__social__link">
-            <span class="icon is-large pageFooter__social__logo">
-              <i class="fa fa-youtube-play fa-3x pageFooter__social__youtube" />
-            </span>
-            <span class="pageFooter__social__name">
-              YouTube
+            <span class="icon is-medium pageFooter__social__logo">
+              <i class="fa fa-youtube-play fa-2x pageFooter__social__youtube" />
             </span>
           </a>
-          <p>Check out our videos.</p>
         </div>
 
         <div class="pageFooter__social__media">
           <a href="mailto:conference@opensource.hk" class="pageFooter__social__link">
-            <span class="icon is-large pageFooter__social__logo">
-              <i class="fa fa-envelope fa-3x" />
-            </span>
-            <span class="pageFooter__social__name">
-              Email
+            <span class="icon is-medium pageFooter__social__logo">
+              <i class="fa fa-envelope fa-2x" />
             </span>
           </a>
-          <p>Directly contact us by sending email</p>
         </div>
       </div>
     </div>
