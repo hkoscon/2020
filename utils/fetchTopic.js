@@ -3,7 +3,7 @@ import path from 'path';
 import url from 'url';
 import flatMap from 'lodash.flatmap';
 
-const uri = 'https://hkoscon.org/2018/data/timetable.json';
+const uri = process.env.TIMETABLE_URL || 'https://hkoscon.org/2018/data/timetable.json';
 
 export default function fetchDays() {
   return axios.get(uri)
