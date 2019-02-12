@@ -47,7 +47,7 @@
     &__social {
       margin-top: 1rem;
       &__link {
-        background-color: white;
+        background-color: rgba(255, 255, 255, .75);
         border-radius: 50%;
         margin: .5em;
         width: 2.5em;
