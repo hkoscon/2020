@@ -1,7 +1,10 @@
 <style lang="scss">
   .topicsPage {
-    &__list {
-      list-style: disc inside;
+    &__table {
+      margin-top: 1rem;
+    }
+    &__line {
+      font-size: 1.2rem;
     }
   }
 </style>
@@ -12,17 +15,23 @@
     <div class="section">
       <div class="container">
         <div class="content">
-          <p>Here is the list of topics being selected by the topics team.</p>
-          <ul class="topicsPage__list">
-            <li
-              v-for="topic in topics"
-              :key="topic.internal"
-            >
-              <topic-wrapper :event="topic">
-                <span>{{ topic.display }}</span>
-              </topic-wrapper>
-            </li>
-          </ul>
+          <p class="topicsPage__line">
+            This is the list of topics being selected by the program team.
+          </p>
+          <table class="table is-striped topicsPage__table">
+            <tbody>
+              <tr
+                v-for="topic in topics"
+                :key="topic.internal"
+              >
+                <td>
+                  <topic-wrapper :event="topic">
+                    <span>{{ topic.display }}</span>
+                  </topic-wrapper>
+                </td>
+              </tr>
+            </tbody>
+          </table>
         </div>
       </div>
     </div>
