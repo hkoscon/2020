@@ -2,6 +2,15 @@
   color: $theme-blue !important;;
 }
 
-.button.is-primary, .button.is-primary:hover {
-  color: $theme-blue;
+.button {
+  &.is-primary, &.is-primary:hover {
+    color: $theme-blue;
+  }
+  &.is-reverse {
+    background: $theme-blue;
+    color: $theme-yellow;
+  }
+  &.is-fab {
+    border-radius: 50%;
+  }
 }

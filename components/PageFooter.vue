@@ -28,7 +28,7 @@
       }
 
       &__twitter {
-        color: #5FA9DD;
+        color: #1CA1F2;
       }
 
       &__youtube {
