@@ -94,7 +94,6 @@
         class="navbar-menu"
       >
         <div class="navbar-start">
-
           <!--
           <div
             :class="{ 'is-active': showAbout }"

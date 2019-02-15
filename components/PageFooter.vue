@@ -74,7 +74,10 @@
         </div>
 
         <div class="pageFooter__social__media">
-          <a href="https://twitter.com/hkoscon/" class="pageFooter__social__link">
+          <a
+            href="https://twitter.com/hkoscon/"
+            class="pageFooter__social__link"
+          >
             <span class="icon is-medium pageFooter__social__logo">
               <i class="fa fa-twitter fa-2x pageFooter__social__twitter" />
             </span>
@@ -82,7 +85,10 @@
         </div>
 
         <div class="pageFooter__social__media">
-          <a href="https://youtube.com/hkoscon" class="pageFooter__social__link">
+          <a
+            href="https://youtube.com/hkoscon"
+            class="pageFooter__social__link"
+          >
             <span class="icon is-medium pageFooter__social__logo">
               <i class="fa fa-youtube-play fa-2x pageFooter__social__youtube" />
             </span>
@@ -90,7 +96,10 @@
         </div>
 
         <div class="pageFooter__social__media">
-          <a href="mailto:conference@opensource.hk" class="pageFooter__social__link">
+          <a
+            href="mailto:conference@opensource.hk"
+            class="pageFooter__social__link"
+          >
             <span class="icon is-medium pageFooter__social__logo">
               <i class="fa fa-envelope fa-2x" />
             </span>
@@ -100,7 +109,13 @@
     </div>
     <div class="footer pageFooter__copyright">
       <div class="content has-text-centered">
-        <p>This work is licensed under a <a href="http://creativecommons.org/licenses/by-sa/3.0/hk/" target="_blank" class="">Creative Commons Attribution-ShareAlike 3.0 Hong Kong License</a>. Logos and trademarks belong to their respective owners.</p>
+        <p>
+          This work is licensed under a <a
+            href="http://creativecommons.org/licenses/by-sa/3.0/hk/"
+            target="_blank"
+            class=""
+          >Creative Commons Attribution-ShareAlike 3.0 Hong Kong License</a>. Logos and trademarks belong to their respective owners.
+        </p>
       </div>
     </div>
   </footer>
