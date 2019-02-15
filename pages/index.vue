@@ -107,8 +107,8 @@
 <template>
   <main class="homePage">
     <div
-      class="tile is-parent is-transparent homePage__cover"
       :style="{backgroundImage}"
+      class="tile is-parent is-transparent homePage__cover"
     >
       <div class="tile is-child homePage__cover__inner">
         <figure class="image is-square homePage__logo">
