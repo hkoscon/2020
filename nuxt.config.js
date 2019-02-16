@@ -106,7 +106,7 @@ module.exports = {
   manifest: require('./manifest.json'),
   workbox: {
     dev: process.env.NODE_ENV !== 'production',
-    offlineAssets: [`${publicPath}/images/banner.jpg`, `${publicPath}/images/bg.jpg`],
+    offlineAssets: [`${publicPath}/images/banner.jpg`, `${publicPath}/images/bg.jpg`, `${publicPath}/data/timetable.json`],
   },
 
   sitemap: {
