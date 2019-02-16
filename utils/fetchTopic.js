@@ -6,7 +6,7 @@ import flatMap from 'lodash.flatmap';
 const uri = process.env.TIMETABLE_URL || 'https://hkoscon.org/2018/data/timetable.json';
 
 export default function fetchDays() {
-  return axios.get(uri)
+  return axios.get(process.client && process.env.NODE_ENV === 'production' ? process.env.PUBLIC_TIMETABLE_URL : uri)
     .then(({ data: { days } }) => ({ days }));
 }
 

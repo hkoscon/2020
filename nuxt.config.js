@@ -90,6 +90,7 @@ module.exports = {
   env: {
     PUBLIC_PATH: publicPath,
     publicPath,
+    PUBLIC_TIMETABLE_URL: process.env.PUBLIC_TIMETABLE_URL || `${publicPath}/data/timetable.json`,
   },
   modules: [
     // eslint-disable-next-line global-require
