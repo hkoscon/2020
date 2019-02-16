@@ -231,6 +231,7 @@ export default {
     return {
       canSave: true,
       shareModal: false,
+      hostname: 'hkoscon.org',
     };
   },
   computed: {
@@ -250,9 +251,9 @@ export default {
       return `https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(shareUrl)}`;
     },
   },
-  asyncData({ params: { topic }, error, req }) {
+  asyncData({ params: { topic }, error }) {
     return fetchTopicById(topic)
-      .then(t => ({ topic: t, id: topic, hostname: req.headers.host }) || error(404));
+      .then(t => ({ topic: t, id: topic }) || error(404));
   },
   mounted() {
     this.hostname = window.location.host;
