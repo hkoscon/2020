@@ -17,11 +17,10 @@
     &__meta {
       margin-top: .6rem;
       margin-bottom: .6rem;
-    }
-
-    &__meta__text {
-      display: inline-block;
-      vertical-align: middle;
+      &__text {
+        display: inline-block;
+        vertical-align: middle;
+      }
     }
 
     &__description {
@@ -34,6 +33,9 @@
         margin-left: 3rem !important;
         padding-top: .8rem !important;
         padding-bottom: .8rem !important;
+        @include media("<=tablet") {
+          margin-left: 0 !important;
+        }
       }
     }
 
