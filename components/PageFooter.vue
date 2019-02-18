@@ -86,7 +86,7 @@
 
         <div class="pageFooter__social__media">
           <a
-            href="https://youtube.com/hkoscon"
+            href="https://www.youtube.com/channel/UC8yt48pXALiBm8HEo3tl3FQ"
             class="pageFooter__social__link"
           >
             <span class="icon is-medium pageFooter__social__logo">
