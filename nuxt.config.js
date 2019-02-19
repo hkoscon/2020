@@ -1,3 +1,5 @@
+import { fetchTopics, topicSlug } from './utils/fetchTopic';
+
 const publicPath = (process.env.PUBLIC_PATH || '/2019').replace(/\/$/, '');
 
 // Declare process.env.publicPath to
@@ -6,6 +8,11 @@ process.env.publicPath = publicPath;
 
 // A little hint for debug
 console.log(`publicPath: "${publicPath}"`);
+
+function fetchTopicUrl() {
+  return fetchTopics()
+    .then(topics => topics.map(topic => `/topic/${topicSlug(topic)}`));
+}
 
 module.exports = {
   /*
@@ -76,15 +83,20 @@ module.exports = {
   },
   generate: {
     dir: 'public',
+    routes() {
+      return fetchTopicUrl();
+    },
   },
   env: {
     PUBLIC_PATH: publicPath,
     publicPath,
+    PUBLIC_TIMETABLE_URL: process.env.PUBLIC_TIMETABLE_URL || `${publicPath}/data/timetable.json`,
   },
   modules: [
     // eslint-disable-next-line global-require
     '@nuxtjs/manifest',
     '~/modules/workbox/module.js',
+    '@nuxtjs/sitemap',
   ],
 
   /**
@@ -94,6 +106,14 @@ module.exports = {
   manifest: require('./manifest.json'),
   workbox: {
     dev: process.env.NODE_ENV !== 'production',
-    offlineAssets: [`${publicPath}/images/banner.jpg`, `${publicPath}/images/bg.jpg`],
+    offlineAssets: [`${publicPath}/images/banner.jpg`, `${publicPath}/images/bg.jpg`, `${publicPath}/data/timetable.json`],
+  },
+
+  sitemap: {
+    hostname: 'https://hkoscon.org/2019/',
+    generate: true,
+    routes() {
+      return fetchTopicUrl();
+    },
   },
 };

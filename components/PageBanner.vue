@@ -16,8 +16,8 @@
 
 <template>
   <section
-    class="hero is-medium pageBanner"
     :style="{backgroundImage}"
+    class="hero is-medium pageBanner"
   >
     <div class="hero-body pageBanner__overlay">
       <div class="container">

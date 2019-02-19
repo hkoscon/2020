@@ -17,7 +17,7 @@ lint:
 pages:
   stage: deploy
   script:
-    - yarn generate
+    - bash script/build.sh
     - bash script/deploy.sh
   artifacts:
     paths:

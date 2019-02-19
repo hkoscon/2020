@@ -41,8 +41,8 @@
 <template>
   <div
     :class="{ 'tabItem--active': active }"
-    class="tabItem"
     @click="$emit('click')"
+    class="tabItem"
   >
     <div class="tabItem__content">
       <span>Day {{ day.day }} ({{ day.date }})</span>

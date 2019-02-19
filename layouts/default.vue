@@ -56,12 +56,15 @@
 </style>
 
 <template>
-  <div class="defaultLayout" @click="handleClick">
+  <div
+    @click="handleClick"
+    class="defaultLayout"
+  >
     <nav
+      @click.stop=""
       class="navbar defaultLayout__navbar"
       role="navigation"
       aria-label="main navigation"
-      @click.stop=""
     >
       <div class="navbar-brand">
         <nuxt-link
@@ -75,11 +78,11 @@
 
         <a
           :class="{ 'is-active': showNavbar }"
+          @click="toggleNavbar"
           role="button"
           class="navbar-burger defaultLayout__burger"
           aria-label="menu"
           aria-expanded="false"
-          @click="toggleNavbar"
         >
           <span aria-hidden="true" />
           <span aria-hidden="true" />
@@ -91,30 +94,29 @@
         class="navbar-menu"
       >
         <div class="navbar-start">
-
           <!--
           <div
-            class="navbar-item has-dropdown"
             :class="{ 'is-active': showAbout }"
+            class="navbar-item has-dropdown"
           >
             <span
-              class="navbar-link"
               @click="showAbout = !showAbout"
+              class="navbar-link"
             >
               Organizer
             </span>
             <div class="navbar-dropdown">
               <nuxt-link
+                @click.native="showAbout = false"
                 to="/about/committee"
                 class="navbar-item"
-                @click.native="showAbout = false"
               >
                 Organizing Committee
               </nuxt-link>
               <nuxt-link
+                @click.native="showAbout = false"
                 to="/about/coc"
                 class="navbar-item"
-                @click.native="showAbout = false"
               >
                 Code of Conduct
               </nuxt-link>
@@ -123,12 +125,12 @@
           -->
 
           <div
-            class="navbar-item has-dropdown"
             :class="{ 'is-active': showArchive }"
+            class="navbar-item has-dropdown"
           >
             <span
-              class="navbar-link"
               @click="showArchive = !showArchive"
+              class="navbar-link"
             >
               Archive
             </span>
@@ -188,53 +190,16 @@
       </div>
     </nav>
     <nuxt />
-    <footer class="footer defaultLayout__footer">
-      <div class="content has-text-centered">
-        <p>
-          <a href="https://facebook.com/hkoscon/">
-            <span class="icon">
-              <i class="fa fa-facebook" />
-            </span>
-          </a>
-
-          <a href="https://facebook.com/hkoscon/">
-            <span class="icon">
-              <i class="fa fa-twitter" />
-            </span>
-          </a>
-
-          <a href="mailto:conference@opensource.hk">
-            <span class="icon">
-              <i class="fa fa-envelope" />
-            </span>
-          </a>
-        </p>
-        <p>
-          <a
-            href="http://creativecommons.org/licenses/by-sa/3.0/hk/"
-            target="_blank"
-          >
-            <img src="https://licensebuttons.net/l/by-sa/3.0/hk/88x31.png">
-          </a>
-        </p>
-        <p>
-          This work is licensed under a
-          <a
-            href="http://creativecommons.org/licenses/by-sa/3.0/hk/"
-            target="_blank"
-          >
-            Creative Commons Attribution-ShareAlike 3.0 Hong Kong License
-          </a>.
-        </p>
-        <p>Logos and trademarks belong to their respective owners.</p>
-      </div>
-    </footer>
+    <page-footer />
   </div>
 </template>
 
 <script>
 export default {
   name: 'DefaultLayout',
+  components: {
+    PageFooter: () => import('~/components/PageFooter.vue'),
+  },
   data() {
     return {
       showNavbar: false,
