@@ -274,7 +274,7 @@ export default {
     },
     plurkShareLink() {
       const shareUrl = `${this.shareLink}&utm_source=plurk`;
-      const text = `${this.speakers} in going to deliver ${this.topic.display} in HKOSCon 2019 (${shareUrl})`;
+      const text = `${shareUrl} (${this.topic.display} | Hoog Kong Open Source Conference)`;
       return `http://www.plurk.com/?qualifier=shares&status=${encodeURIComponent(text)}`;
     },
   },
