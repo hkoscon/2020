@@ -64,7 +64,6 @@
         border-width: 1px;
         border-radius: 4px;
         vertical-align: middle;
-        margin: 0;
         display: inline-block;
         text-align: center;
         margin: .5rem;
