@@ -160,13 +160,13 @@
                 HKOSCon 2015
               </a>
               <a
-                href="https://2014.opensource.hk/"
+                href="/2014/"
                 class="navbar-item"
               >
                 HKOSCon 2014
               </a>
               <a
-                href="https://2013.opensource.hk/"
+                href="/2013/"
                 class="navbar-item"
               >
                 HKOSCon 2013
