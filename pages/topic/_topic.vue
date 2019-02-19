@@ -66,6 +66,10 @@
         margin: 0;
         display: inline-block;
         text-align: center;
+        &__logo {
+          width: 2em;
+          height: 2em;
+        }
         &--twitter {
           color: #1CA1F2;
           will-change: background-color, color;
@@ -85,6 +89,13 @@
           color: #E30B2B;
           &:hover {
             background-color: #E30B2B;
+            color: white;
+          }
+        }
+        &--plurk {
+          color: #FF574D;
+          &:hover {
+            background-color: #FF574D;
             color: white;
           }
         }
@@ -156,6 +167,15 @@
                     <span class="icon is-medium">
                       <i class="fa fa-pinterest fa-2x" />
                     </span>
+                  </a>
+                  <a
+                    :href="plurkShareLink"
+                    target="_blank"
+                    class="topicPage__share__button topicPage__share__button--plurk"
+                  >
+                    <figure class="image topicPage__share__button__logo">
+                      <img src="https://s.plurk.com/0fb4e821ff17e6c109ad18afe0002cdd.png">
+                    </figure>
                   </a>
                 </div>
               </div>
@@ -251,6 +271,11 @@ export default {
     linkedInShareLink() {
       const shareUrl = `${this.shareLink}&utm_source=linkedin`;
       return `https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(shareUrl)}`;
+    },
+    plurkShareLink() {
+      const shareUrl = `${this.shareLink}&utm_source=plurk`;
+      const text = `${this.speakers} in going to deliver ${this.topic.display} in HKOSCon 2019`;
+      return `http://www.plurk.com/?qualifier=shares&status=${encodeURIComponent(shareUrl)}(${encodeURIComponent(text)})`;
     },
   },
   asyncData({ params: { topic }, error }) {
