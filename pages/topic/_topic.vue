@@ -56,6 +56,7 @@
       justify-content: space-evenly;
       max-width: 500px;
       margin: 0 auto;
+      flex-wrap: wrap;
       &__button {
         background-color: #eee;
         padding: 1.7rem;
@@ -66,6 +67,7 @@
         margin: 0;
         display: inline-block;
         text-align: center;
+        margin: .5rem;
         &__logo {
           width: 2em;
           height: 2em;
