@@ -1,7 +1,9 @@
 const base = require('../manifest.json');
 
-base.start_url = process.env.PUBLIC_PATH;
-base.publicPath = process.env.PUBLIC_PATH;
-base.scope = process.env.PUBLIC_PATH;
+const publicUrl = `${process.env.PUBLIC_PATH}/`;
+
+base.start_url = publicUrl;
+base.publicPath = publicUrl;
+base.scope = publicUrl;
 
 module.exports = base;
