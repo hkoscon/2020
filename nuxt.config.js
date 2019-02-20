@@ -103,7 +103,7 @@ module.exports = {
    * PWA related config
    */
   // eslint-disable-next-line global-require
-  manifest: require('./manifest.json'),
+  manifest: require('./utils/manifest'),
   workbox: {
     dev: process.env.NODE_ENV !== 'production',
     offlineAssets: [`${publicPath}/images/banner.jpg`, `${publicPath}/images/bg.jpg`, `${publicPath}/data/timetable.json`],

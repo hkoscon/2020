@@ -56,6 +56,7 @@
       justify-content: space-evenly;
       max-width: 500px;
       margin: 0 auto;
+      flex-wrap: wrap;
       &__button {
         background-color: #eee;
         padding: 1.7rem;
@@ -63,9 +64,13 @@
         border-width: 1px;
         border-radius: 4px;
         vertical-align: middle;
-        margin: 0;
         display: inline-block;
         text-align: center;
+        margin: .5rem;
+        &__logo {
+          width: 2em;
+          height: 2em;
+        }
         &--twitter {
           color: #1CA1F2;
           will-change: background-color, color;
@@ -85,6 +90,13 @@
           color: #E30B2B;
           &:hover {
             background-color: #E30B2B;
+            color: white;
+          }
+        }
+        &--plurk {
+          color: #FF574D;
+          &:hover {
+            background-color: #FF574D;
             color: white;
           }
         }
@@ -156,6 +168,15 @@
                     <span class="icon is-medium">
                       <i class="fa fa-pinterest fa-2x" />
                     </span>
+                  </a>
+                  <a
+                    :href="plurkShareLink"
+                    target="_blank"
+                    class="topicPage__share__button topicPage__share__button--plurk"
+                  >
+                    <figure class="image topicPage__share__button__logo">
+                      <img src="https://s.plurk.com/0fb4e821ff17e6c109ad18afe0002cdd.png">
+                    </figure>
                   </a>
                 </div>
               </div>
@@ -251,6 +272,11 @@ export default {
     linkedInShareLink() {
       const shareUrl = `${this.shareLink}&utm_source=linkedin`;
       return `https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(shareUrl)}`;
+    },
+    plurkShareLink() {
+      const shareUrl = `${this.shareLink}&utm_source=plurk`;
+      const text = `${shareUrl} (${this.topic.display} | Hoog Kong Open Source Conference)`;
+      return `http://www.plurk.com/?qualifier=shares&status=${encodeURIComponent(text)}`;
     },
   },
   asyncData({ params: { topic }, error }) {
