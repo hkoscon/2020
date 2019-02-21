@@ -180,15 +180,6 @@ module.exports = function nuxtWorkbox(moduleOptions) {
 
   let options;
 
-  const hook = () => {
-    debug('Adding workbox');
-    options = getOptions.call(this, moduleOptions);
-    workboxInject.call(this, options);
-    setHeaders.call(this, options);
-    emitAssets.call(this, options);
-    addTemplates.call(this, options);
-  };
-
   // Get client output path (#83)
   this.extendBuild((config, { isClient }) => {
     if (!isClient) {
@@ -204,5 +195,12 @@ module.exports = function nuxtWorkbox(moduleOptions) {
     }
   });
 
-  this.nuxt.hook('build:before', hook);
+  this.nuxt.hook('build:before', () => {
+    debug('Adding workbox');
+    options = getOptions.call(this, moduleOptions);
+    workboxInject.call(this, options);
+    setHeaders.call(this, options);
+    emitAssets.call(this, options);
+    addTemplates.call(this, options);
+  });
 };
