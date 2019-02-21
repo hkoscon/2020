@@ -5,4 +5,6 @@ set -xe
 mkdir -p static/data
 curl -o static/data/timetable.json $TIMETABLE_URL
 yarn generate
-ls -l static
+if [ ! -f public/sw.js ]; then
+  cp static/sw.js public/sw.js
+fi
