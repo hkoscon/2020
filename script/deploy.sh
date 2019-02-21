@@ -35,7 +35,7 @@ git fetch && git reset origin/gh-pages
 touch .
 
 git add -A .
-git commit -m "$GIT_COMMIT_MESSAGE"
+git commit --allow-empty -m "$GIT_COMMIT_MESSAGE"
 git push -q origin HEAD:gh-pages
 
 rm -rf .git
