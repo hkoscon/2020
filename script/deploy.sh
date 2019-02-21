@@ -23,8 +23,8 @@ fi
 # branch for direct GitHub deploy or mirroring deploy
 # of GitHub Pages.
 
-ls public
 cd public
+rm .gitignore
 
 git init
 git config user.name "$GIT_USER_NAME"
