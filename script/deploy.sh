@@ -23,6 +23,7 @@ fi
 # branch for direct GitHub deploy or mirroring deploy
 # of GitHub Pages.
 
+ls public
 cd public
 
 git init
