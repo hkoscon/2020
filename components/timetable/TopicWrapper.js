@@ -1,3 +1,5 @@
+import url from 'url';
+
 export default {
   functional: true,
   props: {
@@ -10,8 +12,8 @@ export default {
     if (!props.event.topic) {
       return slots().default[0];
     }
-    const url = new URL(props.event.internal);
-    const to = url.pathname.replace('/event/', '/topic/');
+    const u = url.parse(props.event.internal);
+    const to = u.pathname.replace('/event/', '/topic/');
     return h('nuxt-link', { props: { to }, staticClass: 'topicWrapper' }, children);
   },
 };

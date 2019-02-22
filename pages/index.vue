@@ -47,7 +47,7 @@
     &__social {
       margin-top: 1rem;
       &__link {
-        background-color: white;
+        background-color: rgba(255, 255, 255, .75);
         border-radius: 50%;
         margin: .5em;
         width: 2.5em;
@@ -107,8 +107,8 @@
 <template>
   <main class="homePage">
     <div
-      class="tile is-parent is-transparent homePage__cover"
       :style="{backgroundImage}"
+      class="tile is-parent is-transparent homePage__cover"
     >
       <div class="tile is-child homePage__cover__inner">
         <figure class="image is-square homePage__logo">
