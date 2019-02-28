@@ -2,6 +2,14 @@
 # yarn lockfile v1
 
 
+"@404busters/nuxt-generate-workbox@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@404busters/nuxt-generate-workbox/-/nuxt-generate-workbox-1.0.0.tgz#b7337b6b8d44d0f53634b1d9b567fb2c9861cf9a"
+  integrity sha512-6uFXvmcMg30bv5AIy8qvhzfz6eRlVhQeDm7cf8kfgfRQ4SUPd2gIz2/vm5oqPbvCfkBwYabAX21VfvwlsN453Q==
+  dependencies:
+    debug "^4.1.1"
+    workbox-build "^4.0.0"
+
 "@babel/code-frame@^7.0.0":
   version "7.0.0"
   resolved "https://registry.yarnpkg.com/@babel/code-frame/-/code-frame-7.0.0.tgz#06e2ab19bdb535385559aabb5ba59729482800f8"

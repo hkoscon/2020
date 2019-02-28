@@ -98,7 +98,7 @@ module.exports = {
   modules: [
     // eslint-disable-next-line global-require
     '@nuxtjs/manifest',
-    '~/modules/workbox/module.js',
+    '@404busters/nuxt-generate-workbox',
     '@nuxtjs/sitemap',
   ],
 
