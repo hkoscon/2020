@@ -110,6 +110,12 @@ module.exports = {
   workbox: {
     dev: process.env.NODE_ENV !== 'production',
     offlineAssets: [`${publicPath}/images/banner.jpg`, `${publicPath}/images/bg.jpg`, `${publicPath}/data/timetable.json`],
+    plugin: {
+      enabled: true,
+    },
+    generate: {
+      cacheId: 'hkoscon-2019',
+    },
   },
 
   sitemap: {

@@ -5,7 +5,7 @@ if ('serviceWorker' in navigator) {
     window.$sw = registration
   }).catch(function(error) {
     console.error('Service worker registration failed:', error)
-  })
+  });
 } else {
-  console.warn('Service workers are not supported.')
+  console.warn('Service workers are not supported.');
 }

@@ -2,4 +2,4 @@
 dist
 public
 static/sw.*
-modules/workbox/sw.*.js
+modules/workbox/template
