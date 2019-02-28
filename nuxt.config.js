@@ -24,11 +24,14 @@ module.exports = {
       { charset: 'utf-8' },
       { 'http-equiv': 'X-UA-Compatible', content: 'IE=edge' },
       { name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no' },
-      { hid: 'description', name: 'description', content: 'Hong Kong Open Source Conference is the biggest annual open source event in Hong Kong' },
+      { hid: 'description', name: 'description', content: 'Hong Kong Open Source Conference is the biggest annual open source event in Hong Kong. Hong Kong Open Source Conference 2019 is going to held on 14 - 15 Jun, 2019 (Fri - Sat) at Hong Kong Science Park' },
       { hid: 'theme-color', name: 'theme-color', content: '#294454' },
-
-      // og tag
-      { name: 'author', content: 'Hong Kong Open Source Conference 2019' },
+      { hid: 'author', name: 'author', content: 'Team 404 Busters' },
+      { hid: 'og:title', name: 'og:title', content: 'Hong Kong Open Source Conference 2019' },
+      { hid: 'og:site_name', name: 'og:site_name', content: 'Hong Kong Open Source Conference 2019' },
+      { hid: 'og:type', name: 'og:type', content: 'website' },
+      { hid: 'og:image', name: 'og:image', content: 'https://hkoscon.org/logo.png' },
+      { hid: 'description', name: 'description', content: 'Hong Kong Open Source Conference is the biggest annual open source event in Hong Kong. Hong Kong Open Source Conference 2019 is going to held on 14 - 15 Jun, 2019 (Fri - Sat) at Hong Kong Science Park' },
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: 'https://hkoscon.org/favicon.ico' },

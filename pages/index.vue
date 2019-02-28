@@ -122,14 +122,14 @@
             <i class="material-icons">
               calendar_today
             </i>
-          </span> Jun, 2019
+          </span> 14 - 15 Jun, 2019 (Fri - Sat)
         </p>
         <p class="has-text-primary homePage__cover__text">
           <span class="icon">
             <i class="material-icons">
               add_location
             </i>
-          </span> TBC
+          </span> Hong Kong Science Park, Shatin
         </p>
         <div class="homePage__social">
           <a
