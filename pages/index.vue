@@ -129,7 +129,7 @@
             <i class="material-icons">
               add_location
             </i>
-          </span> Hong Kong Science Park, Shatin
+          </span> Convention Centre 2, Hong Kong Science Park, Shatin
         </p>
         <div class="homePage__social">
           <a
