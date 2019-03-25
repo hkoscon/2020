@@ -83,3 +83,6 @@ dist
 
 .DS_Store
 public
+
+# Generated static data
+/static/data
