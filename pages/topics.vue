@@ -1,37 +1,66 @@
 <style lang="scss">
   .topicsPage {
-    &__table {
-      margin-top: 1rem;
-    }
-    &__line {
+    .content p {
       font-size: 1.2rem;
+      margin: 1em 0;
+    }
+    .topics {
+      margin: 1em 0;
+      ul {
+        list-style-type: none;
+        padding: 0;
+        li {
+          padding: 0;
+          margin: 0;
+          a {
+            display: block;
+            padding: 0.5em 1em;
+            background: rgba(0, 0, 0, 0.1);
+            text-decoration: none;
+            color: rgba(0, 0, 0, 1);
+            transition: opacity 0.3s;
+          }
+          a:hover {
+            opacity: 0.7;
+          }
+          &:nth-child(even) {
+            a{
+              background: rgba(0, 0, 0, 0.05);
+            }
+          }
+        }
+      }
     }
   }
 </style>
 
 <template>
-  <main>
+  <main class="topicsPage">
     <page-banner title="Topics" />
     <div class="section">
       <div class="container">
         <div class="content">
-          <p class="topicsPage__line">
-            This is the list of topics being selected by the program team.
+          <p>
+            We are pleased to announce the CFP results. We have received 60 submissions before our deadline March 4. The volunteers in our Program Committee had a hard time to shortlist them to fit in our agenda.
           </p>
-          <table class="table is-striped topicsPage__table">
-            <tbody>
-              <tr
+          <p>
+            Here is the list of the accepted CFP topics, along with some invited sessions & confirmed sponsor sessions:
+          </p>
+          <div class="topics">
+            <ul>
+              <li
                 v-for="topic in topics"
                 :key="topic.internal"
               >
-                <td>
-                  <topic-wrapper :event="topic">
-                    <span>{{ topic.display }}</span>
-                  </topic-wrapper>
-                </td>
-              </tr>
-            </tbody>
-          </table>
+                <topic-wrapper :event="topic">
+                  <span>{{ topic.display }}</span>
+                </topic-wrapper>
+              </li>
+            </ul>
+          </div>
+          <p>
+            If your topic is not selected, don't worry. You may still share your topic in our Unconference Session on Day 2 (Saturday).
+          </p>
         </div>
       </div>
     </div>
