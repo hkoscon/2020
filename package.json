@@ -21,6 +21,7 @@
     "nuxt": "^2.2.0"
   },
   "devDependencies": {
+    "@404busters/nuxt-generate-workbox": "^1.0.0",
     "@nuxtjs/manifest": "^2.6.0",
     "babel-eslint": "^10.0.0",
     "eslint": "^5.9.0",
@@ -38,6 +39,6 @@
     "url-loader": "^1.1.2",
     "vue-eslint-parser": "^6.0.0",
     "webpack": "^4.23.1",
-    "workbox-build": "^3.6.3"
+    "workbox-build": "^4.0.0"
   }
 }
