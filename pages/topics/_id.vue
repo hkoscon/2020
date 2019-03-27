@@ -114,6 +114,7 @@
             {{ topic.display }}
           </h1>
           <div class="topicPage__actions">
+            <!--
             <button class="button is-reverse is-fab">
               <span
                 v-if="canSave"
@@ -122,6 +123,7 @@
                 <i class="material-icons topicPage__bookmark" />
               </span>
             </button>
+            -->
             <button
               @click="shareModal = true"
               class="button is-reverse is-fab"
@@ -192,6 +194,7 @@
     </section>
     <section class="section topicPage__section topicPage__section--meta">
       <div class="container">
+        <!--
         <div class="topicPage__meta">
           <i class="material-icons topicPage__icon">
             event
@@ -208,6 +211,7 @@
             {{ topic.venue.name || '' }}
           </span>
         </div>
+        -->
         <div class="topicPage__meta">
           <i class="material-icons topicPage__icon">
             comment
@@ -243,10 +247,37 @@
 </template>
 
 <script>
+import striptags from 'striptags';
 import { fetchTopicById } from '../../utils/fetchTopic';
+
+function truncStr(str, n) {
+  return (str.length > n) ? `${str.substr(0, n - 1)}...` : str;
+}
 
 export default {
   name: 'TopicPage',
+  head() {
+    const title = `${this.topic.display} | Hong Kong Open Source Conference 2019`;
+    const description = truncStr(striptags(this.topic.description).replace(/[\n\r]+/, ' '), 250);
+    let image = '';
+    image = this.topic.speakers.reduce((accumulator, currentValue) => {
+      if (typeof currentValue.thumbnail !== 'undefined' && currentValue.thumbnail !== '') {
+        return currentValue.thumbnail;
+      }
+      return accumulator;
+    }, image);
+    if (image === '') {
+      image = 'https://hkoscon.org/logo.png';
+    }
+    return {
+      title,
+      meta: [
+        { hid: 'og:title', property: 'og:title', content: title },
+        { hid: 'description', name: 'description', content: description },
+        { hid: 'og:image', property: 'og:image', content: image },
+      ],
+    };
+  },
   components: {
     AuthorCard: () => import('~/components/topic/AuthorCard.vue'),
   },
@@ -279,9 +310,9 @@ export default {
       return `http://www.plurk.com/?qualifier=shares&status=${encodeURIComponent(text)}`;
     },
   },
-  asyncData({ params: { topic }, error }) {
-    return fetchTopicById(topic)
-      .then(t => ({ topic: t, id: topic }) || error(404));
+  asyncData({ params: { id }, error }) {
+    return fetchTopicById(id)
+      .then(topic => ({ topic, id }) || error(404));
   },
   mounted() {
     this.hostname = window.location.host;
