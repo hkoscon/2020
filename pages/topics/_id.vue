@@ -114,6 +114,7 @@
             {{ topic.display }}
           </h1>
           <div class="topicPage__actions">
+            <!--
             <button class="button is-reverse is-fab">
               <span
                 v-if="canSave"
@@ -122,6 +123,7 @@
                 <i class="material-icons topicPage__bookmark" />
               </span>
             </button>
+            -->
             <button
               @click="shareModal = true"
               class="button is-reverse is-fab"
@@ -192,6 +194,7 @@
     </section>
     <section class="section topicPage__section topicPage__section--meta">
       <div class="container">
+        <!--
         <div class="topicPage__meta">
           <i class="material-icons topicPage__icon">
             event
@@ -208,6 +211,7 @@
             {{ topic.venue.name || '' }}
           </span>
         </div>
+        -->
         <div class="topicPage__meta">
           <i class="material-icons topicPage__icon">
             comment
