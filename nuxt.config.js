@@ -95,6 +95,7 @@ module.exports = {
     publicPath,
     PUBLIC_TIMETABLE_URL: process.env.PUBLIC_TIMETABLE_URL || `${publicPath}/data/timetable.json`,
     TIMETABLE_URL: process.env.TIMETABLE_URL || 'https://hkoscon.org/2018/data/timetable.json',
+    NUXT_MODE: process.env.NUXT_MODE,
   },
   modules: [
     // eslint-disable-next-line global-require

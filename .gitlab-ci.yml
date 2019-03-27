@@ -4,6 +4,9 @@ cache:
   paths:
     - node_modules/
 
+variables:
+  NUXT_MODE: generate
+
 install:
   stage: build
   script:
