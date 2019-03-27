@@ -3,8 +3,6 @@ import path from 'path';
 import url from 'url';
 import flatMap from 'lodash.flatmap';
 
-const uri = process.env.TIMETABLE_URL;
-
 export default function fetchDays() {
   // Use import local data
   if (process.server && process.env.NUXT_MODE === 'generate') {
@@ -12,7 +10,7 @@ export default function fetchDays() {
     return Promise.resolve(require('../static/data/timetable.json'));
   }
 
-  return axios.get(process.client && process.env.NODE_ENV === 'production' ? process.env.PUBLIC_TIMETABLE_URL : uri)
+  return axios.get(process.client && process.env.NODE_ENV === 'production' ? process.env.PUBLIC_TIMETABLE_URL : process.env.TIMETABLE_URL)
     .then(({ data: { days } }) => ({ days }));
 }
 
