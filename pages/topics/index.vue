@@ -71,6 +71,10 @@ export default {
   name: 'TopicsPage',
   head: {
     title: 'Topics | Hong Kong Open Source Conference 2019',
+    meta: [
+      { hid: 'og:title', name: 'og:title', content: 'Topics | Hong Kong Open Source Conference 2019' },
+      { hid: 'description', name: 'description', content: 'We are pleased to announce the CFP results. We have received 60 submissions before our deadline March 4...' },
+    ],
   },
   components: {
     PageBanner: () => import('~/components/PageBanner.vue'),
