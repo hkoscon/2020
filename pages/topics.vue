@@ -58,9 +58,6 @@
               </li>
             </ul>
           </div>
-          <p>
-            If your topic is not selected, don't worry. You may still share your topic in our Unconference Session on Day 2 (Saturday).
-          </p>
         </div>
       </div>
     </div>
