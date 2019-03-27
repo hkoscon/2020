@@ -19,13 +19,25 @@ audit:
   script:
     - yarn audit
 
-pages:
+# Build and deploy to GitHub pages.
+ghpages:deploy:
   stage: deploy
   script:
     - bash script/build.sh
     - bash script/deploy.sh
+  only:
+    - master
+
+# Build and deploy to GitLab pages.
+pages:
+  stage: deploy
+  script:
+    # dynamically generate the PUBLIC_PATH from
+    # the Gitlab CI environment variable.
+    - export PUBLIC_PATH=$(echo $CI_PAGES_URL | sed -E 's#^(http|https)://[[:alnum:]\.-\_]+(/.+)$#\2#g')
+    - bash script/build.sh
   artifacts:
     paths:
       - public
   only:
-    - master
+   - master
