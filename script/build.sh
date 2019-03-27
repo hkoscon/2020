@@ -4,4 +4,4 @@ set -xe
 
 mkdir -p static/data
 curl -o static/data/timetable.json $TIMETABLE_URL
-yarn generate
+NUXT_MODE=generate yarn generate
