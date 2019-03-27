@@ -13,7 +13,7 @@ export default {
       return slots().default[0];
     }
     const u = url.parse(props.event.internal);
-    const to = u.pathname.replace('/event/', '/topic/');
+    const to = u.pathname.replace('/event/', '/topics/');
     return h('nuxt-link', { props: { to }, staticClass: 'topicWrapper' }, children);
   },
 };

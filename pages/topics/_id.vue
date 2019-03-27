@@ -279,9 +279,9 @@ export default {
       return `http://www.plurk.com/?qualifier=shares&status=${encodeURIComponent(text)}`;
     },
   },
-  asyncData({ params: { topic }, error }) {
-    return fetchTopicById(topic)
-      .then(t => ({ topic: t, id: topic }) || error(404));
+  asyncData({ params: { id }, error }) {
+    return fetchTopicById(id)
+      .then(topic => ({ topic, id }) || error(404));
   },
   mounted() {
     this.hostname = window.location.host;
