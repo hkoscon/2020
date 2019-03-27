@@ -124,6 +124,12 @@
           </div>
           -->
           <nuxt-link
+            to="/cfc"
+            class="navbar-item"
+          >
+            Communities
+          </nuxt-link>
+          <nuxt-link
             to="/topics"
             class="navbar-item"
           >
