@@ -247,10 +247,38 @@
 </template>
 
 <script>
+import striptags from 'striptags';
 import { fetchTopicById } from '../../utils/fetchTopic';
+
+function truncStr(str, n) {
+  return (str.length > n) ? `${str.substr(0, n - 1)}...` : str;
+}
 
 export default {
   name: 'TopicPage',
+  head() {
+    const title = `${this.topic.display} | Hong Kong Open Source Conference 2019`;
+    const description = truncStr(striptags(this.topic.description).replace(/[\n\r]+/, ' '), 250);
+    let image = '';
+    image = this.topic.speakers.reduce((accumulator, currentValue) => {
+      if (typeof currentValue.thumbnail !== 'undefined' && currentValue.thumbnail !== '') {
+        console.log('currentValue.thumbnail', currentValue.thumbnail);
+        return currentValue.thumbnail;
+      }
+      return accumulator;
+    }, image);
+    if (image === '') {
+      image = 'https://hkoscon.org/logo.png';
+    }
+    return {
+      title,
+      meta: [
+        { hid: 'og:title', name: 'og:title', content: title },
+        { hid: 'description', name: 'description', content: description },
+        { hid: 'og:image', name: 'og:image', content: image },
+      ],
+    };
+  },
   components: {
     AuthorCard: () => import('~/components/topic/AuthorCard.vue'),
   },

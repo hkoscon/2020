@@ -69,6 +69,9 @@ import { fetchTopics } from '../../utils/fetchTopic';
 
 export default {
   name: 'TopicsPage',
+  head: {
+    title: 'Topics | Hong Kong Open Source Conference 2019',
+  },
   components: {
     PageBanner: () => import('~/components/PageBanner.vue'),
     TopicWrapper: () => import('~/components/timetable/TopicWrapper'),
