@@ -262,7 +262,6 @@ export default {
     let image = '';
     image = this.topic.speakers.reduce((accumulator, currentValue) => {
       if (typeof currentValue.thumbnail !== 'undefined' && currentValue.thumbnail !== '') {
-        console.log('currentValue.thumbnail', currentValue.thumbnail);
         return currentValue.thumbnail;
       }
       return accumulator;
