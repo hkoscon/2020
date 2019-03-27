@@ -272,9 +272,9 @@ export default {
     return {
       title,
       meta: [
-        { hid: 'og:title', name: 'og:title', content: title },
+        { hid: 'og:title', property: 'og:title', content: title },
         { hid: 'description', name: 'description', content: description },
-        { hid: 'og:image', name: 'og:image', content: image },
+        { hid: 'og:image', property: 'og:image', content: image },
       ],
     };
   },
