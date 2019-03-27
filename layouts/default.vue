@@ -123,7 +123,12 @@
             </div>
           </div>
           -->
-
+          <nuxt-link
+            to="/topics"
+            class="navbar-item"
+          >
+            Topics
+          </nuxt-link>
           <div
             :class="{ 'is-active': showArchive }"
             class="navbar-item has-dropdown"
@@ -179,10 +184,10 @@
           <div class="navbar-item">
             <p class="control">
               <nuxt-link
-                to="/cfp"
+                to="/topics"
                 class="button is-primary"
               >
-                Apply CFP
+                CFP Results
               </nuxt-link>
             </p>
           </div>
