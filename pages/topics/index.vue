@@ -65,7 +65,7 @@
 </template>
 
 <script>
-import { fetchTopics } from '../utils/fetchTopic';
+import { fetchTopics } from '../../utils/fetchTopic';
 
 export default {
   name: 'TopicsPage',

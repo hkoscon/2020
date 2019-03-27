@@ -11,7 +11,7 @@ console.log(`publicPath: "${publicPath}"`);
 
 function fetchTopicUrl() {
   return fetchTopics()
-    .then(topics => topics.map(topic => `/topic/${topicSlug(topic)}`));
+    .then(topics => topics.map(topic => `/topics/${topicSlug(topic)}`));
 }
 
 module.exports = {
@@ -94,6 +94,8 @@ module.exports = {
     PUBLIC_PATH: publicPath,
     publicPath,
     PUBLIC_TIMETABLE_URL: process.env.PUBLIC_TIMETABLE_URL || `${publicPath}/data/timetable.json`,
+    TIMETABLE_URL: process.env.TIMETABLE_URL || 'https://hkoscon.org/2018/data/timetable.json',
+    NUXT_MODE: process.env.NUXT_MODE,
   },
   modules: [
     // eslint-disable-next-line global-require
