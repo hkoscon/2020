@@ -34,7 +34,7 @@ pages:
   script:
     # dynamically generate the PUBLIC_PATH from
     # the Gitlab CI environment variable.
-    - export PUBLIC_PATH=$(echo $CI_PAGES_URL | sed -E 's#^(http|https)://[[:alnum:]\.-\_]+(/.+)$#\2#g')
+    - export PUBLIC_PATH=$(echo "$CI_PAGES_URL" | sed -E 's#^(http|https)://([[:alnum:]\.\-\_]+?)(/.+)$#\3#g')
     - bash script/build.sh
   artifacts:
     paths:
