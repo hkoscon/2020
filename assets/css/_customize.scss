@@ -2,3 +2,9 @@ body {
   margin: 0;
   font-family: Lato, 'Noto Sans TC', 'Noto Sans SC', 'Microsoft JhengHei', 'LiHei Pro', sans-serif;
 }
+li {
+  list-style-position: inside;
+}
+p, ol, ul {
+  margin: 1em 0;
+}

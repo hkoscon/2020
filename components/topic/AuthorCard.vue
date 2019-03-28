@@ -1,38 +1,47 @@
 <style lang="scss">
-  .authorCard {
-    margin-bottom: 1.5rem;
-    margin-top: 1.5rem;
+  .authorcard {
+    display: flex;
+    box-shadow: 0 2px 3px rgba(10,10,10,.1), 0 0 0 1px rgba(10,10,10,.1);
     &__image {
-      max-height: 200px;
-      width: auto !important;
+      width: 280px;
+    }
+    &__content {
+      flex: 1;
+      padding: 1em;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    .authorcard{
+      display: block;
+      &__image {
+        width: 100%;
+        image {
+          width: 100%;
+          height: auto;
+        }
+      }
     }
   }
 </style>
 
 <template>
-  <div class="card authorCard">
-    <div class="card-content">
-      <div class="media">
-        <div class="media-left">
-          <figure class="image is-128x128">
-            <img
-              :src="speaker.thumbnail"
-              :alt="speaker.name"
-            >
-          </figure>
-        </div>
-        <div class="media-content">
-          <p class="title is-4">
-            {{ speaker.name }}
-          </p>
-          <p class="subtitle is-5">
-            {{ meta }}
-          </p>
-        </div>
-      </div>
-      <div class="content">
-        <div v-html="speaker.description" />
-      </div>
+  <div class="authorcard">
+    <div class="authorcard__image">
+      <figure class="image">
+        <img
+          :src="speaker.thumbnail"
+          :alt="speaker.name"
+        >
+      </figure>
+    </div>
+    <div class="authorcard__content">
+      <h3 class="title is-4">
+        {{ speaker.name }}
+      </h3>
+      <h4 class="subtitle is-5">
+        {{ meta }}
+      </h4>
+      <div class="authorcard__description" v-html="speaker.description" />
     </div>
   </div>
 </template>
