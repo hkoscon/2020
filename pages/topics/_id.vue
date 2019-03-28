@@ -22,6 +22,16 @@
         vertical-align: middle;
       }
     }
+    &__meta__list {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      li {
+        display: inline-block;
+        margin: 0;
+        padding: 0.5em 1em 0.5em 0;
+      }
+    }
 
     &__description {
       padding: 0 1.5rem;
@@ -30,7 +40,6 @@
     &__section {
       padding: 2.5rem 1.5rem;
       &--meta {
-        margin-left: 3rem !important;
         padding-top: .8rem !important;
         padding-bottom: .8rem !important;
         @include media("<=tablet") {
@@ -101,6 +110,9 @@
           }
         }
       }
+    }
+    .authorcard {
+      margin-bottom: 1em;
     }
   }
 </style>
@@ -213,19 +225,24 @@
         </div>
         -->
         <div class="topicPage__meta">
-          <i class="material-icons topicPage__icon">
-            comment
-          </i>
-          <span class="topicPage__meta__text">
-            {{ topic.language }}
-          </span>
-        </div>
-        <div class="topicPage__meta">
-          <i class="material-icons topicPage__icon">
-            network_check
-          </i><span class="topicPage__meta__text">
-            {{ topic.level }}
-          </span>
+          <ul class="topicPage__meta__list">
+            <li>
+              <i class="material-icons topicPage__icon">
+                comment
+              </i>
+              <span class="topicPage__meta__text">
+                {{ topic.language }}
+              </span>
+            </li>
+            <li>
+              <i class="material-icons topicPage__icon">
+                network_check
+              </i>
+              <span class="topicPage__meta__text">
+                {{ topic.level }}
+              </span>
+            </li>
+          </ul>
         </div>
       </div>
     </section>
