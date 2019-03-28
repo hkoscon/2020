@@ -1,55 +1,63 @@
 <style lang="scss">
   .defaultLayout {
     &__navbar {
+      z-index: 1;
       position: fixed;
       width: 100%;
-
-      .navbar-start {
-        @include media("<=tablet") {
-          > a.navbar-item, .navbar-link {
-            font-weight: bold;
-          }
-        }
-        .navbar-link:not(.is-arrowless)::after {
-          border-color: $primary;
-        }
-      }
-
-      @media screen and (max-width: 1087px) {
-        .navbar-dropdown {
-          display: none;
-        }
-        .navbar-item.is-active .navbar-dropdown {
-          display: block;
-        }
+      background: white;
+      box-shadow: 0 2px 2px;
+      min-height: 3rem;
+    }
+    &__container {
+      display: flex;
+      width: 100%;
+      margin: auto;
+      flex-grow: 1;
+      height: 100%;
+      @include media(">tablet") {
+        width: 70%;
+        max-width: 1000px;
+        justify-content: space-between;
       }
     }
+    &__brand {
+      width: 36px;
+      height: 36px;
+      cursor: pointer;
+      display: inline-flex;
 
-    &__footer {
-      background-color: $theme-blue;
-      color: white;
-      a {
-        color: white;
-        &:hover, &:visited, &:active {
-          color: white;
-        }
-        &:hover > .icon {
-          color: $theme-yellow;
-        }
-        > .icon {
-          display: inline-block;
-          margin: .5em;
-          transition: color .5s;
-          padding: .5em;
-        }
+      padding-top: .5rem;
+      padding-bottom: .5rem;
+    }
+    &__menu {
+      display: none !important;
+      @include media(">tablet") {
+        display: flex !important;
       }
     }
-
-    &__burger {
-      color: white;
-
-      &:hover {
-        color: white;
+    &__trigger {
+      cursor: pointer;
+      padding-top: .5rem;
+      padding-bottom: .5rem;
+      &:hover, &.is-active, &.is-active > .defaultLayout__trigger {
+        background: #eee !important;
+      }
+    }
+    &__dropdown {
+      background: white;
+      border-radius: 0;
+      width: 200%;
+      left: -50%;
+      text-align: center;
+      box-shadow: 0 3px 4px;
+      > .navbar-item {
+        white-space: normal;
+        @include media(">tablet") {
+          padding-right: 1rem !important;
+        }
+        &:hover {
+          background: #eee !important;
+        }
       }
     }
   }
@@ -60,142 +68,31 @@
     @click="handleClick"
     class="defaultLayout"
   >
-    <nav
-      @click.stop=""
-      class="navbar defaultLayout__navbar"
-      role="navigation"
-      aria-label="main navigation"
-    >
-      <div class="navbar-brand">
-        <nuxt-link
-          class="navbar-item"
-          to="/"
-        >
-          <img src="~assets/images/brand.png">
-          <span>HKOSCon 2019</span>
-        </nuxt-link>
-
-
-        <a
-          :class="{ 'is-active': showNavbar }"
-          @click="toggleNavbar"
-          role="button"
-          class="navbar-burger defaultLayout__burger"
-          aria-label="menu"
-          aria-expanded="false"
-        >
-          <span aria-hidden="true" />
-          <span aria-hidden="true" />
-          <span aria-hidden="true" />
-        </a>
-      </div>
-      <div
-        :class="{ 'is-active': showNavbar }"
-        class="navbar-menu"
-      >
-        <div class="navbar-start">
-          <!--
-          <div
-            :class="{ 'is-active': showAbout }"
-            class="navbar-item has-dropdown"
-          >
-            <span
-              @click="showAbout = !showAbout"
-              class="navbar-link"
-            >
-              Organizer
-            </span>
-            <div class="navbar-dropdown">
-              <nuxt-link
-                @click.native="showAbout = false"
-                to="/about/committee"
-                class="navbar-item"
-              >
-                Organizing Committee
-              </nuxt-link>
-              <nuxt-link
-                @click.native="showAbout = false"
-                to="/about/coc"
-                class="navbar-item"
-              >
-                Code of Conduct
-              </nuxt-link>
-            </div>
-          </div>
-          -->
-          <nuxt-link
-            to="/cfc"
-            class="navbar-item"
-          >
-            Communities
+    <nav class="navbar defaultLayout__navbar">
+      <div class="defaultLayout__container">
+        <div class="navbar-brand">
+          <nuxt-link to="/" class="navbar-item">
+            <figure class="image is-square is-32x32">
+              <img src="~assets/images/brand.png">
+            </figure>
           </nuxt-link>
-          <nuxt-link
-            to="/topics"
-            class="navbar-item"
-          >
-            Topics
-          </nuxt-link>
-          <div
-            :class="{ 'is-active': showArchive }"
-            class="navbar-item has-dropdown"
-          >
-            <span
-              @click="showArchive = !showArchive"
-              class="navbar-link"
-            >
-              Archive
-            </span>
-            <div class="navbar-dropdown">
-              <a
-                href="https://hkoscon.org/2018/"
-                class="navbar-item"
-              >
-                HKOSCon 2018
-              </a>
-              <a
-                href="https://hkoscon.org/2017/"
-                class="navbar-item"
-              >
-                HKOSCon 2017
-              </a>
-              <a
-                href="https://2016.opensource.hk/"
-                class="navbar-item"
-              >
-                HKOSCon 2016
-              </a>
-              <a
-                href="https://2015.opensource.hk/"
-                class="navbar-item"
-              >
-                HKOSCon 2015
-              </a>
-              <a
-                href="/2014/"
-                class="navbar-item"
-              >
-                HKOSCon 2014
-              </a>
-              <a
-                href="/2013/"
-                class="navbar-item"
-              >
-                HKOSCon 2013
-              </a>
-            </div>
-          </div>
         </div>
-
-        <div class="navbar-end">
-          <div class="navbar-item">
-            <p class="control">
-              <nuxt-link
-                to="/topics"
-                class="button is-primary"
-              >
-                CFP Results
-              </nuxt-link>
-            </p>
+        <div class="navbar-menu defaultLayout__menu">
+          <div class="navbar-end">
+            <div
+              class="navbar-item has-dropdown defaultLayout__trigger"
+              :class="{ 'is-active': showProgram }"
+            >
+              <span
+                class="navbar-link is-arrowless defaultLayout__trigger"
+                tabindex=""
+                @click.prevent.stop="showProgram = !showProgram"
+              >Program</span>
+              <div class="navbar-dropdown defaultLayout__dropdown">
+                <nuxt-link to="/topics" class="navbar-item">Call for Paper Result</nuxt-link>
+                <nuxt-link to="/cfc" class="navbar-item">Call for Community Result</nuxt-link>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -214,6 +111,7 @@ export default {
   data() {
     return {
       showNavbar: false,
+      showProgram: false,
       showArchive: false,
       showAbout: false,
     };
@@ -223,7 +121,7 @@ export default {
       this.showNavbar = !this.showNavbar;
     },
     handleClick() {
-      this.showArchive = false;
+      this.showProgram = false;
       this.showArchive = false;
     },
   },
