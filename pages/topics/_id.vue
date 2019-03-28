@@ -217,14 +217,14 @@
             comment
           </i>
           <span class="topicPage__meta__text">
-            English
+            {{ topic.language }}
           </span>
         </div>
         <div class="topicPage__meta">
           <i class="material-icons topicPage__icon">
             network_check
           </i><span class="topicPage__meta__text">
-            Intermediate
+            {{ topic.level }}
           </span>
         </div>
       </div>
