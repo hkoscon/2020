@@ -83,7 +83,9 @@
     }
     &__card {
       width: 100%;
-      box-shadow: 0 1px 1px;
+      box-shadow: 1px 1px 1px rgba(10, 10, 10, 0.1),
+                  0 2px 3px rgba(10, 10, 10, 0.1),
+                  0 0 0 1px rgba(10, 10, 10, 0.1);
       @include media("<=tablet") {
         width: 100%;
         border-top: 1px solid #eee;

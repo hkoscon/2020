@@ -8,6 +8,9 @@
       box-shadow: 0 2px 2px;
       min-height: 3rem;
       will-change: background-color;
+      @include media("<=tablet") {
+        box-shadow: 1px 1px 1px;
+      }
       &--active {
         opacity: .9;
       }
