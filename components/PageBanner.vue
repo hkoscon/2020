@@ -1,12 +1,9 @@
 <style lang="scss">
   .pageBanner {
     padding-top: 3rem;
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    @include media(">=desktop") {
-      width: 70%;
-      max-width: 1000px;
+    @include container();
+    @include media("<=tablet") {
+      margin-left: 1rem;
     }
   }
 </style>

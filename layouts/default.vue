@@ -16,15 +16,12 @@
       }
     }
     &__container {
+      @include container();
       display: flex;
-      width: 100%;
-      margin: auto;
       flex-grow: 1;
       height: 100%;
       justify-content: center;
       @include media(">=desktop") {
-        width: 70%;
-        max-width: 1000px;
         justify-content: space-between;
       }
     }
