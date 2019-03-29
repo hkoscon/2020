@@ -203,6 +203,63 @@
                 </nuxt-link>
               </div>
             </div>
+            <div
+              :class="{ 'is-active': showArchive }"
+              class="navbar-item has-dropdown defaultLayout__trigger"
+            >
+              <span
+                @click.stop="showArchive = !showArchive"
+                class="navbar-link is-arrowless defaultLayout__trigger"
+                tabindex=""
+              >Archive</span>
+              <div
+                :class="{ 'defaultLayout__dropdown--active': showArchive }"
+                class="navbar-dropdown defaultLayout__dropdown"
+              >
+                <a
+                  href="https://hkoscon.org/2018/"
+                  class="navbar-item"
+                  target="_blank"
+                >
+                  HKOSCon 2018
+                </a>
+                <a
+                  href="https://hkoscon.org/2017/"
+                  class="navbar-item"
+                  target="_blank"
+                >
+                  HKOSCon 2017
+                </a>
+                <a
+                  href="https://2016.opensource.hk/"
+                  class="navbar-item"
+                  target="_blank"
+                >
+                  HKOSCon 2016
+                </a>
+                <a
+                  href="https://2015.opensource.hk/"
+                  class="navbar-item"
+                  target="_blank"
+                >
+                  HKOSCon 2015
+                </a>
+                <a
+                  href="https://hkoscon.org/2014/"
+                  class="navbar-item"
+                  target="_blank"
+                >
+                  HKOSCon 2014
+                </a>
+                <a
+                  href="https://hkoscon.org/2013/"
+                  class="navbar-item"
+                  target="_blank"
+                >
+                  HKOSCon 2013
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
