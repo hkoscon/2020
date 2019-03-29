@@ -4,9 +4,13 @@
       z-index: 1;
       position: fixed;
       width: 100%;
-      background: white;
+      background-color: white;
       box-shadow: 0 2px 2px;
       min-height: 3rem;
+      will-change: background-color;
+      &--active {
+        opacity: .9;
+      }
     }
     &__container {
       display: flex;
@@ -19,20 +23,35 @@
         max-width: 1000px;
         justify-content: space-between;
       }
+      @include media("<=tablet") {
+        justify-content: center;
+      }
     }
     &__brand {
-      width: 36px;
-      height: 36px;
-      cursor: pointer;
-      display: inline-flex;
-
-      padding-top: .5rem;
-      padding-bottom: .5rem;
+      @include media("<=tablet") {
+        align-self: center;
+        &--active {
+          height: 64px;
+        }
+      }
     }
     &__menu {
-      display: none !important;
       @include media(">tablet") {
         display: flex !important;
+      }
+      @include media("<=tablet") {
+        display: none !important;
+        width: 100%;
+        position: absolute;
+        background-color: white;
+        top: 3rem;
+        &--active {
+          display: flex !important;
+          .defaultLayout__dropdown {
+            text-align: left;
+            box-shadow: none;
+          }
+        }
       }
     }
     &__trigger {
@@ -40,11 +59,15 @@
       padding-top: .5rem;
       padding-bottom: .5rem;
       &:hover, &.is-active, &.is-active > .defaultLayout__trigger {
-        background: #eee !important;
+        background-color: #eee !important;
+        @include media("<=tablet") {
+          opacity: .9;
+          background-color: white;
+        }
       }
     }
     &__dropdown {
-      background: white;
+      background-color: white;
       border-radius: 0;
       width: 200%;
       left: -50%;
@@ -60,6 +83,24 @@
         }
       }
     }
+    &__burger {
+      display: none;
+      @include media("<=tablet") {
+        display: flex;
+        position: absolute;
+        left: 5px;
+        align-items: center;
+        color: $theme-yellow;
+        cursor: pointer;
+      }
+    }
+    @include media("<=tablet") {
+      &__part {
+        width: 100%;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+      }
+    }
   }
 </style>
 
@@ -68,29 +109,65 @@
     @click="handleClick"
     class="defaultLayout"
   >
-    <nav class="navbar defaultLayout__navbar">
+    <nav class="navbar defaultLayout__navbar" :class="{ 'defaultLayout__navbar--active': showNavbar }">
       <div class="defaultLayout__container">
-        <div class="navbar-brand">
-          <nuxt-link to="/" class="navbar-item">
+        <div
+          @click.stop="toggleNavbar"
+          class="defaultLayout__burger"
+          tabindex=""
+        >
+          <span
+            :class="{ 'is-active': showNavbar }"
+            role="button"
+            type="button"
+            class="navbar-burger"
+          >
+            <span aria-hidden="true" />
+            <span aria-hidden="true" />
+            <span aria-hidden="true" />
+          </span>
+          <span v-if="!showNavbar">Menu</span>
+        </div>
+        <div
+          :class="{ 'defaultLayout__brand--active': showNavbar }"
+          class="navbar-brand defaultLayout__brand"
+        >
+          <nuxt-link
+            to="/"
+            class="navbar-item"
+          >
             <figure class="image is-square is-32x32">
               <img src="~assets/images/brand.png">
             </figure>
           </nuxt-link>
         </div>
-        <div class="navbar-menu defaultLayout__menu">
-          <div class="navbar-end">
+        <div
+          :class="{ 'defaultLayout__menu--active': showNavbar }"
+          class="navbar-menu defaultLayout__menu"
+        >
+          <div class="navbar-end defaultLayout__part">
             <div
-              class="navbar-item has-dropdown defaultLayout__trigger"
               :class="{ 'is-active': showProgram }"
+              class="navbar-item has-dropdown defaultLayout__trigger"
             >
               <span
+                @click.prevent.stop="showProgram = !showProgram"
                 class="navbar-link is-arrowless defaultLayout__trigger"
                 tabindex=""
-                @click.prevent.stop="showProgram = !showProgram"
               >Program</span>
-              <div class="navbar-dropdown defaultLayout__dropdown">
-                <nuxt-link to="/topics" class="navbar-item">Call for Paper Result</nuxt-link>
-                <nuxt-link to="/cfc" class="navbar-item">Call for Community Result</nuxt-link>
+              <div class="navbar-dropdown defaultLayout__dropdown" :class="{ 'defaultLayout__dropdown--active': showProgram }">
+                <nuxt-link
+                  to="/topics"
+                  class="navbar-item"
+                >
+                  Call for Paper Result
+                </nuxt-link>
+                <nuxt-link
+                  to="/cfc"
+                  class="navbar-item"
+                >
+                  Call for Community Result
+                </nuxt-link>
               </div>
             </div>
           </div>
@@ -123,6 +200,7 @@ export default {
     handleClick() {
       this.showProgram = false;
       this.showArchive = false;
+      this.showNavbar = false;
     },
   },
 };
