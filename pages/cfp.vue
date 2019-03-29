@@ -12,9 +12,9 @@
 <template>
   <main class="section">
     <div class="container cfp-form__container">
-      <h3 class="title is-3">
+      <h1 class="title is-3">
         Call for Proposals
-      </h3>
+      </h1>
       <p>Thanks for interested in submitting topics. Our 2019 Call for Proposal was closed.</p>
       <p>Please find the results <nuxt-link to="/topics">here</nuxt-link>.</p>
       <!--

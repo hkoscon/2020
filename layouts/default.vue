@@ -108,13 +108,6 @@
             <div class="navbar-dropdown">
               <nuxt-link
                 @click.native="showAbout = false"
-                to="/about/committee"
-                class="navbar-item"
-              >
-                Organizing Committee
-              </nuxt-link>
-              <nuxt-link
-                @click.native="showAbout = false"
                 to="/about/coc"
                 class="navbar-item"
               >
@@ -123,6 +116,12 @@
             </div>
           </div>
           -->
+          <nuxt-link
+            to="/about/volunteers"
+            class="navbar-item"
+          >
+            Volunteers
+          </nuxt-link>
           <nuxt-link
             to="/cfc"
             class="navbar-item"
