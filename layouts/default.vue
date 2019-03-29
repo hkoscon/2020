@@ -75,7 +75,8 @@
       > .navbar-item {
         white-space: normal;
         @include media(">tablet") {
-          padding-right: 1rem !important;
+          padding: .375rem .5rem !important;
+          justify-content: center;
         }
         &:hover {
           background: #eee !important;
@@ -149,11 +150,38 @@
         >
           <div class="navbar-end defaultLayout__part">
             <div
+              :class="{ 'is-active': showAbout }"
+              class="navbar-item has-dropdown defaultLayout__trigger"
+            >
+              <span
+                @click.stop="showAbout = !showAbout"
+                class="navbar-link is-arrowless defaultLayout__trigger"
+                tabindex=""
+              >About</span>
+              <div
+                :class="{ 'defaultLayout__dropdown--active': showAbout }"
+                class="navbar-dropdown defaultLayout__dropdown"
+              >
+                <nuxt-link
+                  to="/about/volunteer"
+                  class="navbar-item"
+                >
+                  Volunteer
+                </nuxt-link>
+                <nuxt-link
+                  to="/about/coc"
+                  class="navbar-item"
+                >
+                  Code of Conduct
+                </nuxt-link>
+              </div>
+            </div>
+            <div
               :class="{ 'is-active': showProgram }"
               class="navbar-item has-dropdown defaultLayout__trigger"
             >
               <span
-                @click.prevent.stop="showProgram = !showProgram"
+                @click.stop="showProgram = !showProgram"
                 class="navbar-link is-arrowless defaultLayout__trigger"
                 tabindex=""
               >Program</span>
@@ -203,6 +231,7 @@ export default {
       this.showNavbar = !this.showNavbar;
     },
     handleClick() {
+      this.showAbout = false;
       this.showProgram = false;
       this.showArchive = false;
       this.showNavbar = false;
