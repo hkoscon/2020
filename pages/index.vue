@@ -1,165 +1,103 @@
 <style lang="scss">
   .homePage {
+    padding-top: 3rem;
     &__cover {
       height: 100vh;
       background-repeat: no-repeat;
       background-color: #fff;
       min-height: 750px;
-      background-size: cover;
-      background-attachment: fixed;
-      background-position: center 0;
+      background-size: 150%;
+      background-position: 80% 25%;
       padding: 0 !important;
-      &__inner {
-        padding: .75rem;
-        background-color: rgba(0,0,0,.7);
-        height: 100%;
-        text-align: center;
-      }
-
-      &__text {
-        margin-top: 1rem;
-        > .icon {
-          vertical-align: middle;
-        }
-      }
-    }
-
-    &__logo {
-      text-align: center !important;
-      padding-top: 10vh !important;
-      &__image {
-        display: initial !important;
-        position: relative !important;
-        width: 35vh !important;
-        height: auto !important;
-      }
-    }
-
-    &__link {
-      max-width: 30vh;
-      @include media("<=tablet") {
-        max-width: 40vh;
-      }
-      display: inline-flex !important;
-      margin: 1rem .5rem 0;
-    }
-
-    &__social {
-      margin-top: 1rem;
-      &__link {
-        background-color: rgba(255, 255, 255, .75);
-        border-radius: 50%;
-        margin: .5em;
-        width: 2.5em;
-        line-height: 2.5em;
-        box-shadow: 1px 1px 10px rgba(0,0,0,.5);
-        will-change: color,background-color;
-        transition: .5s;
-        display: inline-block;
-        color: $theme-blue;
-        &:hover {
-          color: $white;
-          background-color: $theme-blue;
-        }
-      }
-    }
-
-    &__content {
-      padding-top: 2rem;
-      padding-bottom: 2rem;
-    }
-
-    &__tickets {
-      flex-direction: row;
-      justify-content: space-around;
-      margin-top: 3rem;
-
-      @include media("<=tablet") {
-        flex-basis: 100%;
-        flex-shrink: 1;
-        flex-wrap: wrap;
-      }
-    }
-
-    &__ticket {
       display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      flex-basis: 40%;
-      @include media("<=tablet") {
-        flex-basis: 100%;
+    }
+    &__logo {
+      margin-top: 10rem;
+      margin-left: 18rem;
+    }
+    &__image {
+      width: 188px;
+      height: 188px;
+      padding-top: 0 !important;
+    }
+    &__slogan {
+      margin-top: 8rem;
+      margin-left: 12rem;
+      font-size: 2rem;
+    }
+    &__intro {
+      margin-top: 10rem;
+      margin-left: 10rem;
+    }
+    &__title {
+      font-size: 3rem;
+      border-bottom: 5px solid $theme-blue;
+      padding-left: 5px;
+      padding-right: 5px;
+      margin-bottom: 0;
+    }
+    &__date {
+      margin-top: 1.25rem;
+      margin-left: 2rem;
+    }
+    &__venue {
+      margin-left: 2rem;
+    }
+    &__cards {
+      width: 100%;
+      @include media(">tablet") {
+        width: 70%;
+        max-width: 1000px;
+        margin: 5rem auto;
       }
-      margin: 1rem;
-
-      ul {
-        margin-bottom: 1rem;
-        > li:before {
-          content: "done";
-          font-family: 'Material Icons';
-          margin-right: .5em;
-          color: #0a0;
-        }
-      }
+    }
+    &__card {
+      width: 100%;
+      box-shadow: 0 1px 1px;
     }
   }
 </style>
 
 <template>
-  <main class="homePage">
+  <main
+    class="homePage"
+  >
     <div
+      class="homePage__cover"
       :style="{backgroundImage}"
-      class="tile is-parent is-transparent homePage__cover"
     >
-      <div class="tile is-child homePage__cover__inner">
-        <figure class="image is-square homePage__logo">
-          <img
-            src="https://hkoscon.org/logo.png"
-            class="homePage__logo__image"
-          >
-        </figure>
-        <p class="has-text-primary homePage__cover__text">
-          <span class="icon">
-            <i class="material-icons">
-              calendar_today
-            </i>
-          </span> 14 - 15 Jun, 2019 (Fri - Sat)
-        </p>
-        <p class="has-text-primary homePage__cover__text">
-          <span class="icon">
-            <i class="material-icons">
-              add_location
-            </i>
-          </span> Convention Centre 2, Hong Kong Science Park, Shatin
-        </p>
-        <div class="homePage__social">
-          <a
-            href="https://facebook.com/hkoscon/"
-            class="homePage__social__link"
-            target="_blank"
-          >
-            <span class="icon">
-              <i class="fa fa-facebook" />
-            </span>
-          </a>
-
-          <a
-            href="https://twitter.com/hkoscon/"
-            target="_blank"
-            class="homePage__social__link"
-          >
-            <span class="icon">
-              <i class="fa fa-twitter" />
-            </span>
-          </a>
-
-          <a
-            href="mailto:conference@opensource.hk"
-            class="homePage__social__link"
-          >
-            <span class="icon">
-              <i class="fa fa-envelope" />
-            </span>
-          </a>
+      <div>
+        <div class="homePage__logo">
+          <figure class="image is-square homePage__image">
+            <img src="~assets/images/brand.png">
+          </figure>
+        </div>
+        <div class="homePage__slogan">
+          <span class="has-text-theme-yellow">Build together</span>
+          <span style="color: rgba(0,0,0,.6)">&amp;</span>
+          <span class="has-text-theme-blue">Go beyond</span>
+        </div>
+      </div>
+      <div class="homePage__intro">
+        <p class="has-text-theme-yellow homePage__title">HKOSCon 2019</p>
+        <p class="homePage__date">14 - 15 Jun, 2019</p>
+        <p class="homePage__venue">Convention Centre 2<br>Hong Kong Science Park</p>
+      </div>
+    </div>
+    <div class="homePage__cards">
+      <div class="card homePage__card">
+        <div class="card-content">
+          <p class="title is-4 has-text-theme-yellow"># About</p>
+          <p>
+            Hong Kong Open Source Conference (HKOSCon) is one of the major Open Source conferences in Hong Kong since its first commercement in 2013,
+            bringing an international crowd of developers, contributors, users, IT manager, students and public.
+            The conference aims to promote the open source development into communities and to encourage its application in the industry.
+          </p>
+          <p>
+            With different annual themes, related open source sectors are invited to share its open source development and trends of the IT industry and community.
+            The annual celebration is nonetheless supported by the tertiary education sectors, fans and sponsors. Other than talks,
+            speeches & lightning talks, HKOSCon has expanded its scope into workshops, non-conferences, gathering and promotional booths.
+          </p>
         </div>
       </div>
     </div>
@@ -171,7 +109,7 @@ export default {
   name: 'HomePage',
   data() {
     return {
-      backgroundImage: `url(${process.env.publicPath}/images/bg.jpg)`,
+      backgroundImage: `url(${process.env.publicPath}/images/bg.png)`,
     };
   },
 };
