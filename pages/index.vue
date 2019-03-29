@@ -2,23 +2,37 @@
   .homePage {
     padding-top: 3rem;
     &__cover {
-      height: 100vh;
       background-repeat: no-repeat;
       background-color: #fff;
-      min-height: 750px;
       background-size: 150%;
       background-position: 80% 25%;
       padding: 0 !important;
       display: flex;
+      @include media("<=tablet") {
+        background: none;
+        display: block;
+        height: auto;
+      }
+      @include media(">tablet") {
+        height: 80vh;
+        min-height: 750px;
+      }
     }
     &__logo {
       margin-top: 10rem;
       margin-left: 18rem;
+      @include media("<=tablet") {
+        display: none;
+      }
     }
     &__image {
       width: 188px;
       height: 188px;
       padding-top: 0 !important;
+      @include media("<=tablet") {
+        margin-left: auto;
+        margin-right: auto;
+      }
     }
     &__slogan {
       margin-top: 8rem;
@@ -28,6 +42,10 @@
     &__intro {
       margin-top: 10rem;
       margin-left: 10rem;
+      @include media("<=tablet") {
+        text-align: right;
+        margin: 5rem 1rem 5rem 0;
+      }
     }
     &__title {
       font-size: 3rem;
@@ -35,25 +53,46 @@
       padding-left: 5px;
       padding-right: 5px;
       margin-bottom: 0;
+      @include media("<=tablet") {
+        margin-left: 3px;
+        border: none;
+        margin-top: 0;
+        padding: 0;
+        font-size: 2rem;
+      }
     }
     &__date {
       margin-top: 1.25rem;
-      margin-left: 2rem;
     }
-    &__venue {
+    &__venue, &__date {
       margin-left: 2rem;
+      @include media("<=tablet") {
+        font-size: 1.25rem;
+      }
     }
     &__cards {
-      width: 100%;
       @include media(">tablet") {
         width: 70%;
         max-width: 1000px;
         margin: 5rem auto;
       }
+      @include media("<=tablet") {
+        width: 100%;
+        margin: 5rem 0;
+      }
     }
     &__card {
       width: 100%;
       box-shadow: 0 1px 1px;
+      @include media("<=tablet") {
+        width: 100%;
+        border-top: 1px solid #eee;
+      }
+    }
+    &__brand {
+      @include media("<=tablet") {
+        display: none;
+      }
     }
   }
 </style>
@@ -66,7 +105,7 @@
       class="homePage__cover"
       :style="{backgroundImage}"
     >
-      <div>
+      <div class="homePage__brand">
         <div class="homePage__logo">
           <figure class="image is-square homePage__image">
             <img src="~assets/images/brand.png">
@@ -80,8 +119,8 @@
       </div>
       <div class="homePage__intro">
         <p class="has-text-theme-yellow homePage__title">HKOSCon 2019</p>
-        <p class="homePage__date">14 - 15 Jun, 2019</p>
-        <p class="homePage__venue">Convention Centre 2<br>Hong Kong Science Park</p>
+        <p class="homePage__date has-text-theme-blue">14 - 15 Jun, 2019</p>
+        <p class="homePage__venue has-text-theme-blue">Convention Centre 2<br>Hong Kong Science Park</p>
       </div>
     </div>
     <div class="homePage__cards">
