@@ -8,3 +8,9 @@ li {
 p, ol, ul {
   margin: 1em 0;
 }
+a {
+  transition: background-color 0.3s;
+}
+.container h1 {
+  margin-top: 3em;
+}

@@ -23,9 +23,9 @@
 <template>
   <main class="section">
     <div class="container cfc__container">
-      <h3 class="title is-3">
+      <h1 class="title is-3">
         Call for Communities Result
-      </h3>
+      </h1>
       <p>
         Thanks for the overwhelming responses from open source communities.
       </p>
