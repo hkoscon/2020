@@ -1,5 +1,11 @@
+$desktop: 1095px;
 @import "~bulma/sass/utilities/initial-variables";
 @import "~bulma/sass/utilities/functions";
+$breakpoints: (
+  'phone': 320px,
+  'tablet': $tablet,
+  'desktop': $desktop
+);
 @import "~include-media/dist/include-media";
 
 $theme-blue: #294454;

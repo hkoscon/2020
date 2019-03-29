@@ -1,55 +1,103 @@
 <style lang="scss">
   .defaultLayout {
     &__navbar {
+      z-index: 1;
       position: fixed;
       width: 100%;
-
-      .navbar-start {
-        @include media("<=tablet") {
-          > a.navbar-item, .navbar-link {
-            font-weight: bold;
+      background-color: white;
+      box-shadow: 0 2px 2px;
+      min-height: 3rem;
+      will-change: background-color;
+      @include media("<desktop") {
+        box-shadow: 1px 1px 1px;
+        &--active {
+          opacity: .9;
+        }
+      }
+    }
+    &__container {
+      display: flex;
+      width: 100%;
+      margin: auto;
+      flex-grow: 1;
+      height: 100%;
+      justify-content: center;
+      @include media(">=desktop") {
+        width: 70%;
+        max-width: 1000px;
+        justify-content: space-between;
+      }
+    }
+    &__brand {
+      @include media("<desktop") {
+        align-self: center;
+        &--active {
+          height: 64px;
+        }
+      }
+    }
+    &__menu {
+      display: flex !important;
+      @include media("<desktop") {
+        display: none !important;
+        width: 100%;
+        position: absolute;
+        background-color: white;
+        top: 3rem;
+        &--active {
+          display: flex !important;
+          .defaultLayout__dropdown {
+            text-align: left;
+            box-shadow: none;
           }
         }
-        .navbar-link:not(.is-arrowless)::after {
-          border-color: $primary;
-        }
       }
-
-      @media screen and (max-width: 1087px) {
-        .navbar-dropdown {
-          display: none;
-        }
-        .navbar-item.is-active .navbar-dropdown {
-          display: block;
+    }
+    &__trigger {
+      cursor: pointer;
+      padding-top: .5rem;
+      padding-bottom: .5rem;
+      &:hover, &.is-active, &.is-active > .defaultLayout__trigger {
+        background-color: #eee !important;
+        @include media("<desktop") {
+          opacity: .9;
+          background-color: white;
         }
       }
     }
-
-    &__footer {
-      background-color: $theme-blue;
-      color: white;
-      a {
-        color: white;
-        &:hover, &:visited, &:active {
-          color: white;
+    &__dropdown {
+      background-color: white;
+      border-radius: 0;
+      width: 200%;
+      left: -50%;
+      text-align: center;
+      box-shadow: 0 3px 4px;
+      > .navbar-item {
+        white-space: normal;
+        @include media(">tablet") {
+          padding-right: 1rem !important;
         }
-        &:hover > .icon {
-          color: $theme-yellow;
-        }
-        > .icon {
-          display: inline-block;
-          margin: .5em;
-          transition: color .5s;
-          padding: .5em;
+        &:hover {
+          background: #eee !important;
         }
       }
     }
-
     &__burger {
-      color: white;
-
-      &:hover {
-        color: white;
+      display: none;
+      @include media("<desktop") {
+        display: flex;
+        position: absolute;
+        left: 5px;
+        align-items: center;
+        color: $theme-yellow;
+        cursor: pointer;
+      }
+    }
+    @include media("<desktop") {
+      &__part {
+        width: 100%;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
       }
     }
   }
@@ -60,141 +108,67 @@
     @click="handleClick"
     class="defaultLayout"
   >
-    <nav
-      @click.stop=""
-      class="navbar defaultLayout__navbar"
-      role="navigation"
-      aria-label="main navigation"
-    >
-      <div class="navbar-brand">
-        <nuxt-link
-          class="navbar-item"
-          to="/"
+    <nav class="navbar defaultLayout__navbar" :class="{ 'defaultLayout__navbar--active': showNavbar }">
+      <div class="defaultLayout__container">
+        <div
+          @click.stop="toggleNavbar"
+          class="defaultLayout__burger"
+          tabindex=""
         >
-          <img src="~assets/images/brand.png">
-          <span>HKOSCon 2019</span>
-        </nuxt-link>
-
-
-        <a
-          :class="{ 'is-active': showNavbar }"
-          @click="toggleNavbar"
-          role="button"
-          class="navbar-burger defaultLayout__burger"
-          aria-label="menu"
-          aria-expanded="false"
-        >
-          <span aria-hidden="true" />
-          <span aria-hidden="true" />
-          <span aria-hidden="true" />
-        </a>
-      </div>
-      <div
-        :class="{ 'is-active': showNavbar }"
-        class="navbar-menu"
-      >
-        <div class="navbar-start">
-          <!--
-          <div
-            :class="{ 'is-active': showAbout }"
-            class="navbar-item has-dropdown"
+          <span
+            :class="{ 'is-active': showNavbar }"
+            role="button"
+            type="button"
+            class="navbar-burger"
           >
-            <span
-              @click="showAbout = !showAbout"
-              class="navbar-link"
-            >
-              Organizer
-            </span>
-            <div class="navbar-dropdown">
-              <nuxt-link
-                @click.native="showAbout = false"
-                to="/about/coc"
-                class="navbar-item"
-              >
-                Code of Conduct
-              </nuxt-link>
-            </div>
-          </div>
-          -->
-          <nuxt-link
-            to="/about/volunteers"
-            class="navbar-item"
-          >
-            Volunteers
-          </nuxt-link>
-          <nuxt-link
-            to="/cfc"
-            class="navbar-item"
-          >
-            Communities
-          </nuxt-link>
-          <nuxt-link
-            to="/topics"
-            class="navbar-item"
-          >
-            Topics
-          </nuxt-link>
-          <div
-            :class="{ 'is-active': showArchive }"
-            class="navbar-item has-dropdown"
-          >
-            <span
-              @click="showArchive = !showArchive"
-              class="navbar-link"
-            >
-              Archive
-            </span>
-            <div class="navbar-dropdown">
-              <a
-                href="https://hkoscon.org/2018/"
-                class="navbar-item"
-              >
-                HKOSCon 2018
-              </a>
-              <a
-                href="https://hkoscon.org/2017/"
-                class="navbar-item"
-              >
-                HKOSCon 2017
-              </a>
-              <a
-                href="https://2016.opensource.hk/"
-                class="navbar-item"
-              >
-                HKOSCon 2016
-              </a>
-              <a
-                href="https://2015.opensource.hk/"
-                class="navbar-item"
-              >
-                HKOSCon 2015
-              </a>
-              <a
-                href="/2014/"
-                class="navbar-item"
-              >
-                HKOSCon 2014
-              </a>
-              <a
-                href="/2013/"
-                class="navbar-item"
-              >
-                HKOSCon 2013
-              </a>
-            </div>
-          </div>
+            <span aria-hidden="true" />
+            <span aria-hidden="true" />
+            <span aria-hidden="true" />
+          </span>
+          <span v-if="!showNavbar">Menu</span>
         </div>
-
-        <div class="navbar-end">
-          <div class="navbar-item">
-            <p class="control">
-              <nuxt-link
-                to="/topics"
-                class="button is-primary"
-              >
-                CFP Results
-              </nuxt-link>
-            </p>
+        <div
+          :class="{ 'defaultLayout__brand--active': showNavbar }"
+          class="navbar-brand defaultLayout__brand"
+        >
+          <nuxt-link
+            to="/"
+            class="navbar-item"
+          >
+            <figure class="image is-square is-32x32">
+              <img src="~assets/images/brand.png">
+            </figure>
+          </nuxt-link>
+        </div>
+        <div
+          :class="{ 'defaultLayout__menu--active': showNavbar }"
+          class="navbar-menu defaultLayout__menu"
+        >
+          <div class="navbar-end defaultLayout__part">
+            <div
+              :class="{ 'is-active': showProgram }"
+              class="navbar-item has-dropdown defaultLayout__trigger"
+            >
+              <span
+                @click.prevent.stop="showProgram = !showProgram"
+                class="navbar-link is-arrowless defaultLayout__trigger"
+                tabindex=""
+              >Program</span>
+              <div class="navbar-dropdown defaultLayout__dropdown" :class="{ 'defaultLayout__dropdown--active': showProgram }">
+                <nuxt-link
+                  to="/topics"
+                  class="navbar-item"
+                >
+                  Call for Paper Result
+                </nuxt-link>
+                <nuxt-link
+                  to="/cfc"
+                  class="navbar-item"
+                >
+                  Call for Community Result
+                </nuxt-link>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -213,6 +187,7 @@ export default {
   data() {
     return {
       showNavbar: false,
+      showProgram: false,
       showArchive: false,
       showAbout: false,
     };
@@ -222,8 +197,9 @@ export default {
       this.showNavbar = !this.showNavbar;
     },
     handleClick() {
+      this.showProgram = false;
       this.showArchive = false;
-      this.showArchive = false;
+      this.showNavbar = false;
     },
   },
 };
