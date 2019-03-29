@@ -16,11 +16,7 @@
         Call for Proposals
       </h1>
       <p>Thanks for interested in submitting topics. Our 2019 Call for Proposal was closed.</p>
-      <p>
-        Please find the results <nuxt-link to="/topics">
-          here
-        </nuxt-link>.
-      </p>
+      <p>Please find the results <nuxt-link to="/topics">here</nuxt-link>.</p>
       <!--
       <iframe
         src="https://docs.google.com/forms/d/e/1FAIpQLSdI3TSOzLvH3XxN72GBASXZpfev51iUSdefngz_13HX3M66Sg/viewform"

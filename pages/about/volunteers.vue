@@ -1,18 +1,43 @@
 <style lang="scss">
-  .aboutVolunteerPage {
-    @include container();
-    &__cards {
+  .aboutCommitteePage {
+    &__members {
       display: flex;
       flex-wrap: wrap;
-      margin-top: 2rem;
-      .volunteerCard {
-        flex-basis: 100%;
-        margin: .5rem;
-        @include media(">=tablet") {
-          flex-basis: 50%;
+      padding: 1em;
+      &__member {
+        margin: 0.5%;
+        width: 24%;
+        padding: 0.5em;
+        background-color: rgba(0, 0, 0, 0.1);
+        &:nth-child(even) {
+          background-color: rgba(0, 0, 0, 0.05);
         }
-        @include media(">=desktop") {
-          flex-basis: 20%;
+        &__name {
+          padding: 0.5em;
+          width: 12em;
+          font-weight: bold;
+        }
+        &__posts {
+          list-style-type: disc;
+          flex: 1;
+          margin: 0;
+          li {
+            padding: 0 0 0 0.5em;
+            margin: 0.2em 0;
+          }
+        }
+      }
+    }
+
+    @media (max-width: 600px) {
+      &__members {
+        display: block;
+        margin: 0;
+        padding: 0;
+        &__member {
+          display: block;
+          width: 100%;
+          margin: 0.5em 0;
         }
       }
     }
@@ -20,168 +45,129 @@
 </style>
 
 <template>
-  <div>
+  <main>
     <page-banner title="Committee" />
-    <main class="aboutVolunteerPage">
-      <div class="aboutVolunteerPage__cards">
-        <volunteer-card
-          v-for="volunteer in volunteers"
-          :key="volunteer.name"
-          :name="volunteer.name"
-          :teams="volunteer.posts"
-          :social="volunteer.social"
-          :description="volunteer.description"
-          :avatar="volunteer.avatar"
-        />
+    <section class="section">
+      <div class="container content">
+        <div>
+          <ul class="aboutCommitteePage__members">
+            <li
+                class="aboutCommitteePage__members__member"
+                v-for="volunteer in volunteers"
+                :key="volunteer.name"
+              >
+              <div class="aboutCommitteePage__members__member__name">{{ volunteer.name }}</div>
+              <ul
+                class="aboutCommitteePage__members__member__posts"
+              >
+                <li v-for="post in volunteer.posts" :key="post">
+                  {{ post }}
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
       </div>
-    </main>
-  </div>
+    </section>
+  </main>
 </template>
 
 <script>
 export default {
-  name: 'AboutVolunteerPage',
+  name: 'AboutCommitteePage',
   components: {
     PageBanner: () => import('~/components/PageBanner.vue'),
-    VolunteerCard: () => import('~/components/about/VolunteerCard.vue'),
   },
   data() {
     return {
       volunteers: [
         {
-          name: 'Austin Leung',
-          posts: ['Record Team'],
-        },
-        {
-          name: 'Calvin Tsang',
-          posts: ['Marketing Team Lead'],
-          social: {
-            twitter: 'debugtsang1',
-          },
-          avatar: `${process.env.PUBLIC_PATH}/images/volunteer/0355e6c99e405f2d650a048f93849e0a.jpg`,
-          description: 'Vice President of Open Source Hong Kong and Marketing Lead of HKOSCON since 2014. Interested in Front-end Technology | Innovation | Agile Practice. Promote and embrace robust technology for continuous improving I.T. industry in Hong Kong.',
-        },
-        {
-          name: 'Claire Chung',
-          posts: ['Marketing Team', 'Interpreter (Japanese)'],
-          avatar: `${process.env.PUBLIC_PATH}/images/volunteer/7871c0482c9d274d68fe1d056a7cce8b.jpg`,
-          description: 'Academic researcher in Bioinformatics / Geek coder / Graphic design / Language enthusiast / Volunteer. Co-authored on Python Data Visualization Books and spoke at PyConHK; front-end development of mental health service search engine. Ever learn, ever challenge, ever explore.',
-        },
-        {
-          name: 'Claire Wong',
-          posts: ['Design Team Lead'],
-          avatar: `${process.env.PUBLIC_PATH}/images/volunteer/e11966ad5e195fef25bf0bd163fb7a98.jpg`,
-          description: 'Graduated with Honor in Business Administration Management from De Montfort with major in marketing. Wong has worked as a digital analyst, analyzing digital and social media data, now working in HK01 responsible on product operations.',
-          social: {
-            twitter: 'blurryclaire',
-            linkedin: 'blurryclaire',
-            fb: 'clacla',
-          },
-        },
-        {
-          name: 'Daisy Maris Fung',
-          posts: ['Administration Team', 'Marketing Team'],
-          description: 'Event organizer of LikeCoin Hong Kong Meetup and member of Creative Commons Hong Kong chapter. Social media believer and writer, love to write in Cantonese. Recently interested in Chogyam Trungpa Rinpoche, cryptocurrency and Open Data.',
-          avatar: 'http://www.gravatar.com/avatar/822d46a19923f28d1fe527bd2b2f82e8?s=128',
-          social: {
-            web: 'https://www.daisymarisfung.com',
-            instagram: 'daisymarisfung',
-            medium: 'daisymarisfung',
-          },
-        },
-        {
-          name: 'Fiona Lam',
-          posts: ['Marketing Team'],
-          description: 'An experiential marketing communication specialist with a love for cutting-edge technology, Fiona has been contributing her expertise as a volunteer to market and promote the PyConHK & HKOSCon since 2017. She is the Executive Member, Marketing of Open Source Hong Kong.',
-          avatar: `${process.env.PUBLIC_PATH}/images/volunteer/fa29d4359d8c420eec9b84532765dfec.jpg`,
-        },
-        {
-          name: 'Frankie Yuen',
-          posts: ['Designer'],
-        },
-        {
-          name: ' Haggen So',
-          posts: ['Finance Team Lead'],
-          description: 'Dr. Haggen So is an Open Tech. Activists. Interested in FOSS, Open Hardware, Open Standards and Creative Commons.',
-          avatar: `${process.env.PUBLIC_PATH}/images/volunteer/c63e3dcf23114e4769ac00c16617d1e9.jpg`,
-        },
-        {
-          name: 'Henry Law',
-          posts: ['Record Team Lead'],
-          avatar: `${process.env.PUBLIC_PATH}/images/volunteer/318824b7d24aa53a1550c3fdcc3cdaad.jpg`,
-        },
-        {
-          name: 'Ivan Ip',
-          posts: ['Program Team'],
-        },
-        {
-          name: 'Joe Chan',
-          posts: ['Record Team'],
-          avatar: `${process.env.PUBLIC_PATH}/images/volunteer/cc93adf96a1b6d795983ede8cb3d111b.jpg`,
-        },
-        {
-          name: 'John Law',
-          posts: ['Administration Team'],
-          description: 'John Law is an undergraduate at CUHK. He is enthusiastic about open source software development, machine learning, and coding.',
-          avatar: `${process.env.PUBLIC_PATH}/images/volunteer/441a4f7b4e3fc43c174c9018a8fe88f3.jpg`,
-        },
-        {
-          name: 'Judy Wong',
-          posts: ['Marketing Team', 'Interpreter (English)'],
-          description: 'Geek, Coder, Open Source Enthusiast, Cyber Security Specialist. Worked for 5 jobs in the Hong Kong Science Park previously. Mandarin/English/Cantonese Interpreter, fan of public speaking, part-time MC. Full-time Mother of a 4-year-old & 1-year-old.',
-          social: {
-            linkedin: 'wongjudy',
-            fb: 'judywong',
-          },
-          avatar: `${process.env.PUBLIC_PATH}/images/volunteer/b402043e9d8202b0b252eca0a9e5639e.jpg`,
-        },
-        {
-          name: 'Koala Yeung',
-          posts: ['Web Manager', 'Operation Team'],
-          avatar: `${process.env.PUBLIC_PATH}/images/volunteer/824010d0d7fcf80d2f629309de68becb.jpg`,
-        },
-        {
-          name: 'Nicholas Yau',
-          posts: ['Operation Team Lead'],
-          avatar: 'https://www.gravatar.com/avatar/f9729bf7b60a37d9874f5a8bd42409c5?s=128',
-        },
-        {
-          name: 'Ranger Ken',
-          posts: ['Administration Team', 'Operation Team'],
-          avatar: `${process.env.PUBLIC_PATH}/images/volunteer/d22e8f6bf9c2ce9b185c270a442e288a.jpg`,
-        },
-        {
-          name: 'Sammy Fung',
+          name: 'Mr. Sammy Fung',
           posts: ['Conference Chairman', 'Program Chair', 'Sales Lead'],
-          description: 'President of Open Source Hong Kong. He is also a Mozilla Representative, and is involving the Python and GNOME community.',
-          social: {
-            twitter: 'sammyfung',
-            linkedin: 'sammyfung',
-            web: 'https://sammyfun.com',
-          },
-          avatar: `${process.env.PUBLIC_PATH}/images/volunteer/5af7cdeb38835c964eeadcb6c8f2c32c.jpg`,
         },
         {
-          name: 'Ting',
-          posts: ['Program Team'],
+          name: 'Ms. Claire Wong',
+          posts: ['Design Team Lead'],
         },
         {
-          name: 'Toby@Happeas',
-          posts: ['Designer'],
+          name: 'Dr. Haggen So',
+          posts: ['Finance Team Lead'],
         },
         {
-          name: 'Tommy Han',
-          posts: ['Record Team'],
-          avatar: `${process.env.PUBLIC_PATH}/images/volunteer/ac09c01ecec26e63726faa64ca59fa30.jpg`,
+          name: 'Mr. Calvin Tsang',
+          posts: ['Marketing Team Lead'],
         },
         {
-          name: 'Tony Yip',
-          posts: ['Operation Team'],
-          avatar: 'http://www.gravatar.com/avatar/94a1b6213d134229d540c13fc7923fc9?s=128',
-          social: {
-            twitter: 'tonyhhyip',
-            github: 'tonyhhyip',
-          },
+          name: 'Mr. Nicholas Yau',
+          posts: ['Operation Team Lead'],
+        },
+        {
+          name: 'Mr. Henry Law',
+          posts: ['Recording (Photo & Video) Chief'],
+        },
+        {
+          name: 'Mr. Koala Yeung',
+          posts: ['Web Manager', 'Operation'],
+        },
+        {
+          name: 'Ms. Daisy Fung',
+          posts: ['Administration', 'Marketing'],
+        },
+        {
+          name: 'Mr. Ken Chu',
+          posts: ['Administration', 'Operation'],
+        },
+        {
+          name: 'Mr. Frankie Yuen',
+          posts: ['Design'],
+        },
+        {
+          name: 'Mr. Toby@Happeas',
+          posts: ['Design'],
+        },
+        {
+          name: 'Ms. Claire Chung',
+          posts: ['Marketing', 'Interpreter (Japanese)'],
+        },
+        {
+          name: 'Ms. Judy Wong',
+          posts: ['Marketing', 'Interpreter (English)'],
+        },
+        {
+          name: 'Ms. Fiona Lam',
+          posts: ['Marketing'],
+        },
+        {
+          name: 'Mr. John Law',
+          posts: ['Operation'],
+        },
+        {
+          name: 'Mr. Tony Yip',
+          posts: ['Operation', 'Web'],
+        },
+        {
+          name: 'Mr. Tommy Han',
+          posts: ['Photo'],
+        },
+        {
+          name: 'Mr. Ranger Ken',
+          posts: ['Photo'],
+        },
+        {
+          name: 'Mr. Ivan Ip',
+          posts: ['Program'],
+        },
+        {
+          name: 'Mr. Ting',
+          posts: ['Program'],
+        },
+        {
+          name: 'Mr. Joe Chan',
+          posts: ['Video'],
+        },
+        {
+          name: 'Mr. Austin Leung',
+          posts: ['Video'],
         },
       ],
     };
