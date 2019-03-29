@@ -8,11 +8,11 @@
       box-shadow: 0 2px 2px;
       min-height: 3rem;
       will-change: background-color;
-      @include media("<=tablet") {
+      @include media("<desktop") {
         box-shadow: 1px 1px 1px;
-      }
-      &--active {
-        opacity: .9;
+        &--active {
+          opacity: .9;
+        }
       }
     }
     &__container {
@@ -21,17 +21,15 @@
       margin: auto;
       flex-grow: 1;
       height: 100%;
-      @include media(">tablet") {
+      justify-content: center;
+      @include media(">=desktop") {
         width: 70%;
         max-width: 1000px;
         justify-content: space-between;
       }
-      @include media("<=tablet") {
-        justify-content: center;
-      }
     }
     &__brand {
-      @include media("<=tablet") {
+      @include media("<desktop") {
         align-self: center;
         &--active {
           height: 64px;
@@ -39,10 +37,8 @@
       }
     }
     &__menu {
-      @include media(">tablet") {
-        display: flex !important;
-      }
-      @include media("<=tablet") {
+      display: flex !important;
+      @include media("<desktop") {
         display: none !important;
         width: 100%;
         position: absolute;
@@ -63,7 +59,7 @@
       padding-bottom: .5rem;
       &:hover, &.is-active, &.is-active > .defaultLayout__trigger {
         background-color: #eee !important;
-        @include media("<=tablet") {
+        @include media("<desktop") {
           opacity: .9;
           background-color: white;
         }
@@ -88,7 +84,7 @@
     }
     &__burger {
       display: none;
-      @include media("<=tablet") {
+      @include media("<desktop") {
         display: flex;
         position: absolute;
         left: 5px;
@@ -97,7 +93,7 @@
         cursor: pointer;
       }
     }
-    @include media("<=tablet") {
+    @include media("<desktop") {
       &__part {
         width: 100%;
         padding-top: 2rem;

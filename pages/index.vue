@@ -8,12 +8,12 @@
       background-position: 80% 25%;
       padding: 0 !important;
       display: flex;
-      @include media("<=tablet") {
+      @include media("<desktop") {
         background: none;
         display: block;
         height: auto;
       }
-      @include media(">tablet") {
+      @include media(">=desktop") {
         height: 80vh;
         min-height: 750px;
       }
@@ -21,7 +21,7 @@
     &__logo {
       margin-top: 10rem;
       margin-left: 18rem;
-      @include media("<=tablet") {
+      @include media("<desktop") {
         display: none;
       }
     }
@@ -29,10 +29,6 @@
       width: 188px;
       height: 188px;
       padding-top: 0 !important;
-      @include media("<=tablet") {
-        margin-left: auto;
-        margin-right: auto;
-      }
     }
     &__slogan {
       margin-top: 8rem;
@@ -42,23 +38,23 @@
     &__intro {
       margin-top: 10rem;
       margin-left: 10rem;
-      @include media("<=tablet") {
+      @include media("<desktop") {
         text-align: right;
         margin: 5rem 1rem 5rem 0;
       }
     }
     &__title {
-      font-size: 3rem;
-      border-bottom: 5px solid $theme-blue;
-      padding-left: 5px;
-      padding-right: 5px;
       margin-bottom: 0;
-      @include media("<=tablet") {
-        margin-left: 3px;
-        border: none;
-        margin-top: 0;
-        padding: 0;
-        font-size: 2rem;
+      margin-left: 3px;
+      border: none;
+      margin-top: 0;
+      padding: 0;
+      font-size: 2rem;
+      @include media(">=desktop") {
+        font-size: 3rem;
+        border-bottom: 5px solid $theme-blue;
+        padding-left: 5px;
+        padding-right: 5px;
       }
     }
     &__date {
@@ -66,19 +62,17 @@
     }
     &__venue, &__date {
       margin-left: 2rem;
-      @include media("<=tablet") {
+      @include media("<desktop") {
         font-size: 1.25rem;
       }
     }
     &__cards {
-      @include media(">tablet") {
+      width: 100%;
+      margin: 5rem 0;
+      @include media(">=desktop") {
         width: 70%;
         max-width: 1000px;
         margin: 5rem auto;
-      }
-      @include media("<=tablet") {
-        width: 100%;
-        margin: 5rem 0;
       }
     }
     &__card {
@@ -86,13 +80,12 @@
       box-shadow: 1px 1px 1px rgba(10, 10, 10, 0.1),
                   0 2px 3px rgba(10, 10, 10, 0.1),
                   0 0 0 1px rgba(10, 10, 10, 0.1);
-      @include media("<=tablet") {
-        width: 100%;
+      @include media("<desktop") {
         border-top: 1px solid #eee;
       }
     }
     &__brand {
-      @include media("<=tablet") {
+      @include media("<desktop") {
         display: none;
       }
     }
