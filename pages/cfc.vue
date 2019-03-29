@@ -34,7 +34,7 @@
       </p>
       <ul class="cfc__list">
         <li class="cfc__list__item">Haxe Foundation</li>
-        <li class="cfc__list__item">Hong Kong R Group</li>
+        <li class="cfc__list__item">Hong Kong R User Group</li>
         <li class="cfc__list__item">Hong Kong WordPress Meetup</li>
         <li class="cfc__list__item">Japanese Raspberry Pi Users Group</li>
         <li class="cfc__list__item">Mozilla</li>
