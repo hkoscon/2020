@@ -66,6 +66,7 @@
           <a
             href="https://facebook.com/hkoscon/"
             class="pageFooter__social__link"
+            target="_blank"
           >
             <span class="icon is-medium pageFooter__social__logo">
               <i class="fa fa-facebook-square fa-2x pageFooter__social__fb" />
@@ -77,6 +78,7 @@
           <a
             href="https://twitter.com/hkoscon/"
             class="pageFooter__social__link"
+            target="_blank"
           >
             <span class="icon is-medium pageFooter__social__logo">
               <i class="fa fa-twitter fa-2x pageFooter__social__twitter" />
@@ -88,6 +90,7 @@
           <a
             href="https://www.youtube.com/channel/UC8yt48pXALiBm8HEo3tl3FQ"
             class="pageFooter__social__link"
+            target="_blank"
           >
             <span class="icon is-medium pageFooter__social__logo">
               <i class="fa fa-youtube-play fa-2x pageFooter__social__youtube" />
