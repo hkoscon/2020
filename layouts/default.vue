@@ -101,6 +101,9 @@
         padding-bottom: 2rem;
       }
     }
+    &__content {
+      padding-top: 3rem;
+    }
   }
 </style>
 
@@ -207,7 +210,9 @@
         </div>
       </div>
     </nav>
-    <nuxt />
+    <div class="defaultLayout__content">
+      <nuxt />
+    </div>
     <page-footer />
   </div>
 </template>
