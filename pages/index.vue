@@ -97,8 +97,8 @@
     class="homePage"
   >
     <div
-      class="homePage__cover"
       :style="{backgroundImage}"
+      class="homePage__cover"
     >
       <div class="homePage__brand">
         <div class="homePage__logo">
@@ -113,15 +113,23 @@
         </div>
       </div>
       <div class="homePage__intro">
-        <p class="has-text-theme-yellow homePage__title">HKOSCon 2019</p>
-        <p class="homePage__date has-text-theme-blue">14 - 15 Jun, 2019</p>
-        <p class="homePage__venue has-text-theme-blue">Convention Centre 2<br>Hong Kong Science Park</p>
+        <p class="has-text-theme-yellow homePage__title">
+          HKOSCon 2019
+        </p>
+        <p class="homePage__date has-text-theme-blue">
+          14 - 15 Jun, 2019
+        </p>
+        <p class="homePage__venue has-text-theme-blue">
+          Convention Centre 2<br>Hong Kong Science Park
+        </p>
       </div>
     </div>
     <div class="homePage__cards">
       <div class="card homePage__card">
         <div class="card-content">
-          <p class="title is-4 has-text-theme-yellow"># About</p>
+          <p class="title is-4 has-text-theme-yellow">
+            # About
+          </p>
           <p>
             Hong Kong Open Source Conference (HKOSCon) is one of the major Open Source conferences in Hong Kong since its first commercement in 2013,
             bringing an international crowd of developers, contributors, users, IT manager, students and public.

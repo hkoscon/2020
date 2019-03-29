@@ -33,14 +33,30 @@
         The following communities would participate in HKOSCon 2019 (in alphabetic order):
       </p>
       <ul class="cfc__list">
-        <li class="cfc__list__item">Haxe Foundation</li>
-        <li class="cfc__list__item">Hong Kong R Group</li>
-        <li class="cfc__list__item">Hong Kong WordPress Meetup</li>
-        <li class="cfc__list__item">Japanese Raspberry Pi Users Group</li>
-        <li class="cfc__list__item">Mozilla</li>
-        <li class="cfc__list__item">MySQL Open Source Database</li>
-        <li class="cfc__list__item">自由香港字型</li>
-        <li class="cfc__list__item">開源工場</li>
+        <li class="cfc__list__item">
+          Haxe Foundation
+        </li>
+        <li class="cfc__list__item">
+          Hong Kong R Group
+        </li>
+        <li class="cfc__list__item">
+          Hong Kong WordPress Meetup
+        </li>
+        <li class="cfc__list__item">
+          Japanese Raspberry Pi Users Group
+        </li>
+        <li class="cfc__list__item">
+          Mozilla
+        </li>
+        <li class="cfc__list__item">
+          MySQL Open Source Database
+        </li>
+        <li class="cfc__list__item">
+          自由香港字型
+        </li>
+        <li class="cfc__list__item">
+          開源工場
+        </li>
       </ul>
     </div>
   </main>
@@ -48,7 +64,7 @@
 
 <script>
 export default {
-  name: 'Call for Communities Result',
+  name: 'CallForCommunitiesResult',
   head: {
     title: 'Call for Communities Result | Hong Kong Open Source Conference 2019',
     meta: [

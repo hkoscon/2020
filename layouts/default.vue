@@ -108,7 +108,10 @@
     @click="handleClick"
     class="defaultLayout"
   >
-    <nav class="navbar defaultLayout__navbar" :class="{ 'defaultLayout__navbar--active': showNavbar }">
+    <nav
+      :class="{ 'defaultLayout__navbar--active': showNavbar }"
+      class="navbar defaultLayout__navbar"
+    >
       <div class="defaultLayout__container">
         <div
           @click.stop="toggleNavbar"
@@ -154,7 +157,10 @@
                 class="navbar-link is-arrowless defaultLayout__trigger"
                 tabindex=""
               >Program</span>
-              <div class="navbar-dropdown defaultLayout__dropdown" :class="{ 'defaultLayout__dropdown--active': showProgram }">
+              <div
+                :class="{ 'defaultLayout__dropdown--active': showProgram }"
+                class="navbar-dropdown defaultLayout__dropdown"
+              >
                 <nuxt-link
                   to="/topics"
                   class="navbar-item"
