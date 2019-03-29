@@ -71,7 +71,7 @@
       width: 200%;
       left: -50%;
       text-align: center;
-      box-shadow: 0 3px 4px;
+      box-shadow: 0 3px 4px rgba(0, 0, 0, .16);
       > .navbar-item {
         white-space: normal;
         @include media(">tablet") {
