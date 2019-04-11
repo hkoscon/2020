@@ -25,3 +25,13 @@ $navbar-dropdown-item-hover-background-color: darken($theme-blue, 10%);
 @import "~bulma/sass/utilities/derived-variables";
 @import "~bulma/sass/utilities/mixins";
 @import "~bulma/sass/utilities/controls";
+
+@mixin container() {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  @include media(">=desktop") {
+    width: 70%;
+    max-width: 1000px;
+  }
+}
