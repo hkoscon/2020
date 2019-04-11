@@ -12,7 +12,6 @@
     content: "\f09b";
   }
   .volunteerCard {
-    max-width: 256px;
     padding: 3rem 1rem 1rem;
     text-align: center;
     box-shadow: 0 1px 1px rgba(0, 0, 0, .16);
@@ -20,6 +19,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    @include media(">=desktop") {
+      max-width: 256px;
+    }
+
     &__avatar {
       margin-left: auto;
       margin-right: auto;
