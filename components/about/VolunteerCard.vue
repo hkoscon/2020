@@ -105,49 +105,70 @@
     </div>
     <div>
       <template v-if="social && social.github">
-        <a :href="`https://github.com/${social.github}`" target="_blank">
+        <a
+          :href="`https://github.com/${social.github}`"
+          target="_blank"
+        >
           <span class="icon volunteerCard__social volunteerCard__social--github">
             <i class="fa fa-github" />
           </span>
         </a>
       </template>
       <template v-if="social && social.twitter">
-        <a :href="`https://twitter.com/${social.twitter}`" target="_blank">
+        <a
+          :href="`https://twitter.com/${social.twitter}`"
+          target="_blank"
+        >
           <span class="icon volunteerCard__social volunteerCard__social--twitter">
             <i class="fa fa-twitter" />
           </span>
         </a>
       </template>
       <template v-if="social && social.medium">
-        <a :href="`https://medium.com/@${social.medium}`" target="_blank">
+        <a
+          :href="`https://medium.com/@${social.medium}`"
+          target="_blank"
+        >
           <span class="icon volunteerCard__social volunteerCard__social--medium">
             <i class="fa fa-medium" />
           </span>
         </a>
       </template>
       <template v-if="social && social.linkedin">
-        <a :href="`https://linkedin.com/in/${social.linkedin}`" target="_blank">
+        <a
+          :href="`https://linkedin.com/in/${social.linkedin}`"
+          target="_blank"
+        >
           <span class="icon volunteerCard__social volunteerCard__social--linkedin">
             <i class="fa fa-linkedin-square" />
           </span>
         </a>
       </template>
       <template v-if="social && social.web">
-        <a :href="social.web" target="_blank">
+        <a
+          :href="social.web"
+          target="_blank"
+        >
           <span class="icon volunteerCard__social volunteerCard__social--web">
             <i class="fa fa-link" />
           </span>
         </a>
       </template>
       <template v-if="social && social.fb">
-        <a :href="`https://facebook.com/${social.fb}`" target="_blank">
+        <a
+          :href="`https://facebook.com/${social.fb}`"
+          target="_blank"
+        >
           <span class="icon volunteerCard__social volunteerCard__social--fb">
             <i class="fa fa-facebook" />
           </span>
         </a>
       </template>
       <template v-if="social && social.instagram">
-        <a :href="`https://instagram.com/${social.fb}`" target="_blank">
+        <a
+          :href="`https://instagram.com/${social.fb}`"
+          target="_blank"
+        >
           <span class="icon volunteerCard__social volunteerCard__social--instagram">
             <i class="fa fa-instagram" />
           </span>
@@ -164,8 +185,8 @@
         <i class="material-icons">keyboard_arrow_down</i>
       </span>
       <p
-        class="volunteerCard__description"
         :class="{ 'volunteerCard__description--active': showDescription }"
+        class="volunteerCard__description"
       >
         {{ description }}
       </p>
