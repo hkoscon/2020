@@ -60,7 +60,7 @@
 
 <template>
   <footer>
-    <div class="pageFooter__hashtag has-text-right has-text-theme-yellow">
+    <div class="pageFooter__hashtag has-text-right has-text-theme-blue">
       #HKOSCon2019
     </div>
     <div class="footer pageFooter__social">
