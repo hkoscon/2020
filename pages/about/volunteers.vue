@@ -64,6 +64,9 @@ export default {
         {
           name: 'Claire Chung',
           posts: ['Marketing Team', 'Interpreter (Japanese)'],
+          social: {
+            linkedin: 'claire-chung',
+	  },
           avatar: `${process.env.PUBLIC_PATH}/images/volunteer/7871c0482c9d274d68fe1d056a7cce8b.jpg`,
           description: 'Academic researcher in Bioinformatics / Geek coder / Graphic design / Language enthusiast / Volunteer. Co-authored on Python Data Visualization Books and spoke at PyConHK; front-end development of mental health service search engine. Ever learn, ever challenge, ever explore.',
         },
