@@ -41,6 +41,13 @@
 <script>
 export default {
   name: 'AboutVolunteerPage',
+  head: {
+    title: 'Volunteers | Hong Kong Open Source Confernce 2019',
+    meta: [
+      { hid: 'og:title', property: 'og:title', content: 'Volunteers | Hong Kong Open Source Conference 2019' },
+      { hid: 'description', name: 'description', content: 'Hong Kong Open Source Conference is a volunteer-driven event. Here is our volunteer this year.' },
+    ],
+  },
   components: {
     PageBanner: () => import('~/components/PageBanner.vue'),
     VolunteerCard: () => import('~/components/about/VolunteerCard.vue'),
