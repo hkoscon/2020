@@ -116,6 +116,7 @@ export default {
         {
           name: 'Ivan Ip',
           posts: ['Program Team'],
+          avatar: 'https://secure.gravatar.com/avatar/6427d459c8ad08432aed964d74b9675c',
         },
         {
           name: 'Joe Chan',
@@ -149,8 +150,8 @@ export default {
           avatar: 'https://www.gravatar.com/avatar/f9729bf7b60a37d9874f5a8bd42409c5?s=128',
         },
         {
-          name: 'Ranger Ken',
-          posts: ['Administration Team', 'Operation Team'],
+          name: 'Ken Chu',
+          posts: ['Administration Team'],
           avatar: `${process.env.PUBLIC_PATH}/images/volunteer/d22e8f6bf9c2ce9b185c270a442e288a.jpg`,
         },
         {
