@@ -137,6 +137,12 @@
           >
             Topics
           </nuxt-link>
+          <nuxt-link
+            to="/timetable"
+            class="navbar-item"
+          >
+            Timetable
+          </nuxt-link>
           <div
             :class="{ 'is-active': showArchive }"
             class="navbar-item has-dropdown"
