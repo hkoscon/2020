@@ -86,3 +86,6 @@ public
 
 # Generated static data
 /static/data
+
+# editor temp files
+.*.swp
