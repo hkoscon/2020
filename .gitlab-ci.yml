@@ -13,11 +13,15 @@ lint:
   stage: test
   script:
     - yarn lint
+  except:
+    - triggers
 
 audit:
   stage: test
   script:
     - yarn audit
+  except:
+    - triggers
 
 # Build and deploy to GitHub pages.
 ghpages:deploy:
