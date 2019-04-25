@@ -14,3 +14,12 @@ a {
 .container h1 {
   margin-top: 3em;
 }
+.is-list {
+  list-style-type: disc;
+}
+.is-ordered-list {
+  list-style-type: decimal;
+}
+.title.is-2 {
+  margin-top: 1.5em;
+}

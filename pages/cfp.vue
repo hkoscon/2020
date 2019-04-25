@@ -33,5 +33,12 @@
 <script>
 export default {
   name: 'CFPPage',
+  head: {
+    title: 'Call for Proposals | Hong Kong Open Source Confernce 2019',
+    meta: [
+      { hid: 'og:title', property: 'og:title', content: 'Call for Proposals | Hong Kong Open Source Conference 2019' },
+      { hid: 'description', name: 'description', content: 'Thanks for interested in submitting topics. Our 2019 Call for Proposal was closed.' },
+    ],
+  },
 };
 </script>

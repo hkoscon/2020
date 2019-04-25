@@ -206,7 +206,6 @@
     </section>
     <section class="section topicPage__section topicPage__section--meta">
       <div class="container">
-        <!--
         <div class="topicPage__meta">
           <i class="material-icons topicPage__icon">
             event
@@ -223,7 +222,6 @@
             {{ topic.venue.name || '' }}
           </span>
         </div>
-        -->
         <div class="topicPage__meta">
           <ul class="topicPage__meta__list">
             <li>
