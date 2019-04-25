@@ -5,8 +5,7 @@
     margin-left: auto;
     margin-right: auto;
     @include media(">=desktop") {
-      width: 70%;
-      max-width: 1000px;
+      max-width: 1344px;
     }
   }
 </style>
