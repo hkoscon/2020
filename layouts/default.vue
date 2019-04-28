@@ -52,6 +52,9 @@
         color: white;
       }
     }
+    &__content {
+      padding-top: 3rem;
+    }
   }
 </style>
 
@@ -94,7 +97,6 @@
         class="navbar-menu"
       >
         <div class="navbar-start">
-          <!--
           <div
             :class="{ 'is-active': showAbout }"
             class="navbar-item has-dropdown"
@@ -103,15 +105,26 @@
               @click="showAbout = !showAbout"
               class="navbar-link"
             >
-              Organizer
+              About
             </span>
             <div class="navbar-dropdown">
               <nuxt-link
-                @click.native="showAbout = false"
-                to="/about/committee"
+                to="/about/conference"
                 class="navbar-item"
               >
-                Organizing Committee
+                About Conference
+              </nuxt-link>
+              <nuxt-link
+                to="/about/organizers"
+                class="navbar-item"
+              >
+                Organizers
+              </nuxt-link>
+              <nuxt-link
+                to="/about/volunteers"
+                class="navbar-item"
+              >
+                Volunteers
               </nuxt-link>
               <nuxt-link
                 @click.native="showAbout = false"
@@ -122,7 +135,6 @@
               </nuxt-link>
             </div>
           </div>
-          -->
           <nuxt-link
             to="/cfc"
             class="navbar-item"
@@ -130,10 +142,24 @@
             Communities
           </nuxt-link>
           <nuxt-link
+            to="/sponsors"
+            class="navbar-item"
+          >
+            Sponsors
+          </nuxt-link>
+          <!--
+          <nuxt-link
             to="/topics"
             class="navbar-item"
           >
             Topics
+          </nuxt-link>
+          -->
+          <nuxt-link
+            to="/timetable"
+            class="navbar-item"
+          >
+            Timetable
           </nuxt-link>
           <div
             :class="{ 'is-active': showArchive }"
@@ -200,7 +226,9 @@
         </div>
       </div>
     </nav>
-    <nuxt />
+    <div class="defaultLayout__content">
+      <nuxt />
+    </div>
     <page-footer />
   </div>
 </template>

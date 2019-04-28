@@ -23,9 +23,9 @@
 <template>
   <main class="section">
     <div class="container cfc__container">
-      <h3 class="title is-3">
+      <h1 class="title is-3">
         Call for Communities Result
-      </h3>
+      </h1>
       <p>
         Thanks for the overwhelming responses from open source communities.
       </p>
@@ -34,7 +34,7 @@
       </p>
       <ul class="cfc__list">
         <li class="cfc__list__item">Haxe Foundation</li>
-        <li class="cfc__list__item">Hong Kong R Group</li>
+        <li class="cfc__list__item">Hong Kong R User Group</li>
         <li class="cfc__list__item">Hong Kong WordPress Meetup</li>
         <li class="cfc__list__item">Japanese Raspberry Pi Users Group</li>
         <li class="cfc__list__item">Mozilla</li>

@@ -17,6 +17,10 @@ export default {
   name: 'TimetablePage',
   head: {
     title: 'Schedule | Hong Kong Open Source Confernce 2019',
+    meta: [
+      { hid: 'og:title', property: 'og:title', content: 'Schedule | Hong Kong Open Source Conference 2019' },
+      { hid: 'description', name: 'description', content: 'The timetable for the Hong Kong Open Source Conference 2019.' },
+    ],
   },
   components: {
     ScheduleTable: () => import('~/components/timetable/ScheduleTable.vue'),

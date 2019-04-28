@@ -42,6 +42,13 @@
 <script>
 export default {
   name: 'AboutCocPage',
+  head: {
+    title: 'Code of Conduct | Hong Kong Open Source Confernce 2019',
+    meta: [
+      { hid: 'og:title', property: 'og:title', content: 'Code of Conduct | Hong Kong Open Source Conference 2019' },
+      { hid: 'description', name: 'description', content: 'HKOSCon is a community conference intended for networking and collaboration in the developer and user community...' },
+    ],
+  },
   components: {
     PageBanner: () => import('~/components/PageBanner.vue'),
   },

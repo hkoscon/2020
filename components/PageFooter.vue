@@ -6,8 +6,8 @@
     }
     &__social {
       background-color: #eee !important;
-      padding: .8rem 1.5rem !important;
-      @include media("<=tablet") {
+      padding: 2rem 0 !important;
+      @include media("<desktop") {
         padding-left: 0 !important;
         padding-right: 0 !important;
       }
@@ -16,23 +16,19 @@
         display: flex;
         justify-content: space-evenly;
         flex-wrap: wrap;
-        @include media("<=tablet") {
+        width: 100%;
+        @include media(">=desktop") {
+          width: 70%;
+          max-width: 800px;
+          margin-left: auto;
+          margin-right: auto;
+        }
+        @include media("<desktop") {
           flex-basis: 50%;
         }
         @include media("<=phone") {
           flex-basis: 100%;
         }
-      }
-      &__fb {
-        color: #3b5998;
-      }
-
-      &__twitter {
-        color: #1CA1F2;
-      }
-
-      &__youtube {
-        color: red;
       }
 
       &__link {
@@ -55,20 +51,28 @@
         max-width: 192px;
       }
     }
+    &__hashtag {
+      margin-right: 1.5rem;
+      margin-bottom: .5rem;
+    }
   }
 </style>
 
 <template>
   <footer>
+    <div class="pageFooter__hashtag has-text-right has-text-theme-blue">
+      #HKOSCon2019
+    </div>
     <div class="footer pageFooter__social">
-      <div class="container content has-text-centered pageFooter__social__section">
+      <div class="has-text-centered pageFooter__social__section">
         <div class="pageFooter__social__media">
           <a
             href="https://facebook.com/hkoscon/"
             class="pageFooter__social__link"
+            target="_blank"
           >
             <span class="icon is-medium pageFooter__social__logo">
-              <i class="fa fa-facebook-square fa-2x pageFooter__social__fb" />
+              <i class="fa fa-facebook-square fa-2x" />
             </span>
           </a>
         </div>
@@ -77,9 +81,10 @@
           <a
             href="https://twitter.com/hkoscon/"
             class="pageFooter__social__link"
+            target="_blank"
           >
             <span class="icon is-medium pageFooter__social__logo">
-              <i class="fa fa-twitter fa-2x pageFooter__social__twitter" />
+              <i class="fa fa-twitter fa-2x" />
             </span>
           </a>
         </div>
@@ -88,9 +93,10 @@
           <a
             href="https://www.youtube.com/channel/UC8yt48pXALiBm8HEo3tl3FQ"
             class="pageFooter__social__link"
+            target="_blank"
           >
             <span class="icon is-medium pageFooter__social__logo">
-              <i class="fa fa-youtube-play fa-2x pageFooter__social__youtube" />
+              <i class="fa fa-youtube-play fa-2x" />
             </span>
           </a>
         </div>
