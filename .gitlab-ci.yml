@@ -22,6 +22,7 @@ audit:
     - yarn audit
   except:
     - triggers
+  allow_failure: true
 
 # Build and deploy to GitHub pages.
 ghpages:deploy:
