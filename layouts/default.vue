@@ -215,12 +215,13 @@
         <div class="navbar-end">
           <div class="navbar-item">
             <p class="control">
-              <nuxt-link
-                to="/topics"
+              <a
+                href="https://hkoscon2019.eventbrite.com/"
+                target="_blank"
                 class="button is-primary"
               >
-                CFP Results
-              </nuxt-link>
+                Register Now
+              </a>
             </p>
           </div>
         </div>
