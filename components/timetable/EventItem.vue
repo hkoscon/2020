@@ -46,6 +46,10 @@
     }
   }
 
+  .eventItem__content__info {
+    display: block;
+  }
+
   .topicWrapper {
     display: block;
     flex: 1;
@@ -69,22 +73,29 @@
               class="subtitle is-6"
             >
               <span
-                v-if="event.language"
-                class="info"
+                v-if="event.venue.name"
+                class="eventItem__content__info"
               >
-                {{ event.language }}
+                {{ event.venue.name }}
+              </span>
+              <span
+                v-if="event.language"
+                class="eventItem__content__info"
+              >
+                <span>{{ event.language }}</span>
+                <span
+                  v-for="interp in event.language_sym_interp"
+                  :key="interp"
+                  class="eventItem__content__info__remark"
+                >
+                  ({{ interp }} interpretation)
+                </span>
               </span>
               <span
                 v-if="event.level"
-                class="info"
+                class="eventItem__content__info"
               >
                 {{ event.level }}
-              </span>
-              <span
-                v-if="event.venue.name"
-                class="info"
-              >
-                {{ event.venue.name }}
               </span>
             </p>
           </div>
