@@ -1,7 +1,7 @@
 <style lang="scss">
   .scheduleTable {
+    position: relative;
     &__tabs {
-      height: 64px;
       display: flex;
       align-items: center;
       overflow: hidden;
@@ -11,17 +11,17 @@
         top: 52px;
         background-color: white;
         z-index: 1;
-        box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 1px 5px 0 rgba(0,0,0,.12), 0 3px 1px -2px rgba(0,0,0,.2);
+        box-shadow: 0 4px 2px -2px rgba(0,0,0,.14);
         width: 100%;
 
         @media screen and (min-width: 1088px) {
-          max-width: 960px;
-          width: 960px;
+          top: 84px;
+          width: 964px;
         }
 
         @media screen and (min-width: 1280px) {
-          max-width: 1152px;
-          width: 1152px;
+          top: 84px;
+          width: 1339px;
         }
       }
     }
@@ -66,19 +66,15 @@
     <div
       ref="tabs"
       :class="{ 'scheduleTable__tabs--sticky': sticky }"
-      class="tabs scheduleTable__tabs"
+      class="scheduleTable__tabs"
     >
-      <div class="tab-container scheduleTable__container">
-        <div class="content scheduleTable__content">
-          <tab-item
-            v-for="day in days"
-            :key="day.date"
-            :day="day"
-            :active="day.day === activeDay"
-            @click="activeDay = day.day"
-          />
-        </div>
-      </div>
+      <tab-item
+        v-for="day in days"
+        :key="day.date"
+        :day="day"
+        :active="day.day === activeDay"
+        @click="activeDay = day.day"
+      />
     </div>
     <template v-for="day in days">
       <transition
