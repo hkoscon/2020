@@ -230,6 +230,13 @@
               </i>
               <span class="topicPage__meta__text">
                 {{ topic.language }}
+                <span
+                  v-for="interp in topic.language_sym_interp"
+                  :key="interp"
+                  class="topicPage__meta__text__remark"
+                >
+                  ({{ interp }} interpretation)
+                </span>
               </span>
             </li>
             <li>
