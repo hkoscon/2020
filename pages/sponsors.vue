@@ -40,6 +40,18 @@
   }
 }
 
+.sponsor__container__tier__patron {
+  text-align: center;
+  ul {
+    list-style-type: none;
+    li {
+      display: block;
+      line-height: 2.6em;
+      font-size: 1.2em;
+    }
+  }
+}
+
 </style>
 
 <template>
@@ -78,6 +90,22 @@
           </div>
         </div>
       </div>
+      <div
+        class="sponsor__container__tier"
+      >
+        <h2 class="title is-3">Patrons</h2>
+        <div class="sponsor__container__tier__sponsors">
+          <div class="sponsor__container__tier__sponsor sponsor__container__tier__patron">
+            <ul>
+              <li
+                v-for="patron in patrons" :key="patron"
+              >
+                {{ patron }}
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </div>
   </main>
 </template>
@@ -98,6 +126,7 @@ export default {
     axios.get('https://events.cota.hk/api/v1/info/hkoscon-2019')
       .then(res => ({
         sponsors: res.data.conference.sponsors,
+        patrons: res.data.conference.patrons,
       }))
   ),
   data() {
