@@ -114,6 +114,7 @@
               >
                 About Conference
               </nuxt-link>
+              <!--
               <nuxt-link
                 to="/about/organizers"
                 class="navbar-item"
@@ -126,6 +127,7 @@
               >
                 Volunteers
               </nuxt-link>
+              -->
               <nuxt-link
                 @click.native="showAbout = false"
                 to="/about/coc"
@@ -135,6 +137,7 @@
               </nuxt-link>
             </div>
           </div>
+          <!--
           <nuxt-link
             to="/cfc"
             class="navbar-item"
@@ -147,20 +150,13 @@
           >
             Sponsors
           </nuxt-link>
-          <!--
-          <nuxt-link
-            to="/topics"
-            class="navbar-item"
-          >
-            Topics
-          </nuxt-link>
-          -->
           <nuxt-link
             to="/timetable"
             class="navbar-item"
           >
             Timetable
           </nuxt-link>
+          -->
           <div
             :class="{ 'is-active': showArchive }"
             class="navbar-item has-dropdown"
