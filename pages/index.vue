@@ -129,7 +129,7 @@
             <i class="material-icons">
               add_location
             </i>
-          </span> Hong Kong Cyberport
+          </span> TBC
         </p>
         <div class="homePage__social">
           <a
