@@ -116,14 +116,14 @@ import axios from 'axios';
 export default {
   name: 'Sponsors',
   head: {
-    title: 'Sponsors | Hong Kong Open Source Confernce 2019',
+    title: 'Sponsors | Hong Kong Open Source Confernce 2020',
     meta: [
-      { hid: 'og:title', property: 'og:title', content: 'Sponsors Us | Hong Kong Open Source Conference 2019' },
+      { hid: 'og:title', property: 'og:title', content: 'Sponsors Us | Hong Kong Open Source Conference 2020' },
       { hid: 'description', name: 'description', content: 'HKOSCon depends on the industry’s sponsorship as the event is at minimum cost.' },
     ],
   },
   asyncData: () => (
-    axios.get('https://events.cota.hk/api/v1/info/hkoscon-2019')
+    axios.get('https://events.cota.hk/api/v1/info/hkoscon-2020')
       .then(res => ({
         sponsors: res.data.conference.sponsors,
         patrons: res.data.conference.patrons,

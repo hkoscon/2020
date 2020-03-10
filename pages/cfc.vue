@@ -30,7 +30,7 @@
         Thanks for the overwhelming responses from open source communities.
       </p>
       <p>
-        The following communities would participate in HKOSCon 2019 (in alphabetic order):
+        The following communities would participate in HKOSCon 2020 (in alphabetic order):
       </p>
       <ul class="cfc__list">
         <li class="cfc__list__item">Haxe Foundation</li>
@@ -50,9 +50,9 @@
 export default {
   name: 'Call for Communities Result',
   head: {
-    title: 'Call for Communities Result | Hong Kong Open Source Conference 2019',
+    title: 'Call for Communities Result | Hong Kong Open Source Conference 2020',
     meta: [
-      { hid: 'og:title', property: 'og:title', content: 'Call for Communities Result | Hong Kong Open Source Conference 2019' },
+      { hid: 'og:title', property: 'og:title', content: 'Call for Communities Result | Hong Kong Open Source Conference 2020' },
     ],
   },
 };

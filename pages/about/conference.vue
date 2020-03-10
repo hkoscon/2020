@@ -30,9 +30,9 @@
 export default {
   name: 'AboutCocPage',
   head: {
-    title: 'About Conference | Hong Kong Open Source Confernce 2019',
+    title: 'About Conference | Hong Kong Open Source Confernce 2020',
     meta: [
-      { hid: 'og:title', property: 'og:title', content: 'About Conference | Hong Kong Open Source Conference 2019' },
+      { hid: 'og:title', property: 'og:title', content: 'About Conference | Hong Kong Open Source Conference 2020' },
       { hid: 'description', name: 'description', content: 'Hong Kong Open Source Conference ( HKOSCon ) is one of the major Open Source conferences in Hong Kong since its first commercement in 2013, bringing an international crowd of developers, contributors, users, IT manager, students and public...' },
     ],
   },

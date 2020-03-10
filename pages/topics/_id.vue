@@ -279,7 +279,7 @@ function truncStr(str, n) {
 export default {
   name: 'TopicPage',
   head() {
-    const title = `${this.topic.display} | Hong Kong Open Source Conference 2019`;
+    const title = `${this.topic.display} | Hong Kong Open Source Conference 2020`;
     const description = truncStr(striptags(this.topic.description).replace(/[\n\r]+/, ' '), 250);
     let image = '';
     image = this.topic.speakers.reduce((accumulator, currentValue) => {
@@ -319,8 +319,8 @@ export default {
     },
     twitterShareLink() {
       const shareUrl = `${this.shareLink}&utm_source=twitter`;
-      const text = `${this.speakers} in going to deliver ${this.topic.display} in HKOSCon 2019`;
-      return `https://twitter.com/share?text=${encodeURIComponent(text)}&via=hkoscon&hashtags=${encodeURIComponent('hkoscon,hkoscon2019')}&url=${encodeURIComponent(shareUrl)}`;
+      const text = `${this.speakers} in going to deliver ${this.topic.display} in HKOSCon 2020`;
+      return `https://twitter.com/share?text=${encodeURIComponent(text)}&via=hkoscon&hashtags=${encodeURIComponent('hkoscon,hkoscon2020')}&url=${encodeURIComponent(shareUrl)}`;
     },
     linkedInShareLink() {
       const shareUrl = `${this.shareLink}&utm_source=linkedin`;

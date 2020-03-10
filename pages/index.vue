@@ -122,14 +122,14 @@
             <i class="material-icons">
               calendar_today
             </i>
-          </span> 14 - 15 Jun, 2019 (Fri - Sat)
+          </span> 12 - 13 Jun, 2020 (Fri - Sat)
         </p>
         <p class="has-text-primary homePage__cover__text">
           <span class="icon">
             <i class="material-icons">
               add_location
             </i>
-          </span> Convention Centre 2, Hong Kong Science Park, Shatin
+          </span> Hong Kong Cyberport
         </p>
         <div class="homePage__social">
           <a

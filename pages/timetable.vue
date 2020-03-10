@@ -16,10 +16,10 @@ import fetchTopic from '../utils/fetchTopic';
 export default {
   name: 'TimetablePage',
   head: {
-    title: 'Schedule | Hong Kong Open Source Confernce 2019',
+    title: 'Schedule | Hong Kong Open Source Confernce 2020',
     meta: [
-      { hid: 'og:title', property: 'og:title', content: 'Schedule | Hong Kong Open Source Conference 2019' },
-      { hid: 'description', name: 'description', content: 'The timetable for the Hong Kong Open Source Conference 2019.' },
+      { hid: 'og:title', property: 'og:title', content: 'Schedule | Hong Kong Open Source Conference 2020' },
+      { hid: 'description', name: 'description', content: 'The timetable for the Hong Kong Open Source Conference 2020.' },
     ],
   },
   components: {

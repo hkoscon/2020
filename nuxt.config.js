@@ -1,6 +1,6 @@
 import { fetchTopics, topicSlug } from './utils/fetchTopic';
 
-const publicPath = (process.env.PUBLIC_PATH || '/2019').replace(/\/$/, '');
+const publicPath = (process.env.PUBLIC_PATH || '/2020').replace(/\/$/, '');
 
 // Declare process.env.publicPath to
 // unify build and dev environment.
@@ -19,19 +19,19 @@ module.exports = {
   ** Headers of the page
   */
   head: {
-    title: 'HKOSCon 2019',
+    title: 'HKOSCon 2020',
     meta: [
       { charset: 'utf-8' },
       { 'http-equiv': 'X-UA-Compatible', content: 'IE=edge' },
       { name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no' },
-      { hid: 'description', name: 'description', content: 'Hong Kong Open Source Conference is the biggest annual open source event in Hong Kong. Hong Kong Open Source Conference 2019 is going to held on 14 - 15 Jun, 2019 (Fri - Sat) at Hong Kong Science Park' },
+      { hid: 'description', name: 'description', content: 'Hong Kong Open Source Conference is the biggest annual open source event in Hong Kong. Hong Kong Open Source Conference 2020 is going to held on 12 - 13 Jun, 2020 (Fri - Sat) at Hong Kong Cyberport' },
       { hid: 'theme-color', name: 'theme-color', content: '#294454' },
       { hid: 'author', name: 'author', content: 'Team 404 Busters' },
-      { hid: 'og:title', property: 'og:title', content: 'Hong Kong Open Source Conference 2019' },
-      { hid: 'og:site_name', property: 'og:site_name', content: 'Hong Kong Open Source Conference 2019' },
+      { hid: 'og:title', property: 'og:title', content: 'Hong Kong Open Source Conference 2020' },
+      { hid: 'og:site_name', property: 'og:site_name', content: 'Hong Kong Open Source Conference 2020' },
       { hid: 'og:type', property: 'og:type', content: 'website' },
       { hid: 'og:image', property: 'og:image', content: 'https://hkoscon.org/logo.png' },
-      { hid: 'description', name: 'description', content: 'Hong Kong Open Source Conference is the biggest annual open source event in Hong Kong. Hong Kong Open Source Conference 2019 is going to held on 14 - 15 Jun, 2019 (Fri - Sat) at Hong Kong Science Park' },
+      { hid: 'description', name: 'description', content: 'Hong Kong Open Source Conference is the biggest annual open source event in Hong Kong. Hong Kong Open Source Conference 2020 is going to held on 12 - 13 Jun, 2020 (Fri - Sat) at Hong Kong Cyberport.' },
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: 'https://hkoscon.org/favicon.ico' },
@@ -94,7 +94,7 @@ module.exports = {
     PUBLIC_PATH: publicPath,
     publicPath,
     PUBLIC_TIMETABLE_URL: process.env.PUBLIC_TIMETABLE_URL || `${publicPath}/data/timetable.json`,
-    TIMETABLE_URL: process.env.TIMETABLE_URL || 'https://hkoscon.org/2019/data/timetable.json',
+    TIMETABLE_URL: process.env.TIMETABLE_URL || 'https://hkoscon.org/2020/data/timetable.json',
     NUXT_MODE: process.env.NUXT_MODE,
   },
   modules: [
@@ -116,12 +116,12 @@ module.exports = {
       enabled: true,
     },
     generate: {
-      cacheId: 'hkoscon-2019',
+      cacheId: 'hkoscon-2020',
     },
   },
 
   sitemap: {
-    hostname: 'https://hkoscon.org/2019/',
+    hostname: 'https://hkoscon.org/2020/',
     generate: true,
     routes() {
       return fetchTopicUrl();

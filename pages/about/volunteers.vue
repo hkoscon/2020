@@ -42,9 +42,9 @@
 export default {
   name: 'AboutVolunteerPage',
   head: {
-    title: 'Volunteers | Hong Kong Open Source Confernce 2019',
+    title: 'Volunteers | Hong Kong Open Source Confernce 2020',
     meta: [
-      { hid: 'og:title', property: 'og:title', content: 'Volunteers | Hong Kong Open Source Conference 2019' },
+      { hid: 'og:title', property: 'og:title', content: 'Volunteers | Hong Kong Open Source Conference 2020' },
       { hid: 'description', name: 'description', content: 'Hong Kong Open Source Conference is a volunteer-driven event. Here is our volunteer this year.' },
     ],
   },
@@ -55,6 +55,7 @@ export default {
   data() {
     return {
       volunteers: [
+        /*
         {
           name: 'Austin Leung',
           posts: ['Record Team'],
@@ -194,6 +195,7 @@ export default {
             github: 'tonyhhyip',
           },
         },
+        */
       ],
     };
   },
