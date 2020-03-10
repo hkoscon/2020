@@ -169,6 +169,12 @@
             </span>
             <div class="navbar-dropdown">
               <a
+                href="https://hkoscon.org/2019/"
+                class="navbar-item"
+              >
+                HKOSCon 2019
+              </a>
+              <a
                 href="https://hkoscon.org/2018/"
                 class="navbar-item"
               >
