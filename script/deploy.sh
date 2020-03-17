@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # if there is not repository URL for pages deploy, skip.
-if [ -z $PAGES_REPOSITORY_URL ]; then
+if [ -z "$PAGES_REPOSITORY_URL" ]; then
   echo "No PAGES_REPOSITORY_URL specified. Skip."
   exit 0
 fi
