@@ -1,0 +1,1 @@
+.authorcard{display:flex;box-shadow:0 2px 3px rgba(10,10,10,.1),0 0 0 1px rgba(10,10,10,.1)}.authorcard__image{width:280px}.authorcard__content{flex:1;padding:1em}@media only screen and (max-width:600px){.authorcard{display:block}.authorcard__image{width:100%}.authorcard__image image{width:100%;height:auto}}
