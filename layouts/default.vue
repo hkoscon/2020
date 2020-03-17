@@ -108,19 +108,28 @@
               About
             </span>
             <div class="navbar-dropdown">
-              <nuxt-link
-                to="/about/conference"
+              <a
+                href="https://info.hkoscon.org/introduction/"
                 class="navbar-item"
+                target="_blank"
               >
                 About Conference
-              </nuxt-link>
-              <!--
-              <nuxt-link
-                to="/about/organizers"
+              </a>
+              <a
+                href="https://info.hkoscon.org/code-of-conduct/"
                 class="navbar-item"
+                target="_blank"
+              >
+                Code of Conduct
+              </a>
+              <a
+                href="https://info.hkoscon.org/organizers/"
+                class="navbar-item"
+                target="_blank"
               >
                 Organizers
-              </nuxt-link>
+              </a>
+              <!--
               <nuxt-link
                 to="/about/volunteers"
                 class="navbar-item"
@@ -128,13 +137,6 @@
                 Volunteers
               </nuxt-link>
               -->
-              <nuxt-link
-                @click.native="showAbout = false"
-                to="/about/coc"
-                class="navbar-item"
-              >
-                Code of Conduct
-              </nuxt-link>
             </div>
           </div>
           <!--
@@ -218,11 +220,11 @@
           <div class="navbar-item">
             <p class="control">
               <a
-                href="https://hkoscon2020.eventbrite.com/"
+                href="https://bit.ly/hkoscon2020CFP"
                 target="_blank"
                 class="button is-primary"
               >
-                Register Now
+                Call for Proposal
               </a>
             </p>
           </div>
