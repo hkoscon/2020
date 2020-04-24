@@ -220,11 +220,11 @@
           <div class="navbar-item">
             <p class="control">
               <a
-                href="https://bit.ly/hkoscon2020CFP"
+                href="https://hkoscon2020.eventbrite.com/?aff=website"
                 target="_blank"
                 class="button is-primary"
               >
-                Call for Proposal
+                Get a Ticket
               </a>
             </p>
           </div>
