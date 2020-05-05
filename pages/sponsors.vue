@@ -92,6 +92,7 @@
       </div>
       <div
         class="sponsor__container__tier"
+        v-if="patrons.length > 0"
       >
         <h2 class="title is-3">Patrons</h2>
         <div class="sponsor__container__tier__sponsors">
