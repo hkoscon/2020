@@ -46,3 +46,4 @@ pages:
       - public
   only:
    - master
+   - staging
