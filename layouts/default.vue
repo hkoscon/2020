@@ -129,14 +129,12 @@
               >
                 Organizers
               </a>
-              <!--
               <nuxt-link
                 to="/about/volunteers"
                 class="navbar-item"
               >
                 Volunteers
               </nuxt-link>
-              -->
             </div>
           </div>
           <!--
@@ -151,12 +149,6 @@
             class="navbar-item"
           >
             Sponsors
-          </nuxt-link>
-          <nuxt-link
-            to="/timetable"
-            class="navbar-item"
-          >
-            Timetable
           </nuxt-link>
           -->
           <nuxt-link
