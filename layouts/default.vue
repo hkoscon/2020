@@ -144,13 +144,13 @@
           >
             Communities
           </nuxt-link>
+          -->
           <nuxt-link
             to="/sponsors"
             class="navbar-item"
           >
             Sponsors
           </nuxt-link>
-          -->
           <nuxt-link
             to="/timetable"
             class="navbar-item"
