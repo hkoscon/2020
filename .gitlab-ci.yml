@@ -32,6 +32,7 @@ ghpages:deploy:
     - bash script/deploy.sh
   only:
     - master
+    - staging
 
 # Build and deploy to GitLab pages.
 pages:
