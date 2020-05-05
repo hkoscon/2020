@@ -1,5 +1,7 @@
+import dotenv from 'dotenv';
 import { fetchTopics, topicSlug } from './utils/fetchTopic';
 
+dotenv.config();
 const publicPath = (process.env.PUBLIC_PATH || '/2020').replace(/\/$/, '');
 
 // Declare process.env.publicPath to
