@@ -33,14 +33,14 @@
         The following communities would participate in HKOSCon 2020 (in alphabetic order):
       </p>
       <ul class="cfc__list">
-        <li class="cfc__list__item">Haxe Foundation</li>
-        <li class="cfc__list__item">Hong Kong R User Group</li>
-        <li class="cfc__list__item">Hong Kong WordPress Meetup</li>
-        <li class="cfc__list__item">Japanese Raspberry Pi Users Group</li>
-        <li class="cfc__list__item">Mozilla</li>
-        <li class="cfc__list__item">MySQL Open Source Database</li>
-        <li class="cfc__list__item">自由香港字型</li>
-        <li class="cfc__list__item">開源工場</li>
+        <li class="cfc__list__item">Agile HK</li>
+        <li class="cfc__list__item">COSCUP</li>
+        <li class="cfc__list__item">GDG (Google Developer Group) </li>
+        <li class="cfc__list__item">FtO (Facing to Ocean) </li>
+        <li class="cfc__list__item">G0Vhk</li>
+        <li class="cfc__list__item">Open Culture Station</li>
+        <li class="cfc__list__item">Cloud Native Taiwan User Group</li>
+        <li class="cfc__list__item">MySQL community</li>
       </ul>
     </div>
   </main>
