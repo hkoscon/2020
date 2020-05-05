@@ -50,8 +50,12 @@ self.__precacheManifest = [
     "revision": "c790f391c2e7840db8548de5906f9aec"
   },
   {
+    "url": "/2020//1b8cfdc9353aa3e577d1.js",
+    "revision": "d0ee518e4226571aac94b05c11daa3a9"
+  },
+  {
     "url": "/2020//200.html",
-    "revision": "9440f029a6d29807ab77f4e20618dd2c"
+    "revision": "b7e572cbef4bd7ad39235202158bc420"
   },
   {
     "url": "/2020//231096c57acf96f40de3.js",
@@ -78,10 +82,6 @@ self.__precacheManifest = [
     "revision": "7fbf42c8240a9221b921fcfa5be1c28a"
   },
   {
-    "url": "/2020//322c89a5a3ab970656f6.js",
-    "revision": "dcb8278a19ca762afbc7064f7f8838f9"
-  },
-  {
     "url": "/2020//335447078017e2183256.js",
     "revision": "bc0c91bdc57991a39160eeb20c3b72ab"
   },
@@ -90,12 +90,12 @@ self.__precacheManifest = [
     "revision": "6746c37fd0af545b7c2d71274f41fbb2"
   },
   {
-    "url": "/2020//3f728523d1e187d6987d.js",
-    "revision": "adce77b0a5e5fa1ba5e5ad8fb4e52f44"
-  },
-  {
     "url": "/2020//4002db9f560e4020c562.css",
     "revision": "ab84e9c80ac424f2dd483c85db085029"
+  },
+  {
+    "url": "/2020//41e7e97f9bf2b10a24c6.js",
+    "revision": "f5be56e4e8e6f9a1b4c887b042610ef3"
   },
   {
     "url": "/2020//42aadb4f3dcb0b7a8fb4.js",
@@ -130,10 +130,6 @@ self.__precacheManifest = [
     "revision": "bb4be4ff9360112867443041d348787d"
   },
   {
-    "url": "/2020//8892f74f03ef64cb70c2.js",
-    "revision": "8a8c1583c6fcf63f95a0b62d97fcc45a"
-  },
-  {
     "url": "/2020//8a5ab48f476dff6864c3.js",
     "revision": "76cb4f39a46d2bb82b85906128510ba6"
   },
@@ -155,19 +151,19 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//about/coc/index.html",
-    "revision": "4f5d9bcc23880cac9e7a5f9a01a744fc"
+    "revision": "da125fd99c55f1ac7e2e996a3fd7ad1a"
   },
   {
     "url": "/2020//about/conference/index.html",
-    "revision": "af6afb7d61f8f5c00db9947a242878c5"
+    "revision": "cd0c05b143ae465b3cf2cea2039e5172"
   },
   {
     "url": "/2020//about/organizers/index.html",
-    "revision": "0fe6c6ee73bb1ad1e1e50549ceaa22f5"
+    "revision": "22b12ddce6376d3f8b944ca3270ebff0"
   },
   {
     "url": "/2020//about/volunteers/index.html",
-    "revision": "84ea58de7bed8b47c5fbc575149be00e"
+    "revision": "c06892fda2c5b1427b567ff2bbb28415"
   },
   {
     "url": "/2020//c3615f69657859b1661f.js",
@@ -179,11 +175,11 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//cfc/index.html",
-    "revision": "cf00ce434aaca37f479471aae307c2c1"
+    "revision": "e9ec87ff212a1b122c0a661e17f37019"
   },
   {
     "url": "/2020//cfp/index.html",
-    "revision": "e8c6af2772b10233dad594432490f5f4"
+    "revision": "e1eb7f91a3638f5c26ca86d2c8ca3e6f"
   },
   {
     "url": "/2020//d22dd8cec7a4ad1690b6.js",
@@ -200,6 +196,10 @@ self.__precacheManifest = [
   {
     "url": "/2020//daf04e70da865502c99c.js",
     "revision": "687d4c3294fa74f05272aaee6b123430"
+  },
+  {
+    "url": "/2020//dc71433767ddf570052b.js",
+    "revision": "8ecaa23aff7dc01a961f101a7480f66d"
   },
   {
     "url": "/2020//dca501444ccb2bf8efab.css",
@@ -291,59 +291,147 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//index.html",
-    "revision": "0eb53c9dcd2cb3890922c3b924bcd08a"
+    "revision": "d99138f5ae605713fb1f6cc4e2e65b79"
   },
   {
     "url": "/2020//sponsors/index.html",
-    "revision": "a21a7145e71650b51515d150115e12f8"
+    "revision": "d8cf35bb62cb1c5dafd1afc5f9054d97"
   },
   {
     "url": "/2020//timetable/index.html",
-    "revision": "fe30bc9f20b0a8dd6507c113dc0cece2"
+    "revision": "4941d86f1d7eda6f536026d667c7e726"
+  },
+  {
+    "url": "/2020//topics/board-discussion-tbc/index.html",
+    "revision": "c857bc3ff6b11551e4477767903bbf47"
   },
   {
     "url": "/2020//topics/index.html",
-    "revision": "8e689038e226af509cf24cb57d8a1a12"
+    "revision": "42fb3c18a30f386a564d4fd0c5419508"
+  },
+  {
+    "url": "/2020//topics/keynote-1/index.html",
+    "revision": "e4a785d535eacfb93cecacde616c8f32"
+  },
+  {
+    "url": "/2020//topics/keynote-2/index.html",
+    "revision": "1b862203109abd6e76965a9cae880f4d"
+  },
+  {
+    "url": "/2020//topics/keynote-3/index.html",
+    "revision": "a3c17d933b278b0413ad744f35b34a9f"
+  },
+  {
+    "url": "/2020//topics/keynote-4/index.html",
+    "revision": "67fd30a4f506dfed6aac5eb622551834"
+  },
+  {
+    "url": "/2020//topics/talk-0/index.html",
+    "revision": "3054d3427b720c733ca0ee8dfdafddeb"
+  },
+  {
+    "url": "/2020//topics/talk-1/index.html",
+    "revision": "1d407d6573b7c63bb23f88b10bd1ac17"
+  },
+  {
+    "url": "/2020//topics/talk-tbc-coscup-reserved/index.html",
+    "revision": "2b07a6509d2efda23e82000a027f8aa7"
+  },
+  {
+    "url": "/2020//topics/talk/index.html",
+    "revision": "c4b39a55d9dfdac9a1adf7ae4fe2a45d"
+  },
+  {
+    "url": "/2020//topics/workshop-1/index.html",
+    "revision": "3a78839416b0d713da21cbcb8d36db11"
+  },
+  {
+    "url": "/2020//topics/workshop-2/index.html",
+    "revision": "73921a93e6c67ec18674f3071669829f"
   },
   {
     "url": "/2020//about/coc/",
-    "revision": "4f5d9bcc23880cac9e7a5f9a01a744fc"
+    "revision": "da125fd99c55f1ac7e2e996a3fd7ad1a"
   },
   {
     "url": "/2020//about/conference/",
-    "revision": "af6afb7d61f8f5c00db9947a242878c5"
+    "revision": "cd0c05b143ae465b3cf2cea2039e5172"
   },
   {
     "url": "/2020//about/organizers/",
-    "revision": "0fe6c6ee73bb1ad1e1e50549ceaa22f5"
+    "revision": "22b12ddce6376d3f8b944ca3270ebff0"
   },
   {
     "url": "/2020//about/volunteers/",
-    "revision": "84ea58de7bed8b47c5fbc575149be00e"
+    "revision": "c06892fda2c5b1427b567ff2bbb28415"
   },
   {
     "url": "/2020//cfc/",
-    "revision": "cf00ce434aaca37f479471aae307c2c1"
+    "revision": "e9ec87ff212a1b122c0a661e17f37019"
   },
   {
     "url": "/2020//cfp/",
-    "revision": "e8c6af2772b10233dad594432490f5f4"
+    "revision": "e1eb7f91a3638f5c26ca86d2c8ca3e6f"
   },
   {
     "url": "/2020//",
-    "revision": "0eb53c9dcd2cb3890922c3b924bcd08a"
+    "revision": "d99138f5ae605713fb1f6cc4e2e65b79"
   },
   {
     "url": "/2020//sponsors/",
-    "revision": "a21a7145e71650b51515d150115e12f8"
+    "revision": "d8cf35bb62cb1c5dafd1afc5f9054d97"
   },
   {
     "url": "/2020//timetable/",
-    "revision": "fe30bc9f20b0a8dd6507c113dc0cece2"
+    "revision": "4941d86f1d7eda6f536026d667c7e726"
+  },
+  {
+    "url": "/2020//topics/board-discussion-tbc/",
+    "revision": "c857bc3ff6b11551e4477767903bbf47"
   },
   {
     "url": "/2020//topics/",
-    "revision": "8e689038e226af509cf24cb57d8a1a12"
+    "revision": "42fb3c18a30f386a564d4fd0c5419508"
+  },
+  {
+    "url": "/2020//topics/keynote-1/",
+    "revision": "e4a785d535eacfb93cecacde616c8f32"
+  },
+  {
+    "url": "/2020//topics/keynote-2/",
+    "revision": "1b862203109abd6e76965a9cae880f4d"
+  },
+  {
+    "url": "/2020//topics/keynote-3/",
+    "revision": "a3c17d933b278b0413ad744f35b34a9f"
+  },
+  {
+    "url": "/2020//topics/keynote-4/",
+    "revision": "67fd30a4f506dfed6aac5eb622551834"
+  },
+  {
+    "url": "/2020//topics/talk-0/",
+    "revision": "3054d3427b720c733ca0ee8dfdafddeb"
+  },
+  {
+    "url": "/2020//topics/talk-1/",
+    "revision": "1d407d6573b7c63bb23f88b10bd1ac17"
+  },
+  {
+    "url": "/2020//topics/talk-tbc-coscup-reserved/",
+    "revision": "2b07a6509d2efda23e82000a027f8aa7"
+  },
+  {
+    "url": "/2020//topics/talk/",
+    "revision": "c4b39a55d9dfdac9a1adf7ae4fe2a45d"
+  },
+  {
+    "url": "/2020//topics/workshop-1/",
+    "revision": "3a78839416b0d713da21cbcb8d36db11"
+  },
+  {
+    "url": "/2020//topics/workshop-2/",
+    "revision": "73921a93e6c67ec18674f3071669829f"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
