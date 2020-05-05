@@ -160,7 +160,7 @@
             class="navbar-item"
             target="_blank"
           >
-            COVID-19
+            Safety Measures
           </a>
           <div
             :class="{ 'is-active': showArchive }"
