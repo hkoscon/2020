@@ -66,8 +66,7 @@ export default {
       volunteers: [
         {
           name: 'Calvin Tsang',
-          avatar:
-            "https://drive.google.com/open?id=1zehQJbAbrZeMWKgTbc3RYQOabyL3-37p'",
+          avatar: `${process.env.PUBLIC_PATH}/images/volunteer/36cc4b80c152f962ea08477ad3d92182.jpg`,
           description:
             'Vice President of Open Source Hong Kong and Marketing Lead of HKOSCON since 2014. Interested in Front-end Technology | Innovation | Agile Practice. Promote and embrace robust technology for continuous improving I.T. industry in Hong Kong. ',
           posts: ['Conference Chair', 'Program Team Lead', 'Sponsor Team Lead'],
