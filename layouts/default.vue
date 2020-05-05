@@ -155,6 +155,13 @@
           >
             Timetable
           </nuxt-link>
+          <a
+            href="https://info.hkoscon.org/2020/04/safety-measures-dealing-with-covid-19-pandemic/"
+            class="navbar-item"
+            target="_blank"
+          >
+            COVID-19
+          </a>
           <div
             :class="{ 'is-active': showArchive }"
             class="navbar-item has-dropdown"
