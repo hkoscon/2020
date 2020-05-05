@@ -137,12 +137,14 @@
               </nuxt-link>
             </div>
           </div>
+          <!--
           <nuxt-link
             to="/cfc"
             class="navbar-item"
           >
             Communities
           </nuxt-link>
+          -->
           <nuxt-link
             to="/sponsors"
             class="navbar-item"
