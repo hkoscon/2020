@@ -303,7 +303,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//timetable/index.html",
-    "revision": "b521a8fdd0172808143c2bd0ff392024"
+    "revision": "4b458aaee64caef5d23f3de4b7576781"
   },
   {
     "url": "/2020//topics/ansible-vm-kubernetes/index.html",
@@ -347,7 +347,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//topics/index.html",
-    "revision": "3a1b3a6bc30e7da85f81b0c8e713f0c1"
+    "revision": "5d572835b5d48a3844b1d1f390b28a8d"
   },
   {
     "url": "/2020//topics/julia-looks-python-feels-lisp-runs-cfortran/index.html",
@@ -407,7 +407,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//topics/talk-tbc-coscup-reserved/index.html",
-    "revision": "6d09c5e498e604f969701d7ea3788ae5"
+    "revision": "eae4a1f9eec0aac5899cac7ccdc9ef36"
   },
   {
     "url": "/2020//topics/tvhk/index.html",
@@ -447,7 +447,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//timetable/",
-    "revision": "b521a8fdd0172808143c2bd0ff392024"
+    "revision": "4b458aaee64caef5d23f3de4b7576781"
   },
   {
     "url": "/2020//topics/ansible-vm-kubernetes/",
@@ -491,7 +491,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//topics/",
-    "revision": "3a1b3a6bc30e7da85f81b0c8e713f0c1"
+    "revision": "5d572835b5d48a3844b1d1f390b28a8d"
   },
   {
     "url": "/2020//topics/julia-looks-python-feels-lisp-runs-cfortran/",
@@ -551,7 +551,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//topics/talk-tbc-coscup-reserved/",
-    "revision": "6d09c5e498e604f969701d7ea3788ae5"
+    "revision": "eae4a1f9eec0aac5899cac7ccdc9ef36"
   },
   {
     "url": "/2020//topics/tvhk/",
