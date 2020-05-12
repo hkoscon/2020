@@ -303,7 +303,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//timetable/index.html",
-    "revision": "1097d643a284824e45e4c59c70b7eb35"
+    "revision": "25b75c0fbda97046cad2a98d71b801f6"
   },
   {
     "url": "/2020//topics/ansible-vm-kubernetes/index.html",
@@ -347,7 +347,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//topics/index.html",
-    "revision": "5d572835b5d48a3844b1d1f390b28a8d"
+    "revision": "e02f388f279fb8ee820aef7a21ef0b25"
   },
   {
     "url": "/2020//topics/julia-looks-python-feels-lisp-runs-cfortran/index.html",
@@ -379,7 +379,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//topics/microsoft-tbc/index.html",
-    "revision": "0ec08826d6e2854683f7411a31355844"
+    "revision": "0a1d45a9c8ef56202150c84650b744b8"
   },
   {
     "url": "/2020//topics/mysql-high-availability-deployment-practice/index.html",
@@ -447,7 +447,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//timetable/",
-    "revision": "1097d643a284824e45e4c59c70b7eb35"
+    "revision": "25b75c0fbda97046cad2a98d71b801f6"
   },
   {
     "url": "/2020//topics/ansible-vm-kubernetes/",
@@ -491,7 +491,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//topics/",
-    "revision": "5d572835b5d48a3844b1d1f390b28a8d"
+    "revision": "e02f388f279fb8ee820aef7a21ef0b25"
   },
   {
     "url": "/2020//topics/julia-looks-python-feels-lisp-runs-cfortran/",
@@ -523,7 +523,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//topics/microsoft-tbc/",
-    "revision": "0ec08826d6e2854683f7411a31355844"
+    "revision": "0a1d45a9c8ef56202150c84650b744b8"
   },
   {
     "url": "/2020//topics/mysql-high-availability-deployment-practice/",
