@@ -1,6 +1,10 @@
 <style lang="scss">
   .aboutVolunteerPage {
     @include container();
+    h2 {
+      font-size: 1.7em;
+      margin-top: 1.5em;
+    }
     &__cards {
       display: flex;
       flex-wrap: wrap;
@@ -23,6 +27,19 @@
   <div>
     <page-banner title="Committee" />
     <main class="aboutVolunteerPage">
+      <h2>Executive Committee</h2>
+      <div class="aboutVolunteerPage__cards">
+        <volunteer-card
+          v-for="volunteer in exco"
+          :key="volunteer.name"
+          :name="volunteer.name"
+          :teams="volunteer.posts"
+          :social="volunteer.social"
+          :description="volunteer.description"
+          :avatar="volunteer.avatar"
+        />
+      </div>
+      <h2>Volunteers</h2>
       <div class="aboutVolunteerPage__cards">
         <volunteer-card
           v-for="volunteer in volunteers"
@@ -44,8 +61,17 @@ export default {
   head: {
     title: 'Volunteers | Hong Kong Open Source Confernce 2020',
     meta: [
-      { hid: 'og:title', property: 'og:title', content: 'Volunteers | Hong Kong Open Source Conference 2020' },
-      { hid: 'description', name: 'description', content: 'Hong Kong Open Source Conference is a volunteer-driven event. Here is our volunteer this year.' },
+      {
+        hid: 'og:title',
+        property: 'og:title',
+        content: 'Volunteers | Hong Kong Open Source Conference 2020',
+      },
+      {
+        hid: 'description',
+        name: 'description',
+        content:
+          'Hong Kong Open Source Conference is a volunteer-driven event. Here is our volunteer this year.',
+      },
     ],
   },
   components: {
@@ -54,148 +80,166 @@ export default {
   },
   data() {
     return {
-      volunteers: [
-        /*
-        {
-          name: 'Austin Leung',
-          posts: ['Record Team'],
-        },
+      exco: [
         {
           name: 'Calvin Tsang',
-          posts: ['Marketing Team Lead'],
+          avatar: `${process.env.PUBLIC_PATH}/images/volunteer/36cc4b80c152f962ea08477ad3d92182.jpg`,
+          description:
+            'Vice President of Open Source Hong Kong and Marketing Lead of HKOSCON since 2014. Interested in Front-end Technology | Innovation | Agile Practice. Promote and embrace robust technology for continuous improving I.T. industry in Hong Kong. ',
+          role: 'Executive Committee',
+          posts: ['Conference Chair', 'Program Team Lead', 'Sponsor Team Lead'],
           social: {
-            twitter: 'debugtsang1',
+            linkedin: 'calvin-tyl',
+            github: 'DebugTsang',
           },
-          avatar: `${process.env.PUBLIC_PATH}/images/volunteer/0355e6c99e405f2d650a048f93849e0a.jpg`,
-          description: 'Vice President of Open Source Hong Kong and Marketing Lead of HKOSCON since 2014. Interested in Front-end Technology | Innovation | Agile Practice. Promote and embrace robust technology for continuous improving I.T. industry in Hong Kong.',
+        },
+        {
+          name: 'Cherie Cheung',
+          role: 'Executive Committee',
+          posts: ['Design Team Lead', 'App Dev Team'],
+          social: {},
         },
         {
           name: 'Claire Chung',
-          posts: ['Marketing Team', 'Interpreter (Japanese)'],
+          avatar: `${process.env.PUBLIC_PATH}/images/volunteer/7871c0482c9d274d68fe1d056a7cce8b.jpg`,
+          description:
+            'Academic researcher in Bioinformatics / Geek coder / Graphic design / Language enthusiast / Volunteer. Co-authored on Python Data Visualization Books and spoke at PyConHK; front-end development of mental health service search engine. Ever learn, ever challenge, ever explore.',
+          role: 'Executive Committee',
+          posts: ['Interpretation Team Lead', 'Marketing Team', 'PR Team'],
           social: {
             linkedin: 'claire-chung',
-          },
-          avatar: `${process.env.PUBLIC_PATH}/images/volunteer/7871c0482c9d274d68fe1d056a7cce8b.jpg`,
-          description: 'Academic researcher in Bioinformatics / Geek coder / Graphic design / Language enthusiast / Volunteer. Co-authored on Python Data Visualization Books and spoke at PyConHK; front-end development of mental health service search engine. Ever learn, ever challenge, ever explore.',
-        },
-        {
-          name: 'Claire Wong',
-          posts: ['Design Team Lead'],
-          avatar: `${process.env.PUBLIC_PATH}/images/volunteer/e11966ad5e195fef25bf0bd163fb7a98.jpg`,
-          description: 'Graduated with Honor in Business Administration Management from De Montfort with major in marketing. Wong has worked as a digital analyst, analyzing digital and social media data, now working in HK01 responsible on product operations.',
-          social: {
-            twitter: 'blurryclaire',
-            linkedin: 'blurryclaire',
-            fb: 'clacla',
           },
         },
         {
           name: 'Daisy Maris Fung',
-          posts: ['Administration Team', 'Marketing Team'],
-          description: 'Event organizer of LikeCoin Hong Kong Meetup and member of Creative Commons Hong Kong chapter. Social media believer and writer, love to write in Cantonese. Recently interested in Chogyam Trungpa Rinpoche, cryptocurrency and Open Data.',
-          avatar: 'http://www.gravatar.com/avatar/822d46a19923f28d1fe527bd2b2f82e8?s=128',
-          social: {
-            web: 'https://www.daisymarisfung.com',
-            instagram: 'daisymarisfung',
-            medium: 'daisymarisfung',
-          },
+          avatar:
+            'http://www.gravatar.com/avatar/822d46a19923f28d1fe527bd2b2f82e8?s=128',
+          role: 'Executive Committee',
+          posts: ['Administration Team Lead', 'Marketing Tead Lead', 'PR Team'],
+          social: {},
         },
         {
-          name: 'Fiona Lam',
-          posts: ['Marketing Team'],
-          description: 'An experiential marketing communication specialist with a love for cutting-edge technology, Fiona has been contributing her expertise as a volunteer to market and promote the PyConHK & HKOSCon since 2017. She is the Executive Member, Marketing of Open Source Hong Kong.',
-          avatar: `${process.env.PUBLIC_PATH}/images/volunteer/fa29d4359d8c420eec9b84532765dfec.jpg`,
-        },
-        {
-          name: 'Frankie Yuen',
-          posts: ['Designer'],
-        },
-        {
-          name: ' Haggen So',
-          posts: ['Finance Team Lead'],
-          description: 'Dr. Haggen So is an Open Tech. Activists. Interested in FOSS, Open Hardware, Open Standards and Creative Commons.',
+          name: 'Haggen So',
           avatar: `${process.env.PUBLIC_PATH}/images/volunteer/c63e3dcf23114e4769ac00c16617d1e9.jpg`,
+          description:
+            'Dr. Haggen So is an Open Tech. Activists. Interested in FOSS, Open Hardware, Open Standards and Creative Commons.',
+          role: 'Executive Committee',
+          posts: ['Finance Team Lead', 'Program Team'],
+          social: {},
         },
         {
           name: 'Henry Law',
-          posts: ['Record Team Lead'],
           avatar: `${process.env.PUBLIC_PATH}/images/volunteer/318824b7d24aa53a1550c3fdcc3cdaad.jpg`,
-        },
-        {
-          name: 'Ivan Ip',
-          posts: ['Program Team'],
-          avatar: 'https://secure.gravatar.com/avatar/6427d459c8ad08432aed964d74b9675c',
-        },
-        {
-          name: 'Joe Chan',
-          posts: ['Record Team'],
-          avatar: `${process.env.PUBLIC_PATH}/images/volunteer/cc93adf96a1b6d795983ede8cb3d111b.jpg`,
-        },
-        {
-          name: 'John Law',
-          posts: ['Administration Team'],
-          description: 'John Law is an undergraduate at CUHK. He is enthusiastic about open source software development, machine learning, and coding.',
-          avatar: `${process.env.PUBLIC_PATH}/images/volunteer/441a4f7b4e3fc43c174c9018a8fe88f3.jpg`,
+          role: 'Executive Committee',
+          posts: ['Recording Team Lead', 'Program Team'],
+          social: {},
         },
         {
           name: 'Judy Wong',
-          posts: ['Marketing Team', 'Interpreter (English)'],
-          description: 'Geek, Coder, Open Source Enthusiast, Cyber Security Specialist. Worked for 5 jobs in the Hong Kong Science Park previously. Mandarin/English/Cantonese Interpreter, fan of public speaking, part-time MC. Full-time Mother of a 4-year-old & 1-year-old.',
+          avatar: `${process.env.PUBLIC_PATH}/images/volunteer/b402043e9d8202b0b252eca0a9e5639e.jpg`,
+          description:
+            'Geek, Coder, Open Source Enthusiast, Cyber Security Specialist. Worked for 5 jobs in the Hong Kong Science Park previously. Mandarin/English/Cantonese Interpreter, fan of public speaking, part-time MC. Full-time Mother of a 4-year-old & 1-year-old.',
+          role: 'Executive Committee',
+          posts: ['Design Team', 'Interpretation Team', 'Program Team'],
           social: {
             linkedin: 'wongjudy',
             fb: 'judywong',
           },
-          avatar: `${process.env.PUBLIC_PATH}/images/volunteer/b402043e9d8202b0b252eca0a9e5639e.jpg`,
         },
         {
-          name: 'Koala Yeung',
-          posts: ['Web Manager', 'Operation Team'],
-          avatar: `${process.env.PUBLIC_PATH}/images/volunteer/824010d0d7fcf80d2f629309de68becb.jpg`,
-        },
-        {
-          name: 'Nicholas Yau',
-          posts: ['Operation Team Lead'],
-          avatar: 'https://www.gravatar.com/avatar/f9729bf7b60a37d9874f5a8bd42409c5?s=128',
+          name: 'Ken Chiu',
+          role: 'Executive Committee',
+          posts: ['Design Team', 'Operation Team'],
+          social: {},
         },
         {
           name: 'Ken Chu',
-          posts: ['Administration Team'],
           avatar: `${process.env.PUBLIC_PATH}/images/volunteer/d22e8f6bf9c2ce9b185c270a442e288a.jpg`,
+          role: 'Executive Committee',
+          posts: ['Administration Team', 'Operation Team', 'Recording Team'],
+          social: {},
         },
         {
-          name: 'Sammy Fung',
-          posts: ['Conference Chairman', 'Program Chair', 'Sales Lead'],
-          description: 'President of Open Source Hong Kong. He is also a Mozilla Representative, and is involving the Python and GNOME community.',
+          name: 'Koala Yeung',
+          avatar: `${process.env.PUBLIC_PATH}/images/volunteer/824010d0d7fcf80d2f629309de68becb.jpg`,
+          description:
+            'Web developer by training. Works with Javascript, PHP, CSS, Golang, and Docker. Convener of "the Loop", a recurring opensource hacker event in Hong Kong. Linux enthusiast. Father of a 3-years-old.',
+          role: 'Executive Committee',
+          posts: ['App Dev Team Lead'],
           social: {
-            twitter: 'sammyfung',
-            linkedin: 'sammyfung',
-            web: 'https://sammyfun.com',
+            github: 'yookoala',
+            web: 'https://loopdev.community/',
           },
-          avatar: `${process.env.PUBLIC_PATH}/images/volunteer/5af7cdeb38835c964eeadcb6c8f2c32c.jpg`,
         },
         {
-          name: 'Ting',
-          posts: ['Program Team'],
+          name: 'Nicholas Yau',
+          avatar:
+            "https://www.gravatar.com/avatar/f9729bf7b60a37d9874f5a8bd42409c5?s=128'",
+          description:
+            'System Engineer, blogger, contributor in WordPress and Tor Project, volunteer in local open source community since 2015, including in Open Source Hong Kong and Hong Kong WordPress Meetup.',
+          role: 'Executive Committee',
+          posts: ['Operation Team Lead'],
+          social: {
+            linkedin: 'nicholasyau',
+            fb: 'nicholas.techblog',
+            web: 'https://nicholas.hk',
+          },
         },
         {
-          name: 'Toby@Happeas',
-          posts: ['Designer'],
+          name: 'Ray Wong',
+          description:
+            'Veteran copywriter, content producer and marketing personnel. Served various HK local media outlet.',
+          role: 'Executive Committee',
+          posts: ['PR Team Lead', 'Marketing Team', 'Sponsor Team'],
+          social: {},
+        },
+        {
+          name: 'Sana Siu',
+          description:
+            'Make a living with event management, administration and emceeing; specialised in none. Curious to the world, prudential on all works. Kids and cats lover, coffee and tea addict.',
+          role: 'Executive Committee',
+          posts: ['Administration Team', 'Finance Team'],
+          social: {},
         },
         {
           name: 'Tommy Han',
-          posts: ['Record Team'],
           avatar: `${process.env.PUBLIC_PATH}/images/volunteer/ac09c01ecec26e63726faa64ca59fa30.jpg`,
+          role: 'Executive Committee',
+          posts: ['App Dev Team', 'Recording Team'],
+          social: {},
+        },
+      ],
+      volunteers: [
+        {
+          name: 'Toby@Happeas',
+          role: 'Volunteer',
+          posts: ['Design Team'],
+          social: {},
         },
         {
-          name: 'Tony Yip',
-          posts: ['Operation Team'],
-          avatar: 'http://www.gravatar.com/avatar/94a1b6213d134229d540c13fc7923fc9?s=128',
-          social: {
-            twitter: 'tonyhhyip',
-            github: 'tonyhhyip',
-          },
+          name: 'Frankie Yuen',
+          role: 'Volunteer',
+          posts: ['Design Team', 'Interpretation Team'],
+          social: {},
         },
-        */
+        {
+          name: 'Holok Chen',
+          role: 'Volunteer',
+          posts: ['Interpretation Team '],
+          social: {},
+        },
+        {
+          name: 'Austin Leung',
+          role: 'Volunteer',
+          posts: ['Recording Team'],
+          social: {},
+        },
+        {
+          name: '包',
+          role: 'Volunteer',
+          posts: ['Sponsor Team'],
+          social: {},
+        },
       ],
     };
   },

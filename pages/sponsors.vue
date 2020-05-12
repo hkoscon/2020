@@ -92,6 +92,7 @@
       </div>
       <div
         class="sponsor__container__tier"
+        v-if="patrons.length > 0"
       >
         <h2 class="title is-3">Patrons</h2>
         <div class="sponsor__container__tier__sponsors">
@@ -111,7 +112,7 @@
 </template>
 
 <script>
-import axios from 'axios';
+import { fetchEventInfo } from '../utils/fetchTopic';
 
 export default {
   name: 'Sponsors',
@@ -123,10 +124,10 @@ export default {
     ],
   },
   asyncData: () => (
-    axios.get('https://events.cota.hk/api/v1/info/hkoscon-2020')
-      .then(res => ({
-        sponsors: res.data.conference.sponsors,
-        patrons: res.data.conference.patrons,
+    fetchEventInfo()
+      .then(data => ({
+        sponsors: data.conference.sponsors,
+        patrons: data.conference.patrons,
       }))
   ),
   data() {

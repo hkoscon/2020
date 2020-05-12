@@ -97,6 +97,8 @@ module.exports = {
     publicPath,
     PUBLIC_TIMETABLE_URL: process.env.PUBLIC_TIMETABLE_URL || `${publicPath}/data/timetable.json`,
     TIMETABLE_URL: process.env.TIMETABLE_URL || 'https://hkoscon.org/2020/data/timetable.json',
+    PUBLIC_EVENT_INFO_URL: process.env.PUBLIC_EVENT_INFO_URL || `${publicPath}/data/event_info.json`,
+    EVENT_INFO_URL: process.env.EVENT_INFO_URL || 'https://hkoscon.org/2020/data/event_info.json',
     NUXT_MODE: process.env.NUXT_MODE,
   },
   modules: [

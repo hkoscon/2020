@@ -129,14 +129,12 @@
               >
                 Organizers
               </a>
-              <!--
               <nuxt-link
                 to="/about/volunteers"
                 class="navbar-item"
               >
                 Volunteers
               </nuxt-link>
-              -->
             </div>
           </div>
           <!--
@@ -146,6 +144,7 @@
           >
             Communities
           </nuxt-link>
+          -->
           <nuxt-link
             to="/sponsors"
             class="navbar-item"
@@ -158,13 +157,13 @@
           >
             Timetable
           </nuxt-link>
-          -->
-          <nuxt-link
-            to="/timetable"
+          <a
+            href="https://info.hkoscon.org/2020/04/safety-measures-dealing-with-covid-19-pandemic/"
             class="navbar-item"
+            target="_blank"
           >
-            Timetable
-          </nuxt-link>
+            Safety Measures
+          </a>
           <div
             :class="{ 'is-active': showArchive }"
             class="navbar-item has-dropdown"
