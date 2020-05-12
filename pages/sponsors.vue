@@ -112,7 +112,7 @@
 </template>
 
 <script>
-import axios from 'axios';
+import { fetchEventInfo } from '../utils/fetchTopic';
 
 export default {
   name: 'Sponsors',
@@ -124,10 +124,10 @@ export default {
     ],
   },
   asyncData: () => (
-    axios.get('https://events.cota.hk/api/v1/info/hkoscon-2020')
-      .then(res => ({
-        sponsors: res.data.conference.sponsors,
-        patrons: res.data.conference.patrons,
+    fetchEventInfo()
+      .then(data => ({
+        sponsors: data.conference.sponsors,
+        patrons: data.conference.patrons,
       }))
   ),
   data() {
