@@ -303,7 +303,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//timetable/index.html",
-    "revision": "641c872622857b1c659709e1d91a48b5"
+    "revision": "fb396a3f5c8d08d1ba5bcc89ee6b161f"
   },
   {
     "url": "/2020//topics/ansible-vm-kubernetes/index.html",
@@ -447,7 +447,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//timetable/",
-    "revision": "641c872622857b1c659709e1d91a48b5"
+    "revision": "fb396a3f5c8d08d1ba5bcc89ee6b161f"
   },
   {
     "url": "/2020//topics/ansible-vm-kubernetes/",
