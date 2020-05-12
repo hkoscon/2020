@@ -133,6 +133,16 @@
         </p>
         <div class="homePage__social">
           <a
+            href="https://info.hkoscon.org/"
+            class="homePage__social__link"
+            target="_blank"
+          >
+            <span class="icon">
+              <i class="fa fa-info" />
+            </span>
+          </a>
+
+          <a
             href="https://facebook.com/hkoscon/"
             class="homePage__social__link"
             target="_blank"
@@ -149,6 +159,16 @@
           >
             <span class="icon">
               <i class="fa fa-twitter" />
+            </span>
+          </a>
+
+          <a
+            href="https://www.linkedin.com/company/hkoscon"
+            target="_blank"
+            class="homePage__social__link"
+          >
+            <span class="icon">
+              <i class="fa fa-linkedin" />
             </span>
           </a>
 
