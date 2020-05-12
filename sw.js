@@ -303,15 +303,15 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//timetable/index.html",
-    "revision": "25b75c0fbda97046cad2a98d71b801f6"
+    "revision": "641c872622857b1c659709e1d91a48b5"
   },
   {
     "url": "/2020//topics/ansible-vm-kubernetes/index.html",
-    "revision": "5ba2bc0ab75e96bd977491dc7faebff0"
+    "revision": "37cd0001d7939b50009a7d088fe68c14"
   },
   {
     "url": "/2020//topics/automating-kubernetes-gitops/index.html",
-    "revision": "5e13b8ed8a7b8200330fa3bbf0874497"
+    "revision": "86762735879e0553d53993bcfe15b478"
   },
   {
     "url": "/2020//topics/build-api-service-using-ktor-rapidly/index.html",
@@ -347,7 +347,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//topics/index.html",
-    "revision": "e02f388f279fb8ee820aef7a21ef0b25"
+    "revision": "ad3fc11a8eb813cfd27cd670e6960d47"
   },
   {
     "url": "/2020//topics/julia-looks-python-feels-lisp-runs-cfortran/index.html",
@@ -399,7 +399,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//topics/red-hat-tbc/index.html",
-    "revision": "8c5ecff979bc94ee59c3ab76e7d415ac"
+    "revision": "0424a31d2915955939ad2238c8e9c999"
   },
   {
     "url": "/2020//topics/rust-and-webassembly-powered-microservices/index.html",
@@ -447,15 +447,15 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//timetable/",
-    "revision": "25b75c0fbda97046cad2a98d71b801f6"
+    "revision": "641c872622857b1c659709e1d91a48b5"
   },
   {
     "url": "/2020//topics/ansible-vm-kubernetes/",
-    "revision": "5ba2bc0ab75e96bd977491dc7faebff0"
+    "revision": "37cd0001d7939b50009a7d088fe68c14"
   },
   {
     "url": "/2020//topics/automating-kubernetes-gitops/",
-    "revision": "5e13b8ed8a7b8200330fa3bbf0874497"
+    "revision": "86762735879e0553d53993bcfe15b478"
   },
   {
     "url": "/2020//topics/build-api-service-using-ktor-rapidly/",
@@ -491,7 +491,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//topics/",
-    "revision": "e02f388f279fb8ee820aef7a21ef0b25"
+    "revision": "ad3fc11a8eb813cfd27cd670e6960d47"
   },
   {
     "url": "/2020//topics/julia-looks-python-feels-lisp-runs-cfortran/",
@@ -543,7 +543,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//topics/red-hat-tbc/",
-    "revision": "8c5ecff979bc94ee59c3ab76e7d415ac"
+    "revision": "0424a31d2915955939ad2238c8e9c999"
   },
   {
     "url": "/2020//topics/rust-and-webassembly-powered-microservices/",
