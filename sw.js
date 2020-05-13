@@ -303,11 +303,11 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//timetable/index.html",
-    "revision": "189b23ba05ee16ac58ceb4f04a95a38e"
+    "revision": "eb63b94195f7dcbe80978a0048afa7ca"
   },
   {
     "url": "/2020//topics/ansible-vm-kubernetes/index.html",
-    "revision": "9e03992dce5da5e77a5ea95dddd978b0"
+    "revision": "b3c77c94ff8de6cb0c3f8ceb66007355"
   },
   {
     "url": "/2020//topics/automating-kubernetes-gitops/index.html",
@@ -447,11 +447,11 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//timetable/",
-    "revision": "189b23ba05ee16ac58ceb4f04a95a38e"
+    "revision": "eb63b94195f7dcbe80978a0048afa7ca"
   },
   {
     "url": "/2020//topics/ansible-vm-kubernetes/",
-    "revision": "9e03992dce5da5e77a5ea95dddd978b0"
+    "revision": "b3c77c94ff8de6cb0c3f8ceb66007355"
   },
   {
     "url": "/2020//topics/automating-kubernetes-gitops/",
