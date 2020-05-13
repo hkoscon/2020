@@ -43,13 +43,38 @@
     }
     &__content {
       overflow-y: hidden;
+      &__info {
+        display: inline-block;
+        &__type_remote::before {
+          display: inline-block;
+          width: 0.8em;
+          height: 0.8em;
+          border-radius: 0.4em;
+          background-color: rgba(255, 255, 0, 1);
+          border: solid 1px rgba(0, 0, 0, 0.3);
+          margin-left: 2px;
+          margin-right: 0.5em;
+          content: ' ';
+        }
+        &__type_in_person::before {
+          display: inline-block;
+          width: 0.8em;
+          height: 0.8em;
+          border-radius: 0.4em;
+          background-color: rgba(0, 0, 200, 1);
+          border: solid 1px rgba(0, 0, 0, 0.3);
+          margin-left: 2px;
+          margin-right: 0.5em;
+          content: ' ';
+        }
+      }
+      &__info:not(:last-child) {
+        &::after {
+          content: ' /';
+        }
+      }
     }
   }
-
-  .eventItem__content__info {
-    display: block;
-  }
-
   .topicWrapper {
     display: block;
     flex: 1;
@@ -72,6 +97,18 @@
               v-if="event.language || event.level || event.venue.name"
               class="subtitle is-6"
             >
+              <span
+                v-if="event.remote_presentation"
+                class="eventItem__content__info"
+              >
+                <span class="eventItem__content__info__type_remote">Remote Session</span>
+              </span>
+              <span
+                v-if="event.remote_presentation != true"
+                class="eventItem__content__info"
+              >
+                <span class="eventItem__content__info__type_in_person">In-person Session</span>
+              </span>
               <span
                 v-if="event.venue.name"
                 class="eventItem__content__info"

@@ -13,16 +13,18 @@ lint:
   stage: test
   script:
     - yarn lint
-  except:
-    - triggers
+  rules:
+    - if: '$CI_JOB_TRIGGERED != "true"'
+      when: always
 
 audit:
   stage: test
   script:
     - yarn audit
-  except:
-    - triggers
-  allow_failure: true
+  rules:
+    - if: '$CI_JOB_TRIGGERED != "true"'
+      when: always
+      allow_failure: true
 
 # Build and deploy to GitHub pages.
 ghpages:deploy:
@@ -30,8 +32,9 @@ ghpages:deploy:
   script:
     - bash script/build.sh
     - bash script/deploy.sh
-  only:
-    - master
+  rules:
+    - if: '$CI_COMMIT_REF_NAME == "master"'
+      when: always
 
 # Build and deploy to GitLab pages.
 pages:
@@ -44,6 +47,8 @@ pages:
   artifacts:
     paths:
       - public
-  only:
-   - master
-   - staging
+  rules:
+    - if: '$CI_COMMIT_REF_NAME == "master"'
+      when: always
+    - if: '$CI_COMMIT_REF_NAME == "staging"'
+      when: always
