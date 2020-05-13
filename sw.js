@@ -303,7 +303,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//timetable/index.html",
-    "revision": "bd976e456bac566e256a66f4a98fe04d"
+    "revision": "51777745717645276f9b1541826971aa"
   },
   {
     "url": "/2020//topics/ansible-vm-kubernetes/index.html",
@@ -326,16 +326,16 @@ self.__precacheManifest = [
     "revision": "8ff800fb32ef201777ecc1dd1b050130"
   },
   {
-    "url": "/2020//topics/day-1-talk-1/index.html",
-    "revision": "d9956a5a6a15cd5b18480e5068760207"
-  },
-  {
     "url": "/2020//topics/day-1-talk-2/index.html",
     "revision": "cfa025403426ce2668fc777f5bda971a"
   },
   {
     "url": "/2020//topics/decentralized-content-registry-expanding-ipfs-functionality-cosmos-based-blockchain/index.html",
     "revision": "bc51dc405652761ba16d16af59a70933"
+  },
+  {
+    "url": "/2020//topics/github-actions-your-free-ci-engine-and-much-more/index.html",
+    "revision": "174f8486be3dc5f13cdb6915ab424bc6"
   },
   {
     "url": "/2020//topics/how-build-online-learning-platform-engages-and-educates-students-scale-amazon-kendra-amazon/index.html",
@@ -347,7 +347,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//topics/index.html",
-    "revision": "a6ef57a8632f423032e0878955e80732"
+    "revision": "38e81ac1bbf3aa9805ce237a59a7f762"
   },
   {
     "url": "/2020//topics/julia-looks-python-feels-lisp-runs-cfortran/index.html",
@@ -447,7 +447,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//timetable/",
-    "revision": "bd976e456bac566e256a66f4a98fe04d"
+    "revision": "51777745717645276f9b1541826971aa"
   },
   {
     "url": "/2020//topics/ansible-vm-kubernetes/",
@@ -470,16 +470,16 @@ self.__precacheManifest = [
     "revision": "8ff800fb32ef201777ecc1dd1b050130"
   },
   {
-    "url": "/2020//topics/day-1-talk-1/",
-    "revision": "d9956a5a6a15cd5b18480e5068760207"
-  },
-  {
     "url": "/2020//topics/day-1-talk-2/",
     "revision": "cfa025403426ce2668fc777f5bda971a"
   },
   {
     "url": "/2020//topics/decentralized-content-registry-expanding-ipfs-functionality-cosmos-based-blockchain/",
     "revision": "bc51dc405652761ba16d16af59a70933"
+  },
+  {
+    "url": "/2020//topics/github-actions-your-free-ci-engine-and-much-more/",
+    "revision": "174f8486be3dc5f13cdb6915ab424bc6"
   },
   {
     "url": "/2020//topics/how-build-online-learning-platform-engages-and-educates-students-scale-amazon-kendra-amazon/",
@@ -491,7 +491,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//topics/",
-    "revision": "a6ef57a8632f423032e0878955e80732"
+    "revision": "38e81ac1bbf3aa9805ce237a59a7f762"
   },
   {
     "url": "/2020//topics/julia-looks-python-feels-lisp-runs-cfortran/",
