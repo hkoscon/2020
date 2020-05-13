@@ -303,7 +303,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//timetable/index.html",
-    "revision": "5fe0010970864f1ae7fb21d9f4f8421b"
+    "revision": "c0ee346aac5332f21e554f30633e81f5"
   },
   {
     "url": "/2020//topics/ansible-vm-kubernetes/index.html",
@@ -347,7 +347,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//topics/index.html",
-    "revision": "9aec7fe801e610033a55614508cab9ad"
+    "revision": "b9e481a569a103685bb85489faf2141c"
   },
   {
     "url": "/2020//topics/julia-looks-python-feels-lisp-runs-cfortran/index.html",
@@ -379,7 +379,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//topics/microsoft-tbc/index.html",
-    "revision": "f41ecd1fba62c7a69d101b3f3c4b38f6"
+    "revision": "a45a6a897a3a545d5286455c16f0a7bb"
   },
   {
     "url": "/2020//topics/mysql-high-availability-deployment-practice/index.html",
@@ -399,7 +399,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//topics/red-hat-tbc/index.html",
-    "revision": "a8f0261a109e2e77ced61faf73d42826"
+    "revision": "dd8c9ea716ad664f2ba553734005bace"
   },
   {
     "url": "/2020//topics/rust-and-webassembly-powered-microservices/index.html",
@@ -447,7 +447,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//timetable/",
-    "revision": "5fe0010970864f1ae7fb21d9f4f8421b"
+    "revision": "c0ee346aac5332f21e554f30633e81f5"
   },
   {
     "url": "/2020//topics/ansible-vm-kubernetes/",
@@ -491,7 +491,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//topics/",
-    "revision": "9aec7fe801e610033a55614508cab9ad"
+    "revision": "b9e481a569a103685bb85489faf2141c"
   },
   {
     "url": "/2020//topics/julia-looks-python-feels-lisp-runs-cfortran/",
@@ -523,7 +523,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//topics/microsoft-tbc/",
-    "revision": "f41ecd1fba62c7a69d101b3f3c4b38f6"
+    "revision": "a45a6a897a3a545d5286455c16f0a7bb"
   },
   {
     "url": "/2020//topics/mysql-high-availability-deployment-practice/",
@@ -543,7 +543,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//topics/red-hat-tbc/",
-    "revision": "a8f0261a109e2e77ced61faf73d42826"
+    "revision": "dd8c9ea716ad664f2ba553734005bace"
   },
   {
     "url": "/2020//topics/rust-and-webassembly-powered-microservices/",
