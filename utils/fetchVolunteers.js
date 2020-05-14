@@ -159,6 +159,13 @@ const volunteers = {
       posts: ['Sponsor Team'],
       social: {},
     },
+    {
+      name: 'Fiona Lam',
+      avatar: `${process.env.PUBLIC_PATH}/images/volunteer/fa29d4359d8c420eec9b84532765dfec.jpg`,
+      role: 'Volunteer',
+      posts: ['Operation Team'],
+      social: {},
+    },
   ],
 };
 
