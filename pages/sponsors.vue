@@ -123,6 +123,12 @@ export default {
       { hid: 'description', name: 'description', content: 'HKOSCon depends on the industry’s sponsorship as the event is at minimum cost.' },
     ],
   },
+  data() {
+    return {
+      sponsors: [],
+      patrons: [],
+    };
+  },
   asyncData: () => (
     fetchEventInfo()
       .then(data => ({
@@ -130,10 +136,5 @@ export default {
         patrons: data.conference.patrons,
       }))
   ),
-  data() {
-    return {
-      sponsors: [],
-    };
-  },
 };
 </script>
