@@ -34,7 +34,7 @@ const volunteers = {
       avatar:
         'http://www.gravatar.com/avatar/822d46a19923f28d1fe527bd2b2f82e8?s=128',
       role: 'Executive Committee',
-      posts: ['Administration Team Lead', 'Marketing Tead Lead', 'PR Team'],
+      posts: ['Administration Team Lead', 'Marketing Tead Lead', 'PR Team', 'Program Team'],
       social: {},
     },
     {
