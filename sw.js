@@ -303,15 +303,15 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//timetable/index.html",
-    "revision": "b3e9f96823b7685b1f7a00c882c0124e"
+    "revision": "c9115c59835becd6a4253b4fdc2f7c54"
   },
   {
     "url": "/2020//topics/ansible-vm-kubernetes/index.html",
-    "revision": "c694a6b7ea588277d4407babbebacc3d"
+    "revision": "279d3a156bda72f7b4af0afebf119517"
   },
   {
     "url": "/2020//topics/automating-kubernetes-gitops/index.html",
-    "revision": "727c906fd917a2f5a2d877bbb03254a9"
+    "revision": "970ea96cee76ed21c034c4c46163f755"
   },
   {
     "url": "/2020//topics/build-api-service-using-ktor-rapidly/index.html",
@@ -351,15 +351,15 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//topics/how-build-online-learning-platform-engages-and-educates-students-scale-amazon-kendra-amazon/index.html",
-    "revision": "83a28cbac80043bd060f8a8e46410ec7"
+    "revision": "f128cbaf6dfc8f42c95ad819c7b0fe10"
   },
   {
     "url": "/2020//topics/how-i-do-troubleshooting-container-more-docker/index.html",
-    "revision": "984b75bbebea6e282d815232fc26122a"
+    "revision": "cc0de3d8a21f3992b79e2364f38ca969"
   },
   {
     "url": "/2020//topics/index.html",
-    "revision": "ba2cb5b324b521bbd0c22e033ea4ac86"
+    "revision": "ffe90e06b2f9151d5fcc3997aa51175e"
   },
   {
     "url": "/2020//topics/julia-looks-python-feels-lisp-runs-cfortran/index.html",
@@ -391,11 +391,11 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//topics/oao-user-orientation-cloud-architecture-pi/index.html",
-    "revision": "3488c154926c4bb180cb2b0129359bfe"
+    "revision": "86977ca8176a54122cd8ebad29d510ab"
   },
   {
     "url": "/2020//topics/open-default-trying-run-startup-open-source-culture-mind/index.html",
-    "revision": "7a7ba2264efe45cc25db32d04ad3eb6f"
+    "revision": "12e899419dc2a1e3b69fe6d85459432c"
   },
   {
     "url": "/2020//topics/rust-and-webassembly-powered-microservices/index.html",
@@ -447,15 +447,15 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//timetable/",
-    "revision": "b3e9f96823b7685b1f7a00c882c0124e"
+    "revision": "c9115c59835becd6a4253b4fdc2f7c54"
   },
   {
     "url": "/2020//topics/ansible-vm-kubernetes/",
-    "revision": "c694a6b7ea588277d4407babbebacc3d"
+    "revision": "279d3a156bda72f7b4af0afebf119517"
   },
   {
     "url": "/2020//topics/automating-kubernetes-gitops/",
-    "revision": "727c906fd917a2f5a2d877bbb03254a9"
+    "revision": "970ea96cee76ed21c034c4c46163f755"
   },
   {
     "url": "/2020//topics/build-api-service-using-ktor-rapidly/",
@@ -495,15 +495,15 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//topics/how-build-online-learning-platform-engages-and-educates-students-scale-amazon-kendra-amazon/",
-    "revision": "83a28cbac80043bd060f8a8e46410ec7"
+    "revision": "f128cbaf6dfc8f42c95ad819c7b0fe10"
   },
   {
     "url": "/2020//topics/how-i-do-troubleshooting-container-more-docker/",
-    "revision": "984b75bbebea6e282d815232fc26122a"
+    "revision": "cc0de3d8a21f3992b79e2364f38ca969"
   },
   {
     "url": "/2020//topics/",
-    "revision": "ba2cb5b324b521bbd0c22e033ea4ac86"
+    "revision": "ffe90e06b2f9151d5fcc3997aa51175e"
   },
   {
     "url": "/2020//topics/julia-looks-python-feels-lisp-runs-cfortran/",
@@ -535,11 +535,11 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//topics/oao-user-orientation-cloud-architecture-pi/",
-    "revision": "3488c154926c4bb180cb2b0129359bfe"
+    "revision": "86977ca8176a54122cd8ebad29d510ab"
   },
   {
     "url": "/2020//topics/open-default-trying-run-startup-open-source-culture-mind/",
-    "revision": "7a7ba2264efe45cc25db32d04ad3eb6f"
+    "revision": "12e899419dc2a1e3b69fe6d85459432c"
   },
   {
     "url": "/2020//topics/rust-and-webassembly-powered-microservices/",
