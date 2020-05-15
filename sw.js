@@ -303,7 +303,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//timetable/index.html",
-    "revision": "d1a45094cff5ee6117616fb1f11ccffb"
+    "revision": "b3e9f96823b7685b1f7a00c882c0124e"
   },
   {
     "url": "/2020//topics/ansible-vm-kubernetes/index.html",
@@ -322,6 +322,10 @@ self.__precacheManifest = [
     "revision": "3e9bc375d74d44280db7454c930e27ee"
   },
   {
+    "url": "/2020//topics/containerize-apps-kubernetes-azure/index.html",
+    "revision": "166fe9d51f0de299c32846a89128a86a"
+  },
+  {
     "url": "/2020//topics/cyberport-tbc/index.html",
     "revision": "7acd30b73ac775b3c9ab29f96890b4d5"
   },
@@ -334,8 +338,16 @@ self.__precacheManifest = [
     "revision": "f446d881974f4be09793e5e8f16169ab"
   },
   {
+    "url": "/2020//topics/emergency-response-demo-power-communities/index.html",
+    "revision": "99928bd715b07326fa102debfc73684a"
+  },
+  {
     "url": "/2020//topics/github-actions-your-free-ci-engine-and-much-more/index.html",
     "revision": "297fd93f11cd80b7cab10c6bc0094d9c"
+  },
+  {
+    "url": "/2020//topics/guide-responsible-ai-developers/index.html",
+    "revision": "2485fc183d4bb452a9af67e6a78205ab"
   },
   {
     "url": "/2020//topics/how-build-online-learning-platform-engages-and-educates-students-scale-amazon-kendra-amazon/index.html",
@@ -347,7 +359,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//topics/index.html",
-    "revision": "9673429475535cd7f289e9dfdedf0044"
+    "revision": "ba2cb5b324b521bbd0c22e033ea4ac86"
   },
   {
     "url": "/2020//topics/julia-looks-python-feels-lisp-runs-cfortran/index.html",
@@ -356,14 +368,6 @@ self.__precacheManifest = [
   {
     "url": "/2020//topics/keynote-1/index.html",
     "revision": "750b06eaa53da73174a2ddd47c8025fb"
-  },
-  {
-    "url": "/2020//topics/keynote-2/index.html",
-    "revision": "369d02d024abe209b20c61165bf99e79"
-  },
-  {
-    "url": "/2020//topics/keynote-3/index.html",
-    "revision": "026687f21c509ac51acb076930e291ad"
   },
   {
     "url": "/2020//topics/keynote-4/index.html",
@@ -376,10 +380,6 @@ self.__precacheManifest = [
   {
     "url": "/2020//topics/libreoffice-current-status-most-powerful-oss-office-suite/index.html",
     "revision": "bf76671d52901693dc0def1b08023dc8"
-  },
-  {
-    "url": "/2020//topics/microsoft-tbc/index.html",
-    "revision": "81545b09eee1be796e8bc58e40bad42d"
   },
   {
     "url": "/2020//topics/mysql-high-availability-deployment-practice/index.html",
@@ -398,12 +398,12 @@ self.__precacheManifest = [
     "revision": "7a7ba2264efe45cc25db32d04ad3eb6f"
   },
   {
-    "url": "/2020//topics/red-hat-tbc/index.html",
-    "revision": "6741d9ad9f64e1ce969a61af59340503"
-  },
-  {
     "url": "/2020//topics/rust-and-webassembly-powered-microservices/index.html",
     "revision": "d565a4c6dad0152c5262b60e9cf20e86"
+  },
+  {
+    "url": "/2020//topics/service-mesh-openshift/index.html",
+    "revision": "89421db33dec6a4c5d346a9792935119"
   },
   {
     "url": "/2020//topics/talk-tbc-coscup-reserved/index.html",
@@ -447,7 +447,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//timetable/",
-    "revision": "d1a45094cff5ee6117616fb1f11ccffb"
+    "revision": "b3e9f96823b7685b1f7a00c882c0124e"
   },
   {
     "url": "/2020//topics/ansible-vm-kubernetes/",
@@ -466,6 +466,10 @@ self.__precacheManifest = [
     "revision": "3e9bc375d74d44280db7454c930e27ee"
   },
   {
+    "url": "/2020//topics/containerize-apps-kubernetes-azure/",
+    "revision": "166fe9d51f0de299c32846a89128a86a"
+  },
+  {
     "url": "/2020//topics/cyberport-tbc/",
     "revision": "7acd30b73ac775b3c9ab29f96890b4d5"
   },
@@ -478,8 +482,16 @@ self.__precacheManifest = [
     "revision": "f446d881974f4be09793e5e8f16169ab"
   },
   {
+    "url": "/2020//topics/emergency-response-demo-power-communities/",
+    "revision": "99928bd715b07326fa102debfc73684a"
+  },
+  {
     "url": "/2020//topics/github-actions-your-free-ci-engine-and-much-more/",
     "revision": "297fd93f11cd80b7cab10c6bc0094d9c"
+  },
+  {
+    "url": "/2020//topics/guide-responsible-ai-developers/",
+    "revision": "2485fc183d4bb452a9af67e6a78205ab"
   },
   {
     "url": "/2020//topics/how-build-online-learning-platform-engages-and-educates-students-scale-amazon-kendra-amazon/",
@@ -491,7 +503,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//topics/",
-    "revision": "9673429475535cd7f289e9dfdedf0044"
+    "revision": "ba2cb5b324b521bbd0c22e033ea4ac86"
   },
   {
     "url": "/2020//topics/julia-looks-python-feels-lisp-runs-cfortran/",
@@ -500,14 +512,6 @@ self.__precacheManifest = [
   {
     "url": "/2020//topics/keynote-1/",
     "revision": "750b06eaa53da73174a2ddd47c8025fb"
-  },
-  {
-    "url": "/2020//topics/keynote-2/",
-    "revision": "369d02d024abe209b20c61165bf99e79"
-  },
-  {
-    "url": "/2020//topics/keynote-3/",
-    "revision": "026687f21c509ac51acb076930e291ad"
   },
   {
     "url": "/2020//topics/keynote-4/",
@@ -520,10 +524,6 @@ self.__precacheManifest = [
   {
     "url": "/2020//topics/libreoffice-current-status-most-powerful-oss-office-suite/",
     "revision": "bf76671d52901693dc0def1b08023dc8"
-  },
-  {
-    "url": "/2020//topics/microsoft-tbc/",
-    "revision": "81545b09eee1be796e8bc58e40bad42d"
   },
   {
     "url": "/2020//topics/mysql-high-availability-deployment-practice/",
@@ -542,12 +542,12 @@ self.__precacheManifest = [
     "revision": "7a7ba2264efe45cc25db32d04ad3eb6f"
   },
   {
-    "url": "/2020//topics/red-hat-tbc/",
-    "revision": "6741d9ad9f64e1ce969a61af59340503"
-  },
-  {
     "url": "/2020//topics/rust-and-webassembly-powered-microservices/",
     "revision": "d565a4c6dad0152c5262b60e9cf20e86"
+  },
+  {
+    "url": "/2020//topics/service-mesh-openshift/",
+    "revision": "89421db33dec6a4c5d346a9792935119"
   },
   {
     "url": "/2020//topics/talk-tbc-coscup-reserved/",
