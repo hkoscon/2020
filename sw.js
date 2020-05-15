@@ -303,7 +303,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//timetable/index.html",
-    "revision": "1b99ab612aa6bf6a2db320c3e20419bc"
+    "revision": "d1a45094cff5ee6117616fb1f11ccffb"
   },
   {
     "url": "/2020//topics/ansible-vm-kubernetes/index.html",
@@ -315,7 +315,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//topics/build-api-service-using-ktor-rapidly/index.html",
-    "revision": "8003d8ef5a60a1419826124b0b745f62"
+    "revision": "10e1fea9ec415ca687638f597931f74f"
   },
   {
     "url": "/2020//topics/businessbrand-database-developed-software-package-repositories/index.html",
@@ -347,7 +347,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//topics/index.html",
-    "revision": "b8f31721a61903c08ae662c593e4ec65"
+    "revision": "9673429475535cd7f289e9dfdedf0044"
   },
   {
     "url": "/2020//topics/julia-looks-python-feels-lisp-runs-cfortran/index.html",
@@ -447,7 +447,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//timetable/",
-    "revision": "1b99ab612aa6bf6a2db320c3e20419bc"
+    "revision": "d1a45094cff5ee6117616fb1f11ccffb"
   },
   {
     "url": "/2020//topics/ansible-vm-kubernetes/",
@@ -459,7 +459,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//topics/build-api-service-using-ktor-rapidly/",
-    "revision": "8003d8ef5a60a1419826124b0b745f62"
+    "revision": "10e1fea9ec415ca687638f597931f74f"
   },
   {
     "url": "/2020//topics/businessbrand-database-developed-software-package-repositories/",
@@ -491,7 +491,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//topics/",
-    "revision": "b8f31721a61903c08ae662c593e4ec65"
+    "revision": "9673429475535cd7f289e9dfdedf0044"
   },
   {
     "url": "/2020//topics/julia-looks-python-feels-lisp-runs-cfortran/",
