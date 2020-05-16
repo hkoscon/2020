@@ -303,7 +303,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//timetable/index.html",
-    "revision": "cc39752da45c8c58cd9da59ccdb23f10"
+    "revision": "a5ce34a2a484085fa9dc724c1527d350"
   },
   {
     "url": "/2020//topics/ansible-vm-kubernetes/index.html",
@@ -338,6 +338,10 @@ self.__precacheManifest = [
     "revision": "c6a051be315dfa1b0fdc65391e518739"
   },
   {
+    "url": "/2020//topics/democratize-data-literacy-open-source-technology/index.html",
+    "revision": "4b5791ec928a92a6b5204885c7138b1d"
+  },
+  {
     "url": "/2020//topics/emergency-response-demo-power-communities/index.html",
     "revision": "c57aa5f1941816097f22c46c152c808b"
   },
@@ -359,15 +363,11 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//topics/index.html",
-    "revision": "e6539254dbf0a96b91b7a426ba44bb1d"
+    "revision": "2cc75d08c87ae0238f1099cec8f7cded"
   },
   {
     "url": "/2020//topics/julia-looks-python-feels-lisp-runs-cfortran/index.html",
     "revision": "06308775032ed47833287762a794e26c"
-  },
-  {
-    "url": "/2020//topics/keynote-1/index.html",
-    "revision": "628b202d840ec2769406044af8b1af34"
   },
   {
     "url": "/2020//topics/keynote-4/index.html",
@@ -447,7 +447,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//timetable/",
-    "revision": "cc39752da45c8c58cd9da59ccdb23f10"
+    "revision": "a5ce34a2a484085fa9dc724c1527d350"
   },
   {
     "url": "/2020//topics/ansible-vm-kubernetes/",
@@ -482,6 +482,10 @@ self.__precacheManifest = [
     "revision": "c6a051be315dfa1b0fdc65391e518739"
   },
   {
+    "url": "/2020//topics/democratize-data-literacy-open-source-technology/",
+    "revision": "4b5791ec928a92a6b5204885c7138b1d"
+  },
+  {
     "url": "/2020//topics/emergency-response-demo-power-communities/",
     "revision": "c57aa5f1941816097f22c46c152c808b"
   },
@@ -503,15 +507,11 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//topics/",
-    "revision": "e6539254dbf0a96b91b7a426ba44bb1d"
+    "revision": "2cc75d08c87ae0238f1099cec8f7cded"
   },
   {
     "url": "/2020//topics/julia-looks-python-feels-lisp-runs-cfortran/",
     "revision": "06308775032ed47833287762a794e26c"
-  },
-  {
-    "url": "/2020//topics/keynote-1/",
-    "revision": "628b202d840ec2769406044af8b1af34"
   },
   {
     "url": "/2020//topics/keynote-4/",
