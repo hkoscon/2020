@@ -303,11 +303,11 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//timetable/index.html",
-    "revision": "a5ce34a2a484085fa9dc724c1527d350"
+    "revision": "9cfa7da966113b986f3e315f40f471f8"
   },
   {
     "url": "/2020//topics/ansible-vm-kubernetes/index.html",
-    "revision": "29981b25d18b36d9378631056b8726c4"
+    "revision": "0f35d15da83f1aee294b1e8fa6921bf7"
   },
   {
     "url": "/2020//topics/automating-kubernetes-gitops/index.html",
@@ -363,7 +363,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//topics/index.html",
-    "revision": "2cc75d08c87ae0238f1099cec8f7cded"
+    "revision": "195f560de99b24bea27178f904c35c42"
   },
   {
     "url": "/2020//topics/julia-looks-python-feels-lisp-runs-cfortran/index.html",
@@ -447,11 +447,11 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//timetable/",
-    "revision": "a5ce34a2a484085fa9dc724c1527d350"
+    "revision": "9cfa7da966113b986f3e315f40f471f8"
   },
   {
     "url": "/2020//topics/ansible-vm-kubernetes/",
-    "revision": "29981b25d18b36d9378631056b8726c4"
+    "revision": "0f35d15da83f1aee294b1e8fa6921bf7"
   },
   {
     "url": "/2020//topics/automating-kubernetes-gitops/",
@@ -507,7 +507,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//topics/",
-    "revision": "2cc75d08c87ae0238f1099cec8f7cded"
+    "revision": "195f560de99b24bea27178f904c35c42"
   },
   {
     "url": "/2020//topics/julia-looks-python-feels-lisp-runs-cfortran/",
