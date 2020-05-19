@@ -303,7 +303,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//timetable/index.html",
-    "revision": "9cfa7da966113b986f3e315f40f471f8"
+    "revision": "e43d15572b725e30d0173305602bde55"
   },
   {
     "url": "/2020//topics/ansible-vm-kubernetes/index.html",
@@ -339,7 +339,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//topics/democratize-data-literacy-open-source-technology/index.html",
-    "revision": "4b5791ec928a92a6b5204885c7138b1d"
+    "revision": "66f3e19a168a4e05469d3960ae07537d"
   },
   {
     "url": "/2020//topics/emergency-response-demo-power-communities/index.html",
@@ -363,7 +363,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//topics/index.html",
-    "revision": "195f560de99b24bea27178f904c35c42"
+    "revision": "953ad6fea2d0eeb0d5dc77ccc60189ec"
   },
   {
     "url": "/2020//topics/julia-looks-python-feels-lisp-runs-cfortran/index.html",
@@ -447,7 +447,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//timetable/",
-    "revision": "9cfa7da966113b986f3e315f40f471f8"
+    "revision": "e43d15572b725e30d0173305602bde55"
   },
   {
     "url": "/2020//topics/ansible-vm-kubernetes/",
@@ -483,7 +483,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//topics/democratize-data-literacy-open-source-technology/",
-    "revision": "4b5791ec928a92a6b5204885c7138b1d"
+    "revision": "66f3e19a168a4e05469d3960ae07537d"
   },
   {
     "url": "/2020//topics/emergency-response-demo-power-communities/",
@@ -507,7 +507,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//topics/",
-    "revision": "195f560de99b24bea27178f904c35c42"
+    "revision": "953ad6fea2d0eeb0d5dc77ccc60189ec"
   },
   {
     "url": "/2020//topics/julia-looks-python-feels-lisp-runs-cfortran/",
