@@ -303,7 +303,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//timetable/index.html",
-    "revision": "7ebc7324763ab7a2844ce739798a2937"
+    "revision": "8760af868db6346a7effaf7f1b55d732"
   },
   {
     "url": "/2020//topics/ansible-vm-kubernetes/index.html",
@@ -355,7 +355,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//topics/how-build-online-learning-platform-engages-and-educates-students-scale-amazon-kendra-amazon/index.html",
-    "revision": "d6daeb80ed62bb5d215ee54c0d81da20"
+    "revision": "beec1cf706cea78bcee270148c3258e1"
   },
   {
     "url": "/2020//topics/how-i-do-troubleshooting-container-more-docker/index.html",
@@ -363,7 +363,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//topics/index.html",
-    "revision": "9ea56e1c0ee912ee64540db1eb17a47b"
+    "revision": "297620ca2a8740719ead9bc06c1fb9da"
   },
   {
     "url": "/2020//topics/julia-looks-python-feels-lisp-runs-cfortran/index.html",
@@ -451,7 +451,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//timetable/",
-    "revision": "7ebc7324763ab7a2844ce739798a2937"
+    "revision": "8760af868db6346a7effaf7f1b55d732"
   },
   {
     "url": "/2020//topics/ansible-vm-kubernetes/",
@@ -503,7 +503,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//topics/how-build-online-learning-platform-engages-and-educates-students-scale-amazon-kendra-amazon/",
-    "revision": "d6daeb80ed62bb5d215ee54c0d81da20"
+    "revision": "beec1cf706cea78bcee270148c3258e1"
   },
   {
     "url": "/2020//topics/how-i-do-troubleshooting-container-more-docker/",
@@ -511,7 +511,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//topics/",
-    "revision": "9ea56e1c0ee912ee64540db1eb17a47b"
+    "revision": "297620ca2a8740719ead9bc06c1fb9da"
   },
   {
     "url": "/2020//topics/julia-looks-python-feels-lisp-runs-cfortran/",
