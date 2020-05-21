@@ -303,7 +303,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//timetable/index.html",
-    "revision": "e43d15572b725e30d0173305602bde55"
+    "revision": "5ea54e69b8f914d283284607aa533794"
   },
   {
     "url": "/2020//topics/ansible-vm-kubernetes/index.html",
@@ -351,7 +351,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//topics/guide-responsible-ai-developers/index.html",
-    "revision": "1cf7b830c2bd6c308b93fcaa6b7f3c5e"
+    "revision": "7c044c3c390e0b9d724795573a8686e0"
   },
   {
     "url": "/2020//topics/how-build-online-learning-platform-engages-and-educates-students-scale-amazon-kendra-amazon/index.html",
@@ -363,7 +363,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//topics/index.html",
-    "revision": "953ad6fea2d0eeb0d5dc77ccc60189ec"
+    "revision": "90bb4eafa039ac88efe0a07d28fc6809"
   },
   {
     "url": "/2020//topics/julia-looks-python-feels-lisp-runs-cfortran/index.html",
@@ -447,7 +447,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//timetable/",
-    "revision": "e43d15572b725e30d0173305602bde55"
+    "revision": "5ea54e69b8f914d283284607aa533794"
   },
   {
     "url": "/2020//topics/ansible-vm-kubernetes/",
@@ -495,7 +495,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//topics/guide-responsible-ai-developers/",
-    "revision": "1cf7b830c2bd6c308b93fcaa6b7f3c5e"
+    "revision": "7c044c3c390e0b9d724795573a8686e0"
   },
   {
     "url": "/2020//topics/how-build-online-learning-platform-engages-and-educates-students-scale-amazon-kendra-amazon/",
@@ -507,7 +507,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//topics/",
-    "revision": "953ad6fea2d0eeb0d5dc77ccc60189ec"
+    "revision": "90bb4eafa039ac88efe0a07d28fc6809"
   },
   {
     "url": "/2020//topics/julia-looks-python-feels-lisp-runs-cfortran/",
