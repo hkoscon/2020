@@ -303,7 +303,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//timetable/index.html",
-    "revision": "5ea54e69b8f914d283284607aa533794"
+    "revision": "8970112c803fcab639259346b610642c"
   },
   {
     "url": "/2020//topics/ansible-vm-kubernetes/index.html",
@@ -339,11 +339,11 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//topics/democratize-data-literacy-open-source-technology/index.html",
-    "revision": "66f3e19a168a4e05469d3960ae07537d"
+    "revision": "34ed1acd966d4d68dad42fd28fe2261e"
   },
   {
     "url": "/2020//topics/emergency-response-demo-power-communities/index.html",
-    "revision": "c57aa5f1941816097f22c46c152c808b"
+    "revision": "c65e4edbd63bdfaa72f14c45d8267ecb"
   },
   {
     "url": "/2020//topics/github-actions-your-free-ci-engine-and-much-more/index.html",
@@ -351,7 +351,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//topics/guide-responsible-ai-developers/index.html",
-    "revision": "7c044c3c390e0b9d724795573a8686e0"
+    "revision": "9b2f87a2ed0ae05c47d79989d613ae07"
   },
   {
     "url": "/2020//topics/how-build-online-learning-platform-engages-and-educates-students-scale-amazon-kendra-amazon/index.html",
@@ -363,19 +363,19 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//topics/index.html",
-    "revision": "90bb4eafa039ac88efe0a07d28fc6809"
+    "revision": "36e0386d6e471529977e586aefd82305"
   },
   {
     "url": "/2020//topics/julia-looks-python-feels-lisp-runs-cfortran/index.html",
     "revision": "06308775032ed47833287762a794e26c"
   },
   {
-    "url": "/2020//topics/keynote-4/index.html",
-    "revision": "50e1b93ed87136a4445d0178cb651f80"
-  },
-  {
     "url": "/2020//topics/launch-warsvote4hk-within-2-days-0-cost/index.html",
     "revision": "f61a5f8b549709a5d09fe71c70c9f217"
+  },
+  {
+    "url": "/2020//topics/lesson-learned-open-culture-under-covid-19-situation/index.html",
+    "revision": "44c0b0c8e9b95ffd463effec3999d46f"
   },
   {
     "url": "/2020//topics/libreoffice-current-status-most-powerful-oss-office-suite/index.html",
@@ -396,6 +396,10 @@ self.__precacheManifest = [
   {
     "url": "/2020//topics/open-default-trying-run-startup-open-source-culture-mind/index.html",
     "revision": "8ede3b30a0ef46bdcedebb21534b5198"
+  },
+  {
+    "url": "/2020//topics/opening-ceremony-and-welcome-speech/index.html",
+    "revision": "155f3997471db3fcaf22eaaf6c3e90c0"
   },
   {
     "url": "/2020//topics/rust-and-webassembly-powered-microservices/index.html",
@@ -447,7 +451,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//timetable/",
-    "revision": "5ea54e69b8f914d283284607aa533794"
+    "revision": "8970112c803fcab639259346b610642c"
   },
   {
     "url": "/2020//topics/ansible-vm-kubernetes/",
@@ -483,11 +487,11 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//topics/democratize-data-literacy-open-source-technology/",
-    "revision": "66f3e19a168a4e05469d3960ae07537d"
+    "revision": "34ed1acd966d4d68dad42fd28fe2261e"
   },
   {
     "url": "/2020//topics/emergency-response-demo-power-communities/",
-    "revision": "c57aa5f1941816097f22c46c152c808b"
+    "revision": "c65e4edbd63bdfaa72f14c45d8267ecb"
   },
   {
     "url": "/2020//topics/github-actions-your-free-ci-engine-and-much-more/",
@@ -495,7 +499,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//topics/guide-responsible-ai-developers/",
-    "revision": "7c044c3c390e0b9d724795573a8686e0"
+    "revision": "9b2f87a2ed0ae05c47d79989d613ae07"
   },
   {
     "url": "/2020//topics/how-build-online-learning-platform-engages-and-educates-students-scale-amazon-kendra-amazon/",
@@ -507,19 +511,19 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//topics/",
-    "revision": "90bb4eafa039ac88efe0a07d28fc6809"
+    "revision": "36e0386d6e471529977e586aefd82305"
   },
   {
     "url": "/2020//topics/julia-looks-python-feels-lisp-runs-cfortran/",
     "revision": "06308775032ed47833287762a794e26c"
   },
   {
-    "url": "/2020//topics/keynote-4/",
-    "revision": "50e1b93ed87136a4445d0178cb651f80"
-  },
-  {
     "url": "/2020//topics/launch-warsvote4hk-within-2-days-0-cost/",
     "revision": "f61a5f8b549709a5d09fe71c70c9f217"
+  },
+  {
+    "url": "/2020//topics/lesson-learned-open-culture-under-covid-19-situation/",
+    "revision": "44c0b0c8e9b95ffd463effec3999d46f"
   },
   {
     "url": "/2020//topics/libreoffice-current-status-most-powerful-oss-office-suite/",
@@ -540,6 +544,10 @@ self.__precacheManifest = [
   {
     "url": "/2020//topics/open-default-trying-run-startup-open-source-culture-mind/",
     "revision": "8ede3b30a0ef46bdcedebb21534b5198"
+  },
+  {
+    "url": "/2020//topics/opening-ceremony-and-welcome-speech/",
+    "revision": "155f3997471db3fcaf22eaaf6c3e90c0"
   },
   {
     "url": "/2020//topics/rust-and-webassembly-powered-microservices/",
