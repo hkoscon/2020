@@ -303,7 +303,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//timetable/index.html",
-    "revision": "a59906eba4008725ec7e7180859ba52d"
+    "revision": "44e91f99d53e5ac3bb52dd77af0f34cc"
   },
   {
     "url": "/2020//topics/ansible-vm-kubernetes/index.html",
@@ -363,7 +363,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//topics/index.html",
-    "revision": "9ea56e1c0ee912ee64540db1eb17a47b"
+    "revision": "664e3f084d05229b41b88c949f8981a2"
   },
   {
     "url": "/2020//topics/julia-looks-python-feels-lisp-runs-cfortran/index.html",
@@ -375,7 +375,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//topics/lesson-learned-open-culture-under-covid-19-situation/index.html",
-    "revision": "44c0b0c8e9b95ffd463effec3999d46f"
+    "revision": "e62661bf8fe4ca92b2b32d6760adacc7"
   },
   {
     "url": "/2020//topics/libreoffice-current-status-most-powerful-oss-office-suite/index.html",
@@ -451,7 +451,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//timetable/",
-    "revision": "a59906eba4008725ec7e7180859ba52d"
+    "revision": "44e91f99d53e5ac3bb52dd77af0f34cc"
   },
   {
     "url": "/2020//topics/ansible-vm-kubernetes/",
@@ -511,7 +511,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//topics/",
-    "revision": "9ea56e1c0ee912ee64540db1eb17a47b"
+    "revision": "664e3f084d05229b41b88c949f8981a2"
   },
   {
     "url": "/2020//topics/julia-looks-python-feels-lisp-runs-cfortran/",
@@ -523,7 +523,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//topics/lesson-learned-open-culture-under-covid-19-situation/",
-    "revision": "44c0b0c8e9b95ffd463effec3999d46f"
+    "revision": "e62661bf8fe4ca92b2b32d6760adacc7"
   },
   {
     "url": "/2020//topics/libreoffice-current-status-most-powerful-oss-office-suite/",
