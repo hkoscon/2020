@@ -303,27 +303,27 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//timetable/index.html",
-    "revision": "44e91f99d53e5ac3bb52dd77af0f34cc"
+    "revision": "2306a677c554ec982a87337e8996b075"
   },
   {
     "url": "/2020//topics/ansible-vm-kubernetes/index.html",
-    "revision": "0f35d15da83f1aee294b1e8fa6921bf7"
+    "revision": "ebae0c9d1d54415d25125ea497907d5d"
   },
   {
     "url": "/2020//topics/automating-kubernetes-gitops/index.html",
-    "revision": "2b1dc5bc8d6d88768e22518cbb7075e4"
+    "revision": "2a58ad1f44d17f25b329791ed2e8e7de"
   },
   {
     "url": "/2020//topics/build-api-service-using-ktor-rapidly/index.html",
-    "revision": "74d6fa1b87457950f92950d91215881e"
+    "revision": "29e16ee9a7adae78ec22e3a6f0296c80"
   },
   {
     "url": "/2020//topics/businessbrand-database-developed-software-package-repositories/index.html",
-    "revision": "2f261ad61c7af478404823d040f2d87b"
+    "revision": "75d2f349cb346ea62bd381b25f17c57c"
   },
   {
     "url": "/2020//topics/containerize-apps-kubernetes-azure/index.html",
-    "revision": "80bfbcc75416ae7fa2af07c60ba96d71"
+    "revision": "5e6c99501e057040a4ccf690ae94ae6a"
   },
   {
     "url": "/2020//topics/cyberport-tbc/index.html",
@@ -335,67 +335,67 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//topics/decentralized-content-registry-expanding-ipfs-functionality-cosmos-based-blockchain/index.html",
-    "revision": "c6a051be315dfa1b0fdc65391e518739"
+    "revision": "aa0293e262e4296fa963db707c5d2a50"
   },
   {
     "url": "/2020//topics/democratize-data-literacy-open-source-technology/index.html",
-    "revision": "34ed1acd966d4d68dad42fd28fe2261e"
+    "revision": "333f2bd839b1345cc522aedcb88aa37a"
   },
   {
     "url": "/2020//topics/emergency-response-demo-power-communities/index.html",
-    "revision": "c65e4edbd63bdfaa72f14c45d8267ecb"
+    "revision": "a900e8189f9891cad7ca3b8b72d604c4"
   },
   {
     "url": "/2020//topics/github-actions-your-free-ci-engine-and-much-more/index.html",
-    "revision": "83449395f0d37896b6b8d5ad30e962c8"
+    "revision": "6373ace97a085068456a77a7078099d0"
   },
   {
     "url": "/2020//topics/guide-responsible-ai-developers/index.html",
-    "revision": "9b2f87a2ed0ae05c47d79989d613ae07"
+    "revision": "2f41399302b8a02dc6582623d0207cb7"
   },
   {
     "url": "/2020//topics/how-build-online-learning-platform-engages-and-educates-students-scale-amazon-kendra-amazon/index.html",
-    "revision": "d6daeb80ed62bb5d215ee54c0d81da20"
+    "revision": "7ae52c239b60e73a7b722a0653d65387"
   },
   {
     "url": "/2020//topics/how-i-do-troubleshooting-container-more-docker/index.html",
-    "revision": "ba0315bdc56c4f8185e42c8e35a16924"
+    "revision": "4ea8c220a5924efefa2fb23d28f6544f"
   },
   {
     "url": "/2020//topics/index.html",
-    "revision": "664e3f084d05229b41b88c949f8981a2"
+    "revision": "8345a6873513b15d3742aef52933db33"
   },
   {
     "url": "/2020//topics/julia-looks-python-feels-lisp-runs-cfortran/index.html",
-    "revision": "06308775032ed47833287762a794e26c"
+    "revision": "ff7c291659072d2edffdfcc8d955742a"
   },
   {
     "url": "/2020//topics/launch-warsvote4hk-within-2-days-0-cost/index.html",
-    "revision": "f61a5f8b549709a5d09fe71c70c9f217"
+    "revision": "3ecf5e9c3c2797a837ed1dafec373189"
   },
   {
     "url": "/2020//topics/lesson-learned-open-culture-under-covid-19-situation/index.html",
-    "revision": "e62661bf8fe4ca92b2b32d6760adacc7"
+    "revision": "57db97a0eee094d439595805cbd773cf"
   },
   {
     "url": "/2020//topics/libreoffice-current-status-most-powerful-oss-office-suite/index.html",
-    "revision": "c8f87bddce27fe4e4eac318e79a2d172"
+    "revision": "efb58663384435f72393c5cb1f2bd20f"
   },
   {
     "url": "/2020//topics/mysql-high-availability-deployment-practice/index.html",
-    "revision": "eef7714dfae0c3e0e39ba7ce1ec8a76a"
+    "revision": "92e297592a798876a69565cf809d502c"
   },
   {
     "url": "/2020//topics/mysql-security-best-practice/index.html",
-    "revision": "caf14f35820ea001e1c5080a2ee8880c"
+    "revision": "51eac333ab98a3b3c2500d82d36190c3"
   },
   {
     "url": "/2020//topics/oao-user-orientation-cloud-architecture-pi/index.html",
-    "revision": "40d3c1879ab65b7b7dba489f3eada546"
+    "revision": "c4356937bacab7d9eb61ea86bef19c85"
   },
   {
     "url": "/2020//topics/open-default-trying-run-startup-open-source-culture-mind/index.html",
-    "revision": "8ede3b30a0ef46bdcedebb21534b5198"
+    "revision": "a0da4727b8424389c7bec25b0ef89f95"
   },
   {
     "url": "/2020//topics/opening-ceremony-and-welcome-speech/index.html",
@@ -403,11 +403,11 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//topics/rust-and-webassembly-powered-microservices/index.html",
-    "revision": "e74e8ae1641e033d5c1fbbf4e46c69d3"
+    "revision": "ba7c1e7065bd7fdfcf56020ac6fb0716"
   },
   {
     "url": "/2020//topics/service-mesh-openshift/index.html",
-    "revision": "be187c3a6ccff323294f7f3522273c63"
+    "revision": "bdb383a411f2d8e50bde75904a0a3db6"
   },
   {
     "url": "/2020//topics/talk-tbc-coscup-reserved/index.html",
@@ -415,7 +415,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//topics/tvhk/index.html",
-    "revision": "14674f074118c7f6d4a1cc16cf8bd001"
+    "revision": "90c65ec7fd44033ea24541f5fc8f9a68"
   },
   {
     "url": "/2020//about/coc/",
@@ -451,27 +451,27 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//timetable/",
-    "revision": "44e91f99d53e5ac3bb52dd77af0f34cc"
+    "revision": "2306a677c554ec982a87337e8996b075"
   },
   {
     "url": "/2020//topics/ansible-vm-kubernetes/",
-    "revision": "0f35d15da83f1aee294b1e8fa6921bf7"
+    "revision": "ebae0c9d1d54415d25125ea497907d5d"
   },
   {
     "url": "/2020//topics/automating-kubernetes-gitops/",
-    "revision": "2b1dc5bc8d6d88768e22518cbb7075e4"
+    "revision": "2a58ad1f44d17f25b329791ed2e8e7de"
   },
   {
     "url": "/2020//topics/build-api-service-using-ktor-rapidly/",
-    "revision": "74d6fa1b87457950f92950d91215881e"
+    "revision": "29e16ee9a7adae78ec22e3a6f0296c80"
   },
   {
     "url": "/2020//topics/businessbrand-database-developed-software-package-repositories/",
-    "revision": "2f261ad61c7af478404823d040f2d87b"
+    "revision": "75d2f349cb346ea62bd381b25f17c57c"
   },
   {
     "url": "/2020//topics/containerize-apps-kubernetes-azure/",
-    "revision": "80bfbcc75416ae7fa2af07c60ba96d71"
+    "revision": "5e6c99501e057040a4ccf690ae94ae6a"
   },
   {
     "url": "/2020//topics/cyberport-tbc/",
@@ -483,67 +483,67 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//topics/decentralized-content-registry-expanding-ipfs-functionality-cosmos-based-blockchain/",
-    "revision": "c6a051be315dfa1b0fdc65391e518739"
+    "revision": "aa0293e262e4296fa963db707c5d2a50"
   },
   {
     "url": "/2020//topics/democratize-data-literacy-open-source-technology/",
-    "revision": "34ed1acd966d4d68dad42fd28fe2261e"
+    "revision": "333f2bd839b1345cc522aedcb88aa37a"
   },
   {
     "url": "/2020//topics/emergency-response-demo-power-communities/",
-    "revision": "c65e4edbd63bdfaa72f14c45d8267ecb"
+    "revision": "a900e8189f9891cad7ca3b8b72d604c4"
   },
   {
     "url": "/2020//topics/github-actions-your-free-ci-engine-and-much-more/",
-    "revision": "83449395f0d37896b6b8d5ad30e962c8"
+    "revision": "6373ace97a085068456a77a7078099d0"
   },
   {
     "url": "/2020//topics/guide-responsible-ai-developers/",
-    "revision": "9b2f87a2ed0ae05c47d79989d613ae07"
+    "revision": "2f41399302b8a02dc6582623d0207cb7"
   },
   {
     "url": "/2020//topics/how-build-online-learning-platform-engages-and-educates-students-scale-amazon-kendra-amazon/",
-    "revision": "d6daeb80ed62bb5d215ee54c0d81da20"
+    "revision": "7ae52c239b60e73a7b722a0653d65387"
   },
   {
     "url": "/2020//topics/how-i-do-troubleshooting-container-more-docker/",
-    "revision": "ba0315bdc56c4f8185e42c8e35a16924"
+    "revision": "4ea8c220a5924efefa2fb23d28f6544f"
   },
   {
     "url": "/2020//topics/",
-    "revision": "664e3f084d05229b41b88c949f8981a2"
+    "revision": "8345a6873513b15d3742aef52933db33"
   },
   {
     "url": "/2020//topics/julia-looks-python-feels-lisp-runs-cfortran/",
-    "revision": "06308775032ed47833287762a794e26c"
+    "revision": "ff7c291659072d2edffdfcc8d955742a"
   },
   {
     "url": "/2020//topics/launch-warsvote4hk-within-2-days-0-cost/",
-    "revision": "f61a5f8b549709a5d09fe71c70c9f217"
+    "revision": "3ecf5e9c3c2797a837ed1dafec373189"
   },
   {
     "url": "/2020//topics/lesson-learned-open-culture-under-covid-19-situation/",
-    "revision": "e62661bf8fe4ca92b2b32d6760adacc7"
+    "revision": "57db97a0eee094d439595805cbd773cf"
   },
   {
     "url": "/2020//topics/libreoffice-current-status-most-powerful-oss-office-suite/",
-    "revision": "c8f87bddce27fe4e4eac318e79a2d172"
+    "revision": "efb58663384435f72393c5cb1f2bd20f"
   },
   {
     "url": "/2020//topics/mysql-high-availability-deployment-practice/",
-    "revision": "eef7714dfae0c3e0e39ba7ce1ec8a76a"
+    "revision": "92e297592a798876a69565cf809d502c"
   },
   {
     "url": "/2020//topics/mysql-security-best-practice/",
-    "revision": "caf14f35820ea001e1c5080a2ee8880c"
+    "revision": "51eac333ab98a3b3c2500d82d36190c3"
   },
   {
     "url": "/2020//topics/oao-user-orientation-cloud-architecture-pi/",
-    "revision": "40d3c1879ab65b7b7dba489f3eada546"
+    "revision": "c4356937bacab7d9eb61ea86bef19c85"
   },
   {
     "url": "/2020//topics/open-default-trying-run-startup-open-source-culture-mind/",
-    "revision": "8ede3b30a0ef46bdcedebb21534b5198"
+    "revision": "a0da4727b8424389c7bec25b0ef89f95"
   },
   {
     "url": "/2020//topics/opening-ceremony-and-welcome-speech/",
@@ -551,11 +551,11 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//topics/rust-and-webassembly-powered-microservices/",
-    "revision": "e74e8ae1641e033d5c1fbbf4e46c69d3"
+    "revision": "ba7c1e7065bd7fdfcf56020ac6fb0716"
   },
   {
     "url": "/2020//topics/service-mesh-openshift/",
-    "revision": "be187c3a6ccff323294f7f3522273c63"
+    "revision": "bdb383a411f2d8e50bde75904a0a3db6"
   },
   {
     "url": "/2020//topics/talk-tbc-coscup-reserved/",
@@ -563,7 +563,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//topics/tvhk/",
-    "revision": "14674f074118c7f6d4a1cc16cf8bd001"
+    "revision": "90c65ec7fd44033ea24541f5fc8f9a68"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
