@@ -303,7 +303,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//timetable/index.html",
-    "revision": "2306a677c554ec982a87337e8996b075"
+    "revision": "f88ff6d8389f67c4ca96021c3d8e4836"
   },
   {
     "url": "/2020//topics/ansible-vm-kubernetes/index.html",
@@ -355,7 +355,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//topics/how-build-online-learning-platform-engages-and-educates-students-scale-amazon-kendra-amazon/index.html",
-    "revision": "7ae52c239b60e73a7b722a0653d65387"
+    "revision": "de61541503b83582e2b10cbd208a0e9d"
   },
   {
     "url": "/2020//topics/how-i-do-troubleshooting-container-more-docker/index.html",
@@ -363,7 +363,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//topics/index.html",
-    "revision": "8345a6873513b15d3742aef52933db33"
+    "revision": "ef2a0fca7a0359c2bf015b3ecbdab800"
   },
   {
     "url": "/2020//topics/julia-looks-python-feels-lisp-runs-cfortran/index.html",
@@ -399,7 +399,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//topics/opening-ceremony-and-welcome-speech/index.html",
-    "revision": "155f3997471db3fcaf22eaaf6c3e90c0"
+    "revision": "362c1224f6c773234e3ccfc14d01f19e"
   },
   {
     "url": "/2020//topics/rust-and-webassembly-powered-microservices/index.html",
@@ -451,7 +451,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//timetable/",
-    "revision": "2306a677c554ec982a87337e8996b075"
+    "revision": "f88ff6d8389f67c4ca96021c3d8e4836"
   },
   {
     "url": "/2020//topics/ansible-vm-kubernetes/",
@@ -503,7 +503,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//topics/how-build-online-learning-platform-engages-and-educates-students-scale-amazon-kendra-amazon/",
-    "revision": "7ae52c239b60e73a7b722a0653d65387"
+    "revision": "de61541503b83582e2b10cbd208a0e9d"
   },
   {
     "url": "/2020//topics/how-i-do-troubleshooting-container-more-docker/",
@@ -511,7 +511,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//topics/",
-    "revision": "8345a6873513b15d3742aef52933db33"
+    "revision": "ef2a0fca7a0359c2bf015b3ecbdab800"
   },
   {
     "url": "/2020//topics/julia-looks-python-feels-lisp-runs-cfortran/",
@@ -547,7 +547,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//topics/opening-ceremony-and-welcome-speech/",
-    "revision": "155f3997471db3fcaf22eaaf6c3e90c0"
+    "revision": "362c1224f6c773234e3ccfc14d01f19e"
   },
   {
     "url": "/2020//topics/rust-and-webassembly-powered-microservices/",
