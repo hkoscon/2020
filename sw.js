@@ -299,11 +299,11 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//sponsors/index.html",
-    "revision": "130ac7784e55f20f1c33cd6810f1c9e3"
+    "revision": "445caa6cc7743d2f610f213fec200dc2"
   },
   {
     "url": "/2020//timetable/index.html",
-    "revision": "f88ff6d8389f67c4ca96021c3d8e4836"
+    "revision": "1df858744e955049745fb0794661e2bf"
   },
   {
     "url": "/2020//topics/ansible-vm-kubernetes/index.html",
@@ -447,11 +447,11 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//sponsors/",
-    "revision": "130ac7784e55f20f1c33cd6810f1c9e3"
+    "revision": "445caa6cc7743d2f610f213fec200dc2"
   },
   {
     "url": "/2020//timetable/",
-    "revision": "f88ff6d8389f67c4ca96021c3d8e4836"
+    "revision": "1df858744e955049745fb0794661e2bf"
   },
   {
     "url": "/2020//topics/ansible-vm-kubernetes/",
