@@ -287,7 +287,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//timetable/index.html",
-    "revision": "9b87a9c8e93491b6bc8cf09281ddf111"
+    "revision": "7ab0101b133257ba1a22880410879564"
   },
   {
     "url": "/2020//topics/ansible-vm-kubernetes/index.html",
@@ -347,7 +347,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//topics/index.html",
-    "revision": "c81e6fb459687143bcc98274139c6c3c"
+    "revision": "bf3af11c9912632bbb987792c1797cf8"
   },
   {
     "url": "/2020//topics/julia-looks-python-feels-lisp-runs-cfortran/index.html",
@@ -387,7 +387,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//topics/qukuailianchanyeyukaiyuanwenhuadejiaojixinrenyijigongshi/index.html",
-    "revision": "bdc767f80862f440df2957b5f4c2294a"
+    "revision": "e45c4ad1cda8cf3f149bd1dd1569b7cc"
   },
   {
     "url": "/2020//topics/rust-and-webassembly-powered-microservices/index.html",
@@ -431,7 +431,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//timetable/",
-    "revision": "9b87a9c8e93491b6bc8cf09281ddf111"
+    "revision": "7ab0101b133257ba1a22880410879564"
   },
   {
     "url": "/2020//topics/ansible-vm-kubernetes/",
@@ -491,7 +491,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//topics/",
-    "revision": "c81e6fb459687143bcc98274139c6c3c"
+    "revision": "bf3af11c9912632bbb987792c1797cf8"
   },
   {
     "url": "/2020//topics/julia-looks-python-feels-lisp-runs-cfortran/",
@@ -531,7 +531,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//topics/qukuailianchanyeyukaiyuanwenhuadejiaojixinrenyijigongshi/",
-    "revision": "bdc767f80862f440df2957b5f4c2294a"
+    "revision": "e45c4ad1cda8cf3f149bd1dd1569b7cc"
   },
   {
     "url": "/2020//topics/rust-and-webassembly-powered-microservices/",
