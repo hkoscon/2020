@@ -287,7 +287,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//timetable/index.html",
-    "revision": "9461da42f547d7d2b22f127471691fb0"
+    "revision": "157e58ac482fba55533b131b7360bcbd"
   },
   {
     "url": "/2020//topics/ansible-vm-kubernetes/index.html",
@@ -296,6 +296,10 @@ self.__precacheManifest = [
   {
     "url": "/2020//topics/automating-kubernetes-gitops/index.html",
     "revision": "ba1458375a932a64b85891fd5319edf1"
+  },
+  {
+    "url": "/2020//topics/build-and-maintain-civil-infrastructure-platform-using-open-source-projects/index.html",
+    "revision": "9ee72f8cc0fcf209cf0632afff6e9b85"
   },
   {
     "url": "/2020//topics/build-api-service-using-ktor-rapidly/index.html",
@@ -334,6 +338,10 @@ self.__precacheManifest = [
     "revision": "5f6588b7d8e6acdb45cd2b4b3839ed20"
   },
   {
+    "url": "/2020//topics/hitchhikers-guide-servo-contributor/index.html",
+    "revision": "ff508306a73e1018ab1739480195e1eb"
+  },
+  {
     "url": "/2020//topics/how-build-online-learning-platform-engages-and-educates-students-scale-amazon-kendra-amazon/index.html",
     "revision": "49e61c35373ca9ae552ada73dbe3d055"
   },
@@ -343,7 +351,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//topics/index.html",
-    "revision": "ec82ccb87039083d4ec0126fcf4a8092"
+    "revision": "01d82619ea421ac41af0bd7541d3235b"
   },
   {
     "url": "/2020//topics/julia-looks-python-feels-lisp-runs-cfortran/index.html",
@@ -367,7 +375,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//topics/mysql-security-best-practice/index.html",
-    "revision": "d97fdcfc56cbbf9557359defb17110c3"
+    "revision": "2fc239796f58de303bb1592c3bf7d603"
   },
   {
     "url": "/2020//topics/oao-user-orientation-cloud-architecture-pi/index.html",
@@ -383,7 +391,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//topics/qukuailianchanyeyukaiyuanwenhuadejiaojixinrenyijigongshi/index.html",
-    "revision": "e45c4ad1cda8cf3f149bd1dd1569b7cc"
+    "revision": "c4b8f223e649010d4c5b9bd77a1add97"
   },
   {
     "url": "/2020//topics/rust-and-webassembly-powered-microservices/index.html",
@@ -392,10 +400,6 @@ self.__precacheManifest = [
   {
     "url": "/2020//topics/service-mesh-openshift/index.html",
     "revision": "39ddeb7378ac3d302212ced906954465"
-  },
-  {
-    "url": "/2020//topics/talk-tbc-coscup-reserved/index.html",
-    "revision": "30579adacf0093657863a59032723ac3"
   },
   {
     "url": "/2020//topics/tvhk/index.html",
@@ -431,7 +435,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//timetable/",
-    "revision": "9461da42f547d7d2b22f127471691fb0"
+    "revision": "157e58ac482fba55533b131b7360bcbd"
   },
   {
     "url": "/2020//topics/ansible-vm-kubernetes/",
@@ -440,6 +444,10 @@ self.__precacheManifest = [
   {
     "url": "/2020//topics/automating-kubernetes-gitops/",
     "revision": "ba1458375a932a64b85891fd5319edf1"
+  },
+  {
+    "url": "/2020//topics/build-and-maintain-civil-infrastructure-platform-using-open-source-projects/",
+    "revision": "9ee72f8cc0fcf209cf0632afff6e9b85"
   },
   {
     "url": "/2020//topics/build-api-service-using-ktor-rapidly/",
@@ -478,6 +486,10 @@ self.__precacheManifest = [
     "revision": "5f6588b7d8e6acdb45cd2b4b3839ed20"
   },
   {
+    "url": "/2020//topics/hitchhikers-guide-servo-contributor/",
+    "revision": "ff508306a73e1018ab1739480195e1eb"
+  },
+  {
     "url": "/2020//topics/how-build-online-learning-platform-engages-and-educates-students-scale-amazon-kendra-amazon/",
     "revision": "49e61c35373ca9ae552ada73dbe3d055"
   },
@@ -487,7 +499,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//topics/",
-    "revision": "ec82ccb87039083d4ec0126fcf4a8092"
+    "revision": "01d82619ea421ac41af0bd7541d3235b"
   },
   {
     "url": "/2020//topics/julia-looks-python-feels-lisp-runs-cfortran/",
@@ -511,7 +523,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//topics/mysql-security-best-practice/",
-    "revision": "d97fdcfc56cbbf9557359defb17110c3"
+    "revision": "2fc239796f58de303bb1592c3bf7d603"
   },
   {
     "url": "/2020//topics/oao-user-orientation-cloud-architecture-pi/",
@@ -527,7 +539,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//topics/qukuailianchanyeyukaiyuanwenhuadejiaojixinrenyijigongshi/",
-    "revision": "e45c4ad1cda8cf3f149bd1dd1569b7cc"
+    "revision": "c4b8f223e649010d4c5b9bd77a1add97"
   },
   {
     "url": "/2020//topics/rust-and-webassembly-powered-microservices/",
@@ -536,10 +548,6 @@ self.__precacheManifest = [
   {
     "url": "/2020//topics/service-mesh-openshift/",
     "revision": "39ddeb7378ac3d302212ced906954465"
-  },
-  {
-    "url": "/2020//topics/talk-tbc-coscup-reserved/",
-    "revision": "30579adacf0093657863a59032723ac3"
   },
   {
     "url": "/2020//topics/tvhk/",
