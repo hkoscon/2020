@@ -30,44 +30,40 @@ self.__precacheManifest = [
     "revision": "0e3190a3834ba99bd57316a7842095fd"
   },
   {
-    "url": "/2020//02c0588cd876d28ed163.js",
-    "revision": "ee52dca13068ecae0ca5366c1f0facd4"
+    "url": "/2020//0455aa79af1720c79336.js",
+    "revision": "39a958867e1163fee6ae1fb242263fd0"
+  },
+  {
+    "url": "/2020//0553b7dd7e9ada579871.js",
+    "revision": "2816633fd124dd75239eb2571273cb49"
   },
   {
     "url": "/2020//069de9fb9145532e70e5.css",
     "revision": "89ee1381dc18ed5e54bdb19d4c8e6c8e"
   },
   {
-    "url": "/2020//09f07124403d22d81cde.js",
-    "revision": "1acac50a48de8b14b0baf35f6bd2e8dd"
+    "url": "/2020//0e46b9a2fe49ff898986.js",
+    "revision": "a6b21e44c50cdc8d1e6853d927918409"
   },
   {
     "url": "/2020//0ecca2991f3806db74e6.css",
     "revision": "e796e4f7f653e713a97e1643a791b2e4"
   },
   {
-    "url": "/2020//10c31d3cb5dab2eb3eb9.js",
-    "revision": "8ee8c0f04d991e04a38a42afbf216cd1"
-  },
-  {
-    "url": "/2020//1403383a4278086ecb51.js",
-    "revision": "2187142addfcd9939da2fd2889bb620e"
-  },
-  {
-    "url": "/2020//1bd6a652b32228087c51.js",
-    "revision": "8b481bfcfd2825bd73e6c21e80296c93"
-  },
-  {
-    "url": "/2020//1e0b6fce47f089bd8458.js",
-    "revision": "0d5f994b34db9ca6ce14bf4f67019b1c"
+    "url": "/2020//198a76f8068a7af12c93.js",
+    "revision": "7a02984b92d649eac36e70aee6d120a9"
   },
   {
     "url": "/2020//200.html",
-    "revision": "cc2ee943c72731203d05a007d769f4b0"
+    "revision": "bff8e9f5b498395e418a74da362ca72a"
   },
   {
-    "url": "/2020//25143d70fed381c8ed86.css",
-    "revision": "772136ef1541b21d75838289f65e1ea6"
+    "url": "/2020//20fb7c0d17ab0b85954d.js",
+    "revision": "0f83642378b9b2f2f7582be59ac6b008"
+  },
+  {
+    "url": "/2020//2489aacb202ee136e319.js",
+    "revision": "3c62623e2987945f022e2ac32abed2c6"
   },
   {
     "url": "/2020//2f717ef7f5924747b5d6.css",
@@ -78,20 +74,12 @@ self.__precacheManifest = [
     "revision": "2c1a9c4649e2b515d483c71b83883754"
   },
   {
-    "url": "/2020//370f3618b0e5916db5cf.js",
-    "revision": "d58ac932257601fb396cd17a0b0097eb"
-  },
-  {
-    "url": "/2020//3940030ec50a3a0aae89.js",
-    "revision": "d36c9957d4a26a43680fa4ac87c79693"
-  },
-  {
     "url": "/2020//4002db9f560e4020c562.css",
     "revision": "ab84e9c80ac424f2dd483c85db085029"
   },
   {
-    "url": "/2020//463c8ad6ba16e4ad86af.js",
-    "revision": "f7e6e5c91bf78e9d21514036dcc8dc02"
+    "url": "/2020//453ff3cd640660a8e123.js",
+    "revision": "a2ae769b7e12630c61716683c06d5c3f"
   },
   {
     "url": "/2020//47a48e792c2d4219e1e6.css",
@@ -106,124 +94,120 @@ self.__precacheManifest = [
     "revision": "bbeafe734fe483a531602de7ec484b18"
   },
   {
-    "url": "/2020//630496d947ccd060b242.js",
-    "revision": "13d362d6bdbae908f0dcac80e7844192"
+    "url": "/2020//5fff01192a0a16588939.js",
+    "revision": "c55c11b8dc857b1c7e491643ab0245ad"
   },
   {
-    "url": "/2020//71bc4738255e96ccf798.css",
-    "revision": "2ec47afeca7210758bb8a7b6fc139634"
+    "url": "/2020//67b0307485d4f2bbcd82.js",
+    "revision": "dad61c656f126b5c927165e07672ae88"
   },
   {
-    "url": "/2020//7538976af12cdc257094.js",
-    "revision": "53a58ec1b6cafddc98f04e0ffec6519c"
+    "url": "/2020//6da0471c97c7a9ce8339.js",
+    "revision": "ace9575f9b21b04946884fb6b43d3668"
   },
   {
-    "url": "/2020//80a74d54d7538bfa01e3.js",
-    "revision": "1a93ae3d011bd7fc81dc93af03143863"
+    "url": "/2020//753c2815285adca0a356.js",
+    "revision": "4b186dce9b023929cba87fe15b11cd86"
   },
   {
-    "url": "/2020//84a55930a4df002e38c4.js",
-    "revision": "b21fe15caf6f8e312a1f475ceadff575"
+    "url": "/2020//760f912205c7848261ea.css",
+    "revision": "33c5ac4647794a2b2151cedbc8697921"
   },
   {
-    "url": "/2020//8519f7506f4a7e8dabeb.js",
-    "revision": "50144a8d266dd154f95237b0cd39bd0a"
+    "url": "/2020//7fe8416c942040f56f57.js",
+    "revision": "83b9c1dc980eb23903ceea3e9c8411ba"
+  },
+  {
+    "url": "/2020//859e5eb5acc97995e2ec.js",
+    "revision": "000873189d6f84290e52ac370b6985a0"
   },
   {
     "url": "/2020//884aef19c7edaf5b65c7.js",
     "revision": "bb4be4ff9360112867443041d348787d"
   },
   {
+    "url": "/2020//8a7d2700c4f8b4341041.js",
+    "revision": "ec85a43c2a21f89d2a31b47917e8430e"
+  },
+  {
     "url": "/2020//8dff5adc6275e9d1bbd2.css",
     "revision": "5060781f96b359aaad62ccacf5c5e926"
+  },
+  {
+    "url": "/2020//910151526448058a0ed2.js",
+    "revision": "0e1111007ffd69b32c964aa84f95b1bc"
   },
   {
     "url": "/2020//919e200baba01393f7b7.css",
     "revision": "6daa27100b2731025d9c6eb32e1ae6ed"
   },
   {
+    "url": "/2020//91f5969e40874ae573a4.js",
+    "revision": "690af06c3743668b34a44339ea7d2fac"
+  },
+  {
     "url": "/2020//9a628d5f5a1595075d19.css",
     "revision": "a7a7bcc5069a2d30051021536ca5ee96"
   },
   {
-    "url": "/2020//9b5d9a26e2ec083c50fd.css",
-    "revision": "33c5ac4647794a2b2151cedbc8697921"
+    "url": "/2020//9c0eb3a445a14350524f.js",
+    "revision": "69f1b43371ef3de695af10019b2d4164"
   },
   {
-    "url": "/2020//9c368e4e5041de3a0b50.js",
-    "revision": "ebfd46dc6adcff85a64263a11b817d2b"
+    "url": "/2020//9c2f3e39eb7ff1d561d2.js",
+    "revision": "882d05265844281368d85e366ddd6e55"
   },
   {
-    "url": "/2020//9ea58a5cf746cffcb167.js",
-    "revision": "953c52f05516e0ae688af312eef0265b"
+    "url": "/2020//9c346e55641f5446f4ac.js",
+    "revision": "f797afff6e155be932252e9b7a4ad4c9"
   },
   {
-    "url": "/2020//about/coc/index.html",
-    "revision": "2ff41b8b7dc19bb5477b77e9b4c8688f"
-  },
-  {
-    "url": "/2020//about/conference/index.html",
-    "revision": "d87aec35ea2c948dd97ae4b8c60e08d8"
+    "url": "/2020//9fb7ab75fc9341ee3a8b.js",
+    "revision": "b63f4ec167e489eacc405dd22af0981b"
   },
   {
     "url": "/2020//about/organizers/index.html",
-    "revision": "18dac546b29b16e254b076df8702dbec"
+    "revision": "2a806cc61850708c438b23ebd7af147f"
   },
   {
     "url": "/2020//about/volunteers/index.html",
-    "revision": "d40eadd04085fa8471e514becde3da22"
+    "revision": "fec80355d7a577158008ad6264a43239"
   },
   {
-    "url": "/2020//af03c4b6f36e99d31103.js",
-    "revision": "7d89476bbf81f5df11ed66b44e41956f"
-  },
-  {
-    "url": "/2020//b679ca1c21a4eb04d66a.js",
-    "revision": "22040c3a148d93686b0e20fe9f03d22d"
-  },
-  {
-    "url": "/2020//c12a59e48277b5a895c8.js",
-    "revision": "f78335dfd5a87ada873c21cf65667cf9"
-  },
-  {
-    "url": "/2020//cdf96ad14927a6e9ca39.js",
-    "revision": "37c67bf223cadce8ba6002c2d5be3d2f"
+    "url": "/2020//ae00f393886b8f1adeba.css",
+    "revision": "c35e1be9bc4f533def90ec507f6ac9de"
   },
   {
     "url": "/2020//cfc/index.html",
-    "revision": "7399851d34649ab416ad0b1df1f8ce5f"
+    "revision": "bd356380d2a5e0468660ca2d84d4b22d"
   },
   {
     "url": "/2020//cfp/index.html",
-    "revision": "5dca40d5f1b58e3a0d81980bc1d8ea7a"
+    "revision": "2c7c5c9ded95e7cd54ac50d90dd5f799"
   },
   {
-    "url": "/2020//d19278a8c87356f943fe.js",
-    "revision": "5681ffa6de100490a6289c6dcabaf22f"
-  },
-  {
-    "url": "/2020//d22dd8cec7a4ad1690b6.js",
-    "revision": "3ca1cff88de43ca078bbd7ccd4cf833d"
+    "url": "/2020//d273687cb6eef10a6f8e.css",
+    "revision": "772136ef1541b21d75838289f65e1ea6"
   },
   {
     "url": "/2020//d43e8ac5dfa87fdf6bc0.css",
     "revision": "56a413c7db34468fee0e33c47e4717a2"
   },
   {
-    "url": "/2020//daef6a7b622aa08e5677.js",
-    "revision": "26fef796c2e4649c70deeb9e708c8cd8"
+    "url": "/2020//d5bba6d1736a8885c27e.js",
+    "revision": "aeadb09e53c355b8f43d9c63bbc366df"
   },
   {
     "url": "/2020//dd7551bf613aa09f8026.js",
     "revision": "d2d530e635eeb44d2a977234ca91593b"
   },
   {
-    "url": "/2020//e54496ef784c18699b92.js",
-    "revision": "8a9b3296267d3046194096d9fb5bdfc2"
-  },
-  {
     "url": "/2020//efc8351fff6a02246ae3.css",
     "revision": "668bec8ed029aa41e4edfd130c04467e"
+  },
+  {
+    "url": "/2020//f066876c5418094bc350.js",
+    "revision": "b61130771ee3a7f91fc9327dac54c74c"
   },
   {
     "url": "/2020//images/banner.jpg",
@@ -295,275 +279,267 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//index.html",
-    "revision": "64d9aabf7a616b47d097d5df884bfcd6"
+    "revision": "7d01befc51cce216d98d7e9013b5c838"
   },
   {
     "url": "/2020//sponsors/index.html",
-    "revision": "445caa6cc7743d2f610f213fec200dc2"
+    "revision": "69dd999a11856d34dd1eb42f017ba671"
   },
   {
     "url": "/2020//timetable/index.html",
-    "revision": "1df858744e955049745fb0794661e2bf"
+    "revision": "a6875cc83fcb0befcf4ef334d04484bf"
   },
   {
     "url": "/2020//topics/ansible-vm-kubernetes/index.html",
-    "revision": "ebae0c9d1d54415d25125ea497907d5d"
+    "revision": "740ef98beba2462d742703b762abb126"
   },
   {
     "url": "/2020//topics/automating-kubernetes-gitops/index.html",
-    "revision": "2a58ad1f44d17f25b329791ed2e8e7de"
+    "revision": "ba1458375a932a64b85891fd5319edf1"
   },
   {
     "url": "/2020//topics/build-api-service-using-ktor-rapidly/index.html",
-    "revision": "29e16ee9a7adae78ec22e3a6f0296c80"
+    "revision": "a80a06b99c1e5f5be9bd1f5f44ab7ac6"
   },
   {
     "url": "/2020//topics/businessbrand-database-developed-software-package-repositories/index.html",
-    "revision": "75d2f349cb346ea62bd381b25f17c57c"
+    "revision": "38db4c8e3e687bf06873e61ac3e7042e"
   },
   {
     "url": "/2020//topics/containerize-apps-kubernetes-azure/index.html",
-    "revision": "5e6c99501e057040a4ccf690ae94ae6a"
+    "revision": "8b118df2e71d1878a9eb8f2cfc2688f0"
   },
   {
     "url": "/2020//topics/cyberport-tbc/index.html",
-    "revision": "764efdb0cb6f791f9e1b4c976e5568b7"
+    "revision": "71f2453b41c95e99ade766e97ab42c8e"
   },
   {
     "url": "/2020//topics/day-1-talk-2/index.html",
-    "revision": "3d01e2967f912456a5208866d43f0680"
+    "revision": "080bb17556363a34acfc58b4f8bd99bd"
   },
   {
     "url": "/2020//topics/decentralized-content-registry-expanding-ipfs-functionality-cosmos-based-blockchain/index.html",
-    "revision": "aa0293e262e4296fa963db707c5d2a50"
+    "revision": "3ba6c71afbba433c1b428705e71ea57c"
   },
   {
     "url": "/2020//topics/democratize-data-literacy-open-source-technology/index.html",
-    "revision": "333f2bd839b1345cc522aedcb88aa37a"
+    "revision": "bb5d48f12b5e74ac68fb9b81bde60b71"
   },
   {
     "url": "/2020//topics/emergency-response-demo-power-communities/index.html",
-    "revision": "a900e8189f9891cad7ca3b8b72d604c4"
+    "revision": "be545b3afc3e63a1b1ec41626310aff9"
   },
   {
     "url": "/2020//topics/github-actions-your-free-ci-engine-and-much-more/index.html",
-    "revision": "6373ace97a085068456a77a7078099d0"
+    "revision": "c1c35ba99bc8a400dfb4401004ca6da5"
   },
   {
     "url": "/2020//topics/guide-responsible-ai-developers/index.html",
-    "revision": "2f41399302b8a02dc6582623d0207cb7"
+    "revision": "5f6588b7d8e6acdb45cd2b4b3839ed20"
   },
   {
     "url": "/2020//topics/how-build-online-learning-platform-engages-and-educates-students-scale-amazon-kendra-amazon/index.html",
-    "revision": "de61541503b83582e2b10cbd208a0e9d"
+    "revision": "49e61c35373ca9ae552ada73dbe3d055"
   },
   {
     "url": "/2020//topics/how-i-do-troubleshooting-container-more-docker/index.html",
-    "revision": "4ea8c220a5924efefa2fb23d28f6544f"
+    "revision": "3f5cd496419263836001155e7198abc1"
   },
   {
     "url": "/2020//topics/index.html",
-    "revision": "ef2a0fca7a0359c2bf015b3ecbdab800"
+    "revision": "e38ca6001450411fb1287d90cd8db8d3"
   },
   {
     "url": "/2020//topics/julia-looks-python-feels-lisp-runs-cfortran/index.html",
-    "revision": "ff7c291659072d2edffdfcc8d955742a"
+    "revision": "58560b2b647f7f3ee8c8ef22fcdeb1fe"
   },
   {
     "url": "/2020//topics/launch-warsvote4hk-within-2-days-0-cost/index.html",
-    "revision": "3ecf5e9c3c2797a837ed1dafec373189"
+    "revision": "3e91e3b700ca973b905c9a8308ca47de"
   },
   {
     "url": "/2020//topics/lesson-learned-open-culture-under-covid-19-situation/index.html",
-    "revision": "57db97a0eee094d439595805cbd773cf"
+    "revision": "06405dea88d05d0fcd43018b27e2f4b9"
   },
   {
     "url": "/2020//topics/libreoffice-current-status-most-powerful-oss-office-suite/index.html",
-    "revision": "efb58663384435f72393c5cb1f2bd20f"
+    "revision": "231b822274e06b9c13871eb1ee51c62f"
   },
   {
     "url": "/2020//topics/mysql-high-availability-deployment-practice/index.html",
-    "revision": "92e297592a798876a69565cf809d502c"
+    "revision": "71a1c361a0f95994ceb17a463deea85d"
   },
   {
     "url": "/2020//topics/mysql-security-best-practice/index.html",
-    "revision": "51eac333ab98a3b3c2500d82d36190c3"
+    "revision": "d97fdcfc56cbbf9557359defb17110c3"
   },
   {
     "url": "/2020//topics/oao-user-orientation-cloud-architecture-pi/index.html",
-    "revision": "c4356937bacab7d9eb61ea86bef19c85"
+    "revision": "7c7a03de545fbb7eb51f454f4dc942cf"
   },
   {
     "url": "/2020//topics/open-default-trying-run-startup-open-source-culture-mind/index.html",
-    "revision": "a0da4727b8424389c7bec25b0ef89f95"
+    "revision": "ed387b22659ecaa140288d4b0972cbd3"
   },
   {
     "url": "/2020//topics/opening-ceremony-and-welcome-speech/index.html",
-    "revision": "362c1224f6c773234e3ccfc14d01f19e"
+    "revision": "e1a7352411903da6003352d83c0ca942"
   },
   {
     "url": "/2020//topics/rust-and-webassembly-powered-microservices/index.html",
-    "revision": "ba7c1e7065bd7fdfcf56020ac6fb0716"
+    "revision": "72450db487c958293cadfcb2b2b86bd1"
   },
   {
     "url": "/2020//topics/service-mesh-openshift/index.html",
-    "revision": "bdb383a411f2d8e50bde75904a0a3db6"
+    "revision": "39ddeb7378ac3d302212ced906954465"
   },
   {
     "url": "/2020//topics/talk-tbc-coscup-reserved/index.html",
-    "revision": "2a04ded31f67a2ab6101a49ab893cf1f"
+    "revision": "30579adacf0093657863a59032723ac3"
   },
   {
     "url": "/2020//topics/tvhk/index.html",
-    "revision": "90c65ec7fd44033ea24541f5fc8f9a68"
-  },
-  {
-    "url": "/2020//about/coc/",
-    "revision": "2ff41b8b7dc19bb5477b77e9b4c8688f"
-  },
-  {
-    "url": "/2020//about/conference/",
-    "revision": "d87aec35ea2c948dd97ae4b8c60e08d8"
+    "revision": "4f5039edea1b7b97a21eba6ccb807e0f"
   },
   {
     "url": "/2020//about/organizers/",
-    "revision": "18dac546b29b16e254b076df8702dbec"
+    "revision": "2a806cc61850708c438b23ebd7af147f"
   },
   {
     "url": "/2020//about/volunteers/",
-    "revision": "d40eadd04085fa8471e514becde3da22"
+    "revision": "fec80355d7a577158008ad6264a43239"
   },
   {
     "url": "/2020//cfc/",
-    "revision": "7399851d34649ab416ad0b1df1f8ce5f"
+    "revision": "bd356380d2a5e0468660ca2d84d4b22d"
   },
   {
     "url": "/2020//cfp/",
-    "revision": "5dca40d5f1b58e3a0d81980bc1d8ea7a"
+    "revision": "2c7c5c9ded95e7cd54ac50d90dd5f799"
   },
   {
     "url": "/2020//",
-    "revision": "64d9aabf7a616b47d097d5df884bfcd6"
+    "revision": "7d01befc51cce216d98d7e9013b5c838"
   },
   {
     "url": "/2020//sponsors/",
-    "revision": "445caa6cc7743d2f610f213fec200dc2"
+    "revision": "69dd999a11856d34dd1eb42f017ba671"
   },
   {
     "url": "/2020//timetable/",
-    "revision": "1df858744e955049745fb0794661e2bf"
+    "revision": "a6875cc83fcb0befcf4ef334d04484bf"
   },
   {
     "url": "/2020//topics/ansible-vm-kubernetes/",
-    "revision": "ebae0c9d1d54415d25125ea497907d5d"
+    "revision": "740ef98beba2462d742703b762abb126"
   },
   {
     "url": "/2020//topics/automating-kubernetes-gitops/",
-    "revision": "2a58ad1f44d17f25b329791ed2e8e7de"
+    "revision": "ba1458375a932a64b85891fd5319edf1"
   },
   {
     "url": "/2020//topics/build-api-service-using-ktor-rapidly/",
-    "revision": "29e16ee9a7adae78ec22e3a6f0296c80"
+    "revision": "a80a06b99c1e5f5be9bd1f5f44ab7ac6"
   },
   {
     "url": "/2020//topics/businessbrand-database-developed-software-package-repositories/",
-    "revision": "75d2f349cb346ea62bd381b25f17c57c"
+    "revision": "38db4c8e3e687bf06873e61ac3e7042e"
   },
   {
     "url": "/2020//topics/containerize-apps-kubernetes-azure/",
-    "revision": "5e6c99501e057040a4ccf690ae94ae6a"
+    "revision": "8b118df2e71d1878a9eb8f2cfc2688f0"
   },
   {
     "url": "/2020//topics/cyberport-tbc/",
-    "revision": "764efdb0cb6f791f9e1b4c976e5568b7"
+    "revision": "71f2453b41c95e99ade766e97ab42c8e"
   },
   {
     "url": "/2020//topics/day-1-talk-2/",
-    "revision": "3d01e2967f912456a5208866d43f0680"
+    "revision": "080bb17556363a34acfc58b4f8bd99bd"
   },
   {
     "url": "/2020//topics/decentralized-content-registry-expanding-ipfs-functionality-cosmos-based-blockchain/",
-    "revision": "aa0293e262e4296fa963db707c5d2a50"
+    "revision": "3ba6c71afbba433c1b428705e71ea57c"
   },
   {
     "url": "/2020//topics/democratize-data-literacy-open-source-technology/",
-    "revision": "333f2bd839b1345cc522aedcb88aa37a"
+    "revision": "bb5d48f12b5e74ac68fb9b81bde60b71"
   },
   {
     "url": "/2020//topics/emergency-response-demo-power-communities/",
-    "revision": "a900e8189f9891cad7ca3b8b72d604c4"
+    "revision": "be545b3afc3e63a1b1ec41626310aff9"
   },
   {
     "url": "/2020//topics/github-actions-your-free-ci-engine-and-much-more/",
-    "revision": "6373ace97a085068456a77a7078099d0"
+    "revision": "c1c35ba99bc8a400dfb4401004ca6da5"
   },
   {
     "url": "/2020//topics/guide-responsible-ai-developers/",
-    "revision": "2f41399302b8a02dc6582623d0207cb7"
+    "revision": "5f6588b7d8e6acdb45cd2b4b3839ed20"
   },
   {
     "url": "/2020//topics/how-build-online-learning-platform-engages-and-educates-students-scale-amazon-kendra-amazon/",
-    "revision": "de61541503b83582e2b10cbd208a0e9d"
+    "revision": "49e61c35373ca9ae552ada73dbe3d055"
   },
   {
     "url": "/2020//topics/how-i-do-troubleshooting-container-more-docker/",
-    "revision": "4ea8c220a5924efefa2fb23d28f6544f"
+    "revision": "3f5cd496419263836001155e7198abc1"
   },
   {
     "url": "/2020//topics/",
-    "revision": "ef2a0fca7a0359c2bf015b3ecbdab800"
+    "revision": "e38ca6001450411fb1287d90cd8db8d3"
   },
   {
     "url": "/2020//topics/julia-looks-python-feels-lisp-runs-cfortran/",
-    "revision": "ff7c291659072d2edffdfcc8d955742a"
+    "revision": "58560b2b647f7f3ee8c8ef22fcdeb1fe"
   },
   {
     "url": "/2020//topics/launch-warsvote4hk-within-2-days-0-cost/",
-    "revision": "3ecf5e9c3c2797a837ed1dafec373189"
+    "revision": "3e91e3b700ca973b905c9a8308ca47de"
   },
   {
     "url": "/2020//topics/lesson-learned-open-culture-under-covid-19-situation/",
-    "revision": "57db97a0eee094d439595805cbd773cf"
+    "revision": "06405dea88d05d0fcd43018b27e2f4b9"
   },
   {
     "url": "/2020//topics/libreoffice-current-status-most-powerful-oss-office-suite/",
-    "revision": "efb58663384435f72393c5cb1f2bd20f"
+    "revision": "231b822274e06b9c13871eb1ee51c62f"
   },
   {
     "url": "/2020//topics/mysql-high-availability-deployment-practice/",
-    "revision": "92e297592a798876a69565cf809d502c"
+    "revision": "71a1c361a0f95994ceb17a463deea85d"
   },
   {
     "url": "/2020//topics/mysql-security-best-practice/",
-    "revision": "51eac333ab98a3b3c2500d82d36190c3"
+    "revision": "d97fdcfc56cbbf9557359defb17110c3"
   },
   {
     "url": "/2020//topics/oao-user-orientation-cloud-architecture-pi/",
-    "revision": "c4356937bacab7d9eb61ea86bef19c85"
+    "revision": "7c7a03de545fbb7eb51f454f4dc942cf"
   },
   {
     "url": "/2020//topics/open-default-trying-run-startup-open-source-culture-mind/",
-    "revision": "a0da4727b8424389c7bec25b0ef89f95"
+    "revision": "ed387b22659ecaa140288d4b0972cbd3"
   },
   {
     "url": "/2020//topics/opening-ceremony-and-welcome-speech/",
-    "revision": "362c1224f6c773234e3ccfc14d01f19e"
+    "revision": "e1a7352411903da6003352d83c0ca942"
   },
   {
     "url": "/2020//topics/rust-and-webassembly-powered-microservices/",
-    "revision": "ba7c1e7065bd7fdfcf56020ac6fb0716"
+    "revision": "72450db487c958293cadfcb2b2b86bd1"
   },
   {
     "url": "/2020//topics/service-mesh-openshift/",
-    "revision": "bdb383a411f2d8e50bde75904a0a3db6"
+    "revision": "39ddeb7378ac3d302212ced906954465"
   },
   {
     "url": "/2020//topics/talk-tbc-coscup-reserved/",
-    "revision": "2a04ded31f67a2ab6101a49ab893cf1f"
+    "revision": "30579adacf0093657863a59032723ac3"
   },
   {
     "url": "/2020//topics/tvhk/",
-    "revision": "90c65ec7fd44033ea24541f5fc8f9a68"
+    "revision": "4f5039edea1b7b97a21eba6ccb807e0f"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
