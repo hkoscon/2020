@@ -287,7 +287,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//timetable/index.html",
-    "revision": "2da8ec56b5295afa8ee9c1e1ebee7b9e"
+    "revision": "9db4fb8a3a38df2809d3a9e2dc72bb53"
   },
   {
     "url": "/2020//topics/ansible-vm-kubernetes/index.html",
@@ -299,7 +299,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//topics/build-and-maintain-civil-infrastructure-platform-using-open-source-projects/index.html",
-    "revision": "af20a43c9da02d2eecce36f98bb15810"
+    "revision": "8197efd1c69dcaca11521c589fe5c250"
   },
   {
     "url": "/2020//topics/build-api-service-using-ktor-rapidly/index.html",
@@ -339,7 +339,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//topics/hitchhikers-guide-servo-contributor/index.html",
-    "revision": "19d0f94c34616ba60a40137d4a894f26"
+    "revision": "9b947af4ee09cce78b81d89fdf877755"
   },
   {
     "url": "/2020//topics/how-build-online-learning-platform-engages-and-educates-students-scale-amazon-kendra-amazon/index.html",
@@ -351,7 +351,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//topics/index.html",
-    "revision": "d0433edb6433f58a6cc8f52dab84ac3b"
+    "revision": "2b2ac0521aedb0e3522fab49db8837e8"
   },
   {
     "url": "/2020//topics/julia-looks-python-feels-lisp-runs-cfortran/index.html",
@@ -391,7 +391,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//topics/qukuailianchanyeyukaiyuanwenhuadejiaojixinrenyijigongshi/index.html",
-    "revision": "f942ce31879cdf794b4f174586058e97"
+    "revision": "6c654f73b9742f3cb874b5dc7dff9df8"
   },
   {
     "url": "/2020//topics/rust-and-webassembly-powered-microservices/index.html",
@@ -435,7 +435,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//timetable/",
-    "revision": "2da8ec56b5295afa8ee9c1e1ebee7b9e"
+    "revision": "9db4fb8a3a38df2809d3a9e2dc72bb53"
   },
   {
     "url": "/2020//topics/ansible-vm-kubernetes/",
@@ -447,7 +447,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//topics/build-and-maintain-civil-infrastructure-platform-using-open-source-projects/",
-    "revision": "af20a43c9da02d2eecce36f98bb15810"
+    "revision": "8197efd1c69dcaca11521c589fe5c250"
   },
   {
     "url": "/2020//topics/build-api-service-using-ktor-rapidly/",
@@ -487,7 +487,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//topics/hitchhikers-guide-servo-contributor/",
-    "revision": "19d0f94c34616ba60a40137d4a894f26"
+    "revision": "9b947af4ee09cce78b81d89fdf877755"
   },
   {
     "url": "/2020//topics/how-build-online-learning-platform-engages-and-educates-students-scale-amazon-kendra-amazon/",
@@ -499,7 +499,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//topics/",
-    "revision": "d0433edb6433f58a6cc8f52dab84ac3b"
+    "revision": "2b2ac0521aedb0e3522fab49db8837e8"
   },
   {
     "url": "/2020//topics/julia-looks-python-feels-lisp-runs-cfortran/",
@@ -539,7 +539,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//topics/qukuailianchanyeyukaiyuanwenhuadejiaojixinrenyijigongshi/",
-    "revision": "f942ce31879cdf794b4f174586058e97"
+    "revision": "6c654f73b9742f3cb874b5dc7dff9df8"
   },
   {
     "url": "/2020//topics/rust-and-webassembly-powered-microservices/",
