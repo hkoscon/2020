@@ -287,7 +287,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//timetable/index.html",
-    "revision": "7ab0101b133257ba1a22880410879564"
+    "revision": "9461da42f547d7d2b22f127471691fb0"
   },
   {
     "url": "/2020//topics/ansible-vm-kubernetes/index.html",
@@ -326,10 +326,6 @@ self.__precacheManifest = [
     "revision": "be545b3afc3e63a1b1ec41626310aff9"
   },
   {
-    "url": "/2020//topics/freebsd-2020/index.html",
-    "revision": "d0f8de39d4009e99d0091e651e5024ad"
-  },
-  {
     "url": "/2020//topics/github-actions-your-free-ci-engine-and-much-more/index.html",
     "revision": "c1c35ba99bc8a400dfb4401004ca6da5"
   },
@@ -347,7 +343,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//topics/index.html",
-    "revision": "bf3af11c9912632bbb987792c1797cf8"
+    "revision": "ec82ccb87039083d4ec0126fcf4a8092"
   },
   {
     "url": "/2020//topics/julia-looks-python-feels-lisp-runs-cfortran/index.html",
@@ -406,6 +402,10 @@ self.__precacheManifest = [
     "revision": "4f5039edea1b7b97a21eba6ccb807e0f"
   },
   {
+    "url": "/2020//topics/zfs/index.html",
+    "revision": "1fbd69919394bf2be5e11bc732a6f0a3"
+  },
+  {
     "url": "/2020//about/organizers/",
     "revision": "2a806cc61850708c438b23ebd7af147f"
   },
@@ -431,7 +431,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//timetable/",
-    "revision": "7ab0101b133257ba1a22880410879564"
+    "revision": "9461da42f547d7d2b22f127471691fb0"
   },
   {
     "url": "/2020//topics/ansible-vm-kubernetes/",
@@ -470,10 +470,6 @@ self.__precacheManifest = [
     "revision": "be545b3afc3e63a1b1ec41626310aff9"
   },
   {
-    "url": "/2020//topics/freebsd-2020/",
-    "revision": "d0f8de39d4009e99d0091e651e5024ad"
-  },
-  {
     "url": "/2020//topics/github-actions-your-free-ci-engine-and-much-more/",
     "revision": "c1c35ba99bc8a400dfb4401004ca6da5"
   },
@@ -491,7 +487,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//topics/",
-    "revision": "bf3af11c9912632bbb987792c1797cf8"
+    "revision": "ec82ccb87039083d4ec0126fcf4a8092"
   },
   {
     "url": "/2020//topics/julia-looks-python-feels-lisp-runs-cfortran/",
@@ -548,6 +544,10 @@ self.__precacheManifest = [
   {
     "url": "/2020//topics/tvhk/",
     "revision": "4f5039edea1b7b97a21eba6ccb807e0f"
+  },
+  {
+    "url": "/2020//topics/zfs/",
+    "revision": "1fbd69919394bf2be5e11bc732a6f0a3"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
