@@ -287,7 +287,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//timetable/index.html",
-    "revision": "93ab7ce92db90d55b67c230ec3fdf532"
+    "revision": "9b87a9c8e93491b6bc8cf09281ddf111"
   },
   {
     "url": "/2020//topics/ansible-vm-kubernetes/index.html",
@@ -314,10 +314,6 @@ self.__precacheManifest = [
     "revision": "71f2453b41c95e99ade766e97ab42c8e"
   },
   {
-    "url": "/2020//topics/day-1-talk-2/index.html",
-    "revision": "080bb17556363a34acfc58b4f8bd99bd"
-  },
-  {
     "url": "/2020//topics/decentralized-content-registry-expanding-ipfs-functionality-cosmos-based-blockchain/index.html",
     "revision": "3ba6c71afbba433c1b428705e71ea57c"
   },
@@ -328,6 +324,10 @@ self.__precacheManifest = [
   {
     "url": "/2020//topics/emergency-response-demo-power-communities/index.html",
     "revision": "be545b3afc3e63a1b1ec41626310aff9"
+  },
+  {
+    "url": "/2020//topics/freebsd-2020/index.html",
+    "revision": "d0f8de39d4009e99d0091e651e5024ad"
   },
   {
     "url": "/2020//topics/github-actions-your-free-ci-engine-and-much-more/index.html",
@@ -347,7 +347,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//topics/index.html",
-    "revision": "e38ca6001450411fb1287d90cd8db8d3"
+    "revision": "c81e6fb459687143bcc98274139c6c3c"
   },
   {
     "url": "/2020//topics/julia-looks-python-feels-lisp-runs-cfortran/index.html",
@@ -384,6 +384,10 @@ self.__precacheManifest = [
   {
     "url": "/2020//topics/opening-ceremony-and-welcome-speech/index.html",
     "revision": "e1a7352411903da6003352d83c0ca942"
+  },
+  {
+    "url": "/2020//topics/qukuailianchanyeyukaiyuanwenhuadejiaojixinrenyijigongshi/index.html",
+    "revision": "bdc767f80862f440df2957b5f4c2294a"
   },
   {
     "url": "/2020//topics/rust-and-webassembly-powered-microservices/index.html",
@@ -427,7 +431,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//timetable/",
-    "revision": "93ab7ce92db90d55b67c230ec3fdf532"
+    "revision": "9b87a9c8e93491b6bc8cf09281ddf111"
   },
   {
     "url": "/2020//topics/ansible-vm-kubernetes/",
@@ -454,10 +458,6 @@ self.__precacheManifest = [
     "revision": "71f2453b41c95e99ade766e97ab42c8e"
   },
   {
-    "url": "/2020//topics/day-1-talk-2/",
-    "revision": "080bb17556363a34acfc58b4f8bd99bd"
-  },
-  {
     "url": "/2020//topics/decentralized-content-registry-expanding-ipfs-functionality-cosmos-based-blockchain/",
     "revision": "3ba6c71afbba433c1b428705e71ea57c"
   },
@@ -468,6 +468,10 @@ self.__precacheManifest = [
   {
     "url": "/2020//topics/emergency-response-demo-power-communities/",
     "revision": "be545b3afc3e63a1b1ec41626310aff9"
+  },
+  {
+    "url": "/2020//topics/freebsd-2020/",
+    "revision": "d0f8de39d4009e99d0091e651e5024ad"
   },
   {
     "url": "/2020//topics/github-actions-your-free-ci-engine-and-much-more/",
@@ -487,7 +491,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//topics/",
-    "revision": "e38ca6001450411fb1287d90cd8db8d3"
+    "revision": "c81e6fb459687143bcc98274139c6c3c"
   },
   {
     "url": "/2020//topics/julia-looks-python-feels-lisp-runs-cfortran/",
@@ -524,6 +528,10 @@ self.__precacheManifest = [
   {
     "url": "/2020//topics/opening-ceremony-and-welcome-speech/",
     "revision": "e1a7352411903da6003352d83c0ca942"
+  },
+  {
+    "url": "/2020//topics/qukuailianchanyeyukaiyuanwenhuadejiaojixinrenyijigongshi/",
+    "revision": "bdc767f80862f440df2957b5f4c2294a"
   },
   {
     "url": "/2020//topics/rust-and-webassembly-powered-microservices/",
