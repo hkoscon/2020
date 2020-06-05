@@ -283,11 +283,11 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//sponsors/index.html",
-    "revision": "69dd999a11856d34dd1eb42f017ba671"
+    "revision": "92e35a06c2ba0eb45c379368125b44aa"
   },
   {
     "url": "/2020//timetable/index.html",
-    "revision": "4079a6bb2aff8f548dc8e7e723c5d319"
+    "revision": "835df531a59b0ca573fbc397526d8b8b"
   },
   {
     "url": "/2020//topics/ansible-vm-kubernetes/index.html",
@@ -351,7 +351,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//topics/index.html",
-    "revision": "aa41000b5072824695ecf424c8c27651"
+    "revision": "3e530c51b504a00b0f1117f34c7e6157"
   },
   {
     "url": "/2020//topics/julia-looks-python-feels-lisp-runs-cfortran/index.html",
@@ -387,7 +387,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//topics/opening-ceremony-and-welcome-speech/index.html",
-    "revision": "83048162cde6338b2f8e54ebb84f6dd8"
+    "revision": "276f3a49892ab3d630aca09b3a54bb46"
   },
   {
     "url": "/2020//topics/qukuailianchanyeyukaiyuanwenhuadejiaojixinrenyijigongshi/index.html",
@@ -431,11 +431,11 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//sponsors/",
-    "revision": "69dd999a11856d34dd1eb42f017ba671"
+    "revision": "92e35a06c2ba0eb45c379368125b44aa"
   },
   {
     "url": "/2020//timetable/",
-    "revision": "4079a6bb2aff8f548dc8e7e723c5d319"
+    "revision": "835df531a59b0ca573fbc397526d8b8b"
   },
   {
     "url": "/2020//topics/ansible-vm-kubernetes/",
@@ -499,7 +499,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//topics/",
-    "revision": "aa41000b5072824695ecf424c8c27651"
+    "revision": "3e530c51b504a00b0f1117f34c7e6157"
   },
   {
     "url": "/2020//topics/julia-looks-python-feels-lisp-runs-cfortran/",
@@ -535,7 +535,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//topics/opening-ceremony-and-welcome-speech/",
-    "revision": "83048162cde6338b2f8e54ebb84f6dd8"
+    "revision": "276f3a49892ab3d630aca09b3a54bb46"
   },
   {
     "url": "/2020//topics/qukuailianchanyeyukaiyuanwenhuadejiaojixinrenyijigongshi/",
