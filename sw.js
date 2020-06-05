@@ -287,7 +287,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//timetable/index.html",
-    "revision": "835df531a59b0ca573fbc397526d8b8b"
+    "revision": "8a4b2bc478ca9e55dcb5958a519d5045"
   },
   {
     "url": "/2020//topics/ansible-vm-kubernetes/index.html",
@@ -351,7 +351,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//topics/index.html",
-    "revision": "3e530c51b504a00b0f1117f34c7e6157"
+    "revision": "8e2ed7bea4e10c2c30ec2bc78895f9bc"
   },
   {
     "url": "/2020//topics/julia-looks-python-feels-lisp-runs-cfortran/index.html",
@@ -387,7 +387,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//topics/opening-ceremony-and-welcome-speech/index.html",
-    "revision": "276f3a49892ab3d630aca09b3a54bb46"
+    "revision": "109a93862d924f958ea18cac4461379c"
   },
   {
     "url": "/2020//topics/qukuailianchanyeyukaiyuanwenhuadejiaojixinrenyijigongshi/index.html",
@@ -435,7 +435,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//timetable/",
-    "revision": "835df531a59b0ca573fbc397526d8b8b"
+    "revision": "8a4b2bc478ca9e55dcb5958a519d5045"
   },
   {
     "url": "/2020//topics/ansible-vm-kubernetes/",
@@ -499,7 +499,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//topics/",
-    "revision": "3e530c51b504a00b0f1117f34c7e6157"
+    "revision": "8e2ed7bea4e10c2c30ec2bc78895f9bc"
   },
   {
     "url": "/2020//topics/julia-looks-python-feels-lisp-runs-cfortran/",
@@ -535,7 +535,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//topics/opening-ceremony-and-welcome-speech/",
-    "revision": "276f3a49892ab3d630aca09b3a54bb46"
+    "revision": "109a93862d924f958ea18cac4461379c"
   },
   {
     "url": "/2020//topics/qukuailianchanyeyukaiyuanwenhuadejiaojixinrenyijigongshi/",
