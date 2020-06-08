@@ -287,7 +287,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//timetable/index.html",
-    "revision": "8a4b2bc478ca9e55dcb5958a519d5045"
+    "revision": "353a1f43cd53c9404bc04b5c91772e65"
   },
   {
     "url": "/2020//topics/ansible-vm-kubernetes/index.html",
@@ -299,7 +299,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//topics/build-and-maintain-civil-infrastructure-platform-using-open-source-projects/index.html",
-    "revision": "8197efd1c69dcaca11521c589fe5c250"
+    "revision": "c9976320e2685e19e1c0db32910e8859"
   },
   {
     "url": "/2020//topics/build-api-service-using-ktor-rapidly/index.html",
@@ -351,7 +351,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//topics/index.html",
-    "revision": "8e2ed7bea4e10c2c30ec2bc78895f9bc"
+    "revision": "8a019c5dc00c4cd55f2d9ac8928387f1"
   },
   {
     "url": "/2020//topics/julia-looks-python-feels-lisp-runs-cfortran/index.html",
@@ -435,7 +435,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//timetable/",
-    "revision": "8a4b2bc478ca9e55dcb5958a519d5045"
+    "revision": "353a1f43cd53c9404bc04b5c91772e65"
   },
   {
     "url": "/2020//topics/ansible-vm-kubernetes/",
@@ -447,7 +447,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//topics/build-and-maintain-civil-infrastructure-platform-using-open-source-projects/",
-    "revision": "8197efd1c69dcaca11521c589fe5c250"
+    "revision": "c9976320e2685e19e1c0db32910e8859"
   },
   {
     "url": "/2020//topics/build-api-service-using-ktor-rapidly/",
@@ -499,7 +499,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//topics/",
-    "revision": "8e2ed7bea4e10c2c30ec2bc78895f9bc"
+    "revision": "8a019c5dc00c4cd55f2d9ac8928387f1"
   },
   {
     "url": "/2020//topics/julia-looks-python-feels-lisp-runs-cfortran/",
