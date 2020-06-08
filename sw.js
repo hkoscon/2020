@@ -287,7 +287,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//timetable/index.html",
-    "revision": "353a1f43cd53c9404bc04b5c91772e65"
+    "revision": "de40b0fac18cc504303cbd636b81ee27"
   },
   {
     "url": "/2020//topics/ansible-vm-kubernetes/index.html",
@@ -351,7 +351,11 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//topics/index.html",
-    "revision": "8a019c5dc00c4cd55f2d9ac8928387f1"
+    "revision": "38d8ee9edb575d6dcafbceb99b58350d"
+  },
+  {
+    "url": "/2020//topics/intersection-between-open-source-and-blockchain-trust-and-consensus/index.html",
+    "revision": "196b29ed781d93823fde859c803728a3"
   },
   {
     "url": "/2020//topics/julia-looks-python-feels-lisp-runs-cfortran/index.html",
@@ -388,10 +392,6 @@ self.__precacheManifest = [
   {
     "url": "/2020//topics/opening-ceremony-and-welcome-speech/index.html",
     "revision": "109a93862d924f958ea18cac4461379c"
-  },
-  {
-    "url": "/2020//topics/qukuailianchanyeyukaiyuanwenhuadejiaojixinrenyijigongshi/index.html",
-    "revision": "6c654f73b9742f3cb874b5dc7dff9df8"
   },
   {
     "url": "/2020//topics/rust-and-webassembly-powered-microservices/index.html",
@@ -435,7 +435,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//timetable/",
-    "revision": "353a1f43cd53c9404bc04b5c91772e65"
+    "revision": "de40b0fac18cc504303cbd636b81ee27"
   },
   {
     "url": "/2020//topics/ansible-vm-kubernetes/",
@@ -499,7 +499,11 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//topics/",
-    "revision": "8a019c5dc00c4cd55f2d9ac8928387f1"
+    "revision": "38d8ee9edb575d6dcafbceb99b58350d"
+  },
+  {
+    "url": "/2020//topics/intersection-between-open-source-and-blockchain-trust-and-consensus/",
+    "revision": "196b29ed781d93823fde859c803728a3"
   },
   {
     "url": "/2020//topics/julia-looks-python-feels-lisp-runs-cfortran/",
@@ -536,10 +540,6 @@ self.__precacheManifest = [
   {
     "url": "/2020//topics/opening-ceremony-and-welcome-speech/",
     "revision": "109a93862d924f958ea18cac4461379c"
-  },
-  {
-    "url": "/2020//topics/qukuailianchanyeyukaiyuanwenhuadejiaojixinrenyijigongshi/",
-    "revision": "6c654f73b9742f3cb874b5dc7dff9df8"
   },
   {
     "url": "/2020//topics/rust-and-webassembly-powered-microservices/",
