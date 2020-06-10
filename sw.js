@@ -287,7 +287,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//timetable/index.html",
-    "revision": "8e14f3b670abac9f1f84fa8a0bd8528a"
+    "revision": "e1f02ab1620189f845857de998c46d21"
   },
   {
     "url": "/2020//topics/ansible-vm-kubernetes/index.html",
@@ -310,12 +310,12 @@ self.__precacheManifest = [
     "revision": "05fdedb44988dd3a68c46bc50fd27db2"
   },
   {
-    "url": "/2020//topics/containerize-apps-kubernetes-azure/index.html",
-    "revision": "146f1d8f11530ea84a0c3dbc0a738c1d"
+    "url": "/2020//topics/city-big-data-open-usage/index.html",
+    "revision": "24910a4c40b8ef88d5b6687226e25e0e"
   },
   {
-    "url": "/2020//topics/cyberport-tbc/index.html",
-    "revision": "ce5fe14e2116ffd23791954f11e395af"
+    "url": "/2020//topics/containerize-apps-kubernetes-azure/index.html",
+    "revision": "146f1d8f11530ea84a0c3dbc0a738c1d"
   },
   {
     "url": "/2020//topics/decentralized-content-registry-expanding-ipfs-functionality-cosmos-based-blockchain/index.html",
@@ -351,7 +351,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//topics/index.html",
-    "revision": "57617dab48148083590717dfbce8a880"
+    "revision": "c59d679f13fd33a08c4c48e02a7bb1d3"
   },
   {
     "url": "/2020//topics/intersection-between-open-source-and-blockchain-trust-and-consensus/index.html",
@@ -388,6 +388,10 @@ self.__precacheManifest = [
   {
     "url": "/2020//topics/open-default-trying-run-startup-open-source-culture-mind/index.html",
     "revision": "d4e38bdea4577ef0b25ef3b5b0e4e5c6"
+  },
+  {
+    "url": "/2020//topics/open-source-community-management-krunch/index.html",
+    "revision": "8a1d983ac412dcdf3b2eacfa7d919f73"
   },
   {
     "url": "/2020//topics/opening-ceremony-and-welcome-speech/index.html",
@@ -435,7 +439,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//timetable/",
-    "revision": "8e14f3b670abac9f1f84fa8a0bd8528a"
+    "revision": "e1f02ab1620189f845857de998c46d21"
   },
   {
     "url": "/2020//topics/ansible-vm-kubernetes/",
@@ -458,12 +462,12 @@ self.__precacheManifest = [
     "revision": "05fdedb44988dd3a68c46bc50fd27db2"
   },
   {
-    "url": "/2020//topics/containerize-apps-kubernetes-azure/",
-    "revision": "146f1d8f11530ea84a0c3dbc0a738c1d"
+    "url": "/2020//topics/city-big-data-open-usage/",
+    "revision": "24910a4c40b8ef88d5b6687226e25e0e"
   },
   {
-    "url": "/2020//topics/cyberport-tbc/",
-    "revision": "ce5fe14e2116ffd23791954f11e395af"
+    "url": "/2020//topics/containerize-apps-kubernetes-azure/",
+    "revision": "146f1d8f11530ea84a0c3dbc0a738c1d"
   },
   {
     "url": "/2020//topics/decentralized-content-registry-expanding-ipfs-functionality-cosmos-based-blockchain/",
@@ -499,7 +503,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//topics/",
-    "revision": "57617dab48148083590717dfbce8a880"
+    "revision": "c59d679f13fd33a08c4c48e02a7bb1d3"
   },
   {
     "url": "/2020//topics/intersection-between-open-source-and-blockchain-trust-and-consensus/",
@@ -536,6 +540,10 @@ self.__precacheManifest = [
   {
     "url": "/2020//topics/open-default-trying-run-startup-open-source-culture-mind/",
     "revision": "d4e38bdea4577ef0b25ef3b5b0e4e5c6"
+  },
+  {
+    "url": "/2020//topics/open-source-community-management-krunch/",
+    "revision": "8a1d983ac412dcdf3b2eacfa7d919f73"
   },
   {
     "url": "/2020//topics/opening-ceremony-and-welcome-speech/",
