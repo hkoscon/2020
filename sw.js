@@ -287,7 +287,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//timetable/index.html",
-    "revision": "8e25dab73b82799066e6508dea1948ea"
+    "revision": "14aa9bc4f2153b8747b7e0b674a945af"
   },
   {
     "url": "/2020//topics/ansible-vm-kubernetes/index.html",
@@ -351,7 +351,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//topics/index.html",
-    "revision": "d95269b869c348f30b1907f2c7e0dc3e"
+    "revision": "e91a3b8d04277d3a64a974f58eec149a"
   },
   {
     "url": "/2020//topics/intersection-between-open-source-and-blockchain-trust-and-consensus/index.html",
@@ -391,7 +391,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//topics/open-source-community-management-krunch/index.html",
-    "revision": "2f161495db041e8655a701f0c6063317"
+    "revision": "abc85365250aa90e492aa29e32385d32"
   },
   {
     "url": "/2020//topics/opening-ceremony-and-welcome-speech/index.html",
@@ -439,7 +439,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//timetable/",
-    "revision": "8e25dab73b82799066e6508dea1948ea"
+    "revision": "14aa9bc4f2153b8747b7e0b674a945af"
   },
   {
     "url": "/2020//topics/ansible-vm-kubernetes/",
@@ -503,7 +503,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//topics/",
-    "revision": "d95269b869c348f30b1907f2c7e0dc3e"
+    "revision": "e91a3b8d04277d3a64a974f58eec149a"
   },
   {
     "url": "/2020//topics/intersection-between-open-source-and-blockchain-trust-and-consensus/",
@@ -543,7 +543,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//topics/open-source-community-management-krunch/",
-    "revision": "2f161495db041e8655a701f0c6063317"
+    "revision": "abc85365250aa90e492aa29e32385d32"
   },
   {
     "url": "/2020//topics/opening-ceremony-and-welcome-speech/",
