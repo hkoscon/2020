@@ -287,7 +287,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//timetable/index.html",
-    "revision": "e1f02ab1620189f845857de998c46d21"
+    "revision": "a796fce876b03ae412bcf8db119da074"
   },
   {
     "url": "/2020//topics/ansible-vm-kubernetes/index.html",
@@ -311,7 +311,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//topics/city-big-data-open-usage/index.html",
-    "revision": "24910a4c40b8ef88d5b6687226e25e0e"
+    "revision": "ee6016472a8246494877a70ad1b644b1"
   },
   {
     "url": "/2020//topics/containerize-apps-kubernetes-azure/index.html",
@@ -351,7 +351,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//topics/index.html",
-    "revision": "c59d679f13fd33a08c4c48e02a7bb1d3"
+    "revision": "3c91da25e292395acabb07d190add8c7"
   },
   {
     "url": "/2020//topics/intersection-between-open-source-and-blockchain-trust-and-consensus/index.html",
@@ -391,7 +391,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//topics/open-source-community-management-krunch/index.html",
-    "revision": "8a1d983ac412dcdf3b2eacfa7d919f73"
+    "revision": "234386aff0193929401e7751f6382a51"
   },
   {
     "url": "/2020//topics/opening-ceremony-and-welcome-speech/index.html",
@@ -439,7 +439,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//timetable/",
-    "revision": "e1f02ab1620189f845857de998c46d21"
+    "revision": "a796fce876b03ae412bcf8db119da074"
   },
   {
     "url": "/2020//topics/ansible-vm-kubernetes/",
@@ -463,7 +463,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//topics/city-big-data-open-usage/",
-    "revision": "24910a4c40b8ef88d5b6687226e25e0e"
+    "revision": "ee6016472a8246494877a70ad1b644b1"
   },
   {
     "url": "/2020//topics/containerize-apps-kubernetes-azure/",
@@ -503,7 +503,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//topics/",
-    "revision": "c59d679f13fd33a08c4c48e02a7bb1d3"
+    "revision": "3c91da25e292395acabb07d190add8c7"
   },
   {
     "url": "/2020//topics/intersection-between-open-source-and-blockchain-trust-and-consensus/",
@@ -543,7 +543,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//topics/open-source-community-management-krunch/",
-    "revision": "8a1d983ac412dcdf3b2eacfa7d919f73"
+    "revision": "234386aff0193929401e7751f6382a51"
   },
   {
     "url": "/2020//topics/opening-ceremony-and-welcome-speech/",
