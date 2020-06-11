@@ -287,7 +287,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//timetable/index.html",
-    "revision": "078418cfb36a7a488762e76f33f7a83a"
+    "revision": "7b3b7f0da910f647bd76728f2c2e36ef"
   },
   {
     "url": "/2020//topics/ansible-vm-kubernetes/index.html",
@@ -327,7 +327,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//topics/emergency-response-demo-power-communities/index.html",
-    "revision": "773e321b439606be6778e01c2e4c0b02"
+    "revision": "c8e8e3ca813fe19f6704496567c119e1"
   },
   {
     "url": "/2020//topics/github-actions-your-free-ci-engine-and-much-more/index.html",
@@ -351,7 +351,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//topics/index.html",
-    "revision": "7cd048d6c255fa677ca4208cc1d5c1a9"
+    "revision": "6f9eb5c69d011efb0dcf0fac60098d8d"
   },
   {
     "url": "/2020//topics/intersection-between-open-source-and-blockchain-trust-and-consensus/index.html",
@@ -403,7 +403,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//topics/service-mesh-openshift/index.html",
-    "revision": "0993ad84540f66ba428a5788b43e0b22"
+    "revision": "73df615e54fe92d9861175b49e27fd68"
   },
   {
     "url": "/2020//topics/tvhk/index.html",
@@ -439,7 +439,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//timetable/",
-    "revision": "078418cfb36a7a488762e76f33f7a83a"
+    "revision": "7b3b7f0da910f647bd76728f2c2e36ef"
   },
   {
     "url": "/2020//topics/ansible-vm-kubernetes/",
@@ -479,7 +479,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//topics/emergency-response-demo-power-communities/",
-    "revision": "773e321b439606be6778e01c2e4c0b02"
+    "revision": "c8e8e3ca813fe19f6704496567c119e1"
   },
   {
     "url": "/2020//topics/github-actions-your-free-ci-engine-and-much-more/",
@@ -503,7 +503,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//topics/",
-    "revision": "7cd048d6c255fa677ca4208cc1d5c1a9"
+    "revision": "6f9eb5c69d011efb0dcf0fac60098d8d"
   },
   {
     "url": "/2020//topics/intersection-between-open-source-and-blockchain-trust-and-consensus/",
@@ -555,7 +555,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//topics/service-mesh-openshift/",
-    "revision": "0993ad84540f66ba428a5788b43e0b22"
+    "revision": "73df615e54fe92d9861175b49e27fd68"
   },
   {
     "url": "/2020//topics/tvhk/",
