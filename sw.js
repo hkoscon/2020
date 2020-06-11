@@ -287,131 +287,131 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//timetable/index.html",
-    "revision": "7b3b7f0da910f647bd76728f2c2e36ef"
+    "revision": "68c3cbf88e484680d66dfad2ab4632fe"
   },
   {
     "url": "/2020//topics/ansible-vm-kubernetes/index.html",
-    "revision": "42fd889389ededbb07062ffc774cc1aa"
+    "revision": "8989d80eecb07a79921dab111085fdf0"
   },
   {
     "url": "/2020//topics/automating-kubernetes-gitops/index.html",
-    "revision": "146e03297a29f2d028f7b1372abb8d5e"
+    "revision": "703b52d4198c81794fa0f0b18841e01e"
   },
   {
     "url": "/2020//topics/build-and-maintain-civil-infrastructure-platform-using-open-source-projects/index.html",
-    "revision": "9460c04d3e5c0331a22195bde218a7a1"
+    "revision": "8deb2bb90a9034e6c6082da3fa5dae59"
   },
   {
     "url": "/2020//topics/build-api-service-using-ktor-rapidly/index.html",
-    "revision": "af0966ff731a6c066f6e09e71d8fc4f3"
+    "revision": "2c5efe4056c07fa6adbcf88011d076b1"
   },
   {
     "url": "/2020//topics/businessbrand-database-developed-software-package-repositories/index.html",
-    "revision": "f2e032001ef9ae26c0e93a23c4436f3a"
+    "revision": "07beeb78848a860195b3d70ddb9bad88"
   },
   {
     "url": "/2020//topics/city-big-data-open-usage/index.html",
-    "revision": "6c84fadf840bcf8dad51ea54c60d634b"
+    "revision": "945023463fde8423d0dc0741db0dc572"
   },
   {
     "url": "/2020//topics/containerize-apps-kubernetes-azure/index.html",
-    "revision": "87b337d70e106b8fa25e869ca09573ea"
+    "revision": "d6aeccf8a5a6b7ee0b1331705f57ae19"
   },
   {
     "url": "/2020//topics/decentralized-content-registry-expanding-ipfs-functionality-cosmos-based-blockchain/index.html",
-    "revision": "64ea9fa62e19c98a77697ae29a396d2f"
+    "revision": "74ad09db9a123b10ee9b602257c9840e"
   },
   {
     "url": "/2020//topics/democratize-data-literacy-open-source-technology/index.html",
-    "revision": "11a33eaa9bb604bf54ea013100646e41"
+    "revision": "de323f560bdecc7708afe025fc6b3e9e"
   },
   {
     "url": "/2020//topics/emergency-response-demo-power-communities/index.html",
-    "revision": "c8e8e3ca813fe19f6704496567c119e1"
+    "revision": "783decb1e53224f7d12bb7121e2c64a9"
   },
   {
     "url": "/2020//topics/github-actions-your-free-ci-engine-and-much-more/index.html",
-    "revision": "79eb776f9592382c489f913477f91b05"
+    "revision": "6b2b5e947bef7ae4fa964ba61d5d077f"
   },
   {
     "url": "/2020//topics/guide-responsible-ai-developers/index.html",
-    "revision": "106eb6102eb96cd245f576b0cc887915"
+    "revision": "4d8b534d6b5069139febe730c7649f68"
   },
   {
     "url": "/2020//topics/hitchhikers-guide-servo-contributor/index.html",
-    "revision": "3f62e023f55ea285c76a3c9ef0e4000a"
+    "revision": "110363081095b1bd788c5815e057b58c"
   },
   {
     "url": "/2020//topics/how-build-online-learning-platform-engages-and-educates-students-scale-amazon-kendra-amazon/index.html",
-    "revision": "2378ab2eb64ca3b366166f967d0a1040"
+    "revision": "1740ed80f105d984af139bb0d98289eb"
   },
   {
     "url": "/2020//topics/how-i-do-troubleshooting-container-more-docker/index.html",
-    "revision": "567d3cf9ebf471f8167dc0d38bba68aa"
+    "revision": "10130717754afa0cfb58d1e9740283d8"
   },
   {
     "url": "/2020//topics/index.html",
-    "revision": "6f9eb5c69d011efb0dcf0fac60098d8d"
+    "revision": "9d7f8db4ecfebee05fbff746679070a9"
   },
   {
     "url": "/2020//topics/intersection-between-open-source-and-blockchain-trust-and-consensus/index.html",
-    "revision": "8020ed7f31c9502d8fda7fa5650efe98"
+    "revision": "c2ad63842aed9595957c4f1c6b76f24a"
   },
   {
     "url": "/2020//topics/julia-looks-python-feels-lisp-runs-cfortran/index.html",
-    "revision": "b7f2050eddd7ea2a1267745b76bd574a"
+    "revision": "5245369e23918f89ae45f4e4b1bfe93e"
   },
   {
     "url": "/2020//topics/launch-warsvote4hk-within-2-days-0-cost/index.html",
-    "revision": "e37c71ea5055131b660d3e3e9b74505a"
+    "revision": "e8b952cc863ee063dcea3f4bf2130ba0"
   },
   {
     "url": "/2020//topics/lesson-learned-open-culture-under-covid-19-situation/index.html",
-    "revision": "949ceae0b2c179609e22d0b184bc1f6e"
+    "revision": "46df522a1f2812eb5cfac251bf9a8191"
   },
   {
     "url": "/2020//topics/libreoffice-current-status-most-powerful-oss-office-suite/index.html",
-    "revision": "cc9106bdf343b94367ee947c94e68849"
+    "revision": "4bfb02e6b0654595c6abad0819337de1"
   },
   {
     "url": "/2020//topics/mysql-high-availability-deployment-practice/index.html",
-    "revision": "0b8a1e2f145bd9bc082f3809eba926bd"
+    "revision": "60917ad8c4c9cb7734540cd97220ccd9"
   },
   {
     "url": "/2020//topics/mysql-security-best-practice/index.html",
-    "revision": "9e3367773a8f8878134d45722ad893f0"
+    "revision": "4ee23984445a317ca765072284b62eba"
   },
   {
     "url": "/2020//topics/oao-user-orientation-cloud-architecture-pi/index.html",
-    "revision": "3fdb1af945cb50e72c77d5b3d87a68d2"
+    "revision": "f5639def7ee1893198242d4c35999d12"
   },
   {
     "url": "/2020//topics/open-default-trying-run-startup-open-source-culture-mind/index.html",
-    "revision": "bd924011a229c30cf475f995758cab68"
+    "revision": "761ee27c27128defbfcbab68a8f52e92"
   },
   {
     "url": "/2020//topics/open-source-community-management-krunch/index.html",
-    "revision": "2f22149f70d6a727476b67c22900f816"
+    "revision": "aa638db59ace342c341680c2a5d59922"
   },
   {
     "url": "/2020//topics/opening-ceremony-and-welcome-speech/index.html",
-    "revision": "b439c53095f1cf81f72edc88da675d3d"
+    "revision": "3eef3aaa074cb8217f7c71c353d02b26"
   },
   {
     "url": "/2020//topics/rust-and-webassembly-powered-microservices/index.html",
-    "revision": "5ed6f38b5735488675146a5d55dc99e1"
+    "revision": "075948e8d6501c1e25ead46fd2896da7"
   },
   {
     "url": "/2020//topics/service-mesh-openshift/index.html",
-    "revision": "73df615e54fe92d9861175b49e27fd68"
+    "revision": "6348a165a4c2e8e7298552e896682dfb"
   },
   {
     "url": "/2020//topics/tvhk/index.html",
-    "revision": "4a69b86fd226ef576f508c02ae87c606"
+    "revision": "735b8bee3c3c2fb14f854c235a49487e"
   },
   {
     "url": "/2020//topics/zfs/index.html",
-    "revision": "b09f6df8160172f8599bd3c2ef52e08f"
+    "revision": "5ee8291ef4b9ed36ab3b3b83203cc70e"
   },
   {
     "url": "/2020//about/organizers/",
@@ -439,131 +439,131 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//timetable/",
-    "revision": "7b3b7f0da910f647bd76728f2c2e36ef"
+    "revision": "68c3cbf88e484680d66dfad2ab4632fe"
   },
   {
     "url": "/2020//topics/ansible-vm-kubernetes/",
-    "revision": "42fd889389ededbb07062ffc774cc1aa"
+    "revision": "8989d80eecb07a79921dab111085fdf0"
   },
   {
     "url": "/2020//topics/automating-kubernetes-gitops/",
-    "revision": "146e03297a29f2d028f7b1372abb8d5e"
+    "revision": "703b52d4198c81794fa0f0b18841e01e"
   },
   {
     "url": "/2020//topics/build-and-maintain-civil-infrastructure-platform-using-open-source-projects/",
-    "revision": "9460c04d3e5c0331a22195bde218a7a1"
+    "revision": "8deb2bb90a9034e6c6082da3fa5dae59"
   },
   {
     "url": "/2020//topics/build-api-service-using-ktor-rapidly/",
-    "revision": "af0966ff731a6c066f6e09e71d8fc4f3"
+    "revision": "2c5efe4056c07fa6adbcf88011d076b1"
   },
   {
     "url": "/2020//topics/businessbrand-database-developed-software-package-repositories/",
-    "revision": "f2e032001ef9ae26c0e93a23c4436f3a"
+    "revision": "07beeb78848a860195b3d70ddb9bad88"
   },
   {
     "url": "/2020//topics/city-big-data-open-usage/",
-    "revision": "6c84fadf840bcf8dad51ea54c60d634b"
+    "revision": "945023463fde8423d0dc0741db0dc572"
   },
   {
     "url": "/2020//topics/containerize-apps-kubernetes-azure/",
-    "revision": "87b337d70e106b8fa25e869ca09573ea"
+    "revision": "d6aeccf8a5a6b7ee0b1331705f57ae19"
   },
   {
     "url": "/2020//topics/decentralized-content-registry-expanding-ipfs-functionality-cosmos-based-blockchain/",
-    "revision": "64ea9fa62e19c98a77697ae29a396d2f"
+    "revision": "74ad09db9a123b10ee9b602257c9840e"
   },
   {
     "url": "/2020//topics/democratize-data-literacy-open-source-technology/",
-    "revision": "11a33eaa9bb604bf54ea013100646e41"
+    "revision": "de323f560bdecc7708afe025fc6b3e9e"
   },
   {
     "url": "/2020//topics/emergency-response-demo-power-communities/",
-    "revision": "c8e8e3ca813fe19f6704496567c119e1"
+    "revision": "783decb1e53224f7d12bb7121e2c64a9"
   },
   {
     "url": "/2020//topics/github-actions-your-free-ci-engine-and-much-more/",
-    "revision": "79eb776f9592382c489f913477f91b05"
+    "revision": "6b2b5e947bef7ae4fa964ba61d5d077f"
   },
   {
     "url": "/2020//topics/guide-responsible-ai-developers/",
-    "revision": "106eb6102eb96cd245f576b0cc887915"
+    "revision": "4d8b534d6b5069139febe730c7649f68"
   },
   {
     "url": "/2020//topics/hitchhikers-guide-servo-contributor/",
-    "revision": "3f62e023f55ea285c76a3c9ef0e4000a"
+    "revision": "110363081095b1bd788c5815e057b58c"
   },
   {
     "url": "/2020//topics/how-build-online-learning-platform-engages-and-educates-students-scale-amazon-kendra-amazon/",
-    "revision": "2378ab2eb64ca3b366166f967d0a1040"
+    "revision": "1740ed80f105d984af139bb0d98289eb"
   },
   {
     "url": "/2020//topics/how-i-do-troubleshooting-container-more-docker/",
-    "revision": "567d3cf9ebf471f8167dc0d38bba68aa"
+    "revision": "10130717754afa0cfb58d1e9740283d8"
   },
   {
     "url": "/2020//topics/",
-    "revision": "6f9eb5c69d011efb0dcf0fac60098d8d"
+    "revision": "9d7f8db4ecfebee05fbff746679070a9"
   },
   {
     "url": "/2020//topics/intersection-between-open-source-and-blockchain-trust-and-consensus/",
-    "revision": "8020ed7f31c9502d8fda7fa5650efe98"
+    "revision": "c2ad63842aed9595957c4f1c6b76f24a"
   },
   {
     "url": "/2020//topics/julia-looks-python-feels-lisp-runs-cfortran/",
-    "revision": "b7f2050eddd7ea2a1267745b76bd574a"
+    "revision": "5245369e23918f89ae45f4e4b1bfe93e"
   },
   {
     "url": "/2020//topics/launch-warsvote4hk-within-2-days-0-cost/",
-    "revision": "e37c71ea5055131b660d3e3e9b74505a"
+    "revision": "e8b952cc863ee063dcea3f4bf2130ba0"
   },
   {
     "url": "/2020//topics/lesson-learned-open-culture-under-covid-19-situation/",
-    "revision": "949ceae0b2c179609e22d0b184bc1f6e"
+    "revision": "46df522a1f2812eb5cfac251bf9a8191"
   },
   {
     "url": "/2020//topics/libreoffice-current-status-most-powerful-oss-office-suite/",
-    "revision": "cc9106bdf343b94367ee947c94e68849"
+    "revision": "4bfb02e6b0654595c6abad0819337de1"
   },
   {
     "url": "/2020//topics/mysql-high-availability-deployment-practice/",
-    "revision": "0b8a1e2f145bd9bc082f3809eba926bd"
+    "revision": "60917ad8c4c9cb7734540cd97220ccd9"
   },
   {
     "url": "/2020//topics/mysql-security-best-practice/",
-    "revision": "9e3367773a8f8878134d45722ad893f0"
+    "revision": "4ee23984445a317ca765072284b62eba"
   },
   {
     "url": "/2020//topics/oao-user-orientation-cloud-architecture-pi/",
-    "revision": "3fdb1af945cb50e72c77d5b3d87a68d2"
+    "revision": "f5639def7ee1893198242d4c35999d12"
   },
   {
     "url": "/2020//topics/open-default-trying-run-startup-open-source-culture-mind/",
-    "revision": "bd924011a229c30cf475f995758cab68"
+    "revision": "761ee27c27128defbfcbab68a8f52e92"
   },
   {
     "url": "/2020//topics/open-source-community-management-krunch/",
-    "revision": "2f22149f70d6a727476b67c22900f816"
+    "revision": "aa638db59ace342c341680c2a5d59922"
   },
   {
     "url": "/2020//topics/opening-ceremony-and-welcome-speech/",
-    "revision": "b439c53095f1cf81f72edc88da675d3d"
+    "revision": "3eef3aaa074cb8217f7c71c353d02b26"
   },
   {
     "url": "/2020//topics/rust-and-webassembly-powered-microservices/",
-    "revision": "5ed6f38b5735488675146a5d55dc99e1"
+    "revision": "075948e8d6501c1e25ead46fd2896da7"
   },
   {
     "url": "/2020//topics/service-mesh-openshift/",
-    "revision": "73df615e54fe92d9861175b49e27fd68"
+    "revision": "6348a165a4c2e8e7298552e896682dfb"
   },
   {
     "url": "/2020//topics/tvhk/",
-    "revision": "4a69b86fd226ef576f508c02ae87c606"
+    "revision": "735b8bee3c3c2fb14f854c235a49487e"
   },
   {
     "url": "/2020//topics/zfs/",
-    "revision": "b09f6df8160172f8599bd3c2ef52e08f"
+    "revision": "5ee8291ef4b9ed36ab3b3b83203cc70e"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
