@@ -283,11 +283,11 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//sponsors/index.html",
-    "revision": "e21e21e6a1d5922ffa97434d6dbd3318"
+    "revision": "c1b94f504b61a6614b87a4062acf29be"
   },
   {
     "url": "/2020//timetable/index.html",
-    "revision": "e3c9c66fff2b9c63f8b4d30f5d7371a1"
+    "revision": "6bcefa702f846cba8c9cf25f14f0bf49"
   },
   {
     "url": "/2020//topics/ansible-vm-kubernetes/index.html",
@@ -311,11 +311,15 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//topics/city-big-data-open-usage/index.html",
-    "revision": "296cb85ee7a7f075001d5faeb76426ea"
+    "revision": "b1fd5add038f1b8b5ca45acaa9f6a1b2"
+  },
+  {
+    "url": "/2020//topics/closing-0/index.html",
+    "revision": "5f50309daf89ede640fb9b07211d1a87"
   },
   {
     "url": "/2020//topics/containerize-apps-kubernetes-azure/index.html",
-    "revision": "d14093903d68e56f6307e3c42ab0d0c5"
+    "revision": "2a9c2612de75a923a03fd682a1d3b47b"
   },
   {
     "url": "/2020//topics/decentralized-content-registry-expanding-ipfs-functionality-cosmos-based-blockchain/index.html",
@@ -351,7 +355,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//topics/index.html",
-    "revision": "274e71de38945fde74ca8adc6bbb52ba"
+    "revision": "ff595b557b98ad45a51fb27c16063176"
   },
   {
     "url": "/2020//topics/intersection-between-open-source-and-blockchain-trust-and-consensus/index.html",
@@ -435,11 +439,11 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//sponsors/",
-    "revision": "e21e21e6a1d5922ffa97434d6dbd3318"
+    "revision": "c1b94f504b61a6614b87a4062acf29be"
   },
   {
     "url": "/2020//timetable/",
-    "revision": "e3c9c66fff2b9c63f8b4d30f5d7371a1"
+    "revision": "6bcefa702f846cba8c9cf25f14f0bf49"
   },
   {
     "url": "/2020//topics/ansible-vm-kubernetes/",
@@ -463,11 +467,15 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//topics/city-big-data-open-usage/",
-    "revision": "296cb85ee7a7f075001d5faeb76426ea"
+    "revision": "b1fd5add038f1b8b5ca45acaa9f6a1b2"
+  },
+  {
+    "url": "/2020//topics/closing-0/",
+    "revision": "5f50309daf89ede640fb9b07211d1a87"
   },
   {
     "url": "/2020//topics/containerize-apps-kubernetes-azure/",
-    "revision": "d14093903d68e56f6307e3c42ab0d0c5"
+    "revision": "2a9c2612de75a923a03fd682a1d3b47b"
   },
   {
     "url": "/2020//topics/decentralized-content-registry-expanding-ipfs-functionality-cosmos-based-blockchain/",
@@ -503,7 +511,7 @@ self.__precacheManifest = [
   },
   {
     "url": "/2020//topics/",
-    "revision": "274e71de38945fde74ca8adc6bbb52ba"
+    "revision": "ff595b557b98ad45a51fb27c16063176"
   },
   {
     "url": "/2020//topics/intersection-between-open-source-and-blockchain-trust-and-consensus/",
