@@ -14,7 +14,7 @@
   },
   "dependencies": {
     "@nuxtjs/sitemap": "^0.2.0",
-    "axios": "^0.18.1",
+    "axios": "^0.21.1",
     "bulma": "^0.7.2",
     "debug": "^4.1.1",
     "include-media": "^1.4.9",
